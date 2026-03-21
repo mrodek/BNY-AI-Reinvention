@@ -24,6 +24,7 @@ Create a trustworthy, evidence-informed book from the existing outline. The book
 - Distinguish evidence-backed guidance from opinion and emerging practice.
 - Make each chapter independently operable.
 - Write the book so it can later be decomposed into graph-ready knowledge objects.
+- Make research traceable with direct source links and visible source-selection logic.
 
 ## Immediate Goals
 

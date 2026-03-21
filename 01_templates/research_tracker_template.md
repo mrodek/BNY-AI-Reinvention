@@ -13,9 +13,15 @@
 
 ## Source Log
 
-| Source ID | Title | Author / Org | Type | Date | Relevance | Confidence | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| SRC-001 |  |  |  |  |  |  |  |
+| Source ID | Title | Author / Org | Type | Date | Link | Relevance | Confidence | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SRC-001 |  |  |  |  |  |  |  |  |
+
+## Source Selection Notes
+
+- Why these sources were chosen:
+- What was intentionally excluded:
+- What still needs to be added:
 
 ## Themes Emerging
 

@@ -42,13 +42,14 @@ Each chapter should eventually have its own folder under `04_manuscript`, typica
 - `chapter_brief.md`
 - `research_tracker.md`
 - `claim_register.md`
+- `source_notes.md`
 - `draft_v1.md`
-- `editor_notes.md`
 - `draft_v2.md`
 - `final.md`
 - `graph_extract.md`
 
 Do not draft a chapter before creating at least the brief and research tracker.
+Chat-based editorial feedback is a valid primary review mode. A separate `editor_notes.md` file is optional, not required.
 
 ## Chapter Lifecycle
 
@@ -111,6 +112,10 @@ Each entry should use this structure:
 ### Issues & Resolution
 - Problems encountered, relevant messages or symptoms, how resolved
 
+### Editorial Comments
+- Material editorial feedback from chat or direct review
+- Reactions to tone, causality, specificity, examples, or structure
+
 ### Lessons Learned
 - What worked, what did not, what should inform future work
 
@@ -123,6 +128,21 @@ Each entry should use this structure:
 - Track important claims in chapter claim registers.
 - Prefer credible industry literature, standards, practitioner sources, and direct operating experience.
 - Mark confidence and context where claims are not universal.
+- Every research tracker source log must include a direct link to each source, not just a title or source ID.
+- Every meaningful research pass should document source-selection rationale: why the included sources were chosen, what types of sources were excluded, and what evidence gaps remain.
+- If a source is mentioned in chat as part of the working evidence base, it should either be added to the tracker or explicitly noted as discarded/deferred.
+- Optimize for a curated source set rather than source hoarding, but make the curation logic visible on disk.
+
+## Citation Workflow
+
+- Keep manuscript prose readable. Do not insert full academic-style citations directly into body paragraphs during drafting.
+- Use light inline source markers in chapter drafts when needed, for example `^[SRC-001]` or a similarly simple source tag.
+- Maintain full citation mapping in `source_notes.md` inside the chapter folder.
+- `source_notes.md` should map source IDs to full source details, supported claims, and any key supporting facts or notes needed for later endnote conversion.
+- `research_tracker.md` is for discovery and evaluation.
+- `claim_register.md` is for what the chapter asserts.
+- `source_notes.md` is for how the manuscript cites and traces those assertions.
+- By default, drafts should be citation-light and notes-rich.
 
 ## Writing Rules
 
@@ -130,6 +150,10 @@ Each entry should use this structure:
 - Name tradeoffs directly.
 - Prefer specific guidance over generic transformation language.
 - Capture reusable concepts, claims, and relationships that can later feed the knowledge graph.
+- Do not default to one-sentence paragraphs. Manuscript prose should normally be written in developed multi-sentence paragraphs.
+- Do not use em dashes in manuscript prose.
+- Use short standalone emphasis lines sparingly. At most 1 to 3 major emphatic claims per chapter, and only when they add real force.
+- Avoid obvious AI-writing signatures such as choppy paragraph rhythm, repeated contrast formulas, and theatrical sentence fragments.
 
 ## File Creation Rules
 
@@ -145,3 +169,14 @@ A work session is not fully complete until:
 - the tracker is updated if status changed
 - the detailed progress log is updated if meaningful work occurred
 - next steps are left in a restartable state
+
+For research sessions specifically:
+
+- direct source links must be present in the relevant research tracker
+- source-selection notes must be updated if the source set changed materially
+
+For drafting sessions specifically:
+
+- if the chapter uses source-backed claims in prose, `source_notes.md` should exist and be updated
+- manuscript drafts should remain readable and should not collapse into citation-heavy academic formatting
+- material editorial feedback delivered in chat should be summarized into `00_admin/progress_log.md` under `Editorial Comments`
