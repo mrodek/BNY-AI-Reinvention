@@ -85,6 +85,7 @@ Keep concise:
 - no long research notes
 - no detailed debugging or drafting commentary
 - no duplicate narrative already captured in the log
+- if the file includes session summaries, list the newest date block first
 
 ### `00_admin/progress_log.md`
 
@@ -98,6 +99,11 @@ Update when:
 - a major decision is made
 - an issue is encountered and resolved
 - a handoff point is needed for the next session
+
+Ordering:
+- newest entry at the top
+- insert new entries directly below `## Entries`
+- do not append entries to the bottom
 
 Each entry should use this structure:
 
