@@ -1,6 +1,6 @@
 # Progress Tracker
 
-This file is the high-level dashboard for the project. It should stay concise and reflect the current state of the work. Detailed day-by-day notes belong in `00_admin/progress_log.md`.
+This file is the high-level dashboard for the project. It should stay concise and reflect the current state of the work. Detailed day-by-day notes belong in `00_admin/progress_log.md`. When this file includes rolling session summaries, list the newest updates first.
 
 ## Project Status
 
@@ -26,14 +26,6 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Session Log
 
-### 2026-03-19
-
-- Created project directory structure.
-- Added project templates and tracker files.
-- Established chapter lifecycle and artifact model.
-- Decided to split progress tracking into a dashboard plus a detailed log.
-- Added roadmap artifacts to preserve the future `ghostwriter.ai` scaffold idea.
-
 ### 2026-03-20
 
 - Cleared project-specific references to reset the repository as a neutral scaffold.
@@ -54,6 +46,14 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Created `04_manuscript/chapter_02/draft_v2.md` and moved CH02 into `revising`.
 - Created `04_manuscript/chapter_02/draft_v3.md` as a continuity pass aligned to the Palantir/BNY model.
 
+### 2026-03-19
+
+- Created project directory structure.
+- Added project templates and tracker files.
+- Established chapter lifecycle and artifact model.
+- Decided to split progress tracking into a dashboard plus a detailed log.
+- Added roadmap artifacts to preserve the future `ghostwriter.ai` scaffold idea.
+
 ## Next Actions
 
 1. Review and edit `04_manuscript/chapter_02/draft_v3.md`.
@@ -72,6 +72,11 @@ Update this file when:
 - a session meaningfully changes project direction
 
 Do not use this file for detailed implementation notes, long research summaries, or editorial commentary. Put that material in `00_admin/progress_log.md` or the relevant chapter folder.
+
+Ordering reminder:
+
+- when session summaries are kept in this file, place the newest date block at the top
+- keep `Next Actions`, `Current phase`, `Current focus`, and `Next milestone` current so recent state is visible without scrolling
 
 Research standard reminder:
 
