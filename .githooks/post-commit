@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+
+# Auto-push current branch when the new commit includes a chapter draft file.
+CHANGED_FILES="$(git diff-tree --no-commit-id --name-only -r HEAD)"
+
+echo "$CHANGED_FILES" | grep -Eq '^04_manuscript/chapter_[0-9]{2}/draft_v[0-9]+\.md$'
+if [ $? -ne 0 ]; then
+  exit 0
+fi
+
+BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+if [ "$BRANCH" = "HEAD" ] || [ -z "$BRANCH" ]; then
+  echo "post-commit: detached HEAD detected; skipping push."
+  exit 0
+fi
+
+echo "post-commit: chapter draft detected; pushing branch '$BRANCH'..."
+git push origin "$BRANCH"

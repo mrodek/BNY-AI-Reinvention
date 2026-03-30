@@ -20,7 +20,7 @@ This repository is a long-running writing, research, and knowledge-design projec
 
 - `00_admin`: project overview, tracker, detailed progress log, style guide, glossary
 - `01_templates`: templates for chapter briefs, research trackers, claim registers, source summaries, graph extraction
-- `02_outline`: raw outline and working chapter map
+- `02_outline`: raw outline, source documents, and working chapter map
 - `03_research`: shared and chapter-specific research files
 - `04_manuscript`: one folder per chapter containing all writing artifacts
 - `05_knowledge_graph`: schema, entity definitions, relationship definitions, ingestion notes
@@ -35,6 +35,36 @@ When resuming work after any pause, read these files first:
 3. `02_outline/chapter_map.md`
 4. The active chapter folder in `04_manuscript`, if one exists
 
+At the start of each new book, review `00_admin/editorial_style_guide.md` and align it to the intended tone before chapter drafting begins.
+
+## Outline Intake Rules
+
+- Store raw outline inputs in `02_outline/source_documents/`.
+- Allowed source inputs include PDF, DOCX, markdown, exported slides, or structured notes.
+- Keep this folder source-only. Do not place chapter drafts or working manuscript artifacts here.
+- If the source outline changes materially, add the new version to `source_documents` rather than overwriting historical context.
+
+## Outline Creation Workflow
+
+For each new book:
+
+1. Build `02_outline/master_outline.md` from files in `02_outline/source_documents/`.
+2. Keep `master_outline.md` as structured markdown with clear parts, chapters, and key bullet points.
+3. Create or update `02_outline/chapter_map.md` from `master_outline.md`.
+4. Ensure `chapter_map.md` includes chapter purpose, primary reader, status, and production order.
+5. Treat `master_outline.md` and `chapter_map.md` as durable working artifacts and keep them current as scope changes.
+
+## Multi-Book Session Hygiene
+
+If starting a new book while another book branch is active:
+
+1. Commit/checkpoint current branch changes first.
+2. Open a second IDE window and start a separate agent session for the new book.
+3. Create/switch to the new `book/<slug>` branch in that new session.
+4. Keep one active agent session per book branch whenever possible.
+
+This reduces cross-branch context bleed and accidental edits.
+
 ## Chapter Artifact Rule
 
 Each chapter should eventually have its own folder under `04_manuscript`, typically containing:
@@ -42,14 +72,17 @@ Each chapter should eventually have its own folder under `04_manuscript`, typica
 - `chapter_brief.md`
 - `research_tracker.md`
 - `claim_register.md`
+- `challenge_round.md`
 - `source_notes.md`
 - `draft_v1.md`
 - `draft_v2.md`
+- `draft_v3.md`
 - `final.md`
 - `graph_extract.md`
 
 Do not draft a chapter before creating at least the brief and research tracker.
 Chat-based editorial feedback is a valid primary review mode. A separate `editor_notes.md` file is optional, not required.
+`challenge_round.md` is optional but recommended for chapters that introduce important assumptions, taxonomies, or strong claims.
 
 ## Chapter Lifecycle
 
@@ -167,6 +200,13 @@ Each entry should use this structure:
 - If a new file type is needed repeatedly, add a template in `01_templates`.
 - Keep names readable and predictable.
 
+## Draft Commit And Push Rule
+
+- After creating or materially revising any chapter draft file matching `04_manuscript/chapter_XX/draft_vN.md`, commit and push in the same work session.
+- Use the current branch. Do not leave draft updates uncommitted at session end.
+- Include related tracking updates (`00_admin/progress_tracker.md`, `00_admin/progress_log.md`, and any chapter artifacts touched in the same pass) in the same commit when they are part of that drafting step.
+- Recommended commit message pattern: `chapter XX: add/update draft_vN`.
+
 ## Completion Rule
 
 A work session is not fully complete until:
@@ -186,3 +226,5 @@ For drafting sessions specifically:
 - if the chapter uses source-backed claims in prose, `source_notes.md` should exist and be updated
 - manuscript drafts should remain readable and should not collapse into citation-heavy academic formatting
 - material editorial feedback delivered in chat should be summarized into `00_admin/progress_log.md` under `Editorial Comments`
+- before moving from an exploratory early draft to a more polished later draft, run a challenge round when the chapter would benefit from assumption-testing or practitioner pushback
+- challenge rounds should ask what insiders, adjacent functions, practitioners, or executives would dispute, and what should be changed before the next draft
