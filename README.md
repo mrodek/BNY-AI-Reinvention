@@ -72,6 +72,20 @@ origin   https://github.com/<you>/<new-book-repo>.git
 upstream https://github.com/mrodek/ghostwriter.ai.git
 ```
 
+Commands to set this up from the new book repo root:
+
+```powershell
+git remote set-url origin https://github.com/<you>/<new-book-repo>.git
+git remote add upstream https://github.com/mrodek/ghostwriter.ai.git
+git remote -v
+```
+
+If `upstream` already exists, update it instead of adding it:
+
+```powershell
+git remote set-url upstream https://github.com/mrodek/ghostwriter.ai.git
+```
+
 Run the new-book scaffold script:
 
 ```powershell
