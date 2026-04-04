@@ -6,7 +6,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 - Current phase: initialization
 - Current focus: convert the draft BNY outline into working manuscript architecture and start the opening chapters from a clean new-book baseline
-- Next milestone: assess whether CH02 is ready for editor review after the challenge-round revision in draft_v3
+- Next milestone: assess whether CH03's example-driven `draft_v2` is clear enough to continue or needs a challenge round
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -15,7 +15,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | CH01 | The Bank You Don't See | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge-round revision added a concrete operating layer and stronger peer distinction |
 | CH02 | The Global Asset Machine | drafting | in_progress | draft_v3_ready | not_started | not_started | Draft v3 adds a failure-chain illustration and sharper early strategic framing |
-| CH03 | A Day in the Life of a Trade | not_started | not_started | not_started | not_started | not_started | Credibility chapter for lifecycle clarity |
+| CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds an explicit E*TRADE-to-other-broker walkthrough and clearer custody explanation |
 | CH04 | Why This Model Works | not_started | not_started | not_started | not_started | not_started | Opening-section capstone |
 | CH05 | Asset Servicing (Custody and Fund Accounting) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH06 | Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -84,13 +84,18 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Created `04_manuscript/chapter_02/draft_v2.md` to improve readability by moving the lifecycle classification into a table.
 - Ran a CH02 challenge round; outcome was `revise before proceeding` with recommendation to add one concrete example or failure-chain moment and sharpen the strategic turn.
 - Created `04_manuscript/chapter_02/draft_v3.md` to add a failure-chain illustration and bring the strategic leverage point earlier in the chapter.
+- Created the CH03 artifact set with a tailored chapter brief, initial research tracker, and first-pass claim register.
+- Populated the first CH03 source set and moved the chapter into `researching`.
+- Added a second CH03 research pass focused on custody-linked reporting, records, and ownership proof after settlement.
+- Created `04_manuscript/chapter_03/source_notes.md` and `draft_v1.md` to turn the CH03 source base into a concrete walkthrough draft.
+- Created `04_manuscript/chapter_03/draft_v2.md` to make the walkthrough more explicit through an E*TRADE-style stock purchase example.
 
 ## Next Actions
 
-1. Re-read CH02 and decide whether it is ready for editor review or needs one more continuity pass.
-2. Re-read CH02 for any other places where tables or diagrams would carry explanatory load better than prose.
+1. Re-read CH03 and decide whether the more explicit example is sufficient or whether a challenge round should pressure-test it next.
+2. Re-read CH02 and decide whether it is ready for editor review or needs one more continuity pass.
 3. Complete the rest of CH01 so the draft moves beyond the opening argument into the full chapter arc.
-4. Decide whether to begin CH03 or finish CH01 first.
+4. Decide whether to continue CH03 or move to the next chapter after review.
 
 ## Update Rules
 

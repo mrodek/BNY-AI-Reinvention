@@ -54,6 +54,201 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Drafted Chapter 3 Version 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 `draft_v2` with a more explicit E*TRADE-style stock-purchase walkthrough and clearer explanation of where the stock sits after settlement
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: revise CH03 to use a more explicit buy-through-E*TRADE / sell-through-another-broker example
+- Rationale: the chapter needed a walkthrough that answered the reader's likely concrete questions directly rather than relying only on a generic securities-purchase frame
+- Alternatives rejected: keeping the draft at a more abstract level or immediately shifting to a more institutional scenario
+
+### Issues & Resolution
+- Issue: the first CH03 draft still left some basic reader questions too implicit, especially around what happens after the trade executes and where the stock "is" after settlement
+- Resolution: revise the chapter so it names the brokers more concretely, traces the post-trade chain more explicitly, and answers the custody/ownership question in plain language
+
+### Editorial Comments
+- Comment: use an explicit example such as buying a stock through E*TRADE while another customer or fund sells through another broker
+- Response: `draft_v2` is now anchored in exactly that kind of sequence
+- Comment: answer what role BNY is playing and where the stock is after settlement
+- Response: the revision now makes BNY's role lower in the stack much clearer and explains the layered custody-and-records reality after settlement
+
+### Lessons Learned
+- Insight: for a chapter like CH03, readers do not just want the sequence; they want their immediate intuitive questions answered in concrete language
+- What worked: using a familiar brokerage experience to make hidden infrastructure legible
+- What did not: leaving key custody and ownership questions only implied in the first pass
+
+### Next Steps
+- [ ] Re-read CH03 and decide whether a challenge round should come next
+- [ ] Tighten any paragraphs that still sound too explanatory rather than experiential
+- [ ] Decide whether CH03 now has enough chapter weight to hold alongside CH01 and CH02
+
+## [2026-04-04] - Drafted Chapter 3 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/source_notes.md`, `04_manuscript/chapter_03/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 source-note map, first CH03 walkthrough draft, and tracker state moved into drafting
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: draft CH03 now from the current source base rather than keep expanding research before testing the walkthrough in prose
+- Rationale: the source set is already strong enough to support one retail-adjacent securities purchase from execution through settlement, custody, and reporting, and prose is the best way to test whether the chapter actually makes the machine visible
+- Alternatives rejected: waiting for a fuller exception-management source set before drafting, or turning CH03 into a denser operational manual before a first prose pass
+
+### Issues & Resolution
+- Issue: CH03 needed to stay distinct from CH02 while still carrying enough technical credibility
+- Resolution: anchor the chapter in one familiar transaction and move stage by stage from execution into settlement, custody, and records, with only a light touch on failure
+- Issue: the chapter also needed to remain broadly legible
+- Resolution: use investor-facing and infrastructure-facing sources together so the prose stays accessible without becoming vague
+
+### Editorial Comments
+- Comment: choose a scenario closest to a retail customer for the broadest audience
+- Response: the draft is anchored in a familiar stock purchase
+- Comment: exception handling should be light and point toward later chapters
+- Response: the draft includes only a compact failure paragraph and explicitly leaves deeper operational breakpoints for later chapters
+
+### Lessons Learned
+- Insight: a trade walkthrough is most effective when it starts from the reader's own mental model and then reveals how much unseen infrastructure sits underneath
+- What worked: moving from execution to settlement to custody to proof of ownership in a clean sequence
+- What did not: nothing material yet, though the chapter likely needs another pass for rhythm and chapter weight
+
+### Next Steps
+- [ ] Continue CH03 so the chapter gains more internal transitions and weight
+- [ ] Decide whether CH03 needs a stronger second draft or a challenge round next
+- [ ] Re-read CH03 for places where a small table or diagram might help
+
+## [2026-04-04] - Added Chapter 3 Records And Reporting Pass
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/research_tracker.md`, `04_manuscript/chapter_03/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 source set now has stronger coverage of downstream records, reporting, and ownership proof after settlement
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: add a targeted second research pass for records, statements, transfer records, and custody-linked reporting
+- Rationale: the walkthrough would feel incomplete if it stopped at settlement without showing how ownership becomes durable and legible afterward
+- Alternatives rejected: moving directly into drafting with the records/reporting layer still too thin
+
+### Issues & Resolution
+- Issue: CH03 needed a better way to explain what happens after settlement from the reader's point of view
+- Resolution: add OCC and Investor.gov sources that connect custody to settlement, safekeeping, reporting, and proof of ownership
+
+### Editorial Comments
+- Comment: exception handling should remain light and the chapter should stay broadly legible
+- Response: the second pass focused on normal downstream durability rather than diving into operational edge cases
+
+### Lessons Learned
+- Insight: for broad readers, statements, records, and proof of ownership are the most intuitive way to understand that the trade is still "happening" after execution
+- What worked: linking institutional custody language to retail-visible records and ownership concepts
+- What did not: leaving the downstream proof-and-reporting layer implied rather than explicit
+
+### Next Steps
+- [ ] Build the CH03 walkthrough structure from the current source set
+- [ ] Decide whether one light-touch failure example is still needed before drafting
+- [ ] Select the exact securities-purchase scenario for the walkthrough
+
+## [2026-04-04] - Completed First Chapter 3 Research Pass
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/research_tracker.md`, `04_manuscript/chapter_03/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 research tracker now contains the first transaction-lifecycle source set; claim register now maps initial walkthrough claims to sources; tracker state moved CH03 into active research
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: anchor CH03 in a retail-adjacent securities purchase and build the first research pass around investor-facing execution and settlement explanations, clearing-agency roles, and BNY custody/settlement placement
+- Rationale: this gives the chapter the broadest audience relevance while still exposing the institutional machinery beneath the visible transaction
+- Alternatives rejected: starting with a more specialized institutional flow or overloading the first pass with deep operational exception literature
+
+### Issues & Resolution
+- Issue: CH03 needs to be concrete without becoming too technical too early
+- Resolution: use Investor.gov and DTCC sources for the reader-facing transaction sequence, then layer in BNY sources where the lifecycle moves into settlement, custody, safekeeping, and reporting
+- Issue: the chapter also needs to stay distinct from CH02
+- Resolution: center the research around one transaction sequence rather than around the general machine model
+
+### Editorial Comments
+- Comment: choose a scenario closest to a retail customer for relevance to the broadest audience
+- Response: the first pass was built around a securities-purchase flow that begins with a familiar investor action but reveals institutional infrastructure underneath
+- Comment: treat exception handling lightly and point forward to later chapters
+- Response: the source pass prioritized the normal sequence first; a later targeted pass will add only a light-touch break example
+
+### Lessons Learned
+- Insight: CH03 becomes accessible when the surface action is familiar, even if the underlying infrastructure is highly institutional
+- What worked: combining Investor.gov explainers with DTCC and BNY sources to move from visible trade to hidden infrastructure
+- What did not: nothing material yet, though the chapter still needs one more pass on downstream reporting and a light-touch exception signal
+
+### Next Steps
+- [ ] Build the CH03 walkthrough structure from the current source set
+- [ ] Add one more research pass on downstream reporting/servicing and a light-touch exception example
+- [ ] Decide the exact securities-purchase scenario that best anchors the chapter
+
+## [2026-04-04] - Logged Chapter 3 Walkthrough Direction
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/chapter_brief.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 brief now reflects the chosen walkthrough audience and the lighter treatment of exceptions
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: anchor CH03 in a securities-purchase scenario that feels closest to a retail customer's mental model while still exposing institutional infrastructure
+- Rationale: this gives the chapter the broadest accessibility without sacrificing the ability to show the hidden machine underneath
+- Alternatives rejected: starting with a more specialized institutional flow that would be more precise but less broadly legible
+- Decision: keep exception handling light in CH03 and use it mainly to point toward later chapters
+- Rationale: the chapter's job is to make the machine visible, not to become the full catalog of breaks and operational edge cases
+- Alternatives rejected: loading the walkthrough with multiple operational exceptions too early
+
+### Issues & Resolution
+- Issue: CH03 risked becoming either too specialized for general readers or too operationally dense too early
+- Resolution: choose a familiar securities-purchase flow and keep exception handling present but restrained
+
+### Editorial Comments
+- Comment: choose the option closest to a retail customer to stay relevant to the broadest audience
+- Response: the brief now explicitly points to a securities-purchase scenario as the anchor
+- Comment: give exception handling a light touch with pointers to subsequent chapters
+- Response: the brief now frames exceptions as limited signals rather than the main subject of the chapter
+
+### Lessons Learned
+- Insight: CH03 works best when it feels familiar at the surface and revealing underneath
+- What worked: using audience accessibility as the main criterion for the anchor scenario
+- What did not: leaving the scenario choice and exception depth unresolved
+
+### Next Steps
+- [ ] Populate the CH03 research tracker with sources supporting a familiar securities-purchase walkthrough
+- [ ] Build the first transaction sequence around that scenario
+- [ ] Identify where the chapter should point forward to later exception-heavy chapters
+
+## [2026-04-04] - Created Chapter 3 Artifact Set
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/chapter_brief.md`, `04_manuscript/chapter_03/research_tracker.md`, `04_manuscript/chapter_03/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 brief, initial research tracker, first-pass claim register, and updated tracker state
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: begin CH03 now as the concrete trade-walkthrough chapter rather than continuing to stack abstraction on top of CH02
+- Rationale: CH03 is the natural follow-on to the system model; it should make the machine visible by following one transaction through the chain
+- Alternatives rejected: delaying CH03 until CH01 or CH02 reached a more polished editorial state
+
+### Issues & Resolution
+- Issue: CH03 could easily duplicate CH02 unless its purpose is tightly defined
+- Resolution: frame CH03 around one representative trade sequence, with emphasis on execution as the beginning rather than the end
+
+### Editorial Comments
+- Comment: none yet beyond the standing need to make the system concrete without becoming a dense operations manual
+- Response: the brief is explicitly designed around one scenario, one sequence, and one bridge back to the thesis
+
+### Lessons Learned
+- Insight: CH02 teaches the reader how to see the machine, but CH03 needs to make the reader feel the machine moving
+- What worked: defining CH03 by function rather than by another abstract concept
+- What did not: nothing material in this step
+
+### Next Steps
+- [ ] Populate the CH03 research tracker with the first source set
+- [ ] Decide on the anchor trade scenario
+- [ ] Build the first walkthrough sequence for the chapter
+
 ## [2026-04-04] - Drafted Chapter 2 Version 3
 
 ### Summary
