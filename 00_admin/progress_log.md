@@ -54,6 +54,66 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Drafted Chapter 2 Version 3
+
+### Summary
+- Files changed: `04_manuscript/chapter_02/draft_v3.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH02 `draft_v3` with a compact failure-chain illustration and earlier strategic framing
+- Chapter(s) affected: CH02
+
+### Decisions
+- Decision: address the challenge round by adding one concrete failure-chain moment and making the strategic leverage point appear earlier in the chapter
+- Rationale: CH02 was already structurally strong, so the right move was not a rewrite but a targeted revision that made the chapter more memorable and consequential
+- Alternatives rejected: leaving the chapter at the model-only level, or adding a longer narrative scenario that would start duplicating CH03
+
+### Issues & Resolution
+- Issue: CH02 explained the machine well but still risked reading like an explanatory memo
+- Resolution: add a compact example of how a settlement exception propagates into records, funding, reconciliation, and client confidence, and add earlier language on why cross-layer embeddedness creates strategic leverage
+
+### Editorial Comments
+- Comment: the chapter needed one concrete example or failure-chain moment and a sharper strategic turn
+- Response: `draft_v3` adds both without overloading the chapter with excessive mechanics
+
+### Lessons Learned
+- Insight: for a chapter at this level, one vivid failure-chain often does more explanatory work than several additional abstract paragraphs
+- What worked: using a compact operational break to show interdependence across layers
+- What did not: relying only on strong structure and taxonomy to carry narrative force
+
+### Next Steps
+- [ ] Re-read CH02 and decide whether it is ready for editor review
+- [ ] Run one more continuity pass only if transitions still feel too even
+- [ ] Decide whether to return to CH01 or begin CH03 next
+
+## [2026-04-04] - Ran Chapter 2 Challenge Round
+
+### Summary
+- Files changed: `04_manuscript/chapter_02/challenge_round.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH02 challenge round file and tracker/log updates reflecting the recommendation
+- Chapter(s) affected: CH02
+
+### Decisions
+- Decision: treat CH02 as structurally strong enough to keep, but not yet strong enough to advance without another revision
+- Rationale: the chapter now has a solid mental model and better readability than `draft_v1`, but it still needs one compact concrete illustration and a sharper strategic turn to become memorable
+- Alternatives rejected: proceeding directly to editor review, or radically restructuring the chapter before pressure-testing the current draft
+
+### Issues & Resolution
+- Issue: CH02 explains the machine well, but still risks reading as a very good explanatory memo rather than a high-retention chapter
+- Resolution: challenge round concluded that the next revision should add one compact example or failure-chain moment and clarify the strategic implication earlier
+
+### Editorial Comments
+- Comment: none beyond the standing expectation that this chapter be important, lengthy, and clear
+- Response: the challenge round focused on whether the current draft has enough narrative force and chapter distinction to justify that weight
+
+### Lessons Learned
+- Insight: explanatory strength and structural coherence are not quite enough for a chapter this important; it also needs one memorable proof point
+- What worked: the lifecycle table, the machine framing, and the distinction between system flow and org-chart thinking
+- What did not: leaving the chapter entirely at the level of model without one concise operational illustration
+
+### Next Steps
+- [ ] Add one compact concrete example or failure-chain illustration to CH02
+- [ ] Sharpen the strategic turn earlier in the chapter
+- [ ] Reassess whether CH02 now feels memorable as well as clear
+
 ## [2026-04-04] - Drafted Chapter 2 Version 2
 
 ### Summary
