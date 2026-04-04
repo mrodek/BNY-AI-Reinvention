@@ -54,6 +54,160 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Drafted Chapter 2 Version 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_02/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH02 `draft_v2` with a lifecycle table replacing the most mechanical explanatory paragraph
+- Chapter(s) affected: CH02
+
+### Decisions
+- Decision: convert the linked-layers paragraph into a table
+- Rationale: the original paragraph was carrying classification logic more than prose logic, and the chapter is easier to scan when the lifecycle model is expressed structurally
+- Alternatives rejected: keeping the paragraph in prose and trying to smooth it with sentence-level edits alone
+
+### Issues & Resolution
+- Issue: the "linked layers" paragraph read as mechanical and overly enumerative
+- Resolution: move the lifecycle model into a compact table and keep the surrounding prose for interpretation rather than taxonomy
+
+### Editorial Comments
+- Comment: the paragraph felt very mechanical and might be better served as a table
+- Response: created `draft_v2` with the lifecycle model presented as a table
+
+### Lessons Learned
+- Insight: when a passage is mostly helping the reader classify a system, tabular form is often better than paragraph form
+- What worked: separating the explanatory model from the interpretive prose
+- What did not: asking one paragraph to do both conceptual synthesis and category listing
+
+### Next Steps
+- [ ] Re-read CH02 for other sections that may be better handled through table or diagram logic
+- [ ] Continue drafting the remaining sections of CH02
+- [ ] Decide whether CH02 needs one mini-scenario before CH03
+
+## [2026-04-04] - Drafted Chapter 2 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_02/source_notes.md`, `04_manuscript/chapter_02/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH02 source-note map, first CH02 prose draft, and tracker state moved into drafting
+- Chapter(s) affected: CH02
+
+### Decisions
+- Decision: draft CH02 now as a substantial mental-model chapter rather than continue extending research
+- Rationale: the source set is already strong enough to support a long explanatory chapter, and the bigger risk now is structural drift rather than lack of evidence
+- Alternatives rejected: collecting more sources before testing the chapter in prose, or reducing CH02 into a short bridge chapter
+
+### Issues & Resolution
+- Issue: CH02 covers enough material that it could easily become either too abstract or too technical
+- Resolution: organize the chapter around the idea of the connected asset machine, then move through linked layers of execution, settlement, custody, servicing, liquidity, and collateral without turning the chapter into a full transaction walkthrough
+- Issue: the chapter also risked duplicating CH03
+- Resolution: keep CH02 at the system-model level and reserve the more concrete end-to-end trade walkthrough for the next chapter
+
+### Editorial Comments
+- Comment: this chapter is expected to be important and lengthy because of how much it has to cover
+- Response: `draft_v1` was written as a substantial architecture chapter with real explanatory weight rather than a short transitional piece
+
+### Lessons Learned
+- Insight: CH02 works when it teaches the reader to see the system as a machine first and a list of institutions second
+- What worked: using the lifecycle as the organizing frame and treating servicing, liquidity, and collateral as integral parts of the machine
+- What did not: nothing material yet, though the chapter still needs more sectional weight and possibly one illustrative mini-scenario
+
+### Next Steps
+- [ ] Continue CH02 so the draft gains more sectional depth and stronger internal transitions
+- [ ] Decide whether one mini-scenario would strengthen the chapter without stealing CH03's job
+- [ ] Re-read for accessibility and jargon density before a challenge round
+
+## [2026-04-04] - Added Chapter 2 Asset-Servicing Pass
+
+### Summary
+- Files changed: `04_manuscript/chapter_02/research_tracker.md`, `04_manuscript/chapter_02/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH02 source set now has stronger coverage of fund administration, transfer agency, and integrated asset servicing
+- Chapter(s) affected: CH02
+
+### Decisions
+- Decision: stop broadening CH02 research indiscriminately and instead fill the most obvious missing explanatory gap: asset servicing
+- Rationale: a chapter about the global asset machine will feel incomplete if it explains settlement and payments well but leaves servicing vague
+- Alternatives rejected: continuing to add more lifecycle sources without resolving the servicing gap
+
+### Issues & Resolution
+- Issue: CH02 risked becoming heavy on post-trade language while still under-explaining what happens after assets are booked and funds have to be administered
+- Resolution: add BNY integrated fund-services and fund-investor platform sources, plus State Street investment-servicing language, to clarify administration, reporting, investor servicing, and lifecycle connectivity
+
+### Editorial Comments
+- Comment: this chapter is important and lengthy because it has a lot to cover
+- Response: the source set was expanded where the length is justified, but the next step is now structural synthesis rather than more open-ended research
+
+### Lessons Learned
+- Insight: CH02 works best when servicing is treated as part of the machine, not as an afterthought appended to settlement
+- What worked: using integrated servicing sources that explicitly connect accounting, administration, investor servicing, and data
+- What did not: letting post-trade mechanics dominate too much of the chapter's explanatory surface
+
+### Next Steps
+- [ ] Build the CH02 section structure from the current source base
+- [ ] Decide whether the chapter needs a mini-scenario before CH03
+- [ ] Draft the CH02 opening and lifecycle model
+
+## [2026-04-04] - Completed First Chapter 2 Research Pass
+
+### Summary
+- Files changed: `04_manuscript/chapter_02/research_tracker.md`, `04_manuscript/chapter_02/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH02 research tracker now contains the first lifecycle source set; claim register now maps initial chapter claims to sources; tracker state moved CH02 into active research
+- Chapter(s) affected: CH02
+
+### Decisions
+- Decision: structure CH02 research around three layers: market-lifecycle explainers, BNY cross-lifecycle primary sources, and business-line sources for servicing, payments, clearing, and collateral
+- Rationale: this chapter needs to be long and foundational, so it cannot rely only on generic settlement explanations or only on BNY marketing language; it needs both system logic and company-specific placement
+- Alternatives rejected: treating CH02 as a thin bridge chapter, or jumping straight into drafting without enough lifecycle coverage
+
+### Issues & Resolution
+- Issue: CH02 needs to explain a broad machine without collapsing into jargon or duplicating CH03
+- Resolution: gather high-level lifecycle and settlement explainers first, then use BNY sources to map the firm across the machine rather than narrating one transaction in full detail
+- Issue: the chapter covers many adjacent functions that can easily feel disconnected
+- Resolution: use the investment lifecycle as the organizing frame and treat custody, fund accounting, payments, clearing, financing, collateral, and reporting as linked workflow stages
+
+### Editorial Comments
+- Comment: this chapter is expected to be important and lengthy because it has a lot to cover
+- Response: the research plan and source set were built for a substantial chapter with multiple sections, not a quick transitional chapter
+
+### Lessons Learned
+- Insight: CH02 becomes more powerful when it explains the machine through flows and handoffs rather than through a list of BNY businesses
+- What worked: combining DTCC lifecycle explainers with BNY sources that explicitly describe the firm's role across the investment lifecycle
+- What did not: nothing material yet, though the chapter still needs one more pass on asset servicing and a clean lifecycle model
+
+### Next Steps
+- [ ] Build the CH02 section structure from the current source set
+- [ ] Add one more source pass on asset servicing and terminology
+- [ ] Decide whether CH02 needs a short mini-scenario before CH03
+
+## [2026-04-04] - Created Chapter 2 Artifact Set
+
+### Summary
+- Files changed: `04_manuscript/chapter_02/chapter_brief.md`, `04_manuscript/chapter_02/research_tracker.md`, `04_manuscript/chapter_02/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH02 brief, initial research tracker, first-pass claim register, and updated tracker state
+- Chapter(s) affected: CH02
+
+### Decisions
+- Decision: begin CH02 now rather than fully polishing CH01 first
+- Rationale: the opening chapter is strong enough to hold while the next chapter clarifies the machine beneath it, and the overall book voice will likely improve by advancing the sequence
+- Alternatives rejected: staying on CH01 until it feels fully polished before opening the next chapter
+
+### Issues & Resolution
+- Issue: CH02 needs to explain the system clearly without duplicating the full trade walkthrough planned for CH03
+- Resolution: frame CH02 around the connected asset machine at a high level, then explicitly use CH03 for the more concrete end-to-end walkthrough
+
+### Editorial Comments
+- Comment: none yet for CH02 beyond the book-level requirement to explain financial infrastructure clearly to non-specialists
+- Response: the brief is structured around that exact explanatory job
+
+### Lessons Learned
+- Insight: CH02 is the right place to teach the reader how to see the system, while CH03 can show the system in motion
+- What worked: defining the chapter as a mental-model chapter rather than another company-positioning chapter
+- What did not: nothing material in this step
+
+### Next Steps
+- [ ] Populate the CH02 research tracker with the first source set
+- [ ] Decide whether CH02 needs one mini-scenario before CH03
+- [ ] Begin building the lifecycle model that will anchor the chapter
+
 ## [2026-04-04] - Drafted Chapter 1 Version 2
 
 ### Summary

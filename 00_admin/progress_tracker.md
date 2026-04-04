@@ -6,7 +6,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 - Current phase: initialization
 - Current focus: convert the draft BNY outline into working manuscript architecture and start the opening chapters from a clean new-book baseline
-- Next milestone: extend CH01 beyond the opening argument now established in draft_v2
+- Next milestone: extend CH02 beyond the opening structure now established in draft_v1
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -14,7 +14,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | Chapter ID | Working Title | Status | Research | Draft | Editor Review | Graph Extract | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | CH01 | The Bank You Don't See | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge-round revision added a concrete operating layer and stronger peer distinction |
-| CH02 | The Global Asset Machine | not_started | not_started | not_started | not_started | not_started | Next chapter to initialize after CH01 checkpoint |
+| CH02 | The Global Asset Machine | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 replaces the most mechanical lifecycle paragraph with a table for clarity |
 | CH03 | A Day in the Life of a Trade | not_started | not_started | not_started | not_started | not_started | Credibility chapter for lifecycle clarity |
 | CH04 | Why This Model Works | not_started | not_started | not_started | not_started | not_started | Opening-section capstone |
 | CH05 | Asset Servicing (Custody and Fund Accounting) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -77,13 +77,18 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Created `04_manuscript/chapter_01/draft_v1.md` and `source_notes.md` to begin prose drafting from the validated source set.
 - Ran a CH01 challenge round; outcome was `revise before proceeding` with recommendation to keep the overture quality but add one concrete operating layer.
 - Created `04_manuscript/chapter_01/draft_v2.md` to address the challenge round with a concrete downstream workflow paragraph and sharper structural distinction.
+- Created the CH02 artifact set with a tailored chapter brief, initial research tracker, and first-pass claim register.
+- Populated the first CH02 source set and moved the chapter into `researching`.
+- Added a second CH02 research pass focused on asset servicing, fund administration, and integrated servicing language.
+- Created `04_manuscript/chapter_02/source_notes.md` and `draft_v1.md` to turn the CH02 source base into a real chapter spine.
+- Created `04_manuscript/chapter_02/draft_v2.md` to improve readability by moving the lifecycle classification into a table.
 
 ## Next Actions
 
-1. Complete the rest of CH01 so the draft moves beyond the opening argument into the full chapter arc.
-2. Decide whether CH01 should stay as a deliberately overture-like chapter or absorb one additional concrete example before editor review.
-3. Initialize CH02 after the CH01 checkpoint commit.
-4. Validate the 39-chapter structure against intended final manuscript length and trim or consolidate if needed before broad chapter creation.
+1. Continue CH02 drafting so the chapter gains more sectional weight, examples, and transitions.
+2. Decide whether CH02 needs a mini-scenario or whether that should remain mostly reserved for CH03.
+3. Re-read CH02 for any other places where tables or diagrams would carry explanatory load better than prose.
+4. Complete the rest of CH01 so the draft moves beyond the opening argument into the full chapter arc.
 
 ## Update Rules
 
