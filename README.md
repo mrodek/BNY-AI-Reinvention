@@ -86,6 +86,61 @@ If `upstream` already exists, update it instead of adding it:
 git remote set-url upstream https://github.com/mrodek/ghostwriter.ai.git
 ```
 
+## Keeping Your Book Repo Updated
+
+If you kept this repository as `upstream`, that means you can pull later framework improvements into your book repo.
+
+Plain English:
+
+- your book repo should usually push to `origin`
+- the ghostwriter framework repo should usually be kept as `upstream`
+- `upstream` is mainly for bringing framework improvements into your book repo
+
+To bring the latest framework changes into your book repo:
+
+```powershell
+git fetch upstream
+git checkout main
+git merge upstream/main
+```
+
+What this means:
+
+- `git fetch upstream` downloads the latest changes from the ghostwriter framework repo
+- `git checkout main` switches to your local `main` branch
+- `git merge upstream/main` brings those framework updates into your book repo's `main`
+
+If you are actively working on another branch and want that branch to include the updated framework too:
+
+```powershell
+git checkout <your-branch>
+git merge main
+```
+
+## Sending Framework Improvements Back
+
+If you improve the reusable scaffold, templates, scripts, or repo instructions, those changes may belong in the ghostwriter framework repo too.
+
+Plain English:
+
+- book-specific writing should stay in your book repo
+- reusable framework improvements should go back to the ghostwriter framework repo
+- do not push book content into the framework repo by accident
+
+Recommended approach:
+
+1. Make the scaffolding improvement in your book repo and commit it there.
+2. Copy that same change into a clone of `ghostwriter.ai`, or re-make it there carefully.
+3. Commit and push it from the `ghostwriter.ai` clone.
+
+Safer rule of thumb:
+
+- push normal book work to `origin`
+- pull framework updates from `upstream`
+- send reusable framework changes back from a dedicated `ghostwriter.ai` clone
+
+Only push directly to `upstream` if you are very sure the commit contains framework-only changes.
+
 Run the new-book scaffold script:
 
 ```powershell
