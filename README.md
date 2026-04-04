@@ -37,22 +37,42 @@ Every substantial output should be written to disk. Chat is for coordination; fi
 6. Revise and approve.
 7. Extract graph-ready entities, claims, and relationships.
 
-## Multi-Book Branching Model
+## New Book Repository Model
 
-Use branches by default for new books in this repository:
+Use a separate repository by default for each new book.
 
-- keep `main` as the reusable scaffold
-- create one branch per book (for example `book/fde-playbook`)
-- merge reusable process improvements back to `main`
+Recommended default:
 
-Use a separate clone/repo only when a book needs strong isolation (different remote, access control, or lifecycle).
+- clone `main` from this repository into a new folder
+- create a new GitHub repository for the new book
+- set that new repository as `origin`
+- optionally keep this repository as `upstream` for framework updates
 
 ## Start A New Book
 
-Preferred path: use a branch from `main` and scaffold from templates.
+Use this path for a new book.
 
-1. Ensure you are in this repository root.
-2. Run the new-book scaffold script:
+1. Clone `main` from this repository into a new folder.
+2. Create a new remote repository for the book.
+3. Set the new remote repository as `origin`.
+4. Optionally add this repository as `upstream`.
+5. Run the new-book scaffold script in the new clone.
+
+This gives the new book its own history, remote, backup path, and publication lifecycle while preserving the ghostwriter framework.
+
+Remote naming:
+
+- `origin` = the new book's own GitHub repository; this is where `git push` should go by default
+- `upstream` = this ghostwriter framework repository; keep it only if you want to pull framework improvements later
+
+Typical result:
+
+```text
+origin   https://github.com/<you>/<new-book-repo>.git
+upstream https://github.com/mrodek/ghostwriter.ai.git
+```
+
+Run the new-book scaffold script:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\new_book.ps1 -BookSlug "<book-slug>" -WorkingTitle "<working title>" -Force
@@ -64,12 +84,25 @@ Example:
 powershell -ExecutionPolicy Bypass -File .\scripts\new_book.ps1 -BookSlug "payments-playbook" -WorkingTitle "Payments AI Playbook" -Force
 ```
 
-What this does:
+Important:
 
-- creates/checks out `book/<book-slug>` (unless `-NoBranch` is passed)
+- `scripts/new_book.ps1` does not create a separate repository
+- it does not create a new GitHub remote
+- it assumes you are already inside the new book's own clone
+- it initializes the outline scaffold for that clone
+
+What this script does:
+
 - runs bootstrap hook setup (`core.hooksPath`)
 - copies `01_templates/master_outline_template.md` to `02_outline/master_outline.md`
 - fills title placeholders when `-WorkingTitle` is provided
+
+What this script does not do:
+
+- create a new git repository
+- create a new GitHub remote
+- publish the new book repository for you
+- move content from another clone into this one
 
 Required before outline/drafting work:
 
@@ -91,19 +124,16 @@ After running:
 5. Initialize relevant chapter artifacts in `04_manuscript/chapter_XX`.
 6. Update `00_admin/progress_tracker.md` and `00_admin/progress_log.md`.
 
-### If You Are Already Working In Another Book Branch
+### If You Are Already Working On Another Book
 
 Recommended workflow:
 
-1. Finish or checkpoint your current work in the active branch (commit any changes you want to keep).
-2. Open a second IDE window in the same repo folder.
-3. Start a separate Codex session in that second window.
-4. In the new session, run the new-book script to create/switch to the new `book/<slug>` branch.
-5. Keep one Codex session per book branch to avoid context and file confusion.
+1. Keep each book in its own separate local clone and remote repository.
+2. Open a separate IDE window for the new book folder.
+3. Start a separate Codex session in that new folder.
+4. Run the new-book scaffold script there.
 
-Alternative:
-
-- You can switch branches in one window/session, but this is higher risk for mixed context and accidental edits across books.
+This keeps context, remotes, and draft history cleanly separated.
 
 ## Copy/Paste Kickoff Prompts
 
