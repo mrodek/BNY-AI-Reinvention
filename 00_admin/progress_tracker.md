@@ -5,17 +5,53 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: initialization
-- Current focus: initialize the FDE branch by converting the outline into chapter artifacts and beginning Chapter 1 production
-- Next milestone: create the Chapter 1 artifact folder and complete its brief
-- Blockers: none currently
+- Current focus: convert the draft BNY outline into working manuscript architecture and start the opening chapters from a clean new-book baseline
+- Next milestone: extend CH01 beyond the opening argument now established in draft_v2
+- Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
 
 | Chapter ID | Working Title | Status | Research | Draft | Editor Review | Graph Extract | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| CH01 | The Last-Mile Failure of AI Transformation | revising | in_progress | draft_v2_ready | not_started | not_started | Source notes added and draft v2 created with examples, metrics, and light citations |
-| CH02 | Why Forward Deployed Engineering Exists | revising | in_progress | draft_v3_ready | not_started | not_started | Draft v3 created to restore continuity and align more closely with the Palantir/BNY model |
-| CH03 | Value Arenas for Forward Deployment | not_started | not_started | not_started | not_started | not_started | Priority after mandate chapters |
+| CH01 | The Bank You Don't See | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge-round revision added a concrete operating layer and stronger peer distinction |
+| CH02 | The Global Asset Machine | not_started | not_started | not_started | not_started | not_started | Next chapter to initialize after CH01 checkpoint |
+| CH03 | A Day in the Life of a Trade | not_started | not_started | not_started | not_started | not_started | Credibility chapter for lifecycle clarity |
+| CH04 | Why This Model Works | not_started | not_started | not_started | not_started | not_started | Opening-section capstone |
+| CH05 | Asset Servicing (Custody and Fund Accounting) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
+| CH06 | Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
+| CH07 | Treasury Services (Payments and Liquidity) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
+| CH08 | Pershing (Wealth Infrastructure Platform) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
+| CH09 | Investment Management | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
+| CH10 | Collateral, Securities Lending, and Financing | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
+| CH11 | The Hidden Truth: A System Held Together by Reconciliation | not_started | not_started | not_started | not_started | not_started | Current-state synthesis chapter |
+| CH12 | BNY as the Financial Operating System | not_started | not_started | not_started | not_started | not_started | Core thesis chapter |
+| CH13 | Why Platforms Win in Financial Infrastructure | not_started | not_started | not_started | not_started | not_started | Platform-thesis support |
+| CH14 | The Missing Layer: Intelligence | not_started | not_started | not_started | not_started | not_started | Intelligence-thesis support |
+| CH15 | The Ontology Problem | not_started | not_started | not_started | not_started | not_started | Semantic foundation chapter |
+| CH16 | Canonical Data Products as the Foundation | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
+| CH17 | The AI Gateway (Control Plane) | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
+| CH18 | The Runtime: Agents and Orchestration | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
+| CH19 | Observability as Governance | not_started | not_started | not_started | not_started | not_started | AI-native governance chapter |
+| CH20 | AI-Native Asset Servicing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH21 | AI-Native Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH22 | AI-Native Treasury Services | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH23 | AI-Native Pershing Platform | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH24 | AI-Native Investment Management | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH25 | AI-Native Collateral and Financing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH26 | From Products to Intelligence Graphs | not_started | not_started | not_started | not_started | not_started | Cross-product breakthrough chapter |
+| CH27 | The Client Graph | not_started | not_started | not_started | not_started | not_started | Cross-product intelligence chapter |
+| CH28 | Event-Driven Intelligence Layer | not_started | not_started | not_started | not_started | not_started | Cross-product intelligence chapter |
+| CH29 | Autonomous Operations at Scale | not_started | not_started | not_started | not_started | not_started | Cross-product intelligence chapter |
+| CH30 | From Servicer to Decision Platform | not_started | not_started | not_started | not_started | not_started | Market-expansion chapter |
+| CH31 | AI-Native Financial Products | not_started | not_started | not_started | not_started | not_started | Market-expansion chapter |
+| CH32 | Tokenization and AI | not_started | not_started | not_started | not_started | not_started | Market-expansion adjacency |
+| CH33 | The Competitive Reset | not_started | not_started | not_started | not_started | not_started | Market-expansion chapter |
+| CH34 | Why Transformation Fails in Banks | not_started | not_started | not_started | not_started | not_started | Execution chapter |
+| CH35 | Forward Deployed Engineering (FDE) | not_started | not_started | not_started | not_started | not_started | Execution chapter |
+| CH36 | Phased Adoption Strategy | not_started | not_started | not_started | not_started | not_started | Execution chapter |
+| CH37 | Build vs Buy vs Partner | not_started | not_started | not_started | not_started | not_started | Execution chapter |
+| CH38 | The 5-Year Roadmap | not_started | not_started | not_started | not_started | not_started | Execution capstone |
+| CH39 | BNY as the Intelligence Layer of Global Finance | not_started | not_started | not_started | not_started | not_started | Closing chapter |
 
 ## Definitions
 
@@ -26,40 +62,28 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Session Log
 
-### 2026-03-20
+### 2026-04-04
 
-- Cleared project-specific references to reset the repository as a neutral scaffold.
-- Reframed the tracker for a fresh book-project initialization.
-- Initialized a local git repository and connected it to the GitHub remote `https://github.com/mrodek/ghostwriter.ai.git`.
-- Created the first local commit and pushed `main` to GitHub.
-- Created the working branch `codex/fde-playbook` for the first concrete book instance.
-- Added the source outline PDF to `02_outline/master_outline_source.pdf` and marked `master_outline.md` as blocked pending extraction.
-- Reformatted the pasted outline into a clean working `02_outline/master_outline.md`.
-- Built `02_outline/chapter_map.md` with chapter purposes, readers, priorities, and drafting sequence.
-- Created the initial Chapter 1 artifact set in `04_manuscript/chapter_01`.
-- Logged the first Chapter 1 external research set and moved CH01 into `researching`.
-- Drafted `04_manuscript/chapter_01/draft_v1.md` and moved CH01 into `drafting`.
-- Added `04_manuscript/chapter_01/source_notes.md` and created `draft_v2.md` for editorial review.
-- Created the initial Chapter 2 artifact set in `04_manuscript/chapter_02`.
-- Logged the first Chapter 2 external research set and moved CH02 into `researching`.
-- Drafted `04_manuscript/chapter_02/draft_v1.md` and moved CH02 into `drafting`.
-- Created `04_manuscript/chapter_02/draft_v2.md` and moved CH02 into `revising`.
-- Created `04_manuscript/chapter_02/draft_v3.md` as a continuity pass aligned to the Palantir/BNY model.
-
-### 2026-03-19
-
-- Created project directory structure.
-- Added project templates and tracker files.
-- Established chapter lifecycle and artifact model.
-- Decided to split progress tracking into a dashboard plus a detailed log.
-- Added roadmap artifacts to preserve the future `ghostwriter.ai` scaffold idea.
+- Replaced the prior book-specific tracker state with a clean BNY initialization baseline.
+- Normalized `02_outline/source_documents/draft outline.md` into a working `02_outline/master_outline.md`.
+- Built `02_outline/chapter_map.md` for all 39 chapters with purposes, readers, priorities, and suggested drafting sequence.
+- Reset the project dashboard to reflect a fresh start focused on the BNY manuscript.
+- Set the next milestone to creating the CH01 artifact set and starting the opening sequence.
+- Created the CH01 artifact set with a tailored chapter brief, initial research tracker, and first-pass claim register.
+- Moved CH01 to `brief_ready`.
+- Populated the first CH01 source set and moved the chapter into `researching`.
+- Added a second CH01 research pass focused on plain-English clearing, settlement, and infrastructure explanation.
+- Added a third CH01 research pass with a custody explainer source from the OCC.
+- Created `04_manuscript/chapter_01/draft_v1.md` and `source_notes.md` to begin prose drafting from the validated source set.
+- Ran a CH01 challenge round; outcome was `revise before proceeding` with recommendation to keep the overture quality but add one concrete operating layer.
+- Created `04_manuscript/chapter_01/draft_v2.md` to address the challenge round with a concrete downstream workflow paragraph and sharper structural distinction.
 
 ## Next Actions
 
-1. Review and edit `04_manuscript/chapter_02/draft_v3.md`.
-2. Continue reviewing `04_manuscript/chapter_01/draft_v2.md` via chat.
-3. Add a comparison table and one concrete example to Chapter 2 in the next revision.
-4. Commit the current FDE branch progress.
+1. Complete the rest of CH01 so the draft moves beyond the opening argument into the full chapter arc.
+2. Decide whether CH01 should stay as a deliberately overture-like chapter or absorb one additional concrete example before editor review.
+3. Initialize CH02 after the CH01 checkpoint commit.
+4. Validate the 39-chapter structure against intended final manuscript length and trim or consolidate if needed before broad chapter creation.
 
 ## Update Rules
 
