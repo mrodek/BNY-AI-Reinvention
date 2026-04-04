@@ -54,6 +54,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Added Chapter 3 Image Prompt Artifact
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/prompts.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 prompt library now includes a low-fidelity pencil-sketch prompt for the trade-flow diagram
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: store image-generation prompts in a chapter-local `prompts.md` file instead of leaving them only in chat
+- Rationale: visual prompts are part of the working manuscript system and should be reusable, editable, and reviewable on disk
+- Alternatives rejected: keeping the prompt only in chat or scattering visual notes into unrelated files
+
+### Issues & Resolution
+- Issue: the chapter now needs diagram support, and those prompts would otherwise be easy to lose
+- Resolution: create a dedicated prompt artifact in the CH03 folder and seed it with the first diagram prompt
+
+### Editorial Comments
+- Comment: we should probably create a `prompts.md` file for storing these types of prompts
+- Response: created the file and added the first CH03 diagram prompt
+
+### Lessons Learned
+- Insight: image prompts are durable chapter assets, not disposable chat output
+- What worked: treating the diagram prompt as part of the chapter artifact set
+- What did not: leaving visual-generation instructions only in the conversation
+
+### Next Steps
+- [ ] Use the CH03 prompt to generate an initial low-fidelity diagram
+- [ ] Decide whether later chapters need their own chapter-local `prompts.md` files or a shared visual-prompt pattern
+- [ ] Refine the prompt if the first generated sketch over-polishes the diagram
+
 ## [2026-04-04] - Drafted Chapter 3 Version 2
 
 ### Summary
