@@ -212,9 +212,31 @@ Each entry should use this structure:
 A work session is not fully complete until:
 
 - relevant artifacts are written to disk
-- the tracker is updated if status changed
-- the detailed progress log is updated if meaningful work occurred
+- `00_admin/progress_tracker.md` is updated to reflect the current chapter status and latest draft version
+- `00_admin/progress_log.md` has a new entry covering what was done, decisions made, and next steps
 - next steps are left in a restartable state
+
+**Progress tracking is mandatory and immediate — not optional, not deferred to the end of a session.** Both `progress_tracker.md` and `progress_log.md` must be updated in the same work pass as the draft or artifact change that triggered them. Do not let tracker state drift from disk state.
+
+Update `00_admin/progress_tracker.md` immediately after any of the following:
+
+- a new draft file is created (`draft_v1.md`, `draft_v2.md`, etc.)
+- a chapter changes lifecycle status
+- a challenge round is created or materially updated
+- a cohesion review, editorial pass, or structural change affects one or more chapters
+- the project focus, milestone, or next actions change
+
+The chapter status table must always match the actual latest draft version on disk. If the table says `draft_v2_ready` and `draft_v3.md` now exists, the tracker is wrong and must be corrected before any other work continues.
+
+Update `00_admin/progress_log.md` immediately after any of the following:
+
+- a draft is created or revised
+- a challenge round is run or updated
+- a cohesion or editorial review is completed
+- a material decision is made about scope, structure, or direction
+- a blocker is encountered or resolved
+
+Each log entry must follow the entry template in the file. Insert new entries directly below `## Entries` so the newest entry is always at the top.
 
 For research sessions specifically:
 
@@ -228,3 +250,4 @@ For drafting sessions specifically:
 - material editorial feedback delivered in chat should be summarized into `00_admin/progress_log.md` under `Editorial Comments`
 - before moving from an exploratory early draft to a more polished later draft, run a challenge round when the chapter would benefit from assumption-testing or practitioner pushback
 - challenge rounds should ask what insiders, adjacent functions, practitioners, or executives would dispute, and what should be changed before the next draft
+- immediately after creating or revising a draft, update both `00_admin/progress_tracker.md` and `00_admin/progress_log.md` — do not batch these updates to the end of the session
