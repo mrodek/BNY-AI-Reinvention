@@ -207,8 +207,6 @@ Each entry should use this structure:
 - Include related tracking updates (`00_admin/progress_tracker.md`, `00_admin/progress_log.md`, and any chapter artifacts touched in the same pass) in the same commit when they are part of that drafting step.
 - If a session also includes setup or scaffold changes, checkpoint those first, then commit each chapter draft separately as soon as the relevant `draft_vN.md` file is created or materially revised.
 - Recommended commit message pattern: `chapter XX: add/update draft_vN`.
-- If a session also includes setup or scaffold changes, checkpoint those first, then commit each chapter draft separately as soon as the relevant \draft_vN.md` file is  
-  created or materially revised.`        
 
 ## Completion Rule
 
