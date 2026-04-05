@@ -1,0 +1,10 @@
+# Editors ::: notes
+
+## 4/5/2026 9:30am
+- We mention DTCC multiple times in this book already but we have not yet explained what it is. We need a clear explianation of what it is and why it is important. We should also explain how it relates to the financial industry and why it is relevant to our readers. Perhaps in an an earlier chapter but unsure where. We should also consider adding a section on the history of DTCC and how it has evolved over time to become the important institution it is today.
+- NAV is also mentioned multiple times but we have not yet explained what it is. We need a clear explanation of what it is and why it is important. We should also explain how it relates to the financial industry and why it is relevant to our readers.
+- Does NAV require a separate section or can it be explained in the same section as DTCC? We should consider how to best organize the information to make it clear and easy to understand for our readers.
+- Does NAV need to be realtime?
+- Chapter 5 is very narrative heavy but  I wonder if it should be paired with some mechnical and visual elements to make it more engaging and easier to follow. We should consider adding some diagrams, charts, or other visual aids to help illustrate the concepts we are discussing in this chapter.
+
+:::

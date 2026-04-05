@@ -1,4 +1,4 @@
-# **BNY — The AI Reinvention**
+yes # **BNY — The AI Reinvention**
 
 ### *From Financial Infrastructure to Intelligent Platform*
 

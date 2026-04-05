@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Final-Polished Chapter 3 And Checkpointed Deferred Files
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/draft_v5.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 `draft_v5` as a light polish pass before editor review; previously untracked CH03 artifacts are being checkpointed on the branch
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: treat the pending CH03 prose cleanup as a real new draft version rather than leave it as an untracked local file
+- Rationale: the chapter already passed its challenge round, and the remaining work was clearly a light editor-facing polish rather than a structural rewrite
+- Alternatives rejected: discarding the `draft_v5` polish, or committing the file without updating the tracker and log
+
+### Issues & Resolution
+- Issue: CH03 had an uncommitted final polish pass and several earlier artifact files still sitting untracked in the worktree
+- Resolution: formalize the polish as `draft_v5`, move CH03 to effective editor-review status, and checkpoint the pending CH03 artifact files so the manuscript history on the branch matches the files already on disk
+
+### Editorial Comments
+- Comment: please commit all those files you mentioned
+- Response: checkpointed the deferred CH03 and editorial-support files and aligned the tracker state with the actual latest draft
+
+### Lessons Learned
+- Insight: once a chapter has passed its challenge round, even a small prose polish should still be treated as a proper tracked draft if it changes the reader-facing text
+- What worked: keeping the CH03 pass narrow and editor-facing rather than reopening structure
+- What did not: leaving real draft movement and artifact files uncommitted in the background
+
+### Next Steps
+- [ ] Start CH06 `draft_v1`
+- [ ] Keep CH06 at CH05's operator-first level of detail rather than letting it fall back into a thinner market-structure explainer
+
 ## [2026-04-05] - Deepened Chapter 6 Research To Match Chapter 5's Level Of Detail
 
 ### Summary
