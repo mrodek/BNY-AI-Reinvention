@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Added Reader Scaffolding For DTCC And NAV
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/draft_v4.md`, `04_manuscript/chapter_05/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 now includes a concise DTCC explainer; CH05 now includes a plain-English NAV definition and a process table
+- Chapter(s) affected: CH03, CH05
+
+### Decisions
+- Decision: address the editorial concern through a focused reader-scaffolding pass rather than another broad rewrite
+- Rationale: the manuscript needed clearer onboarding for two recurring concepts, DTCC and NAV, plus one mechanical aid in CH05 so the operating layers are easier to scan
+- Alternatives rejected: adding a standalone DTCC history section, creating a separate NAV sidebar, or leaving CH05 prose-only
+
+### Issues & Resolution
+- Issue: the book referenced DTCC and NAV repeatedly without giving the reader a clean first explanation, and CH05 remained more narrative than mechanical
+- Resolution: add one sentence in CH03 defining DTCC in the post-trade sequence, define NAV directly inside CH05's valuation section, and add a compact process table near the start of CH05
+
+### Editorial Comments
+- Comment: DTCC and NAV need clearer explanation, and CH05 may benefit from a more mechanical element
+- Response: added the DTCC explainer upstream in CH03 and the NAV definition plus process table in CH05
+
+### Lessons Learned
+- Insight: some clarity problems are better solved by small reader-scaffolding inserts than by deeper research or more prose
+- What worked: placing each explanation where the reader naturally encounters the concept
+- What did not: leaving repeated terms to be inferred from surrounding context
+
+### Next Steps
+- [ ] Re-read CH03 `draft_v4` and CH05 `draft_v2` to judge whether the new scaffolding is enough or needs one more tightening pass
+- [ ] Decide whether CH05 is ready for a challenge round from practitioner and editorial perspectives
+
 ## [2026-04-05] - Clarified Regulatory Custody Language In Chapters 3 And 5
 
 ### Summary
