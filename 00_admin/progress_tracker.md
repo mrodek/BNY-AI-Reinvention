@@ -6,7 +6,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 - Current phase: initialization
 - Current focus: convert the draft BNY outline into working manuscript architecture and start the opening chapters from a clean new-book baseline
-- Next milestone: run a CH03 challenge round against `draft_v4`, now that the diagram and chapter language are aligned
+- Next milestone: apply the minor CH03 challenge-round cleanup and decide whether the chapter is ready for editor review
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -15,7 +15,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | CH01 | The Bank You Don't See | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge-round revision added a concrete operating layer and stronger peer distinction |
 | CH02 | The Global Asset Machine | drafting | in_progress | draft_v3_ready | not_started | not_started | Draft v3 adds a failure-chain illustration and sharper early strategic framing |
-| CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v4_ready | not_started | not_started | Draft v4 aligns the diagram with the prose, defines `NSCC` on first mention, and clarifies that BNY is strongest in the post-trade layer while also touching some execution and clearing-related services |
+| CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v4_ready | in_progress | not_started | Challenge round passed with minor revisions; draft now marks the named brokers as illustrative and the diagram is positioned as a base model for later expansion |
 | CH04 | Why This Model Works | not_started | not_started | not_started | not_started | not_started | Opening-section capstone |
 | CH05 | Asset Servicing (Custody and Fund Accounting) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH06 | Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -92,13 +92,15 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Added `04_manuscript/chapter_03/images/tradelifecycle.png` and integrated it into `draft_v3.md` with a caption clarifying the diagram's simplifications.
 - Created `04_manuscript/chapter_03/draft_v4.md` to match the revised BNY-free diagram and define `National Securities Clearing Corporation (NSCC)` on first mention.
 - Refined `04_manuscript/chapter_03/draft_v4.md` to state explicitly that BNY is most visible in post-trade and servicing, while some BNY businesses also participate in execution and clearing-related services.
+- Ran a CH03 challenge round and accuracy check; outcome was `pass with minor revisions`.
+- Applied the CH03 challenge-round cleanup by marking the named brokers as illustrative and updating `prompts.md` so the diagram can serve as the base layer for later Part II and Part V expansions.
 
 ## Next Actions
 
-1. Run a CH03 challenge round against `draft_v4`.
+1. Decide whether CH03 is ready for editor review or should receive one more light polish pass.
 2. Re-read CH02 and decide whether it is ready for editor review or needs one more continuity pass.
 3. Complete the rest of CH01 so the draft moves beyond the opening argument into the full chapter arc.
-4. Decide whether to continue CH03 or move to the next chapter after review.
+4. Reuse the CH03 diagram structure when drafting the more detailed current-state and AI-native workflow chapters.
 
 ## Update Rules
 

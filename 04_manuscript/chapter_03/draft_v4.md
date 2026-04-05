@@ -1,6 +1,6 @@
 # A Day in the Life of a Trade
 
-The easiest way to understand the hidden machine beneath finance is to stop talking about the system in the abstract and follow one transaction all the way through it. So start with something familiar. You open E*TRADE and decide to buy 100 shares of a public company. Somewhere else, another investor, institution, or fund has decided to sell those shares through a different broker. The order is placed. The trade is executed. From your point of view, it can feel like the event is over almost as soon as it begins. You clicked buy. A seller existed. The market matched the trade. A position appears on a screen.
+The easiest way to understand the hidden machine beneath finance is to stop talking about the system in the abstract and follow one transaction all the way through it. So start with something familiar. Imagine, for illustration, that you open E*TRADE and decide to buy 100 shares of a public company while, somewhere else, another investor or fund uses Fidelity Institutional to sell those shares through a different broker. The order is placed. The trade is executed. From your point of view, it can feel like the event is over almost as soon as it begins. You clicked buy. A seller existed. The market matched the trade. A position appears on a screen.
 
 But execution is only the visible beginning.
 

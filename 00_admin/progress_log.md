@@ -54,6 +54,64 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Applied Chapter 3 Challenge-Round Cleanup
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/draft_v4.md`, `04_manuscript/chapter_03/prompts.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 now marks the named brokers as illustrative examples, and the diagram prompt is updated so the current image can serve as the base structure for later chapter expansions
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: keep the current image as the foundation for later workflow diagrams rather than treating it as a one-off illustration
+- Rationale: the diagram now teaches a clean system model that can be decomposed and deepened across current-state and AI-native business-line chapters without changing the reader's mental model
+- Alternatives rejected: replacing the image again now, or treating it as too simple to reuse later
+
+### Issues & Resolution
+- Issue: the challenge round recommended clarifying that the named brokers were illustrative, and there was an open question about whether the current diagram could scale into Part II
+- Resolution: revise the chapter opening to make the example illustrative and update `prompts.md` usage notes so the CH03 image is explicitly treated as the base layer for later expansions
+
+### Editorial Comments
+- Comment: apply the recommendations and validate that the image can be the foundation from which we can expand in Part 2 of the book
+- Response: applied the recommendation in the draft and confirmed the diagram is suitable as a reusable base model for later chapters
+
+### Lessons Learned
+- Insight: a simple diagram is more valuable when it establishes a reusable reader mental model than when it tries to capture every institution-specific detail upfront
+- What worked: keeping the CH03 image generic enough to expand into later business-line chapters
+- What did not: earlier prompt language that tied the diagram too tightly to BNY
+
+### Next Steps
+- [ ] Decide whether CH03 is ready for editor review
+- [ ] Reuse the CH03 diagram logic when drafting CH05, CH06, and later AI-native workflow chapters
+
+## [2026-04-04] - Challenge Round Passed For Chapter 3
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/challenge_round.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 challenge round with explicit accuracy check against BNY, BNY Pershing, DTCC, and OCC descriptions
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: keep the diagram and the current core chapter structure
+- Rationale: after removing BNY from the image and tightening the prose, the chapter is now directionally accurate and readable without making a major claim that obviously fails scrutiny
+- Alternatives rejected: dropping the image, rewriting the chapter around institution-level market structure, or treating the chapter as inaccurate in its current overall form
+
+### Issues & Resolution
+- Issue: concern that the chapter and diagram might still overstate or misplace BNY's role in execution, clearing, and custody
+- Resolution: checked the chapter against current official descriptions and concluded that the chapter survives if BNY remains framed as strongest in post-trade and servicing, while some BNY businesses also participate in execution and clearing-related services for specific client segments
+
+### Editorial Comments
+- Comment: should we do a challenge round and also check for accuracy
+- Response: yes; the challenge round outcome is `pass with minor revisions`
+
+### Lessons Learned
+- Insight: the chapter becomes much easier to defend when the image teaches the flow and the prose carries the institution-specific nuance
+- What worked: neutralizing the figure and keeping BNY-specific precision in the text
+- What did not: earlier versions that implied a more literal BNY endpoint
+
+### Next Steps
+- [ ] Optionally add one short clause clarifying that the named brokers are illustrative examples
+- [ ] Decide whether CH03 should move to editor review or receive one final light polish
+
 ## [2026-04-04] - Drafted Chapter 3 Version 4 To Match The Revised Diagram
 
 ### Summary
