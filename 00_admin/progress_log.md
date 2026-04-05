@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Added An Illustrative Instruction Example To Chapter 5
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH05 `draft_v2` now includes a compact settlement-instruction example in the custody section
+- Chapter(s) affected: CH05
+
+### Decisions
+- Decision: make the custody flow more concrete by adding one small illustrative instruction example rather than leaving "instructions" as an abstract term
+- Rationale: the chapter already described where friction appears, but one compact example makes it easier for readers to visualize how settlement fields, account setup, and counterparty records create downstream breaks
+- Alternatives rejected: adding no example, or inserting a detailed message-spec style example that would make the chapter feel like an operations manual
+
+### Issues & Resolution
+- Issue: the custody section still risked feeling hand-wavy at the moment it introduced instructions
+- Resolution: add a simple table showing the main elements of a settlement instruction and one sentence on how mismatches turn into fails, reconciliation items, or exception queues
+
+### Editorial Comments
+- Comment: should we include sample instructions so the reader can better conceptualize the flow rather than it being hand wavy?
+- Response: added one compact illustrative instruction example to CH05
+
+### Lessons Learned
+- Insight: one well-placed miniature example can make an operational chapter feel materially more concrete without expanding it into technical documentation
+- What worked: using a field-level illustration rather than a proprietary or overly detailed message format
+- What did not: leaving instructions only implied after the chapter had otherwise become fairly mechanical
+
+### Next Steps
+- [ ] Re-read CH05 `draft_v2` and decide whether another compact example is needed in the books-and-records or corporate-actions sections
+- [ ] Decide whether CH05 is ready for a challenge round from practitioner and editorial perspectives
+
 ## [2026-04-05] - Added Reader Scaffolding For DTCC And NAV
 
 ### Summary

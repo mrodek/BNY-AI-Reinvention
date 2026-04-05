@@ -26,6 +26,21 @@ The first layer is custody. In plain language, custody includes safekeeping secu
 
 That operating posture matters. A global custodian sits in the middle of instructions, counterparties, market cutoffs, local conventions, and the daily status changes of large volumes of positions and cash. Trades do not simply appear in a final state. They are instructed, matched, settled, sometimes delayed, sometimes corrected, and then reflected through downstream records and reports. A custodian's job is to keep that chain moving while preserving confidence that the official record remains right enough to govern from. Reporting is therefore not an afterthought. It is one of the mechanisms by which the client remains able to supervise the position and cash picture it has delegated to someone else.
 
+At a practical level, an instruction is simply the operational message that tells the system what has to move, between which accounts, against which counterparty, on which date, and under what settlement conditions. A simplified instruction might look like this:
+
+| Field | Illustrative value |
+| --- | --- |
+| Instruction type | Receive versus deliver |
+| Account | Fund account or custody account identifier |
+| Security | ISIN, CUSIP, or other security identifier |
+| Quantity | Number of shares or face amount |
+| Counterparty or agent | Broker, custodian, or settlement agent |
+| Settlement date | Contractual date for completion |
+| Cash amount and currency | Amount to be paid or received |
+| Settlement location | Market, depository, or local settlement venue |
+
+If one of those fields is missing, stale, or inconsistent with standing settlement instructions, account setup, market convention, or counterparty records, the problem usually reappears downstream as a failed settlement, a reconciliation item, or an exception queue rather than as one cleanly isolated error.
+
 The supporting processes under this layer are where a practitioner begins to see the real friction points. Settlement support depends on timely instructions, reference-data quality, local-market knowledge, and coordination with sub-custodians and counterparties. Position and cash breaks can emerge from timing mismatches, failed settlements, market claims, stale status messages, or data that lands differently in different ledgers. The public sources do not give BNY's internal exception taxonomy, but they make clear that the custody layer is built around continuous monitoring, reconciliation, and operational oversight rather than around static storage.^[SRC-005]^[SRC-008]^[SRC-018]
 
 This is the first place where the chapter's "strong business, messy internals" framing becomes visible. Custody can look stable to the client precisely because a large amount of control work has already been applied underneath. The provider absorbs timing pressure, market complexity, and record-alignment effort before the client sees the output.
