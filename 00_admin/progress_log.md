@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Clarified Corporate Actions In Chapter 5
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH05 `draft_v2` now defines corporate actions more plainly, gives concrete examples, and explains why they matter operationally
+- Chapter(s) affected: CH05
+
+### Decisions
+- Decision: expand the corporate-actions section with a short definition, a few recognizable examples, and a direct explanation of why those events create friction
+- Rationale: the chapter already named corporate actions as an important layer, but it did not give the reader enough concrete substance to understand why this process is one of the main stress points in servicing operations
+- Alternatives rejected: leaving the section abstract, or adding a much longer operations-manual-style treatment that would slow the chapter down
+
+### Issues & Resolution
+- Issue: "corporate actions" was still too much of a practitioner shorthand term inside an otherwise increasingly concrete chapter
+- Resolution: define the term as issuer- or fund-initiated events that change holder entitlements or required next steps, add examples such as dividends, stock splits, tender offers, mergers, rights issues, and fund distributions, and explain how these events test position data, elections, deadlines, books, and reporting
+
+### Editorial Comments
+- Comment: define and provide examples of corporate actions and why they matter
+- Response: revised the CH05 corporate-actions section so the term is defined, illustrated, and connected to operational consequences
+
+### Lessons Learned
+- Insight: when a chapter uses operator vocabulary, the highest-value clarification is often one level below the label, where the reader can see concrete event types and downstream consequences
+- What worked: anchoring the section in recognizable events and then tying those events back to entitlements, elections, books, and reporting
+- What did not: relying on the term "corporate actions" alone to carry the importance of the workflow
+
+### Next Steps
+- [ ] Re-read CH05 `draft_v2` and decide whether the chapter now has enough concrete detail to support a practitioner challenge round
+- [ ] Decide whether CH05 should get one more light tightening pass before review
+
 ## [2026-04-05] - Expanded Local-Market Complexity In Chapter 5
 
 ### Summary
