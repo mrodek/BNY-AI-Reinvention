@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Reframed Chapter 1 After Drafting Chapters 2 And 3
+
+### Summary
+- Files changed: `04_manuscript/chapter_01/draft_v3.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH01 `draft_v3` now functions more clearly as the book's overture, with less duplicated mechanics and a stronger handoff into CH02 and CH03
+- Chapter(s) affected: CH01
+
+### Decisions
+- Decision: lean into CH01 as an intentional overture rather than trying to make it carry system-model detail that now belongs in CH02 and CH03
+- Rationale: once the system chapter and trade walkthrough existed, CH01 no longer needed to prove its seriousness by partially duplicating their explanatory work
+- Alternatives rejected: keeping the prior heavier operating paragraph structure, or expanding CH01 further into mechanics despite the later chapters already doing that job better
+
+### Issues & Resolution
+- Issue: after CH02 and CH03 were drafted, CH01 risked repeating explanatory work instead of orienting the reader cleanly toward the broader thesis
+- Resolution: create `draft_v3` that sharpens the visibility paradox, peer framing, and systemic-importance argument while using the ending to hand the reader into the next two chapters
+
+### Editorial Comments
+- Comment: should we revisit chapter one now that we've completed 2 and 3?
+- Response: yes; the chapter was revised to become a cleaner opening overture now that the downstream explanatory burden is carried elsewhere
+
+### Lessons Learned
+- Insight: opening chapters get better once the next two chapters exist, because the writer can stop making Chapter 1 do defensive explanatory work
+- What worked: narrowing CH01 to visibility, embeddedness, peer comparison, and systemic significance
+- What did not: letting CH01 hold on to mechanics that were now better expressed in later chapters
+
+### Next Steps
+- [ ] Run a CH01 challenge round against `draft_v3`
+- [ ] Decide whether CH01 is ready for editor review or needs one more focused revision
+
 ## [2026-04-04] - Applied Chapter 3 Challenge-Round Cleanup
 
 ### Summary
