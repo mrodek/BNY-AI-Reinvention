@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Applied Chapter 1 Wording Refinements
+
+### Summary
+- Files changed: `04_manuscript/chapter_01/draft_v3.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH01 `draft_v3` now uses slightly tighter language around systemic importance and strategic significance
+- Chapter(s) affected: CH01
+
+### Decisions
+- Decision: apply the two minor wording refinements recommended by the challenge round
+- Rationale: the chapter was already structurally sound, but these edits reduce avoidable overstatement and keep the tone analytic
+- Alternatives rejected: leaving the stronger phrasing in place despite the challenge-round concerns
+
+### Issues & Resolution
+- Issue: two lines in CH01 still read slightly more forcefully or subjectively than the rest of the chapter
+- Resolution: replaced "cannot function without" with more precise infrastructure language and changed "most interesting" to "most strategically important"
+
+### Editorial Comments
+- Comment: go ahead and make the changes
+- Response: applied both recommended CH01 wording refinements
+
+### Lessons Learned
+- Insight: once a chapter is structurally correct, small tone calibrations can materially improve credibility without changing the argument
+- What worked: narrowing the wording rather than reopening the chapter's structure
+- What did not: leaving a few high-heat phrases in an otherwise disciplined opening
+
+### Next Steps
+- [ ] Decide whether CH01 is ready for editor review
+- [ ] Re-read CH02 and CH03 for readiness and sequencing
+
 ## [2026-04-04] - Challenge Round Passed For Chapter 1
 
 ### Summary
