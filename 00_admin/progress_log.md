@@ -54,6 +54,124 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Drafted Chapter 5 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/chapter_brief.md`, `04_manuscript/chapter_05/source_notes.md`, `04_manuscript/chapter_05/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH05 `source_notes.md`, first prose draft, and tracker state moved into drafting
+- Chapter(s) affected: CH05
+
+### Decisions
+- Decision: draft CH05 now from the expanded process-level research base rather than pause for another research pass
+- Rationale: the second research round supplied enough public support for custody operations, fund-accounting depth, reconciliation, corrections, and transfer-agency process flow to make a defensible current-state chapter
+- Alternatives rejected: waiting for a perfect economics source set before writing, or drafting with stronger claims about BNY-specific fragmentation than the sources support
+
+### Issues & Resolution
+- Issue: the chapter needed to show operational burden clearly without falling into vague "messy internals" rhetoric
+- Resolution: write the chapter around concrete process layers such as custody, fund accounting, administration, reporting, investor servicing, reconciliations, and corrections, while keeping internal-fragmentation language qualified
+
+### Editorial Comments
+- Comment: go ahead and draft
+- Response: created CH05 `draft_v1` and `source_notes.md`
+
+### Lessons Learned
+- Insight: Part II business-line chapters get much stronger when the prose is organized around operating layers rather than product labels
+- What worked: treating reconciliation, exception handling, and transfer activity as chapter-usable process evidence rather than as abstract support points
+- What did not: nothing material in this pass, though the chapter should still be pressure-tested for tone and specificity before revision
+
+### Next Steps
+- [ ] Re-read CH05 `draft_v1` and decide whether to run a challenge round before revision
+- [ ] If revising, tighten any paragraph that sounds too general compared with the now stronger process evidence
+- [ ] Commit and push the CH05 draft work as `chapter 05: add draft_v1`
+
+## [2026-04-04] - Completed Chapter 5 Deep Research Pass 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/research_tracker.md`, `04_manuscript/chapter_05/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH05 research tracker expanded with operational-process sources; claim register updated to reflect stronger process-level support
+- Chapter(s) affected: CH05
+
+### Decisions
+- Decision: expand CH05 with a second research pass centered on how asset servicing actually operates, not just how BNY packages the offering
+- Rationale: the first pass was good enough to define the service stack, but not strong enough to support reconciliation, corrections, transfer activity, and exception handling with sufficient public evidence
+- Alternatives rejected: drafting immediately from the first pass, or making stronger "messy internals" claims without independent operational-process sources
+
+### Issues & Resolution
+- Issue: most first-pass evidence came from BNY's own descriptions, which left the operational-burden argument under-supported
+- Resolution: add BNY operating-process pages plus neutral infrastructure and practitioner sources from DTCC and KPMG, with State Street as industry corroboration, so the chapter can describe trade processing, settlement support, reconciliations, corrections, and transfer-agency operations more directly
+
+### Editorial Comments
+- Comment: run a deeper round and include a search for operational processes that describe how the business operates
+- Response: completed a second CH05 research pass using process-oriented sources rather than only high-level service descriptions
+
+### Lessons Learned
+- Insight: CH05 becomes much more defensible when the operating-burden argument is tied to specific processes such as reconciliations, corrections, account transfer activity, and account-level data exchange
+- What worked: combining BNY operating pages with DTCC fund-operations material and one practitioner source on asset-servicing economics and exception management
+- What did not: relying on top-level platform language alone to carry the workflow-reality argument
+
+### Next Steps
+- [ ] Decide whether CH05 now has enough support to move into `draft_v1`
+- [ ] If drafting begins, create `04_manuscript/chapter_05/source_notes.md` immediately so the process claims stay traceable
+- [ ] If one more source is needed, target a practitioner or regulator source on corporate-actions exceptions, pricing exceptions, or NAV-error governance
+
+## [2026-04-04] - Started Chapter 5
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/chapter_brief.md`, `04_manuscript/chapter_05/research_tracker.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH05 artifact set and tailored brief
+- Chapter(s) affected: CH05
+
+### Decisions
+- Decision: start Part II with asset servicing as the first operator-level business-line chapter
+- Rationale: custody and fund accounting are central to the BNY model and provide a strong bridge from the opening-section infrastructure chapters into the current-state business-line diagnosis
+- Alternatives rejected: jumping to another business line first or leaving CH05 too broad to become operationally credible
+
+### Issues & Resolution
+- Issue: CH05 needs to describe a complex workflow stack without collapsing into brochure language or generic bank-operations prose
+- Resolution: define the brief around custody, fund accounting, reporting, investor servicing, and where coordination burden still dominates beneath the polished surface
+
+### Editorial Comments
+- Comment: lets move on to chapter 5 part II
+- Response: started CH05 and framed it as the first true Part II business-line chapter
+
+### Lessons Learned
+- Insight: Part II chapters need tighter operator framing than the opening section, or they will drift back into high-level strategy language
+- What worked: setting the chapter up around workflow reality and operating burden from the start
+- What did not: treating a business-line chapter as just another narrative explanation chapter
+
+### Next Steps
+- [ ] Run the first CH05 research pass
+- [ ] Decide which workflow pain points are safest to support directly from public materials
+
+## [2026-04-04] - Completed Chapter 5 Deep Research Pass 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/research_tracker.md`, `04_manuscript/chapter_05/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH05 source set, research notes, and initial claim register
+- Chapter(s) affected: CH05
+
+### Decisions
+- Decision: define CH05 around an integrated servicing stack that combines custody, fund accounting, administration, reporting, and investor servicing rather than treating custody alone as the chapter's center
+- Rationale: BNY's own current materials consistently present these capabilities as one operating model, and that makes the business more intelligible and more strategically important than a narrow safekeeping-only framing
+- Alternatives rejected: writing CH05 as a pure custody chapter or overstating workflow pain points beyond what public sources support
+
+### Issues & Resolution
+- Issue: the chapter needs to surface messy internals without making unsupported claims about internal fragmentation or manuality
+- Resolution: use BNY's own emphasis on unified data ecosystems, standardized workflows, reduced manual effort, automated oversight, controls, and reporting as the public basis for careful inference about coordination burden and exception-heavy realities
+
+### Editorial Comments
+- Comment: do a deep research round
+- Response: completed the first deep CH05 research pass and built the claim register from primary and supervisory sources
+
+### Lessons Learned
+- Insight: the strongest public evidence for CH05 comes from reading BNY's integration and automation language as a map of where the current operating burden already exists
+- What worked: combining fund-accounting, administration, custody, and annual-report materials rather than relying on one product page
+- What did not: treating workflow pain purely as assumption instead of grounding it in BNY's own stated value propositions
+
+### Next Steps
+- [ ] Decide whether CH05 needs one more research pass before drafting
+- [ ] Start structuring the chapter if the current source base is sufficient
+
 ## [2026-04-04] - Started Chapter 4
 
 ### Summary
