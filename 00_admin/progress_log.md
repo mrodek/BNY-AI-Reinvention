@@ -54,6 +54,37 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Drafted Chapter 3 Version 4 To Match The Revised Diagram
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/draft_v4.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 `draft_v4` now matches the revised diagram, removes the stale BNY-specific captioning, and defines `National Securities Clearing Corporation (NSCC)` on first mention
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: keep the diagram in the chapter, but treat it as a conceptual sketch of the post-trade flow rather than a literal map of BNY's insertion point
+- Rationale: once BNY was removed from the image, the figure became much easier to defend, and the chapter could explain BNY's role in prose instead of overclaiming in the visual
+- Alternatives rejected: leaving the older BNY-specific caption in place, or dropping the figure entirely
+
+### Issues & Resolution
+- Issue: the revised image no longer showed BNY, but the chapter caption still referred to BNY and the draft still used `NSCC` without defining it
+- Resolution: create `draft_v4` with a neutral figure caption and define `National Securities Clearing Corporation (NSCC)` the first time it appears
+
+### Editorial Comments
+- Comment: review the updated image and make appropriate adjustments to the chapter
+- Response: revised the figure caption and body text so the diagram and prose now make the same claim
+- Comment: if using abbreviations be sure to define them; I don't know NSCC
+- Response: `NSCC` is now spelled out on first mention in the chapter draft
+
+### Lessons Learned
+- Insight: a finance diagram becomes much easier to defend when the visual explains the system and the prose carries the institution-specific argument
+- What worked: removing BNY from the figure while keeping the BNY explanation in the surrounding chapter text
+- What did not: letting the diagram and the prose drift out of sync after the image changed
+
+### Next Steps
+- [ ] Run a CH03 challenge round against `draft_v4`
+- [ ] Decide whether the chapter is now strong enough for editor review or needs one more revision pass
+
 ## [2026-04-04] - Drafted Chapter 3 Version 3 With Diagram Integration
 
 ### Summary
