@@ -54,6 +54,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Drafted Chapter 3 Version 3 With Diagram Integration
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/draft_v3.md`, `04_manuscript/chapter_03/images/tradelifecycle.png`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 `draft_v3` now includes the trade-flow image and explicit captioning about what the diagram simplifies
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: include the low-fidelity trade-flow image directly in the chapter draft, but add a caption clarifying that BNY is shown as part of the custody and settlement-support layer rather than the universal endpoint of every retail trade
+- Rationale: the diagram is directionally useful and helps broad readers, but without the caption it slightly overstates how directly every retail stock purchase maps to BNY
+- Alternatives rejected: omitting the image, or including it without clarifying its simplification
+
+### Issues & Resolution
+- Issue: the diagram was broadly accurate but simplified the post-settlement destination too aggressively
+- Resolution: revise the prose and add a caption so the chapter explicitly treats BNY as operating in the relevant lower-stack layer rather than as the sole place the stock resides
+
+### Editorial Comments
+- Comment: be explicit about who the other broker is
+- Response: the prompt and the chapter example now name Fidelity Institutional on the seller side
+- Comment: check whether the image is an accurate depiction
+- Response: the image is usable with a clarifying caption and a slightly more precise sentence in the draft about where the stock is after settlement
+
+### Lessons Learned
+- Insight: a simple explanatory image can do useful work even when it is slightly simplified, as long as the chapter text makes the simplification explicit
+- What worked: combining the image with prose that narrows where BNY truly sits in the chain
+- What did not: letting the uncaptioned diagram imply that the custody endpoint is always a single named institution
+
+### Next Steps
+- [ ] Run a CH03 challenge round against the image-backed draft
+- [ ] Decide whether the figure needs any label changes before wider use
+- [ ] Keep the chapter aligned with the actual custody/depository stack without overcomplicating it
+
 ## [2026-04-04] - Added Chapter 3 Image Prompt Artifact
 
 ### Summary

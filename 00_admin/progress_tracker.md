@@ -6,7 +6,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 - Current phase: initialization
 - Current focus: convert the draft BNY outline into working manuscript architecture and start the opening chapters from a clean new-book baseline
-- Next milestone: assess whether CH03's example-driven `draft_v2` is clear enough to continue or needs a challenge round
+- Next milestone: assess whether CH03's image-backed `draft_v3` is accurate and strong enough for a challenge round
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -15,7 +15,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | CH01 | The Bank You Don't See | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge-round revision added a concrete operating layer and stronger peer distinction |
 | CH02 | The Global Asset Machine | drafting | in_progress | draft_v3_ready | not_started | not_started | Draft v3 adds a failure-chain illustration and sharper early strategic framing |
-| CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds an explicit E*TRADE-to-other-broker walkthrough and clearer custody explanation |
+| CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v3_ready | not_started | not_started | Draft v3 integrates the diagram and clarifies BNY as part of the custody layer rather than the sole endpoint |
 | CH04 | Why This Model Works | not_started | not_started | not_started | not_started | not_started | Opening-section capstone |
 | CH05 | Asset Servicing (Custody and Fund Accounting) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH06 | Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -89,10 +89,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Added a second CH03 research pass focused on custody-linked reporting, records, and ownership proof after settlement.
 - Created `04_manuscript/chapter_03/source_notes.md` and `draft_v1.md` to turn the CH03 source base into a concrete walkthrough draft.
 - Created `04_manuscript/chapter_03/draft_v2.md` to make the walkthrough more explicit through an E*TRADE-style stock purchase example.
+- Added `04_manuscript/chapter_03/images/tradelifecycle.png` and integrated it into `draft_v3.md` with a caption clarifying the diagram's simplifications.
 
 ## Next Actions
 
-1. Re-read CH03 and decide whether the more explicit example is sufficient or whether a challenge round should pressure-test it next.
+1. Re-read CH03 and decide whether the image-backed draft is ready for a challenge round.
 2. Re-read CH02 and decide whether it is ready for editor review or needs one more continuity pass.
 3. Complete the rest of CH01 so the draft moves beyond the opening argument into the full chapter arc.
 4. Decide whether to continue CH03 or move to the next chapter after review.
