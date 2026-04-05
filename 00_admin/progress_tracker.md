@@ -112,7 +112,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Re-read CH05 `draft_v2` and decide whether it needs a challenge round from practitioner, operator, and editorial perspectives before the next revision.
+1. Re-read CH05 `draft_v2` and CH03 `draft_v4` for any remaining custody language that should use the more precise qualified/permitted-custodian framing.
 2. If CH05 is revised again, preserve the deeper process structure and sharpen only where the prose still compresses two or more layers together.
 3. Re-read CH04 and decide whether `draft_v2` is ready for a second challenge round.
 4. Decide whether CH01 is ready for editor review or needs one final polish pass.

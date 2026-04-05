@@ -54,6 +54,64 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Clarified Regulatory Custody Language In Chapters 3 And 5
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/research_tracker.md`, `04_manuscript/chapter_03/source_notes.md`, `04_manuscript/chapter_03/draft_v4.md`, `04_manuscript/chapter_05/research_tracker.md`, `04_manuscript/chapter_05/source_notes.md`, `04_manuscript/chapter_05/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 and CH05 now state custody regulation more precisely using SEC primary sources on qualified or permitted custodians
+- Chapter(s) affected: CH03, CH05
+
+### Decisions
+- Decision: clarify custody regulation with primary SEC language rather than leave the chapters open to the shorthand that assets must simply be held at a third party
+- Rationale: the more accurate framing is that important adviser and fund regimes generally require assets to be maintained with qualified or otherwise permitted custodians under prescribed conditions, which is more precise and more defensible
+- Alternatives rejected: saying nothing, or using a broad "third-party custody" statement that would overgeneralize across structures
+
+### Issues & Resolution
+- Issue: the manuscript explained custody operationally but did not state the regulatory framing that makes custody structurally important in many client and fund contexts
+- Resolution: add SEC sources to CH03 and CH05 and revise the custody paragraphs so they explain the rule-bound nature of custody without turning the chapters into legal exposition
+
+### Editorial Comments
+- Comment: is there a regulatory requirement that assets must be held in custody at a 3rd party? we never state that anywhere
+- Response: clarified the chapters to say qualified or permitted custody in key regimes rather than a universal third-party rule
+
+### Lessons Learned
+- Insight: a short regulatory clarification can strengthen a custody chapter materially if it uses the legal concept cleanly and avoids overclaiming
+- What worked: adding the point directly into the main custody explanation rather than isolating it in notes
+- What did not: leaving the custody discussion entirely at the operational layer once the regulatory question had been raised
+
+### Next Steps
+- [ ] Re-read CH03 `draft_v4` and CH05 `draft_v2` for any other custody sentences that should use the same framing
+- [ ] Decide whether CH05 is ready for a challenge round from practitioner and editorial perspectives
+
+## [2026-04-05] - Tightened Chapter 5 Tone In Draft Version 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH05 `draft_v2` now uses a more direct operator voice with less rhetorical phrasing
+- Chapter(s) affected: CH05
+
+### Decisions
+- Decision: remove dramatic or overly rhetorical phrasing from CH05 rather than let the deeper process content be diluted by tonal flourish
+- Rationale: this chapter works better when it sounds controlled, technical, and practitioner-aware, especially after the deeper process rewrite
+- Alternatives rejected: leaving the phrasing in place, or doing a broader rewrite when the feedback was specifically about tone
+
+### Issues & Resolution
+- Issue: some sentences in `draft_v2` still sounded more performative than analytic
+- Resolution: revise the opening and custody / corporate-actions sections toward plainer language while preserving the same structure and claims
+
+### Editorial Comments
+- Comment: we don't need to use too many of these dramatic sentences
+- Response: tightened the flagged phrasing and adjacent sentences in CH05 `draft_v2`
+
+### Lessons Learned
+- Insight: once a business-line chapter has enough process depth, tonal excess becomes more noticeable and less useful
+- What worked: narrowing the edit to rhetorical phrasing rather than reopening the chapter structure
+- What did not: letting a few stylized lines survive after the chapter had already moved into a more operator-first mode
+
+### Next Steps
+- [ ] Re-read CH05 `draft_v2` for any remaining sentences that sound more rhetorical than operational
+- [ ] Decide whether CH05 is ready for a challenge round from practitioner and editorial perspectives
+
 ## [2026-04-04] - Deepened Chapter 5 Into Draft Version 2
 
 ### Summary

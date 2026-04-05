@@ -39,6 +39,8 @@
 | SRC-019 | reviewed | DTCC Corporate Actions Processing | https://www.dtcc.com/asset-services/corporate-actions-processing | End-to-end services for corporate-action announcements, instructions, entitlements, collections, allocations, and reporting | Best public process source for one major asset-servicing sub-workflow |
 | SRC-020 | reviewed | DTCC Corporate Actions Reorganizations | https://www.dtcc.com/asset-services/corporate-actions-processing/reorganizations | Detailed steps in voluntary and mandatory reorganizations including instructions, elections, and allocation tracking | Useful support for why corporate actions create high-touch exception pathways |
 | SRC-021 | reviewed | DTCC Price, Rate & Distribution Data | https://www.dtcc.com/wealth-and-investment-solutions/fund-solutions/price-rate-distribution-data | Standardized delivery of daily NAVs, dividend rates, and distribution schedules to reduce pricing errors and reconciliation issues | Direct support for pricing/distribution data as a process layer and pain point |
+| SRC-022 | reviewed | SEC Custody of Funds or Securities of Clients by Investment Advisers | https://www.sec.gov/info/smallbus/secg/custody_rule-secg.htm | Primary-source support that advisers with custody generally must maintain client assets with a qualified custodian | Best source for the "qualified custodian" framing in adviser custody |
+| SRC-023 | reviewed | SEC Final Rule: Custody of Investment Company Assets with a Securities Depository | https://www.sec.gov/files/rules/final/ic-25934.htm | Primary-source support that registered funds must maintain securities and other investments with certain permitted custodians under prescribed conditions | Best source for the fund-custody framing without reducing it to a simple "third party" rule |
 
 ## Working Hypotheses
 
@@ -78,6 +80,11 @@
 - `SRC-021` adds a useful link between accounting and distribution. DTCC's pricing and distribution-data material shows that daily NAVs, dividend rates, and distribution schedules have to be standardized and distributed reliably across channels to reduce pricing errors and reconciliation issues. This is direct support for pricing and distribution data as a recurring process layer with clear failure modes.
 - Across these additional sources, a clearer practitioner picture emerges. The servicing stack is held together by several supporting processes that often disappear in executive summaries: trade-status monitoring, position and cash reconciliation, market-event ingestion, price and rate distribution, fee and expense oversight, transfer and re-registration processing, record-date logic, election handling, and audit-trail production. The public sources do not expose BNY's internal workflow diagrams, but they do make the shape of the operational fabric visible enough to draft with much more specificity.
 
+### Pass 4 - Regulatory Custody Clarification
+
+- `SRC-022` is important because it gives the precise legal framing for adviser custody. The SEC does not state a blanket rule that assets must always sit at an unrelated third party. Instead, it says advisers with custody generally must maintain client assets with a qualified custodian such as a bank, broker-dealer, or futures commission merchant. That is the right language for the chapter.
+- `SRC-023` does the same for registered funds. It states that Section 17(f) requires a fund to maintain its securities and other investments with certain types of custodians under conditions designed to assure the safety of fund assets. Again, the regulatory concept is permitted or qualified custody under prescribed conditions, not a casual universal "third-party custody" rule.
+
 ## Source Selection Notes
 
 - Prioritize `SRC-001`, `SRC-002`, `SRC-005`, and `SRC-006` for the first draft because together they describe the stack most completely.
@@ -89,6 +96,7 @@
 - Use `SRC-014` and `SRC-015` to support the argument that operational burden, data quality, STP, and failure-point reduction are industry-wide realities rather than BNY-specific positioning.
 - Use `SRC-016` and `SRC-017` when the draft needs more depth on custody-platform capabilities and the accounting / books-and-records layer.
 - Use `SRC-019`, `SRC-020`, and `SRC-021` when the draft needs to make corporate actions, entitlements, pricing, and distribution processes visible enough for a practitioner to infer friction points.
+- Use `SRC-022` and `SRC-023` when the draft needs to explain why custody is also a rule-bound function for many adviser and fund structures without overstating that into a universal third-party requirement.
 
 ## Gaps
 

@@ -81,6 +81,14 @@
   - Use for daily NAVs, dividend rates, and distribution schedules as a process layer tied to accuracy and reconciliation
   - Use when showing how pricing and distribution data feed the servicing stack
 
+- `SRC-022` SEC Custody of Funds or Securities of Clients by Investment Advisers
+  - Use for the qualified-custodian framing in adviser custody
+  - Use when the chapter needs to clarify that the rule is not simply "assets must be held at a third party"
+
+- `SRC-023` SEC Final Rule: Custody of Investment Company Assets with a Securities Depository
+  - Use for the registered-fund framing that assets must be maintained with certain permitted custodians under prescribed conditions
+  - Use to explain that fund custody is rule-bound without overstating universality
+
 ## Drafting Notes
 
 - Keep the chapter operator-first and concrete.
