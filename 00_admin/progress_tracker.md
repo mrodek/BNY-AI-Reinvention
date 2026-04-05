@@ -18,7 +18,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH03 | A Day in the Life of a Trade | in_editor_review | in_progress | draft_v5_ready | in_progress | not_started | Light final polish applied in draft v5; chapter is now effectively editor-review-ready with the conceptual diagram retained as the base model |
 | CH04 | Why This Model Works | drafting | in_progress | draft_v2_ready | in_progress | not_started | Draft v2 adds one concrete migration-friction example and distinguishes trust from mere incumbency |
 | CH05 | Asset Servicing (Custody and Fund Accounting) | in_editor_review | in_progress | draft_v3_ready | in_progress | not_started | Draft v3 applies the challenge-round revisions; chapter should now be treated as editor-review-ready rather than reopened for more process expansion by default |
-| CH06 | Clearing and Settlement | researching | in_progress | not_started | not_started | not_started | Two research passes are now complete; source base covers workflow structure plus affirmation, netting, liquidity, funding, and post-trade control burden |
+| CH06 | Clearing and Settlement | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 now explains the business through trade capture, netting, risk, depository, settlement, and post-settlement control layers at CH05's level of workflow specificity |
 | CH07 | Treasury Services (Payments and Liquidity) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH08 | Pershing (Wealth Infrastructure Platform) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH09 | Investment Management | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -64,6 +64,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-05
 
+- Created `04_manuscript/chapter_06/draft_v1.md` and `source_notes.md` to turn the expanded CH06 research base into the first workflow-first draft, with explicit attention to affirmation, netting, liquidity, settlement completion, and post-trade control burden.
 - Created `04_manuscript/chapter_03/draft_v5.md` as a light final polish pass, smoothing transitions and clarifying the illustrative setup before editor review.
 - Completed a second CH06 research pass focused on affirmation timing, netting tradeoffs, funding and liquidity pressure, settlement-fail risk, and clearing-agency risk management so the chapter can be drafted at CH05's level of operational specificity.
 - Moved CH05 into editor review after `draft_v3`, with the recommendation to hold further changes unless a specific editorial objection appears.
@@ -123,11 +124,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Review the CH06 research base and decide whether it is strong enough to move directly into `draft_v1`.
-2. If CH06 needs one more source pass, target practitioner material on break management, margin calls, or exception escalation rather than broader market-structure explanation.
+1. Re-read CH06 `draft_v1` and decide whether it needs a deeper process pass, especially around margin, fails, or post-settlement exceptions, before a challenge round.
+2. If CH06 is revised, preserve the workflow-layer structure and add only the next level of operational specificity that clearly improves the chapter.
 3. Re-read CH04 and decide whether `draft_v2` is ready for a second challenge round.
 4. Decide whether CH01 is ready for editor review or needs one final polish pass.
-5. Start CH06 `draft_v1` from the now-expanded research base, keeping the chapter at CH05's level of workflow specificity.
+5. Decide when to run the CH06 challenge round.
 
 ## Update Rules
 

@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Drafted Chapter 6 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_06/source_notes.md`, `04_manuscript/chapter_06/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH06 `source_notes.md` and first prose draft
+- Chapter(s) affected: CH06
+
+### Decisions
+- Decision: draft CH06 now from the expanded two-pass research base rather than pausing for another broad research round
+- Rationale: the chapter now has enough support to explain clearing and settlement as a layered operating business with visible friction points in affirmation, netting, liquidity, settlement completion, and post-trade control
+- Alternatives rejected: waiting for a perfect practitioner source set before writing, or drafting the chapter as a thinner market-structure explainer that would fall below CH05's standard
+
+### Issues & Resolution
+- Issue: CH06 needed to match CH05's operator-first level of detail without turning into a dense legal or technical primer on market structure
+- Resolution: organize the chapter around workflow layers, use one compact process table, and make the main pressure points concrete through affirmation timing, margin and liquidity pressure, settlement preparation, fails, and downstream record-control work
+
+### Editorial Comments
+- Comment: then start on draft 1
+- Response: created CH06 `draft_v1` with the same style target and process depth established in CH05
+
+### Lessons Learned
+- Insight: CH06 becomes much more usable when clearing and settlement are framed as layered operating responsibilities rather than as abstract institutional nouns
+- What worked: separating trade capture, clearing, risk, depository activity, settlement, and downstream controls into distinct layers
+- What did not: nothing material in this pass, though the chapter may still need one more depth pass before challenge round if the margin and fail-handling sections feel too compressed
+
+### Next Steps
+- [ ] Re-read CH06 `draft_v1` and decide whether it needs one more process-deepening pass before challenge round
+- [ ] If revising, focus on margin, liquidity, and fail-management detail rather than broadening the chapter outward
+
 ## [2026-04-05] - Final-Polished Chapter 3 And Checkpointed Deferred Files
 
 ### Summary
