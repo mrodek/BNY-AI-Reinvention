@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Expanded Local-Market Complexity In Chapter 5
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH05 `draft_v2` now explains why "local-market knowledge" in global custody is an operational requirement rather than a vague coverage claim
+- Chapter(s) affected: CH05
+
+### Decisions
+- Decision: expand the local-market knowledge point in prose rather than leave it as a passing phrase in the custody section
+- Rationale: the chapter needed to show why global custody is qualitatively harder than U.S.-only custody, not just larger in scale
+- Alternatives rejected: leaving the phrase unexplained, or adding another table when one compact paragraph could make the point more cleanly
+
+### Issues & Resolution
+- Issue: "local-market knowledge" was accurate but too compressed to convey the operational burden of working across many markets
+- Resolution: add one paragraph covering settlement cycles, cutoffs, holidays, depositories, account structures, tax documentation, beneficial-ownership conventions, corporate-action handling, and instruction-format differences across markets
+
+### Editorial Comments
+- Comment: local-market knowledge seems like a good point to expand on; it is one thing to be U.S.-based and quite another to be in all global markets
+- Response: expanded the custody section so the reader can see why global market coverage creates a different class of operating complexity
+
+### Lessons Learned
+- Insight: some of the strongest operator detail comes from unpacking ordinary phrases that otherwise sound like bland capability claims
+- What worked: explaining global custody as many local operating environments rather than as one scaled-up process
+- What did not: leaving local-market knowledge as a generic line-item in the process description
+
+### Next Steps
+- [ ] Re-read CH05 `draft_v2` and decide whether the custody layer now feels concrete enough without further expansion
+- [ ] Decide whether CH05 is ready for a challenge round from practitioner and editorial perspectives
+
 ## [2026-04-05] - Added An Illustrative Instruction Example To Chapter 5
 
 ### Summary

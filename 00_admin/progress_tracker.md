@@ -17,7 +17,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH02 | The Global Asset Machine | drafting | in_progress | draft_v3_ready | not_started | not_started | Draft v3 adds a failure-chain illustration and sharper early strategic framing |
 | CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v4_ready | in_progress | not_started | Challenge round passed with minor revisions; draft now marks the named brokers as illustrative and the diagram is positioned as a base model for later expansion |
 | CH04 | Why This Model Works | drafting | in_progress | draft_v2_ready | in_progress | not_started | Draft v2 adds one concrete migration-friction example and distinguishes trust from mere incumbency |
-| CH05 | Asset Servicing (Custody and Fund Accounting) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now includes a compact illustrative settlement-instruction example so the custody flow feels less abstract and the likely breakpoints are easier to visualize |
+| CH05 | Asset Servicing (Custody and Fund Accounting) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now makes local-market knowledge more concrete by linking global custody complexity to market-specific settlement cycles, cutoffs, depositories, documentation, and operating conventions |
 | CH06 | Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH07 | Treasury Services (Payments and Liquidity) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH08 | Pershing (Wealth Infrastructure Platform) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -112,7 +112,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Re-read CH05 `draft_v2` to see whether the instruction example and process table are sufficient or whether one more compact operational example is needed elsewhere in the chapter.
+1. Re-read CH05 `draft_v2` to see whether the local-market-complexity paragraph, instruction example, and process table now make the custody layer concrete enough.
 2. If CH05 is revised again, preserve the deeper process structure and sharpen only where the prose still compresses two or more layers together.
 3. Re-read CH04 and decide whether `draft_v2` is ready for a second challenge round.
 4. Decide whether CH01 is ready for editor review or needs one final polish pass.
