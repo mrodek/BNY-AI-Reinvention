@@ -6,14 +6,14 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 - Current phase: initialization
 - Current focus: convert the draft BNY outline into working manuscript architecture and start the opening chapters from a clean new-book baseline
-- Next milestone: apply the minor CH03 challenge-round cleanup and decide whether the chapter is ready for editor review
+- Next milestone: decide whether to apply the optional CH01 wording softening or move CH01 and CH03 forward as ready for editor review
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
 
 | Chapter ID | Working Title | Status | Research | Draft | Editor Review | Graph Extract | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| CH01 | The Bank You Don't See | drafting | in_progress | draft_v3_ready | in_progress | not_started | Draft v3 sharpens CH01 into a cleaner overture now that CH02 and CH03 carry the system-model and trade-walkthrough burden |
+| CH01 | The Bank You Don't See | drafting | in_progress | draft_v3_ready | in_progress | not_started | Challenge round passed with minor revisions; CH01 now works as an intentional overture with only optional wording softening remaining |
 | CH02 | The Global Asset Machine | drafting | in_progress | draft_v3_ready | not_started | not_started | Draft v3 adds a failure-chain illustration and sharper early strategic framing |
 | CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v4_ready | in_progress | not_started | Challenge round passed with minor revisions; draft now marks the named brokers as illustrative and the diagram is positioned as a base model for later expansion |
 | CH04 | Why This Model Works | not_started | not_started | not_started | not_started | not_started | Opening-section capstone |
@@ -78,6 +78,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Ran a CH01 challenge round; outcome was `revise before proceeding` with recommendation to keep the overture quality but add one concrete operating layer.
 - Created `04_manuscript/chapter_01/draft_v2.md` to address the challenge round with a concrete downstream workflow paragraph and sharper structural distinction.
 - Created `04_manuscript/chapter_01/draft_v3.md` to revisit the chapter after CH02 and CH03, trimming duplicated mechanics and strengthening the overture handoff into the next two chapters.
+- Ran a second CH01 challenge round against `draft_v3`; outcome was `pass with minor revisions`.
 - Created the CH02 artifact set with a tailored chapter brief, initial research tracker, and first-pass claim register.
 - Populated the first CH02 source set and moved the chapter into `researching`.
 - Added a second CH02 research pass focused on asset servicing, fund administration, and integrated servicing language.
@@ -98,7 +99,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Run a CH01 challenge round against `draft_v3` and decide whether the overture now lands cleanly.
+1. Decide whether to apply the optional CH01 wording softening or move CH01 to editor review.
 2. Decide whether CH03 is ready for editor review or should receive one more light polish pass.
 3. Re-read CH02 and decide whether it is ready for editor review or needs one more continuity pass.
 4. Reuse the CH03 diagram structure when drafting the more detailed current-state and AI-native workflow chapters.

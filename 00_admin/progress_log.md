@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Challenge Round Passed For Chapter 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_01/challenge_round.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: second CH01 challenge round, now evaluating `draft_v3` as an overture after the existence of CH02 and CH03
+- Chapter(s) affected: CH01
+
+### Decisions
+- Decision: accept CH01's overture structure as intentional rather than trying to force it back into a more mechanics-heavy first chapter
+- Rationale: with CH02 and CH03 now carrying the system and transaction explanation, CH01 is strongest when it frames the visibility paradox, peer set, and systemic importance cleanly
+- Alternatives rejected: pushing CH01 back toward a partial workflow explanation or treating its overture quality as a defect
+
+### Issues & Resolution
+- Issue: CH01 previously risked reading more like a foreword than a chapter
+- Resolution: the revised version now passes that test because the overture function is supported by the stronger downstream chapter sequence
+
+### Editorial Comments
+- Comment: run the CH01 challenge round
+- Response: outcome is `pass with minor revisions`
+
+### Lessons Learned
+- Insight: a chapter can read like an overture and still be structurally correct if the surrounding chapter sequence makes that role explicit
+- What worked: reducing duplicated mechanics and sharpening the handoff into CH02 and CH03
+- What did not: earlier attempts to make CH01 prove too much operationally before the later chapters existed
+
+### Next Steps
+- [ ] Decide whether to soften two pieces of CH01 wording or leave them as-is
+- [ ] Move CH01 toward editor review if no further wording changes are needed
+
 ## [2026-04-04] - Reframed Chapter 1 After Drafting Chapters 2 And 3
 
 ### Summary
