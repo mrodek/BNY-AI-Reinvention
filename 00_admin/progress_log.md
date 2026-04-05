@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Removed A Slogan-Like Framing From Chapter 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_01/draft_v3.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH01 `draft_v3` now removes the "most important bank nobody knows" setup from the core framing paragraph
+- Chapter(s) affected: CH01
+
+### Decisions
+- Decision: remove the slogan-like contrast from the opening scale paragraph
+- Rationale: the line created unnecessary dramatic framing and weakened the otherwise controlled tone of the chapter
+- Alternatives rejected: keeping the line and only softening it
+
+### Issues & Resolution
+- Issue: the paragraph risked sounding more performative than analytical
+- Resolution: revise the paragraph to state the substantive claim directly without introducing and rejecting a dramatic slogan
+
+### Editorial Comments
+- Comment: we don't need to be dramatic here
+- Response: removed the statement and tightened the paragraph around the more defensible claim
+
+### Lessons Learned
+- Insight: if a line sounds like branding copy, it usually weakens infrastructure writing rather than strengthening it
+- What worked: stating the institutional claim directly
+- What did not: opening the paragraph by quoting a slogan and then backing away from it
+
+### Next Steps
+- [ ] Decide whether CH01 is now ready for editor review
+- [ ] Re-read CH02 and CH03 for readiness and sequencing
+
 ## [2026-04-04] - Applied Chapter 1 Wording Refinements
 
 ### Summary
