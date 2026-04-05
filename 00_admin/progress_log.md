@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Added Concrete Reconciliation-Break Examples To Chapter 5
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH05 `draft_v2` now includes concrete examples of reconciliation breaks and a plain description of how those exceptions are usually handled
+- Chapter(s) affected: CH05
+
+### Decisions
+- Decision: deepen the reconciliation section with a few representative break types and one paragraph on the standard handling path
+- Rationale: the chapter already named reconciliation and exception management as core control work, but the reader still could not clearly picture what a break looks like or what operations teams actually do with it
+- Alternatives rejected: leaving the section conceptual, or adding a long operations-playbook treatment that would make the chapter too procedural
+
+### Issues & Resolution
+- Issue: reconciliation was described accurately but remained less tangible than the custody and corporate-actions sections
+- Resolution: add examples covering position breaks, cash breaks, corporate-action exceptions, and pricing exceptions, then explain the usual pattern of detection, queue routing, record comparison, authority determination, correcting entries, re-instruction, aging, and escalation
+
+### Editorial Comments
+- Comment: would love to see some specific examples of reconciliation breaks and exceptions and how they are handled
+- Response: revised the reconciliation section so readers can now see both the break types and the operational response pattern
+
+### Lessons Learned
+- Insight: the most effective way to make reconciliation legible is not to define it again, but to show the concrete disagreement and the queue-based handling cycle that follows
+- What worked: using a few recognizable break archetypes and describing the control response in plain operator language
+- What did not: treating reconciliation only as an abstract control fabric after the rest of the chapter had already become more concrete
+
+### Next Steps
+- [ ] Re-read CH05 `draft_v2` and decide whether it is ready for a practitioner challenge round
+- [ ] Decide whether any other section still needs one more concrete miniature example
+
 ## [2026-04-05] - Clarified Corporate Actions In Chapter 5
 
 ### Summary
