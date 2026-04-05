@@ -57,6 +57,30 @@
   - Use for peer corroboration around transaction management, accounting, reconciliation, reporting, and failure-point reduction
   - Use to show that the chapter's operating model is industry-wide rather than BNY-specific
 
+- `SRC-016` BNY Custody
+  - Use for current custody-platform language around resilient infrastructure, market access, counterparty data, operational continuity, and reporting
+  - Use to strengthen the custody-operating-platform sections
+
+- `SRC-017` BNY Accounting Solutions for Investment Management
+  - Use for the books-and-records layer: unified ledger support, IBOR/ABOR views, audit trails, dashboards, and automated NAV oversight
+  - Use when the draft needs to explain the accounting substrate beneath fund accounting and reporting
+
+- `SRC-018` OCC Comptroller's Handbook - Custody Services
+  - Use for neutral supervisory framing of custody-process risk and control expectations
+  - Use when the chapter needs to describe control burden without sounding promotional
+
+- `SRC-019` DTCC Corporate Actions Processing
+  - Use for the lifecycle of announcements, instructions, entitlements, collections, allocations, and reporting
+  - Use to make the corporate-actions layer explicit
+
+- `SRC-020` DTCC Corporate Actions Reorganizations
+  - Use for elections, instruction handling, and allocation tracking in more complex event types
+  - Use when describing why some servicing paths become high-touch and exception-prone
+
+- `SRC-021` DTCC Price, Rate & Distribution Data
+  - Use for daily NAVs, dividend rates, and distribution schedules as a process layer tied to accuracy and reconciliation
+  - Use when showing how pricing and distribution data feed the servicing stack
+
 ## Drafting Notes
 
 - Keep the chapter operator-first and concrete.
@@ -77,3 +101,11 @@
 
 - Avoid turning the chapter into a product inventory.
 - Avoid previewing CH20 too heavily; the close should only establish transformation potential.
+- For the deeper draft, make each layer explicit:
+  1. custody and settlement support
+  2. books and records / investment accounting
+  3. pricing, valuation, and NAV production
+  4. fund administration, reporting, and governance
+  5. investor servicing and transfer agency
+  6. corporate actions and distributions
+  7. the reconciliation and exception-management fabric across all of them

@@ -54,6 +54,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Deepened Chapter 5 Into Draft Version 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/research_tracker.md`, `04_manuscript/chapter_05/claim_register.md`, `04_manuscript/chapter_05/source_notes.md`, `04_manuscript/chapter_05/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: third CH05 research pass, stronger practitioner-level claim support, expanded source notes, and CH05 `draft_v2`
+- Chapter(s) affected: CH05
+
+### Decisions
+- Decision: respond to the "not enough underlying process depth" feedback by restructuring CH05 around operational layers and their supporting processes rather than by lightly expanding `draft_v1`
+- Rationale: the chapter needed to make friction points inferable from custody, books and records, valuation, reporting, transfer-agency, corporate-actions, and reconciliation workflows, not just to assert that complexity exists
+- Alternatives rejected: polishing `draft_v1` in place, or adding more generic "messy internals" language without showing where that messiness lives
+
+### Issues & Resolution
+- Issue: the first draft explained the stack coherently but still compressed too many sub-processes for a practitioner reader
+- Resolution: add a third research pass on books and records, corporate actions, pricing/distribution data, and custody-control processes, then draft a new version that walks through each layer and its likely supporting frictions
+
+### Editorial Comments
+- Comment: the draft does not cover the underlying processes in enough depth and does not give a practitioner enough detail to infer friction points
+- Response: completed a deeper CH05 research pass and rewrote the chapter as `draft_v2` with a more detailed operator view
+
+### Lessons Learned
+- Insight: for business-line chapters, the right level of detail is often one layer deeper than the first structurally correct draft
+- What worked: turning the chapter from a service-stack explanation into a process-stack explanation
+- What did not: assuming that naming reconciliations and exception handling was enough without showing which sub-processes generate them
+
+### Next Steps
+- [ ] Re-read CH05 `draft_v2` and decide whether to run a challenge round before revision
+- [ ] If revising again, look for any paragraph where two process layers still need to be separated more clearly
+- [ ] Commit and push the CH05 `draft_v2` work as `chapter 05: update draft_v2`
+
 ## [2026-04-04] - Drafted Chapter 5 Version 1
 
 ### Summary

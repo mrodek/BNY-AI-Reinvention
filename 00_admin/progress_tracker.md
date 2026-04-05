@@ -17,7 +17,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH02 | The Global Asset Machine | drafting | in_progress | draft_v3_ready | not_started | not_started | Draft v3 adds a failure-chain illustration and sharper early strategic framing |
 | CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v4_ready | in_progress | not_started | Challenge round passed with minor revisions; draft now marks the named brokers as illustrative and the diagram is positioned as a base model for later expansion |
 | CH04 | Why This Model Works | drafting | in_progress | draft_v2_ready | in_progress | not_started | Draft v2 adds one concrete migration-friction example and distinguishes trust from mere incumbency |
-| CH05 | Asset Servicing (Custody and Fund Accounting) | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 explains the servicing stack as a connected operating business and anchors workflow burden in reconciliations, corrections, controls, and exception handling without overclaiming BNY-specific fragmentation |
+| CH05 | Asset Servicing (Custody and Fund Accounting) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a deeper operator view of custody, books and records, pricing, reporting, transfer-agency work, corporate actions, and the reconciliation fabric so practitioners can infer where friction concentrates |
 | CH06 | Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH07 | Treasury Services (Payments and Liquidity) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH08 | Pershing (Wealth Infrastructure Platform) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -64,6 +64,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-04
 
+- Completed a third CH05 research pass focused on supporting processes and likely friction points across custody, accounting, pricing, transfers, corporate actions, and control handoffs.
+- Created `04_manuscript/chapter_05/draft_v2.md` to deepen the chapter into a layer-by-layer operating walkthrough with clearer practitioner-level detail.
 - Completed a second CH05 research pass focused on operational processes, reconciliations, transfer activity, and exception handling using BNY, DTCC, KPMG, and State Street sources.
 - Updated the CH05 claim register so the operating-burden claim is supported at the process level, while keeping BNY-specific fragmentation language qualified.
 - Created `04_manuscript/chapter_05/source_notes.md` and `draft_v1.md` to turn the expanded CH05 evidence base into the first current-state business-line draft for Part II.
@@ -110,8 +112,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Re-read CH05 `draft_v1` and decide whether it needs a challenge round before `draft_v2`.
-2. If CH05 is revised, keep the operating-burden language anchored to reconciliation, corrections, controls, and exception handling rather than undocumented internal-fragmentation claims.
+1. Re-read CH05 `draft_v2` and decide whether it needs a challenge round from practitioner, operator, and editorial perspectives before the next revision.
+2. If CH05 is revised again, preserve the deeper process structure and sharpen only where the prose still compresses two or more layers together.
 3. Re-read CH04 and decide whether `draft_v2` is ready for a second challenge round.
 4. Decide whether CH01 is ready for editor review or needs one final polish pass.
 5. Decide whether CH03 is ready for editor review or should receive one more light polish pass.
