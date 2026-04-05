@@ -54,6 +54,64 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Deepened Chapter 6 Research To Match Chapter 5's Level Of Detail
+
+### Summary
+- Files changed: `04_manuscript/chapter_06/research_tracker.md`, `04_manuscript/chapter_06/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: second CH06 research pass and stronger CH06 claim support around affirmation timing, netting, liquidity, funding, and risk-control burden
+- Chapter(s) affected: CH06
+
+### Decisions
+- Decision: extend CH06 beyond an institutional-overview first pass before drafting
+- Rationale: to match CH05's standard, CH06 needed direct support not only for what clearing and settlement are, but also for where timing pressure, funding tradeoffs, trade-fail risk, and formal control burdens actually appear
+- Alternatives rejected: moving into drafting from the first pass alone, or filling the gap later through prose-level inference
+
+### Issues & Resolution
+- Issue: the first CH06 pass established the structure of the business well, but it was still lighter than CH05 on concrete friction points
+- Resolution: add a second pass using BNY and DTCC materials on same-day settlement, T+1 blind spots, central clearing, capital and liquidity pressure, and the formal risk-management obligations of clearing agencies
+
+### Editorial Comments
+- Comment: Chapter 6 should match Chapter 5 in style and level of detail
+- Response: expanded the CH06 evidence base so the chapter can now be written with similar workflow specificity rather than as a thinner market-structure explainer
+
+### Lessons Learned
+- Insight: for Part II business-line chapters, the right research standard is not just "can we explain the function?" but "can we show where operators actually feel the burden?"
+- What worked: using infrastructure sources that expose affirmation, netting, funding, and fail-risk pressure rather than relying only on high-level clearing descriptions
+- What did not: assuming the first pass was detailed enough simply because the institutional roles were well covered
+
+### Next Steps
+- [ ] Decide whether CH06 now has enough support to move into `draft_v1`
+- [ ] If one more pass is needed, target practitioner sources on exception escalation or margin-management workflow
+
+## [2026-04-05] - Moved Chapter 5 To Editor Review And Started Chapter 6
+
+### Summary
+- Files changed: `04_manuscript/chapter_06/chapter_brief.md`, `04_manuscript/chapter_06/research_tracker.md`, `04_manuscript/chapter_06/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH06 artifact set and first research pass; CH05 tracker state moved into editor review
+- Chapter(s) affected: CH05, CH06
+
+### Decisions
+- Decision: stop expanding CH05 by default and move on to CH06
+- Rationale: CH05 now has a completed challenge round, applied revisions, and a strong enough `draft_v3` to serve as the quality and detail benchmark for the next Part II business-line chapter
+- Alternatives rejected: doing another CH05 research pass, adding more operator examples to CH05 without a specific editorial objection, or starting CH06 with only a placeholder brief and no real research base
+
+### Issues & Resolution
+- Issue: the transition risk was that CH06 might start too abstractly or at a lower level of specificity than CH05
+- Resolution: create the CH06 artifact set immediately and seed the first research pass with a workflow-first source set across BNY, DTCC, SEC, and Federal Reserve materials so the chapter can be built to the same operator-first standard
+
+### Editorial Comments
+- Comment: move to Chapter 6, and the style and level of detail should match Chapter 5
+- Response: shifted CH05 into editor review and started CH06 with an explicit operator-depth brief, a first-pass source set, and an initial claim spine designed to support a CH05-level chapter
+
+### Lessons Learned
+- Insight: once one Part II chapter establishes the right level of operational depth, the next chapter should begin with that bar codified in the brief and research tracker rather than rediscovered later
+- What worked: treating CH05 as the model chapter for workflow specificity and using that to shape CH06 from the start
+- What did not: nothing material in this pass, though CH06 will still need a second research round on concrete failure modes before drafting
+
+### Next Steps
+- [ ] Run a second CH06 research pass on settlement fails, unmatched trades, liquidity or margin pressure, and exception handling
+- [ ] Decide whether CH06 can move into `draft_v1` after that pass
+
 ## [2026-04-05] - Drafted Chapter 5 Version 3
 
 ### Summary

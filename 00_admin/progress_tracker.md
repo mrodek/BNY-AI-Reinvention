@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: initialization
-- Current focus: move CH05 from challenge-round revisions into editor-ready shape while keeping the current-state business-line chapters grounded in operator detail
-- Next milestone: review CH05 `draft_v3` and decide whether it is ready for editor review as the model for later Part II business-line chapters
+- Current focus: use CH05 as the quality bar while carrying CH06 from research into a draftable current-state business-line chapter
+- Next milestone: decide whether the now-expanded CH06 evidence base is sufficient to move into `draft_v1`
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -17,8 +17,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH02 | The Global Asset Machine | drafting | in_progress | draft_v3_ready | not_started | not_started | Draft v3 adds a failure-chain illustration and sharper early strategic framing |
 | CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v4_ready | in_progress | not_started | Challenge round passed with minor revisions; draft now marks the named brokers as illustrative and the diagram is positioned as a base model for later expansion |
 | CH04 | Why This Model Works | drafting | in_progress | draft_v2_ready | in_progress | not_started | Draft v2 adds one concrete migration-friction example and distinguishes trust from mere incumbency |
-| CH05 | Asset Servicing (Custody and Fund Accounting) | drafting | in_progress | draft_v3_ready | in_progress | not_started | Draft v3 applies the challenge-round revisions by making the books-and-records to valuation/reporting handoff more concrete |
-| CH06 | Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
+| CH05 | Asset Servicing (Custody and Fund Accounting) | in_editor_review | in_progress | draft_v3_ready | in_progress | not_started | Draft v3 applies the challenge-round revisions; chapter should now be treated as editor-review-ready rather than reopened for more process expansion by default |
+| CH06 | Clearing and Settlement | researching | in_progress | not_started | not_started | not_started | Two research passes are now complete; source base covers workflow structure plus affirmation, netting, liquidity, funding, and post-trade control burden |
 | CH07 | Treasury Services (Payments and Liquidity) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH08 | Pershing (Wealth Infrastructure Platform) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH09 | Investment Management | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -64,6 +64,9 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-05
 
+- Completed a second CH06 research pass focused on affirmation timing, netting tradeoffs, funding and liquidity pressure, settlement-fail risk, and clearing-agency risk management so the chapter can be drafted at CH05's level of operational specificity.
+- Moved CH05 into editor review after `draft_v3`, with the recommendation to hold further changes unless a specific editorial objection appears.
+- Created the CH06 artifact set and completed the first CH06 research pass, centered on clearing, netting, settlement, depository functions, and post-trade infrastructure roles using BNY, DTCC, SEC, and Federal Reserve sources.
 - Created `04_manuscript/chapter_05/draft_v3.md` to apply the challenge-round revisions, mainly by sharpening the books-and-records handoff into valuation and reporting and by making downstream governance pressure more explicit.
 - Ran the CH05 challenge round against `draft_v2`; outcome was `pass with minor revisions`, with the main recommendation to sharpen the books-and-records and reporting handoff without adding another heavy layer of process detail.
 - Refined CH05's reconciliation section with concrete examples of position, cash, pricing, and corporate-action breaks plus a short description of how those exceptions are detected, investigated, corrected, and escalated.
@@ -119,8 +122,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Re-read CH05 `draft_v3` and decide whether it is ready for editor review or needs one final polish pass for pacing and density.
-2. If CH05 is held at `draft_v3`, preserve the current evidence discipline and avoid adding more process detail unless it solves a clear comprehension gap.
+1. Review the CH06 research base and decide whether it is strong enough to move directly into `draft_v1`.
+2. If CH06 needs one more source pass, target practitioner material on break management, margin calls, or exception escalation rather than broader market-structure explanation.
 3. Re-read CH04 and decide whether `draft_v2` is ready for a second challenge round.
 4. Decide whether CH01 is ready for editor review or needs one final polish pass.
 5. Decide whether CH03 is ready for editor review or should receive one more light polish pass.
