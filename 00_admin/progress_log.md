@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Ran Chapter 5 Challenge Round
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/challenge_round.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH05 challenge round file with an overall outcome of `pass with minor revisions`
+- Chapter(s) affected: CH05
+
+### Decisions
+- Decision: run a formal challenge round on CH05 now rather than continue adding examples ad hoc
+- Rationale: the draft had accumulated enough operational detail that the next useful question was no longer "add more process" but "is the chapter now balanced, credible, and specific enough?"
+- Alternatives rejected: revising first without pressure-testing the current draft, or treating the chapter as ready for editor review without a structured practitioner and editorial check
+
+### Issues & Resolution
+- Issue: after multiple refinement passes, the main uncertainty shifted from missing examples to whether the chapter's density, specificity, and inference discipline were now calibrated correctly
+- Resolution: reviewed the draft through practitioner, adjacent-function, executive, insider-objection, and editorial lenses and concluded that the chapter passes with minor revisions, with the books-and-records / reporting handoff as the main remaining area to sharpen
+
+### Editorial Comments
+- Comment: it is time to do a challenge round on Chapter 5
+- Response: completed the challenge round and recorded a pass-with-minor-revisions recommendation
+
+### Lessons Learned
+- Insight: once a business-line chapter becomes operationally concrete, the most useful challenge is often about balance and handoff clarity rather than about adding still more examples
+- What worked: testing the chapter against multiple reader types and against the risk of drifting from evidence-backed process description into implied internal claims
+- What did not: assuming that a more detailed draft is automatically a finished draft
+
+### Next Steps
+- [ ] Tighten the books-and-records section so the handoff into valuation and reporting is more concrete
+- [ ] Decide whether that pass should produce `draft_v3.md` or remain a light in-place refinement to `draft_v2.md`
+
 ## [2026-04-05] - Added Concrete Reconciliation-Break Examples To Chapter 5
 
 ### Summary

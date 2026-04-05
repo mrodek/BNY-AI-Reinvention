@@ -17,7 +17,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH02 | The Global Asset Machine | drafting | in_progress | draft_v3_ready | not_started | not_started | Draft v3 adds a failure-chain illustration and sharper early strategic framing |
 | CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v4_ready | in_progress | not_started | Challenge round passed with minor revisions; draft now marks the named brokers as illustrative and the diagram is positioned as a base model for later expansion |
 | CH04 | Why This Model Works | drafting | in_progress | draft_v2_ready | in_progress | not_started | Draft v2 adds one concrete migration-friction example and distinguishes trust from mere incumbency |
-| CH05 | Asset Servicing (Custody and Fund Accounting) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now gives concrete reconciliation-break examples and explains the usual queue, investigation, correction, and escalation handling path |
+| CH05 | Asset Servicing (Custody and Fund Accounting) | drafting | in_progress | draft_v2_ready | in_progress | not_started | Challenge round outcome is pass with minor revisions; main remaining gap is a slightly more concrete books-and-records to reporting handoff |
 | CH06 | Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH07 | Treasury Services (Payments and Liquidity) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH08 | Pershing (Wealth Infrastructure Platform) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -64,6 +64,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-05
 
+- Ran the CH05 challenge round against `draft_v2`; outcome was `pass with minor revisions`, with the main recommendation to sharpen the books-and-records and reporting handoff without adding another heavy layer of process detail.
 - Refined CH05's reconciliation section with concrete examples of position, cash, pricing, and corporate-action breaks plus a short description of how those exceptions are detected, investigated, corrected, and escalated.
 - Refined CH05's corporate-actions section so it now defines the term plainly, gives concrete examples, and explains why these events create operational stress across positions, cash, books, elections, and reporting.
 
@@ -117,8 +118,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Re-read CH05 `draft_v2` to judge whether the reconciliation and corporate-actions sections now give enough concrete operator detail without slipping into manual-like process exposition.
-2. Decide whether CH05 is ready for a challenge round from practitioner and editorial perspectives.
+1. Revise CH05 lightly to make the books-and-records to valuation/reporting handoff more concrete without over-expanding the chapter.
+2. Re-read CH05 after that pass and decide whether `draft_v3` is warranted or whether `draft_v2` is ready for editor review.
 3. Re-read CH04 and decide whether `draft_v2` is ready for a second challenge round.
 4. Decide whether CH01 is ready for editor review or needs one final polish pass.
 5. Decide whether CH03 is ready for editor review or should receive one more light polish pass.
