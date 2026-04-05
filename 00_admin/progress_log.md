@@ -54,6 +54,151 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-04] - Started Chapter 4
+
+### Summary
+- Files changed: `04_manuscript/chapter_04/chapter_brief.md`, `04_manuscript/chapter_04/research_tracker.md`, `04_manuscript/chapter_04/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH04 artifact set and tailored brief
+- Chapter(s) affected: CH04
+
+### Decisions
+- Decision: define CH04 as the strategic capstone of the opening section rather than a Part II business-line chapter
+- Rationale: CH01-CH03 now establish visibility, system model, and trade lifecycle; CH04 should synthesize those into the explicit argument for why BNY's current model is durable
+- Alternatives rejected: jumping directly into CH05 before completing the opening sequence, or letting CH04 drift into repeated mechanics
+
+### Issues & Resolution
+- Issue: the sequencing prompt treated CH04 like a Part II chapter, but the outline places it at the end of Part I
+- Resolution: proceed with CH04 while keeping its role explicit as the bridge from opening explanation into the later business-line chapters
+
+### Editorial Comments
+- Comment: ready to start Part II chapter 4?
+- Response: yes to CH04, with the clarification that it is the Part I capstone and the right next chapter before the Part II business-line set
+
+### Lessons Learned
+- Insight: CH04 only became clearer after CH01-CH03 stabilized, because its job is synthesis rather than standalone explanation
+- What worked: defining the chapter against what the previous three chapters already cover
+- What did not: treating CH04 as if it were just another descriptive chapter instead of the opening section's strategic capstone
+
+### Next Steps
+- [ ] Run the first CH04 research pass
+- [ ] Decide how explicitly to frame regulation as moat versus burden
+
+## [2026-04-04] - Completed Chapter 4 Research Pass 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_04/research_tracker.md`, `04_manuscript/chapter_04/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH04 source set and initial supported claim state
+- Chapter(s) affected: CH04
+
+### Decisions
+- Decision: build the first CH04 argument around trusted-provider consolidation, end-to-end breadth, continuity-sensitive functions, and resilience as a competitive advantage
+- Rationale: BNY's own 2025 materials now give unusually direct support for the idea that clients consolidate around trusted providers to reduce operational risk and improve resiliency, which is exactly the chapter's durability thesis
+- Alternatives rejected: leaning too heavily on generic GSIB status or writing CH04 as a vague "moat" chapter without specific operational logic
+
+### Issues & Resolution
+- Issue: switching-cost claims can become hand-wavy unless they are tied to trust, workflow integration, and migration risk
+- Resolution: treat provider consolidation and lifecycle breadth as partial support for switching costs, while keeping open the need for one stronger migration-risk example in a second pass if needed
+
+### Editorial Comments
+- Comment: go ahead
+- Response: completed the first CH04 research pass and moved the chapter from briefing into researching
+
+### Lessons Learned
+- Insight: CH04 works best when it translates infrastructure logic into commercial durability rather than repeating system mechanics
+- What worked: using BNY's own "trusted providers" and "difficult to replicate" language as the center of the chapter's evidence base
+- What did not: letting systemic-importance sources stand in for actual durability logic
+
+### Next Steps
+- [ ] Decide whether CH04 needs a second research pass on migration risk and switching-cost examples
+- [ ] Start structuring the chapter if the current source base is sufficient
+
+## [2026-04-04] - Drafted Chapter 4 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_04/source_notes.md`, `04_manuscript/chapter_04/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH04 source notes and first prose draft
+- Chapter(s) affected: CH04
+
+### Decisions
+- Decision: draft CH04 as a strategic durability chapter rather than adding more mechanics or another concrete trade sequence
+- Rationale: the opening section already has a system model and a walkthrough; CH04 works best by turning those foundations into an explicit argument about trust, embeddedness, switching costs, and resilience
+- Alternatives rejected: pausing for more research before drafting, or letting CH04 drift into a semi-technical explanation chapter
+
+### Issues & Resolution
+- Issue: CH04 could easily become repetitive if it re-explained the machine instead of drawing a higher-order conclusion from it
+- Resolution: structure the draft around invisible durability, operational trust, switching friction, adjacency across the lifecycle, and the bridge to platform transformation
+
+### Editorial Comments
+- Comment: go ahead and draft
+- Response: drafted CH04 `draft_v1` and added source notes for citation mapping
+
+### Lessons Learned
+- Insight: CH04 gains force when it sounds more like a strategic investor memo than a textbook explanation of market structure
+- What worked: centering the chapter on continuity, trust, and provider consolidation
+- What did not: allowing GSIB status or generic scale language to stand in for actual moat logic
+
+### Next Steps
+- [ ] Re-read CH04 and decide whether it needs one more research pass or can move straight to revision
+- [ ] Run a CH04 challenge round once the draft has had an editorial pass
+
+## [2026-04-04] - Challenge Round For Chapter 4
+
+### Summary
+- Files changed: `04_manuscript/chapter_04/challenge_round.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH04 challenge round covering executive, investor, practitioner, infrastructure-insider, and editorial perspectives
+- Chapter(s) affected: CH04
+
+### Decisions
+- Decision: keep the chapter structure, but require one more revision before moving forward
+- Rationale: the chapter's strategic logic is sound, but the switching-cost and durability claims still need one more layer of concrete grounding
+- Alternatives rejected: treating the chapter as already finished, or redesigning it from scratch
+
+### Issues & Resolution
+- Issue: CH04 currently reads more like a persuasive memo than a fully convincing chapter
+- Resolution: challenge round concluded that the right fix is one compact example of migration friction or operational dependency, not a wholesale rewrite
+
+### Editorial Comments
+- Comment: run a challenge round on this from several different perspectives
+- Response: completed; outcome is `revise before proceeding`
+
+### Lessons Learned
+- Insight: CH04 is structurally correct, but credibility in a moat chapter comes from one or two grounded specifics, not from more abstract strategic language
+- What worked: testing the chapter from multiple reader types rather than only one editorial lens
+- What did not: relying on switching-cost language without enough concrete texture
+
+### Next Steps
+- [ ] Decide whether CH04 needs one more research pass before revision
+- [ ] Create `draft_v2` with a compact migration-friction or operational-dependency example
+
+## [2026-04-04] - Drafted Chapter 4 Version 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_04/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH04 `draft_v2`
+- Chapter(s) affected: CH04
+
+### Decisions
+- Decision: revise CH04 through one compact illustrative migration-friction paragraph rather than adding another research-heavy section
+- Rationale: the challenge round identified a specificity problem, not a structural one; one grounded paragraph was enough to make the switching-cost claim feel more earned
+- Alternatives rejected: pausing for a second research pass before revising, or restructuring the chapter more heavily
+
+### Issues & Resolution
+- Issue: the switching-cost argument felt more asserted than demonstrated
+- Resolution: added a practical paragraph showing what a large institutional client would have to touch during a provider migration and clarified that stickiness should not be confused with mere inertia
+
+### Editorial Comments
+- Comment: proceed
+- Response: revised the chapter into `draft_v2`
+
+### Lessons Learned
+- Insight: a moat chapter often needs just one concrete paragraph to stop sounding abstract
+- What worked: making migration friction visible through records, reconciliations, controls, reporting, and oversight
+- What did not: relying on strategic language alone to carry the operational-dependency claim
+
+### Next Steps
+- [ ] Re-read CH04 and decide whether `draft_v2` is ready for a second challenge round
+- [ ] Run that challenge round if the draft now feels sufficiently grounded
+
 ## [2026-04-04] - Removed A Slogan-Like Framing From Chapter 1
 
 ### Summary

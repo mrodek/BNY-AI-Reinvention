@@ -6,7 +6,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 - Current phase: initialization
 - Current focus: convert the draft BNY outline into working manuscript architecture and start the opening chapters from a clean new-book baseline
-- Next milestone: decide whether to apply the optional CH01 wording softening or move CH01 and CH03 forward as ready for editor review
+- Next milestone: run the first CH04 research pass so the opening section can be completed as a coherent four-chapter sequence
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -16,7 +16,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH01 | The Bank You Don't See | drafting | in_progress | draft_v3_ready | in_progress | not_started | Challenge-round wording refinements applied; CH01 now reads like a controlled overture rather than a foreword-like placeholder |
 | CH02 | The Global Asset Machine | drafting | in_progress | draft_v3_ready | not_started | not_started | Draft v3 adds a failure-chain illustration and sharper early strategic framing |
 | CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v4_ready | in_progress | not_started | Challenge round passed with minor revisions; draft now marks the named brokers as illustrative and the diagram is positioned as a base model for later expansion |
-| CH04 | Why This Model Works | not_started | not_started | not_started | not_started | not_started | Opening-section capstone |
+| CH04 | Why This Model Works | drafting | in_progress | draft_v2_ready | in_progress | not_started | Draft v2 adds one concrete migration-friction example and distinguishes trust from mere incumbency |
 | CH05 | Asset Servicing (Custody and Fund Accounting) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH06 | Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH07 | Treasury Services (Payments and Liquidity) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -97,13 +97,18 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Refined `04_manuscript/chapter_03/draft_v4.md` to state explicitly that BNY is most visible in post-trade and servicing, while some BNY businesses also participate in execution and clearing-related services.
 - Ran a CH03 challenge round and accuracy check; outcome was `pass with minor revisions`.
 - Applied the CH03 challenge-round cleanup by marking the named brokers as illustrative and updating `prompts.md` so the diagram can serve as the base layer for later Part II and Part V expansions.
+- Created the CH04 artifact set with a tailored brief, initial research tracker, and first-pass claim register.
+- Completed the first CH04 research pass on durability, trust, embeddedness, and switching costs using BNY, Fed, OCC, and DTCC sources.
+- Created `04_manuscript/chapter_04/source_notes.md` and `draft_v1.md` to turn the CH04 source base into a strategic durability chapter.
+- Ran a CH04 challenge round from executive, investor, practitioner, insider, and editorial perspectives; outcome was `revise before proceeding`.
+- Created `04_manuscript/chapter_04/draft_v2.md` to add a compact migration-friction example and clarify that trust-based stickiness is not just inertia.
 
 ## Next Actions
 
-1. Decide whether CH01 is ready for editor review or needs one final polish pass.
-2. Decide whether CH03 is ready for editor review or should receive one more light polish pass.
-3. Re-read CH02 and decide whether it is ready for editor review or needs one more continuity pass.
-4. Reuse the CH03 diagram structure when drafting the more detailed current-state and AI-native workflow chapters.
+1. Re-read CH04 and decide whether `draft_v2` is ready for a second challenge round.
+2. Decide whether CH01 is ready for editor review or needs one final polish pass.
+3. Decide whether CH03 is ready for editor review or should receive one more light polish pass.
+4. Re-read CH02 and decide whether it is ready for editor review or needs one more continuity pass.
 
 ## Update Rules
 
