@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: initialization
-- Current focus: finish the first current-state business-line chapter set by strengthening CH05's evidence base and preparing it for drafting
-- Next milestone: decide whether CH05 can move from research into drafting now that the operational-process evidence base has been expanded
+- Current focus: move CH05 from challenge-round revisions into editor-ready shape while keeping the current-state business-line chapters grounded in operator detail
+- Next milestone: review CH05 `draft_v3` and decide whether it is ready for editor review as the model for later Part II business-line chapters
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -17,7 +17,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH02 | The Global Asset Machine | drafting | in_progress | draft_v3_ready | not_started | not_started | Draft v3 adds a failure-chain illustration and sharper early strategic framing |
 | CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v4_ready | in_progress | not_started | Challenge round passed with minor revisions; draft now marks the named brokers as illustrative and the diagram is positioned as a base model for later expansion |
 | CH04 | Why This Model Works | drafting | in_progress | draft_v2_ready | in_progress | not_started | Draft v2 adds one concrete migration-friction example and distinguishes trust from mere incumbency |
-| CH05 | Asset Servicing (Custody and Fund Accounting) | drafting | in_progress | draft_v2_ready | in_progress | not_started | Challenge round outcome is pass with minor revisions; main remaining gap is a slightly more concrete books-and-records to reporting handoff |
+| CH05 | Asset Servicing (Custody and Fund Accounting) | drafting | in_progress | draft_v3_ready | in_progress | not_started | Draft v3 applies the challenge-round revisions by making the books-and-records to valuation/reporting handoff more concrete |
 | CH06 | Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH07 | Treasury Services (Payments and Liquidity) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH08 | Pershing (Wealth Infrastructure Platform) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -64,6 +64,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-05
 
+- Created `04_manuscript/chapter_05/draft_v3.md` to apply the challenge-round revisions, mainly by sharpening the books-and-records handoff into valuation and reporting and by making downstream governance pressure more explicit.
 - Ran the CH05 challenge round against `draft_v2`; outcome was `pass with minor revisions`, with the main recommendation to sharpen the books-and-records and reporting handoff without adding another heavy layer of process detail.
 - Refined CH05's reconciliation section with concrete examples of position, cash, pricing, and corporate-action breaks plus a short description of how those exceptions are detected, investigated, corrected, and escalated.
 - Refined CH05's corporate-actions section so it now defines the term plainly, gives concrete examples, and explains why these events create operational stress across positions, cash, books, elections, and reporting.
@@ -118,8 +119,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Revise CH05 lightly to make the books-and-records to valuation/reporting handoff more concrete without over-expanding the chapter.
-2. Re-read CH05 after that pass and decide whether `draft_v3` is warranted or whether `draft_v2` is ready for editor review.
+1. Re-read CH05 `draft_v3` and decide whether it is ready for editor review or needs one final polish pass for pacing and density.
+2. If CH05 is held at `draft_v3`, preserve the current evidence discipline and avoid adding more process detail unless it solves a clear comprehension gap.
 3. Re-read CH04 and decide whether `draft_v2` is ready for a second challenge round.
 4. Decide whether CH01 is ready for editor review or needs one final polish pass.
 5. Decide whether CH03 is ready for editor review or should receive one more light polish pass.

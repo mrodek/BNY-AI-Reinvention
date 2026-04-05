@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Drafted Chapter 5 Version 3
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/draft_v3.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH05 `draft_v3` applying the challenge-round revisions
+- Chapter(s) affected: CH05
+
+### Decisions
+- Decision: create `draft_v3.md` rather than revise `draft_v2.md` in place
+- Rationale: the challenge round had produced a clear, bounded revision brief, and that warranted a new draft version so the progression from deepening, to challenge, to polishing remains visible on disk
+- Alternatives rejected: editing `draft_v2` directly, or adding more new examples outside the narrow challenge-round recommendations
+
+### Issues & Resolution
+- Issue: the challenge round found that the books-and-records section was still slightly more conceptual than the surrounding sections, and that the reporting/governance pressure from small upstream breaks could be shown more concretely
+- Resolution: revise the books-and-records section so trade events, cash detail, tax lots, accruals, and corporate-action updates are shown as inputs that must land coherently before valuation and reporting can trust the record; add one sentence in administration making the escalation from small operations issue to signoff or governance issue more explicit
+
+### Editorial Comments
+- Comment: let's make the revisions which were suggested
+- Response: created CH05 `draft_v3` with the bounded revisions recommended by the challenge round
+
+### Lessons Learned
+- Insight: after a strong challenge round, the best next draft is often a narrow handoff-and-clarity pass rather than a broader rewrite
+- What worked: limiting the revision to the identified weak spot and preserving the rest of the chapter structure
+- What did not: treating the challenge round as a prompt for more accumulation of examples
+
+### Next Steps
+- [ ] Re-read CH05 `draft_v3` and decide whether it is ready for editor review
+- [ ] If one more pass is needed, focus on pacing and paragraph density rather than adding new workflow content
+
 ## [2026-04-05] - Ran Chapter 5 Challenge Round
 
 ### Summary
