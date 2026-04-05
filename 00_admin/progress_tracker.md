@@ -15,7 +15,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | CH01 | The Bank You Don't See | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge-round revision added a concrete operating layer and stronger peer distinction |
 | CH02 | The Global Asset Machine | drafting | in_progress | draft_v3_ready | not_started | not_started | Draft v3 adds a failure-chain illustration and sharper early strategic framing |
-| CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v4_ready | not_started | not_started | Draft v4 aligns the diagram with the prose and defines `NSCC` on first mention |
+| CH03 | A Day in the Life of a Trade | drafting | in_progress | draft_v4_ready | not_started | not_started | Draft v4 aligns the diagram with the prose, defines `NSCC` on first mention, and clarifies that BNY is strongest in the post-trade layer while also touching some execution and clearing-related services |
 | CH04 | Why This Model Works | not_started | not_started | not_started | not_started | not_started | Opening-section capstone |
 | CH05 | Asset Servicing (Custody and Fund Accounting) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH06 | Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -91,6 +91,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Created `04_manuscript/chapter_03/draft_v2.md` to make the walkthrough more explicit through an E*TRADE-style stock purchase example.
 - Added `04_manuscript/chapter_03/images/tradelifecycle.png` and integrated it into `draft_v3.md` with a caption clarifying the diagram's simplifications.
 - Created `04_manuscript/chapter_03/draft_v4.md` to match the revised BNY-free diagram and define `National Securities Clearing Corporation (NSCC)` on first mention.
+- Refined `04_manuscript/chapter_03/draft_v4.md` to state explicitly that BNY is most visible in post-trade and servicing, while some BNY businesses also participate in execution and clearing-related services.
 
 ## Next Actions
 

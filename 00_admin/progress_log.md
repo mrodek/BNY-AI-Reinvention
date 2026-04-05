@@ -85,6 +85,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - [ ] Run a CH03 challenge round against `draft_v4`
 - [ ] Decide whether the chapter is now strong enough for editor review or needs one more revision pass
 
+## [2026-04-04] - Clarified BNY's Role In Chapter 3
+
+### Summary
+- Files changed: `04_manuscript/chapter_03/draft_v4.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH03 `draft_v4` now states more explicitly that BNY is strongest in post-trade and servicing, while some BNY businesses also offer execution and clearing-related services
+- Chapter(s) affected: CH03
+
+### Decisions
+- Decision: add one explicit sentence clarifying that BNY is not limited to custody alone, while keeping the chapter's main emphasis on the lower-stack post-trade layer
+- Rationale: the chapter needed to avoid understating BNY's capabilities without turning a reader-friendly walkthrough into a detailed product map
+- Alternatives rejected: leaving BNY described only as a custody-layer participant, or expanding the chapter into a multi-paragraph taxonomy of BNY business lines
+
+### Issues & Resolution
+- Issue: after removing BNY from the diagram, the prose risked implying that BNY appears only at the very end of the chain
+- Resolution: revise the core BNY paragraph to state that BNY is most visible in post-trade and servicing, while some BNY businesses also participate in execution and clearing-related services for specific client segments
+
+### Editorial Comments
+- Comment: should we be more explicit in this chapter?
+- Response: yes, but only briefly; the chapter now clarifies BNY's role without overloading the walkthrough
+
+### Lessons Learned
+- Insight: one precise sentence can resolve an accuracy gap more effectively than expanding the diagram or adding product-level detail
+- What worked: distinguishing BNY's strongest role from its broader capabilities
+- What did not: letting the chapter drift toward an either/or framing where BNY was either everywhere or only at the end
+
+### Next Steps
+- [ ] Run a CH03 challenge round against the updated `draft_v4`
+- [ ] Decide whether CH03 is ready for editor review or needs one more pass before moving on
+
 ## [2026-04-04] - Drafted Chapter 3 Version 3 With Diagram Integration
 
 ### Summary
