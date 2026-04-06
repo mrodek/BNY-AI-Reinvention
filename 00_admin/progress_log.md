@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Clarified The Opening Distinction Between Chapters 5 And 6
+
+### Summary
+- Files changed: `04_manuscript/chapter_05/draft_v3.md`, `04_manuscript/chapter_06/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH05 and CH06 openings now distinguish more clearly between ongoing asset-servicing operations and the earlier post-trade completion layer
+- Chapter(s) affected: CH05, CH06
+
+### Decisions
+- Decision: revise the opening paragraphs of both chapters rather than only patch one of them
+- Rationale: the confusion was structural, not just local wording; each chapter needed a cleaner standalone framing if read in isolation
+- Alternatives rejected: clarifying only CH06, or leaving the distinction to be inferred from later sections
+
+### Issues & Resolution
+- Issue: CH05 and CH06 were too easy to blur together because both chapters opened with broad infrastructure language before sharply separating their layer in the overall workflow
+- Resolution: rewrite CH06 to frame itself as the layer where trades become completed obligations and settled reality, and rewrite CH05 to frame itself as the layer that begins after assets already exist and must be administered, valued, reconciled, and governed over time
+
+### Editorial Comments
+- Comment: the distinction between Chapter 5 and 6 is getting lost, especially if chapters are read in isolation
+- Response: added clearer leading framing to both chapters so the separation is established immediately
+
+### Lessons Learned
+- Insight: adjacent infrastructure chapters need to declare their workflow boundary early, especially when both deal with post-trade concepts
+- What worked: defining the separation through time and responsibility rather than through product labels alone
+- What did not: letting both chapters begin with similarly broad "hidden infrastructure" language
+
+### Next Steps
+- [ ] Re-read the CH05 and CH06 openings together and confirm the separation now feels obvious
+- [ ] If CH06 is revised again, preserve the new chapter boundary framing
+
 ## [2026-04-05] - Added A Simple Netting Example To Chapter 6
 
 ### Summary
