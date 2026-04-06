@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Deepened The Risk, Margin, And Liquidity Section In Chapter 6
+
+### Summary
+- Files changed: `04_manuscript/chapter_06/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH06 `draft_v1` now explains margin, collateral, financing, and liquidity in more concrete workflow terms
+- Chapter(s) affected: CH06
+
+### Decisions
+- Decision: deepen the section in place rather than defer the clarification to a later revision
+- Rationale: the chapter had reached the point where introducing major post-trade terms without enough operational explanation would reduce reader trust and blur one of the core burdens of the business
+- Alternatives rejected: leaving the terms lightly defined, or adding a separate glossary-style sidebar instead of integrating the explanation into the workflow
+
+### Issues & Resolution
+- Issue: the section introduced margin, collateral, and liquidity as important ideas but moved past them too quickly for a broad reader to build a working mental model
+- Resolution: add a direct explanation of what each term is doing in the clearing workflow and include a simple stress example showing how compressed timelines or volatility can create earlier funding and collateral pressure even when the underlying trade intent has not changed
+
+### Editorial Comments
+- Comment: this section feels light; we introduce some big terms and gloss over them
+- Response: expanded the section so the terms now map to specific operating requirements and pressures
+
+### Lessons Learned
+- Insight: concepts like margin and liquidity need to be explained through workflow consequences, not just through definitions, if the chapter is going to feel concrete
+- What worked: tying the terms to timing, funding, and settlement readiness rather than explaining them in isolation
+- What did not: relying on high-level risk language alone
+
+### Next Steps
+- [ ] Re-read CH06 `draft_v1` and decide whether any other section is still introducing operator terms too quickly
+- [ ] If revising again, keep clarifications equally concrete and workflow-based
+
 ## [2026-04-05] - Clarified The Opening Distinction Between Chapters 5 And 6
 
 ### Summary

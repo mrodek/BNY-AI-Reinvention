@@ -18,7 +18,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH03 | A Day in the Life of a Trade | in_editor_review | in_progress | draft_v5_ready | in_progress | not_started | Light final polish applied in draft v5; chapter is now effectively editor-review-ready with the conceptual diagram retained as the base model |
 | CH04 | Why This Model Works | drafting | in_progress | draft_v2_ready | in_progress | not_started | Draft v2 adds one concrete migration-friction example and distinguishes trust from mere incumbency |
 | CH05 | Asset Servicing (Custody and Fund Accounting) | in_editor_review | in_progress | draft_v3_ready | in_progress | not_started | Opening now clarifies that CH05 starts after trades are complete and focuses on keeping positions, funds, and records governable over time |
-| CH06 | Clearing and Settlement | drafting | in_progress | draft_v1_ready | not_started | not_started | Opening now clarifies that CH06 comes one layer earlier than CH05 by focusing on how trades become completed obligations and settled reality in the first place |
+| CH06 | Clearing and Settlement | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 now gives a more concrete explanation of margin, collateral, and liquidity pressure so the risk layer reads less like terminology and more like operating burden |
 | CH07 | Treasury Services (Payments and Liquidity) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH08 | Pershing (Wealth Infrastructure Platform) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH09 | Investment Management | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -64,6 +64,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-05
 
+- Deepened CH06's `Risk, Margin, And Liquidity Coordination` section so margin, collateral, financing, and liquidity are explained operationally and linked to a concrete stress example.
 - Refined the openings of CH05 and CH06 so each chapter can stand alone more clearly: CH06 now frames itself as the layer where trades become real, while CH05 now frames itself as the layer where assets, funds, and records must remain governable over time.
 - Refined CH06 `draft_v1` with a simple netting example so readers can see how gross market activity is compressed into smaller residual obligations before funding and settlement.
 - Refined CH06 `draft_v1` to explain the DTCC-versus-BNY distinction directly, making clear that DTCC is the shared market utility layer while BNY operates as a participant and client-facing service layer through and around that infrastructure.
