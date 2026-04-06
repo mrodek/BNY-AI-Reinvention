@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Rewrote Chapter 6 Break Examples In Plainer Language
+
+### Summary
+- Files changed: `04_manuscript/chapter_06/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH06 `draft_v1` now explains post-trade break examples in more direct language
+- Chapter(s) affected: CH06
+
+### Decisions
+- Decision: rewrite the existing examples rather than layer more explanation on top of the old phrasing
+- Rationale: the problem was not missing examples; it was that the examples were written too compactly and used language that obscured what actually goes wrong
+- Alternatives rejected: keeping the same examples with minor word substitutions, or replacing them with an entirely new section structure
+
+### Issues & Resolution
+- Issue: phrases such as "the completion risk moves forward into the settlement date" were too compressed and sounded more stylized than explanatory
+- Resolution: rewrite each example to state plainly what failed, what that failure now threatens, and what operations teams have to do next
+
+### Editorial Comments
+- Comment: the examples are hard to follow and the English feels too cute
+- Response: rewrote the section in more direct operational language
+
+### Lessons Learned
+- Insight: examples meant to carry operational clarity need blunt language more than elegant compression
+- What worked: translating each example into a simple sequence of cause, operational consequence, and required response
+- What did not: trying to make the examples sound polished at the expense of being legible
+
+### Next Steps
+- [ ] Re-read CH06 `draft_v1` and decide whether any other sections still use language that is smoother than it is clear
+- [ ] If revising again, favor direct consequence language over compressed abstraction
+
 ## [2026-04-05] - Reformatted Margin, Collateral, And Liquidity Definitions In Chapter 6
 
 ### Summary
