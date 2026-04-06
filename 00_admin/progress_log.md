@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Clarified Settlement-Timing Language For Non-Specialist Readers In Chapter 6
+
+### Summary
+- Files changed: `04_manuscript/chapter_06/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH06 `draft_v1` now explains compressed settlement timing more clearly for readers who do not already think in trading-desk or treasury-operations terms
+- Chapter(s) affected: CH06
+
+### Decisions
+- Decision: rewrite the sentence rather than try to defend the original phrasing
+- Rationale: the sentence assumed a participant's mental model of timing, financing, and inventory management that many readers will not have
+- Alternatives rejected: leaving the line as-is, or adding a separate explanatory aside elsewhere instead of fixing the sentence where the confusion occurred
+
+### Issues & Resolution
+- Issue: the prior wording sounded like trades might unexpectedly settle faster than planned, when the real point was that the market as a whole may now operate on a shorter cycle with less slack
+- Resolution: rewrite the passage to say plainly that shorter settlement cycles give firms less time to net exposures, arrange financing, source securities, and move cash into the right place
+
+### Editorial Comments
+- Comment: the chapter should be more accommodating for non-participants trying to learn how markets operate
+- Response: revised the sentence so it explains the timing problem in more accessible workflow language
+
+### Lessons Learned
+- Insight: when explaining market infrastructure to non-specialists, the main burden often comes from hidden assumptions about time, not just from technical vocabulary
+- What worked: replacing participant shorthand with a sentence about less time and less operating room
+- What did not: assuming readers would automatically understand the difference between a shorter market-wide settlement cycle and an unexpectedly accelerated individual trade
+
+### Next Steps
+- [ ] Re-read CH06 `draft_v1` and look for any other sentence that assumes a participant's timing model
+- [ ] If revising again, keep translating participant logic into direct operational language
+
 ## [2026-04-05] - Rewrote Chapter 6 Break Examples In Plainer Language
 
 ### Summary

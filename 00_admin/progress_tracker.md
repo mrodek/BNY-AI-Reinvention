@@ -18,7 +18,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH03 | A Day in the Life of a Trade | in_editor_review | in_progress | draft_v5_ready | in_progress | not_started | Light final polish applied in draft v5; chapter is now effectively editor-review-ready with the conceptual diagram retained as the base model |
 | CH04 | Why This Model Works | drafting | in_progress | draft_v2_ready | in_progress | not_started | Draft v2 adds one concrete migration-friction example and distinguishes trust from mere incumbency |
 | CH05 | Asset Servicing (Custody and Fund Accounting) | in_editor_review | in_progress | draft_v3_ready | in_progress | not_started | Opening now clarifies that CH05 starts after trades are complete and focuses on keeping positions, funds, and records governable over time |
-| CH06 | Clearing and Settlement | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 now rewrites the break examples in plainer language so each one states what went wrong, what that interrupts, and what operations teams must do next |
+| CH06 | Clearing and Settlement | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 now explains compressed settlement timelines in more beginner-accommodating language, making clear that the issue is reduced operating time rather than unexpectedly fast one-off trades |
 | CH07 | Treasury Services (Payments and Liquidity) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH08 | Pershing (Wealth Infrastructure Platform) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH09 | Investment Management | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -64,6 +64,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-05
 
+- Refined CH06's funding-and-inventory example to explain that the real pressure comes from shorter settlement cycles leaving firms less time to net exposures, arrange financing, source securities, and move cash into place.
 - Rewrote CH06's `What Breaks Actually Look Like` section in plainer language so the examples describe direct causes, consequences, and operational response rather than using compressed phrasing.
 - Reformatted the CH06 risk section so margin, collateral, and liquidity are defined in a compact list before the workflow pressure is described in prose.
 - Deepened CH06's `Risk, Margin, And Liquidity Coordination` section so margin, collateral, financing, and liquidity are explained operationally and linked to a concrete stress example.
