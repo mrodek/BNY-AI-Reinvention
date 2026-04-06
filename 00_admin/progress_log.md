@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Added A Simple Netting Example To Chapter 6
+
+### Summary
+- Files changed: `04_manuscript/chapter_06/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH06 `draft_v1` now includes a compact illustrative example of netting
+- Chapter(s) affected: CH06
+
+### Decisions
+- Decision: add one small numerical netting example inside the clearing section
+- Rationale: netting is conceptually central to the chapter, but many readers will not internalize the value of netting until they see gross trade flow collapse into a smaller residual obligation
+- Alternatives rejected: leaving netting fully abstract, or adding a larger multi-step worked example that would slow the chapter down
+
+### Issues & Resolution
+- Issue: without an example, netting risked sounding like another market-structure term rather than one of the main mechanisms that makes clearing economically workable
+- Resolution: add a simple same-stock example showing gross buys and sells compressing into a smaller net position that is easier to fund, settle, and supervise
+
+### Editorial Comments
+- Comment: I think a simple netting example would be useful
+- Response: added a short numerical example directly in the clearing section
+
+### Lessons Learned
+- Insight: netting is one of those concepts that usually becomes obvious only after one concrete example
+- What worked: using a small same-day broker example that illustrates the mechanics without dragging the chapter into technical detail
+- What did not: explaining netting only in conceptual terms
+
+### Next Steps
+- [ ] Re-read CH06 `draft_v1` and decide whether any other concept still needs one compact example before challenge round
+- [ ] If revising again, keep additions similarly small and high-yield
+
 ## [2026-04-05] - Clarified DTCC Versus BNY In Chapter 6
 
 ### Summary
