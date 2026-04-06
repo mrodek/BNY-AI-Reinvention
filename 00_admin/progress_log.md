@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Reformatted Margin, Collateral, And Liquidity Definitions In Chapter 6
+
+### Summary
+- Files changed: `04_manuscript/chapter_06/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH06 `draft_v1` now presents margin, collateral, and liquidity as a compact bulleted definition block
+- Chapter(s) affected: CH06
+
+### Decisions
+- Decision: convert the three term definitions into a short list rather than keep them in one dense paragraph
+- Rationale: the section now has enough conceptual weight that readability matters, and the three terms are easier to absorb when visually separated
+- Alternatives rejected: leaving the definitions embedded in prose, or breaking the section into a larger glossary-style subheading
+
+### Issues & Resolution
+- Issue: the paragraph was more understandable after the prior rewrite, but it still asked the reader to parse several related definitions in one block
+- Resolution: format the definitions as a compact list, then return to prose for the interaction among the terms
+
+### Editorial Comments
+- Comment: perhaps make these terms a bulleted list?
+- Response: reformatted the definitions as a short list
+
+### Lessons Learned
+- Insight: when several adjacent terms need quick definition, a small list can improve comprehension without making the chapter feel schematic
+- What worked: using the list only for the definitions, then switching back to prose for the operating consequence
+- What did not: keeping all three concepts in one visual block of prose
+
+### Next Steps
+- [ ] Re-read CH06 `draft_v1` and decide whether any other explanatory cluster would benefit from the same treatment
+- [ ] Keep list usage selective so the chapter stays primarily prose-driven
+
 ## [2026-04-05] - Deepened The Risk, Margin, And Liquidity Section In Chapter 6
 
 ### Summary
