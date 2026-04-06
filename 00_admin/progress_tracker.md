@@ -18,7 +18,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH03 | A Day in the Life of a Trade | in_editor_review | in_progress | draft_v5_ready | in_progress | not_started | Light final polish applied in draft v5; chapter is now effectively editor-review-ready with the conceptual diagram retained as the base model |
 | CH04 | Why This Model Works | drafting | in_progress | draft_v2_ready | in_progress | not_started | Draft v2 adds one concrete migration-friction example and distinguishes trust from mere incumbency |
 | CH05 | Asset Servicing (Custody and Fund Accounting) | in_editor_review | in_progress | draft_v3_ready | in_progress | not_started | Draft v3 applies the challenge-round revisions; chapter should now be treated as editor-review-ready rather than reopened for more process expansion by default |
-| CH06 | Clearing and Settlement | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 now explains the business through trade capture, netting, risk, depository, settlement, and post-settlement control layers at CH05's level of workflow specificity |
+| CH06 | Clearing and Settlement | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 now makes the DTCC-versus-BNY distinction explicit by separating shared market-utility roles from participant and client-facing operating roles |
 | CH07 | Treasury Services (Payments and Liquidity) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH08 | Pershing (Wealth Infrastructure Platform) | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH09 | Investment Management | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
@@ -64,6 +64,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-05
 
+- Refined CH06 `draft_v1` to explain the DTCC-versus-BNY distinction directly, making clear that DTCC is the shared market utility layer while BNY operates as a participant and client-facing service layer through and around that infrastructure.
 - Created `04_manuscript/chapter_06/draft_v1.md` and `source_notes.md` to turn the expanded CH06 research base into the first workflow-first draft, with explicit attention to affirmation, netting, liquidity, settlement completion, and post-trade control burden.
 - Created `04_manuscript/chapter_03/draft_v5.md` as a light final polish pass, smoothing transitions and clarifying the illustrative setup before editor review.
 - Completed a second CH06 research pass focused on affirmation timing, netting tradeoffs, funding and liquidity pressure, settlement-fail risk, and clearing-agency risk management so the chapter can be drafted at CH05's level of operational specificity.

@@ -54,6 +54,35 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-05] - Clarified DTCC Versus BNY In Chapter 6
+
+### Summary
+- Files changed: `04_manuscript/chapter_06/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH06 `draft_v1` now includes a direct explanation of how DTCC's utility role differs from BNY's participant and client-facing operating role
+- Chapter(s) affected: CH06
+
+### Decisions
+- Decision: add a direct conceptual clarification inside CH06 rather than assume readers will infer the distinction from surrounding workflow description
+- Rationale: if the distinction is not explicit, many readers will understandably think BNY and DTCC are competing for the same layer of work when they are often central to the same workflow in different ways
+- Alternatives rejected: leaving the distinction implicit, or waiting to clarify it later through conversation rather than in the manuscript
+
+### Issues & Resolution
+- Issue: the earlier chapter language did not make the layering difference between DTCC and BNY intuitive enough for a broad but smart reader
+- Resolution: add a plain workflow explanation that DTCC operates shared post-trade utility infrastructure such as NSCC and DTC, while BNY more often operates as a participant, clearing broker, custodian, financing provider, or client-facing operating layer using and surrounding that infrastructure
+
+### Editorial Comments
+- Comment: the current clarifying statement is inadequate; many readers would not understand the distinction
+- Response: rewrote the distinction inside CH06 in simpler, more operational language
+
+### Lessons Learned
+- Insight: in infrastructure chapters, the hardest distinctions are often not technical but layer distinctions, where two important institutions can both be central to the same workflow without doing the same job
+- What worked: translating the difference into stack position and operating role rather than institution-type jargon
+- What did not: assuming that "utility versus participant" would be self-explanatory on first use
+
+### Next Steps
+- [ ] Re-read CH06 `draft_v1` and decide whether one more process-deepening pass is needed before a challenge round
+- [ ] If revising again, focus on fail handling, margin pressure, or settlement-control detail rather than reopening the chapter's basic framing
+
 ## [2026-04-05] - Drafted Chapter 6 Version 1
 
 ### Summary
