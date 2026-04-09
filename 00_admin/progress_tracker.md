@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: review CH07 `draft_v2` for editor-facing readiness while keeping CH08 revision queued
-- Next milestone: decide whether CH07 should move into editor review or receive one narrow polish pass before that handoff
+- Current focus: review CH08 `draft_v2` after the challenge-round revision pass while keeping CH07 available for editor-facing readiness review
+- Next milestone: decide whether CH08 `draft_v2` is ready for editor-facing review or needs one final polish pass
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -20,7 +20,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH05 | Asset Servicing (Custody and Fund Accounting) | in_editor_review | in_progress | draft_v3_ready | in_progress | not_started | Opening now clarifies that CH05 starts after trades are complete and focuses on keeping positions, funds, and records governable over time |
 | CH06 | Clearing and Settlement | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now incorporates editorial notes and challenge-round actions, including deeper trade-capture detail and a compact fail-management walkthrough |
 | CH07 | Treasury Services (Payments and Liquidity) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a same-day escalation scenario, sharper cutoff-pressure ownership language, and a clearer durability/economics bridge |
-| CH08 | Pershing (Wealth Infrastructure Platform) | revising | in_progress | draft_v1_ready | not_started | not_started | Challenge round recommends one focused revision pass to add a concrete workflow scenario and tighten the CH23 bridge |
+| CH08 | Pershing (Wealth Infrastructure Platform) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a concrete advisor-service scenario, sharper carrying-layer consequences, and a tighter current-state bridge into CH23 |
 | CH09 | Investment Management | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH10 | Collateral, Securities Lending, and Financing | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH11 | The Hidden Truth: A System Held Together by Reconciliation | not_started | not_started | not_started | not_started | not_started | Current-state synthesis chapter |
@@ -64,6 +64,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-09
 
+- Created `04_manuscript/chapter_08/draft_v2.md` by applying the CH08 challenge-round revisions in one focused pass.
+- Added a compact advisor-and-service workflow scenario, sharpened the carrying layer's day-to-day consequences, made the open-ecosystem section more wealth-specific, and tightened the current-state bridge into CH23.
 - Created `04_manuscript/chapter_07/draft_v2.md` by applying the challenge-round revisions in one focused pass.
 - Added a same-day treasury escalation scenario, strengthened ownership language across operations, treasury, service, and risk, and rewrote forecasting qualification so it stays inside the operating narrative.
 - Sharpened CH07's durability section so client dependency, execution certainty, and funding-scramble avoidance carry the economics bridge more clearly.
@@ -174,8 +176,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass.
-2. Create `04_manuscript/chapter_08/draft_v2.md` using the challenge-round action list.
+1. Re-read CH08 `draft_v2` and decide whether it is ready for editor-facing review or needs one final polish pass.
+2. Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass.
 3. Re-read CH06 `draft_v2` and decide whether it should move into editor review or receive a narrow `draft_v3` polish pass.
 4. Keep one backlog item to find a non-vendor forecasting source that could upgrade CH07 `CLM-003` from `qualified` to `supported`.
 5. Continue expanding `04_manuscript/glossary.md` as CH07 and CH08 terminology stabilizes through draft review.

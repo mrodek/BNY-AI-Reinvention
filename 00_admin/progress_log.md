@@ -45,6 +45,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Drafted Chapter 8 Version 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_08/chapter_brief.md`, `04_manuscript/chapter_08/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH08 `draft_v2.md`, updated the chapter brief back to `drafting`, and synchronized tracker state to reflect the revised draft
+- Chapter(s) affected: CH08
+
+### Decisions
+- Decision: implement the CH08 challenge-round actions in one integrated revision pass rather than as smaller edits to `draft_v1`
+- Rationale: the main weaknesses were closely related and all pointed to the same objective, which was to make the chapter more operationally grounded and slightly less future-state in tone
+- Alternatives rejected: keeping `draft_v1` as-is for editor review, or reopening research before making the obvious draft-level improvements
+
+### Issues & Resolution
+- Issue: `draft_v1` still needed one lived workflow example, clearer day-to-day consequences of the carrying layer, and a more disciplined close that landed on current-state constraints before CH23
+- Resolution: `draft_v2` now adds a compact advisor-and-service transfer scenario, strengthens the carrying-layer consequences around statements, visibility, transfers, and escalation ownership, makes the open-ecosystem section more specifically about wealth-tech stack choices, and cools the future-state bridge
+
+### Editorial Comments
+- Comment: "go ahead"
+- Response: created CH08 `draft_v2.md` directly from the challenge-round action list and updated the tracker and log in the same pass
+
+### Lessons Learned
+- Insight: CH08 reads best when the platform thesis is carried by visible operating work rather than by abstract platform language
+- What worked: using one compact workflow scenario to convert a market-friction claim into something practitioners can recognize immediately
+- What did not: leaving the later sections too close to the language of a future-state transformation chapter
+
+### Next Steps
+- [ ] Re-read CH08 `draft_v2` and decide whether it is ready for editor-facing review or needs one final polish pass
+- [ ] Decide whether CH07 `draft_v2` should move into editor review or needs one narrow polish pass
+- [ ] Keep the CH07 forecasting-evidence backlog item visible but do not let it block revision decisions
+
 ## [2026-04-09] - Drafted Chapter 7 Version 2
 
 ### Summary
