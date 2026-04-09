@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Ran Chapter 9 Challenge Round
+
+### Summary
+- Files changed: `04_manuscript/chapter_09/challenge_round.md`, `04_manuscript/chapter_09/chapter_brief.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH09 `challenge_round.md`, updated the chapter brief status to `revising`, and synchronized tracker focus, milestone, and next actions with the challenge-round outcome
+- Chapter(s) affected: CH09
+
+### Decisions
+- Decision: move CH09 from `drafting` to `revising` and run one focused revision pass before `draft_v2`
+- Rationale: `draft_v1` already has a strong conceptual spine, but it will be materially more defensible if it states more crisply what remains differentiated, sharpens the economics bridge, and tightens the CH24 handoff
+- Alternatives rejected: treating the current draft as ready for editor-facing review immediately, or reopening research broadly before applying the most obvious structural improvements
+
+### Issues & Resolution
+- Issue: the chapter explains the judgment-versus-machine distinction well, but it still leaves some ambiguity about what counts as durable edge beyond a general appeal to judgment
+- Resolution: the challenge round recommends one tighter passage on process design, mandate interpretation, governance credibility, and client trust as sources of durable differentiation
+- Issue: the economics bridge is present but could be more explicit about how shared tooling and workflow compression change the basis of advantage
+- Resolution: the challenge round recommends one compact paragraph linking AI-enabled scale, shared tools, and narrowing premium differentiation more directly to business consequences
+
+### Editorial Comments
+- Comment: "go ahead"
+- Response: completed the CH09 challenge round on disk and updated tracker/log state in the same pass
+
+### Lessons Learned
+- Insight: CH09 is already conceptually strong, but this type of chapter needs especially crisp language on what remains truly differentiated once more of the machine is available to everyone
+- What worked: pressure-testing the draft against both investment-practitioner objections and executive questions about economics and strategic consequence
+- What did not: relying on the word `judgment` alone to carry the full burden of differentiation
+
+### Next Steps
+- [ ] Create `04_manuscript/chapter_09/draft_v2.md` using the challenge-round priorities
+- [ ] Decide whether one additional neutral economics source is needed after the revision pass
+- [ ] Keep CH24 setup explicit without letting CH09 drift into future-state design too early
+
 ## [2026-04-09] - Drafted Chapter 9 Version 1
 
 ### Summary
