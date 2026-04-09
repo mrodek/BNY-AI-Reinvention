@@ -139,6 +139,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - [ ] Decide whether CH09 needs one additional economics source before the next revision
 - [ ] Commit and push the CH09 draft package in the same session
 
+## [2026-04-09] - Tightened CH10 Closing And Editorial Style Guidance
+
+### Summary
+- Files changed: `00_admin/editorial_style_guide.md`, `04_manuscript/chapter_10/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: revised the CH10 closing section to remove stage-direction rhetoric and updated the editorial style guide to discourage this pattern in future drafts
+- Chapter(s) affected: CH10
+
+### Decisions
+- Decision: remove the "CH10 should end with a sober point, not a futuristic one" line and replace it with direct prose, while also adding a style rule against stage-direction and dramatic contrast cues
+- Rationale: the user flagged the pattern correctly. It reads like commentary about the chapter rather than the chapter itself, and it adds unnecessary rhetoric to a section that should stay literal
+- Alternatives rejected: leaving the line in place, or making only the local CH10 fix without encoding the preference into the style guide
+
+### Issues & Resolution
+- Issue: the closing section in CH10 used meta framing and a dramatic contrast cue that weakens the manuscript voice
+- Resolution: retitled the section more directly, rewrote the paragraph in literal terms, and updated the style guide so future chapters avoid the same habit
+
+### Editorial Comments
+- Comment: "lets avoid these types of dramatic statements: CH10 should end with a sober point, not a futuristic one. Please update the editorial style accordingly and revise this and perhaps the section title"
+- Response: revised the CH10 closing immediately and encoded the preference in the editorial style guide
+
+### Lessons Learned
+- Insight: when a sentence sounds like a note to the writer rather than a statement to the reader, it usually belongs in the brief or the style guide, not in the manuscript
+- What worked: fixing both the local line and the underlying style rule in the same pass
+- What did not: letting a chapter-internal instruction survive into draft prose
+
+### Next Steps
+- [ ] Re-read CH10 `draft_v1` and decide whether it should run a challenge round before `draft_v2`
+- [ ] Watch for similar stage-direction or contrastive setup lines in other current-state chapters
+- [ ] Commit and push the CH10/style-guide revision in the same session
+
 ## [2026-04-09] - Drafted Chapter 10 Version 1
 
 ### Summary

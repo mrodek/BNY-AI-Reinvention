@@ -54,8 +54,8 @@ Collateral and financing matter because they sit underneath many other things th
 
 That is one reason BNY's role in this chapter is strategically important. The firm operates where trust, infrastructure, and workflow discipline meet. It does not have to own every risk position in order to matter. In many cases, the lasting value is in helping clients see inventory, mobilize assets, coordinate obligations, and keep the system moving through triparty, securities-finance, and collateral-management processes.^[SRC-001]^[SRC-002]^[SRC-003]^[SRC-004]
 
-## Why This Sets Up CH25
+## Why This Matters For CH25
 
-CH10 should end with a sober point, not a futuristic one. This domain is already rich with data, rules, schedules, constraints, and recurring exceptions. That is exactly why it is such a strong candidate for later intelligence and orchestration improvements.^[SRC-007]^[SRC-008] The current model still depends on people and systems constantly translating fragmented information into time-sensitive decisions about eligibility, valuation, substitution, mobility, and funding.
+This domain is already rich with data, rules, schedules, constraints, and recurring exceptions. That makes it a strong candidate for later intelligence and orchestration improvements.^[SRC-007]^[SRC-008] The current model still depends on people and systems constantly translating fragmented information into time-sensitive decisions about eligibility, valuation, substitution, mobility, and funding.
 
-That is the right bridge into CH25. The future-state question is not whether collateral and financing suddenly become simple. It is whether more of this coordination burden can become visible, adaptive, and better orchestrated before the next margin call, substitution request, recall, or financing deadline forces another manual scramble.
+CH25 can build from that current-state burden. The useful future-state question is whether more of this coordination work can become visible, adaptive, and better orchestrated before the next margin call, substitution request, recall, or financing deadline forces another manual scramble.

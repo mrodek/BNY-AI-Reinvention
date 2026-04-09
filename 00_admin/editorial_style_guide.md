@@ -20,6 +20,7 @@
 ## Writing Standard
 
 - Prefer clear claims over vague inspiration.
+- Avoid making negating statements to make a point
 - Explain why a practice works, when it fails, and what context matters.
 - Name tradeoffs directly.
 - Separate current-state description, strategic interpretation, and future-state recommendation clearly.
@@ -30,6 +31,7 @@
 - Do not use em dashes in manuscript prose.
 - Reserve short standalone emphasis lines for rare, high-value moments only. As a default, a chapter should contain at most 1 to 3 major emphatic claims in that style, and often none.
 - Avoid AI-shaped cadence: no repetitive staccato paragraphing, no artificial dramatic breaks, and no inflated rhetorical rhythm.
+- Avoid stage-direction prose in the manuscript such as "this chapter should end" or "the point here is." Make the point directly instead of narrating the intended effect.
 - Keep citations light in the prose draft. Put full source detail and claim mapping into `source_notes.md`.
 
 ## Book-Level Tone
@@ -39,6 +41,7 @@
 - Treat BNY as a serious operating system for finance, not as a generic transformation case study.
 - Make the strategic argument through system understanding, not through slogans.
 - Avoid consulting-slide prose, vendor marketing language, and theatrical futurism.
+- Avoid dramatic contrast cues such as "not a futuristic one" or similar rhetorical setup lines. Use direct, literal transitions instead.
 - When making ambitious future-state claims, anchor them in architecture, workflow, incentives, governance, and execution reality.
 
 ## Chapter Pattern
