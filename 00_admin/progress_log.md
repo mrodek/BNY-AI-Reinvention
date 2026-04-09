@@ -45,6 +45,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Simplified Chapter 7 Forecasting Language In Draft 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_07/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: revised the CH07 `draft_v2.md` liquidity paragraph to emphasize intraday uncertainty and reprioritization, and synchronized tracker/log state with the manuscript change
+- Chapter(s) affected: CH07
+
+### Decisions
+- Decision: replace the forecasting-error disclaimer language with a cleaner intraday-uncertainty framing
+- Rationale: the prior paragraph was disciplined but still sounded like source-management prose rather than manuscript prose, and it overemphasized forecasting errors instead of the operating decisions treasury teams actually face
+- Alternatives rejected: leaving the paragraph as-is, or expanding the section into a more detailed empirical claim about forecasting behavior that the current evidence base does not support
+
+### Issues & Resolution
+- Issue: the existing paragraph created confusion about whether the chapter was trying to prove that forecasting errors themselves were the main point
+- Resolution: rewrote the passage so it now centers expected inflows, outflows, payment timing, buffer decisions, and reprioritization under time pressure
+
+### Editorial Comments
+- Comment: "ok make that adjustment"
+- Response: updated the manuscript paragraph directly and recorded the change in the project tracker and log in the same pass
+
+### Lessons Learned
+- Insight: when the evidence is narrower than the operational story, the manuscript should state the operational story clearly and avoid foregrounding the research caveat itself
+- What worked: reframing the section around intraday uncertainty and action under time pressure
+- What did not: using "forecasting error" as the focal phrase when the chapter is really about decision-making under shifting expectations
+
+### Next Steps
+- [ ] Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass
+- [ ] Preserve disciplined claim scope on liquidity decisions without reintroducing evidence-memo phrasing
+- [ ] Commit and push the revised CH07 draft package in the same session
+
 ## [2026-04-09] - Added Rail Inventory Table To Chapter 7 Draft 2
 
 ### Summary
