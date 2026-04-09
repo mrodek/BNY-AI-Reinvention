@@ -77,6 +77,156 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - [ ] Decide whether CH09 needs one additional economics source before the next revision
 - [ ] Commit and push the CH09 draft package in the same session
 
+## [2026-04-09] - Drafted Chapter 10 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_10/chapter_brief.md`, `04_manuscript/chapter_10/source_notes.md`, `04_manuscript/chapter_10/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH10 `source_notes.md` and `draft_v1.md`, updated the chapter brief status, and moved CH10 from research into drafting
+- Chapter(s) affected: CH10
+
+### Decisions
+- Decision: write CH10 as a coordination chapter spanning triparty, repo, securities lending, and margin-linked collateral workflows, with one explicit paragraph on eligibility, valuation, and standard-collateral scope
+- Rationale: the completed research base supports a workflow-first chapter much more strongly than a product-by-product treatment, and the asset-scope question needed to be resolved directly in prose
+- Alternatives rejected: narrowing the chapter to repo alone, or broadening it into bespoke collateral examples that sit outside the reviewed BNY operating center
+
+### Issues & Resolution
+- Issue: CH10 risked becoming either too abstract or too specialist if it did not ground the argument in one operating scenario and one plain-language explanation of how collateral is actually managed
+- Resolution: draft v1 now includes both, while preserving the chapter's core claim that this is a continuous coordination business around eligibility, haircuts, mobility, substitutions, recalls, and timing pressure
+
+### Editorial Comments
+- Comment: "go ahead"
+- Response: created the draft package, moved CH10 into drafting, and updated tracker/log state in the same pass
+
+### Lessons Learned
+- Insight: this chapter becomes more legible once the reader sees collateral as working inventory rather than as static support pledged once and forgotten
+- What worked: using one same-day coordination scenario and keeping the BNY role anchored in infrastructure rather than in generic financing language
+- What did not: nothing material in this drafting pass
+
+### Next Steps
+- [ ] Re-read CH10 `draft_v1` and decide whether it should run a challenge round before `draft_v2`
+- [ ] Keep Appendix B separate unless the chapter truly needs an explicit appendix reference
+- [ ] Commit and push the CH10 draft package in the same session
+
+## [2026-04-09] - Created Appendix B On Nonstandard Collateral
+
+### Summary
+- Files changed: `04_manuscript/appendix_b_nonstandard_collateral/appendix_brief.md`, `04_manuscript/appendix_b_nonstandard_collateral/final.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created a manuscript appendix unit to capture nonstandard collateral as contextual contrast rather than forcing it into CH10 body prose
+- Chapter(s) affected: CH10 and Appendix B
+
+### Decisions
+- Decision: treat nonstandard collateral as a separate appendix rather than deepening CH10 with bespoke asset examples
+- Rationale: CH10 is strongest when it stays centered on standard financial collateral, secured-financing workflows, and coordination burden across repo, securities lending, triparty, and margin operations
+- Alternatives rejected: expanding CH10 into exotic collateral examples, or leaving the contrast only as an unsaved chat note
+
+### Issues & Resolution
+- Issue: the user raised a valid distinction between standardized collateral operations and more subjective collateral workflows involving assets such as art or farmland
+- Resolution: created a separate appendix that explains why nonstandard collateral tends to be more manual, judgment-heavy, and operationally bespoke, while explicitly stating that this is not currently supported as BNY's core CH10 operating scope
+
+### Editorial Comments
+- Comment: "I think the exotic collateral management is probably manual and subjective. I agree probably not worth a deep dive in this chapter but perhaps an appendix?"
+- Response: created Appendix B as a chapter-style manuscript unit and scoped it as contextual contrast rather than core manuscript argument
+
+### Lessons Learned
+- Insight: when an adjacent topic helps sharpen the boundary of the main chapter, an appendix can preserve the insight without weakening the primary operating argument
+- What worked: using the appendix to separate contextual contrast from the evidence-backed center of CH10
+- What did not: trying to make exotic collateral carry weight inside the main chapter without a BNY-specific source base
+
+### Next Steps
+- [ ] Decide whether CH10 should reference Appendix B directly or keep the appendix as background context only
+- [ ] If Appendix B is expanded later, gather non-BNY sources on bespoke collateral valuation, liquidity, and enforcement
+- [ ] Keep CH10 focused on standard financial collateral in `draft_v1`
+
+## [2026-04-09] - Completed Chapter 10 Research Pass 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_10/research_tracker.md`, `04_manuscript/chapter_10/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: completed a narrow second CH10 research pass focused on market-level fragmentation, optimization, valuation mechanics, and asset-scope boundaries, then synchronized tracker state
+- Chapter(s) affected: CH10
+
+### Decisions
+- Decision: keep explicit discussion of how collateral is managed and valued in CH10, but keep the asset scope centered on standard financial collateral rather than bespoke private assets
+- Rationale: the reviewed BNY sources repeatedly frame the operating model around securities inventory, eligibility schedules, Treasury liquidity, repo, securities lending, and derivatives margin, while the added fragmentation source strengthens the case for cross-platform visibility and mobility as core burdens
+- Alternatives rejected: leaving valuation implicit, or broadening the chapter into hard-to-value collateral examples such as art or farmland without evidence that they belong to BNY's core collateral platform role
+
+### Issues & Resolution
+- Issue: after pass 1, the chapter still had a small evidence gap around market-level fragmentation and an open question about whether "collateral management" should imply a wider range of asset types
+- Resolution: added BNY-Euroclear fragmentation evidence and BNY optimization/eligibility evidence. The chapter now has support to discuss eligibility, valuation haircuts, optimization, and inventory visibility while remaining disciplined about scope
+
+### Editorial Comments
+- Comment: "Do we discuss how collateral is managed and valued? How much of BNY's collateral management responsibilities involve non standard assets (i.e. art, farmland, etc)"
+- Response: yes on operational management and valuation; no evidence that art, farmland, or similar bespoke assets are central to the current BNY collateral-management role described in CH10
+
+### Lessons Learned
+- Insight: the chapter gets stronger when it explains collateral management as an operational control system, not just a source of financing capacity
+- What worked: adding one market-fragmentation source and one BNY optimization source instead of running a broad second pass
+- What did not: stretching the word "collateral" beyond the securities-and-margin workflows actually supported by the source base
+
+### Next Steps
+- [ ] Create `04_manuscript/chapter_10/source_notes.md` and `draft_v1.md`
+- [ ] Include one concise paragraph in the draft on eligibility, valuation haircuts, substitutions, settlement timing, and inventory visibility
+- [ ] Keep CH10 scoped to standard financial collateral unless later evidence justifies a broader asset-scope discussion
+
+## [2026-04-09] - Completed Chapter 10 Research Pass 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_10/research_tracker.md`, `04_manuscript/chapter_10/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: completed the first CH10 research pass, updated reviewed-source findings and claim statuses, and synchronized tracker state with the stronger chapter framing
+- Chapter(s) affected: CH10
+
+### Decisions
+- Decision: keep CH10 centered on coordination burden across collateral, repo, securities lending, and margin-linked financing rather than narrowing the chapter to one product lane
+- Rationale: the source pattern shows the same recurring operating problem across these workflows: eligible asset selection, collateral mobility, timing, substitution, recall, margin, and settlement coordination
+- Alternatives rejected: treating CH10 as a repo-only explainer, or flattening it into a general financing-product catalog
+
+### Issues & Resolution
+- Issue: this chapter risked reading like a set of adjacent products instead of a coherent operating domain
+- Resolution: the research pass confirmed a stronger unifying spine. BNY's own materials emphasize collateral mobility, platform access, triparty, secured financing, and integrated lending/funding workflows, while the Federal Reserve and ISDA sources validate the underlying secured-borrowing mechanics, margining, reconciliation, dispute handling, and break management independently
+
+### Editorial Comments
+- Comment: "run the research pass on chapter 10"
+- Response: completed the first research pass, updated the evidence base, and converted the starter claims from `pending` to `supported` or `qualified`
+
+### Lessons Learned
+- Insight: CH10 becomes much clearer when defined by the coordination problem of getting the right eligible assets to the right obligations under time pressure
+- What worked: pairing BNY role-definition sources with Federal Reserve and ISDA workflow sources so the chapter is both company-specific and operationally credible
+- What did not: relying on product labels alone would have obscured the common operating logic
+
+### Next Steps
+- [ ] Decide whether CH10 should proceed directly to `draft_v1` or run one narrow pass on market-level collateral fragmentation and inventory visibility
+- [ ] Preserve a balanced lens across repo, securities lending, and margin rather than allowing one product subtopic to swallow the chapter
+- [ ] Use the reviewed source set to draft CH10 as a current-state coordination chapter if no additional evidence gap needs to be closed
+
+## [2026-04-09] - Created Chapter 10 Artifact Set
+
+### Summary
+- Files changed: `04_manuscript/chapter_10/chapter_brief.md`, `04_manuscript/chapter_10/research_tracker.md`, `04_manuscript/chapter_10/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the CH10 brief, initial research tracker, and first-pass claim register, then moved CH10 into active research in the project tracker
+- Chapter(s) affected: CH10
+
+### Decisions
+- Decision: frame CH10 as a coordination-heavy financing chapter that connects collateral, securities lending, repo, and margin workflows rather than treating them as separate product silos
+- Rationale: the chapter is most useful when it explains the shared operating problem of asset availability, eligibility, funding, and timing coordination
+- Alternatives rejected: treating CH10 as a narrow repo explainer, or as a flat catalog of financing products
+
+### Issues & Resolution
+- Issue: this chapter can easily become too specialist, too product-oriented, or too crisis-historical before the current operating model is clear
+- Resolution: anchored the starter artifacts around one unifying operating problem, then seeded the source queue with BNY platform pages plus neutral Fed, SEC, ISDA, ICMA, and SIFMA sources on triparty, securities lending, collateral practice, and market structure
+
+### Editorial Comments
+- Comment: "ok lets start chapter 10"
+- Response: created the required CH10 starter artifacts on disk and updated tracker/log state in the same pass
+
+### Lessons Learned
+- Insight: the cleanest way into this chapter is to define the business by coordination burden, not by legal form
+- What worked: using the recent Part II chapter pattern and building the source queue around both BNY operating role and neutral market-practice explainers
+- What did not: nothing material in this initialization pass
+
+### Next Steps
+- [ ] Complete CH10 research pass 1 using the seeded BNY, Fed, SEC, ISDA, ICMA, and SIFMA source set
+- [ ] Decide whether the chapter's primary operating lens should be triparty/repo-led, securities-lending-led, or explicitly balanced
+- [ ] Refine CH10 claims from `pending` to supported or qualified once the first source pass is complete
+
 ## [2026-04-09] - Formalized Pershing Inventory As Appendix A
 
 ### Summary
