@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: move CH08 from completed research into draft review while keeping CH07 active in research
-- Next milestone: review CH08 `draft_v1` and decide whether to run a challenge round or move directly to `draft_v2`
+- Current focus: review CH07 `draft_v2` for editor-facing readiness while keeping CH08 revision queued
+- Next milestone: decide whether CH07 should move into editor review or receive one narrow polish pass before that handoff
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -19,8 +19,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH04 | Why This Model Works | drafting | in_progress | draft_v2_ready | in_progress | not_started | Draft v2 adds one concrete migration-friction example and distinguishes trust from mere incumbency |
 | CH05 | Asset Servicing (Custody and Fund Accounting) | in_editor_review | in_progress | draft_v3_ready | in_progress | not_started | Opening now clarifies that CH05 starts after trades are complete and focuses on keeping positions, funds, and records governable over time |
 | CH06 | Clearing and Settlement | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now incorporates editorial notes and challenge-round actions, including deeper trade-capture detail and a compact fail-management walkthrough |
-| CH07 | Treasury Services (Payments and Liquidity) | researching | in_progress | not_started | not_started | not_started | Research pass 1 completed; core framing is supported, but queue/forecast and exception-aging claims need practitioner evidence |
-| CH08 | Pershing (Wealth Infrastructure Platform) | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 created with platform framing, workflow table, and market-level evidence for advisor-friction claims |
+| CH07 | Treasury Services (Payments and Liquidity) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a same-day escalation scenario, sharper cutoff-pressure ownership language, and a clearer durability/economics bridge |
+| CH08 | Pershing (Wealth Infrastructure Platform) | revising | in_progress | draft_v1_ready | not_started | not_started | Challenge round recommends one focused revision pass to add a concrete workflow scenario and tighten the CH23 bridge |
 | CH09 | Investment Management | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH10 | Collateral, Securities Lending, and Financing | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH11 | The Hidden Truth: A System Held Together by Reconciliation | not_started | not_started | not_started | not_started | not_started | Current-state synthesis chapter |
@@ -64,11 +64,23 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-09
 
+- Created `04_manuscript/chapter_07/draft_v2.md` by applying the challenge-round revisions in one focused pass.
+- Added a same-day treasury escalation scenario, strengthened ownership language across operations, treasury, service, and risk, and rewrote forecasting qualification so it stays inside the operating narrative.
+- Sharpened CH07's durability section so client dependency, execution certainty, and funding-scramble avoidance carry the economics bridge more clearly.
+- Ran the CH07 challenge round against `draft_v1`; outcome was `revise before proceeding`.
+- Logged targeted revision priorities for CH07: add one same-day payment-to-liquidity escalation scenario, sharpen decision ownership and cutoff pressure, keep forecasting claims qualified but less meta, and strengthen the economics bridge.
+- Normalized acronym glossary entries so they are indexed by acronym itself in the manuscript glossary, including `AUC/A`, `DTC`, `DTCC`, `DVP`, `GSIB`, `NAV`, and `NSCC`.
+- Updated glossary rules and manuscript entries to treat important industry acronyms as first-class glossary terms, adding core market-infrastructure acronyms including `DTC`, `DTCC`, and `NSCC`.
 - Moved the canonical glossary into the manuscript as `04_manuscript/glossary.md`, updated `AGENTS.md` to treat it as a manuscript artifact, and reduced `00_admin/glossary.md` to a pointer file to avoid duplicate glossary sources.
 - Reviewed CH01-CH06 terminology and expanded the glossary with recurring current-state finance and infrastructure terms including asset servicing, AUC/A, collateral, corporate action, custody, depository, DVP, exception management, fund accounting, GSIB, liquidity, margin, NAV, netting, post-trade, qualified custodian, reconciliation, safekeeping, settlement, sub-custodian, and transfer agency.
 - Completed CH07 research pass 1 using reviewed BNY treasury pages plus Fedwire, SWIFT, BIS, and ECB infrastructure sources.
 - Updated CH07 source log status and links, including replacement of inaccessible BNY treasury URLs with the linked platform pages carrying equivalent scope.
 - Updated CH07 claim register statuses from `pending` to `supported` or `qualified` based on current evidence strength.
+- Completed CH07 research pass 2 with sources on payment operational issues, investigations/case management, intraday liquidity monitoring, and high-value cutoff discipline.
+- Upgraded CH07 exception-workflow evidence and moved claim `CLM-005` from `qualified` to `supported` while keeping BNY-specific internal-fragmentation language qualified.
+- Confirmed CH07 is ready for `draft_v1` with `CLM-003` still qualified pending a stronger non-vendor forecasting-error source.
+- Created `04_manuscript/chapter_07/source_notes.md` and `draft_v1.md` to convert the CH07 research base into a first current-state treasury chapter draft.
+- Moved CH07 from `researching` to `drafting`.
 - Formalized glossary governance in `AGENTS.md` and created the initial alphabetized glossary template before moving canonical ownership into the manuscript.
 - Completed CH08 research pass 1 across Pershing platform pages plus FINRA carrying-firm sources.
 - Confirmed that CH08 should be framed as a platform chapter spanning regulated rails, workflow tooling, and open-ecosystem integration rather than as a narrow custody chapter.
@@ -78,6 +90,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Upgraded CH08 workflow-friction and visible-intelligence claims from `qualified` to `supported` at the market level while keeping Pershing-specific pain language disciplined.
 - Created `04_manuscript/chapter_08/source_notes.md` and `draft_v1.md` to convert the CH08 research base into a first current-state platform chapter draft.
 - Moved CH08 from `researching` to `drafting`.
+- Ran the CH08 challenge round against `draft_v1`; outcome was `revise before proceeding`.
+- Logged targeted revision priorities for CH08: add one compact operating scenario, make the carrying layer's day-to-day consequences more explicit, keep the open-ecosystem section more wealth-specific, and cool the CH23 bridge slightly.
 - Initiated CH08 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md` in `04_manuscript/chapter_08/`.
 - Seeded CH08 research with an initial source queue spanning Pershing platform pages plus FINRA and SEC context on carrying and custody responsibilities.
 - Updated CH08 lifecycle from `not_started` to `researching`.
@@ -160,11 +174,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Re-read CH08 `draft_v1` and decide whether it needs a challenge round before `draft_v2`.
-2. Review whether CH08 needs one narrow source addition on advisor transitions or custodian choice to strengthen the business-model section.
-3. Add practitioner-grade CH07 sources on queue management, payment investigations, and exception-aging workflows.
-4. Add one or two CH07 sources on intraday liquidity forecasting error and cutoff tradeoffs.
-5. Re-read CH06 `draft_v2` and decide whether it should move into editor review or receive a narrow `draft_v3` polish pass.
+1. Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass.
+2. Create `04_manuscript/chapter_08/draft_v2.md` using the challenge-round action list.
+3. Re-read CH06 `draft_v2` and decide whether it should move into editor review or receive a narrow `draft_v3` polish pass.
+4. Keep one backlog item to find a non-vendor forecasting source that could upgrade CH07 `CLM-003` from `qualified` to `supported`.
+5. Continue expanding `04_manuscript/glossary.md` as CH07 and CH08 terminology stabilizes through draft review.
 
 ## Update Rules
 

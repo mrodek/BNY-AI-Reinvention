@@ -26,33 +26,208 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 ## [YYYY-MM-DD] - [Title]
 
 ### Summary
-- Files changed:
-- Artifacts created or updated:
-- Chapter(s) affected:
 
-### Decisions
+- Files changed:
+
+- Artifacts created or updated:
+
 - Decision:
-- Rationale:
-- Alternatives rejected:
 
 ### Issues & Resolution
-- Issue:
-- Resolution:
 
-### Editorial Comments
-- Comment:
+
+
 - Response:
 
-### Lessons Learned
-- Insight:
 - What worked:
-- What did not:
-
-### Next Steps
 - [ ] Actionable task
 - [ ] Actionable task
 
 ## Entries
+
+## [2026-04-09] - Drafted Chapter 7 Version 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_07/draft_v2.md`, `04_manuscript/chapter_07/chapter_brief.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH07 `draft_v2.md`, moved the chapter brief status back to `drafting`, and synchronized tracker focus, milestone, and next actions with the new draft state
+- Chapter(s) affected: CH07
+
+### Decisions
+- Decision: revise CH07 immediately after the challenge round rather than delay for another research pass
+- Rationale: the chapter's main weaknesses were narrative and structural rather than evidentiary; the strongest next move was to make same-day operating pressure more visible in prose
+- Alternatives rejected: waiting for a stronger forecasting source before revising the draft, or limiting the revision to line edits without adding a concrete operating scenario
+
+### Issues & Resolution
+- Issue: `draft_v1` explained the treasury control stack well but still felt slightly abstract where practitioners expect to see a live escalation path
+- Resolution: added a compact same-day treasury scenario showing how timing slippage, capacity pressure, funding uncertainty, and cutoff proximity converge into reprioritization and escalation
+- Issue: the forecasting qualification was accurate but disrupted flow by sounding more like a research note than part of the chapter
+- Resolution: rewrote the forecasting section so it stays in the operating story while preserving disciplined qualification on the narrower empirical claim
+
+### Editorial Comments
+- Comment: "go ahead"
+- Response: created CH07 `draft_v2` immediately from the challenge-round action list and updated tracker/log state in the same pass
+
+### Lessons Learned
+- Insight: treasury chapters become more credible when the reader can feel the compression of time, ownership, and funding decisions inside one same-day sequence
+- What worked: keeping the overall chapter architecture stable while making the operational pressure more concrete and the business-model bridge more explicit
+- What did not: relying on conceptual taxonomy alone to make same-day treasury burden memorable
+
+### Next Steps
+- [ ] Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass
+- [ ] Preserve disciplined qualification on forecasting claims unless a stronger non-vendor source is added
+- [ ] Commit and push the CH07 draft package in the same session
+
+## [2026-04-09] - Ran Chapter 7 Challenge Round
+
+### Summary
+- Files changed: `04_manuscript/chapter_07/challenge_round.md`, `04_manuscript/chapter_07/chapter_brief.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH07 `challenge_round.md`, updated the CH07 chapter brief status to `revising`, and synchronized tracker focus, milestone, and next actions with the challenge-round outcome
+- Chapter(s) affected: CH07
+
+### Decisions
+- Decision: move CH07 from `drafting` to `revising` and run one focused revision pass before `draft_v2`
+- Rationale: `draft_v1` has a strong workflow spine and disciplined claims, but it still needs one concrete same-day operating sequence, sharper decision ownership under cutoff pressure, and a stronger commercial bridge
+- Alternatives rejected: treating the current draft as ready for light polish only, or expanding immediately into a deeper research cycle before revising the prose
+
+### Issues & Resolution
+- Issue: the draft explains treasury clearly at the layer level but still feels slightly abstract in the moments where practitioners expect to see a live escalation path
+- Resolution: the challenge round recommends adding one compact payment-to-liquidity escalation scenario and tightening the exception and liquidity sections around reprioritization, cutoff pressure, and cross-team ownership
+- Issue: the forecasting qualification is analytically correct but interrupts narrative flow
+- Resolution: keep the claim qualified in the next revision, but rewrite that section so it stays inside the operating story rather than sounding like a research note
+
+### Editorial Comments
+- Comment: "I have draft 1 of chapter 7 - perform a challange round"
+- Response: completed the challenge round on disk, recorded the revision priorities explicitly, and updated tracker/log state in the same pass
+
+### Lessons Learned
+- Insight: CH07 is strongest when treasury is shown as a live decision environment, not only as a well-described control stack
+- What worked: testing the chapter against insider and practitioner objections about ownership, cutoffs, and exception escalation rather than only against prose quality
+- What did not: relying on taxonomy and conceptual clarity alone to make same-day operational pressure fully felt
+
+### Next Steps
+- [ ] Create `04_manuscript/chapter_07/draft_v2.md` using the challenge-round priorities
+- [ ] Preserve disciplined qualification on forecasting claims unless a stronger non-vendor source is added
+- [ ] Keep CH07's current-state close focused on present operating burden before sharpening the bridge to CH22
+
+## [2026-04-09] - Ran Challenge Round For Chapter 8 Draft V1
+
+### Summary
+- Files changed: `04_manuscript/chapter_08/challenge_round.md`, `04_manuscript/chapter_08/chapter_brief.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH08 `challenge_round.md`, updated the chapter brief to `revising`, and synchronized tracker state to reflect the challenge-round outcome
+- Chapter(s) affected: CH08
+
+### Decisions
+- Decision: mark CH08 challenge outcome as `revise before proceeding`
+- Rationale: the chapter's platform framing is strong, but one focused revision pass should make workflow friction feel more lived, keep the platform language more wealth-specific, and tighten the boundary between current-state analysis and CH23 setup
+- Alternatives rejected: moving directly to editor-facing review from `draft_v1`, or reopening broad research before applying the obvious high-yield revisions
+
+### Issues & Resolution
+- Issue: `draft_v1` explains Pershing well at the platform level, but the operating burden is still more inferred than demonstrated in one compact scenario, and the later sections drift slightly toward future-state language
+- Resolution: documented a concrete revision plan in `challenge_round.md` covering four priorities: add one operating mini-scenario, sharpen the carrying layer's daily consequences, make the open-ecosystem section more wealth-specific, and cool the CH23 bridge
+
+### Editorial Comments
+- Comment: "go ahead and run a challange round"
+- Response: completed the CH08 challenge round and converted the result into explicit revision actions on disk
+
+### Lessons Learned
+- Insight: CH08 is strongest when it behaves like a current-state business-line chapter first and a platform-thesis support chapter second
+- What worked: pressure-testing the chapter from insider, practitioner, and executive perspectives rather than treating platform language alone as sufficient
+- What did not: relying on market-friction support without one equally concrete operating sequence inside the prose
+
+### Next Steps
+- [ ] Create `04_manuscript/chapter_08/draft_v2.md` using the challenge-round action list
+- [ ] Add one compact advisor or service workflow scenario with visible handoffs and status ambiguity
+- [ ] Tighten the close so it lands on current-state constraints before bridging into CH23
+
+## [2026-04-09] - Drafted Chapter 7 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_07/draft_v1.md`, `04_manuscript/chapter_07/source_notes.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH07 `draft_v1.md` and `source_notes.md`, updated tracker state to move CH07 from researching to drafting, and synchronized milestone/next actions
+- Chapter(s) affected: CH07
+
+### Decisions
+- Decision: draft CH07 now from the completed two-pass source base while preserving explicit qualification on forecasting-error specificity
+- Rationale: CH07 has strong support for payment workflow, exception handling, investigations, rail timing constraints, and intraday liquidity discipline; only one narrow evidence gap remains for non-vendor forecasting depth
+- Alternatives rejected: delaying all drafting until one more forecasting source is found, or over-claiming forecasting precision in `draft_v1`
+
+### Issues & Resolution
+- Issue: forecasting-specific practitioner evidence remains thinner than the evidence available for payment exceptions and investigations
+- Resolution: kept forecasting language qualified in chapter prose and captured the backlog item explicitly in tracker next actions and source notes
+
+### Editorial Comments
+- Comment: "yes go ahead"
+- Response: created CH07 `draft_v1` and `source_notes` immediately and updated tracker/log in the same pass
+
+### Lessons Learned
+- Insight: CH07 reads strongest when it is framed as a continuous control system for payments and liquidity rather than as a product list
+- What worked: using a layer table early, then developing each layer through concrete workflow burden and control implications
+- What did not: attempting to overextend forecasting claims beyond what current non-vendor evidence can support
+
+### Next Steps
+- [ ] Re-read CH07 `draft_v1` and decide whether to run a challenge round before `draft_v2`
+- [ ] Add one non-vendor forecasting source that could upgrade CH07 `CLM-003` from `qualified` to `supported`
+- [ ] Continue CH08 `draft_v1` review sequencing in parallel with CH07 revision planning
+
+## [2026-04-09] - Normalized Acronym Glossary Entries By Acronym
+
+### Summary
+- Files changed: `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: updated the manuscript glossary so acronym entries are indexed by the acronym itself rather than by the expanded institutional or term name
+- Chapter(s) affected: cross-book manuscript infrastructure; supports all chapters
+
+### Decisions
+- Decision: use acronym-first headings for recurring glossary abbreviations
+- Rationale: readers will typically look up terms like `DTCC`, `NSCC`, `DTC`, `NAV`, or `GSIB` by the acronym they saw in the text, not by the expanded name
+- Alternatives rejected: keeping acronym entries searchable only under the expanded term name
+
+### Issues & Resolution
+- Issue: the glossary rules had been updated to prefer acronym-first entries, but several headings still used the expanded names with the acronym in parentheses
+- Resolution: renamed the affected glossary headings to `AUC/A`, `DTC`, `DTCC`, `DVP`, `GSIB`, `NAV`, and `NSCC`
+
+### Editorial Comments
+- Comment: "sure"
+- Response: completed the normalization pass so the glossary behavior now matches the stated acronym rule
+
+### Lessons Learned
+- Insight: glossary rules become reliable only when the file structure actually follows them
+- What worked: converting the headings directly rather than adding duplicate cross-reference entries
+- What did not: leaving even a small mismatch between lookup behavior and the written glossary policy
+
+### Next Steps
+- [ ] Continue using acronym-first headings for future glossary abbreviations
+- [ ] Add additional acronym entries as treasury, payments, and architecture chapters introduce them
+- [ ] Watch for any remaining expanded-name headings that should be normalized later
+
+## [2026-04-09] - Added Industry Acronyms To The Manuscript Glossary
+
+### Summary
+- Files changed: `AGENTS.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: updated glossary governance to require acronym entries and added core market-infrastructure acronyms to the manuscript glossary
+- Chapter(s) affected: CH01, CH02, CH03, CH06
+
+### Decisions
+- Decision: treat recurring industry acronyms as standalone glossary entries rather than assuming they are covered well enough by expanded terms inside prose
+- Rationale: readers will encounter abbreviations such as DTCC and NSCC repeatedly, and they should be able to locate those terms directly in the glossary without guessing the expanded institutional name first
+- Alternatives rejected: relying only on first-use expansion inside chapter prose, or embedding acronym explanations only inside broader parent-term entries
+
+### Issues & Resolution
+- Issue: the glossary covered many concepts but did not yet support acronym-first lookup for core market-infrastructure institutions
+- Resolution: added explicit glossary rules for acronyms and seeded the manuscript glossary with `DTC`, `DTCC`, and `NSCC`
+
+### Editorial Comments
+- Comment: "The glossary should also include industry acronynms (eg. DTCC, NSCC, etc)"
+- Response: updated the rules and glossary so recurring acronyms are now treated as first-class glossary entries
+
+### Lessons Learned
+- Insight: glossary usability depends not just on conceptual completeness but also on how readers naturally search for terms
+- What worked: using acronym entries for the high-frequency infrastructure institutions already active in the early chapters
+- What did not: assuming readers would always look up the expanded institutional name rather than the acronym they saw on the page
+
+### Next Steps
+- [ ] Add further recurring acronyms as they become active in later chapters, such as payment, custody, and architecture abbreviations
+- [ ] Review CH07 and CH08 for acronym candidates that deserve direct glossary lookup
+- [ ] Keep acronym entries alphabetized by the acronym itself
 
 ## [2026-04-09] - Drafted Chapter 8 Version 1
 
