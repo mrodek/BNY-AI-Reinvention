@@ -45,6 +45,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Strengthened Chapter 7 Strain-Section Closing Line
+
+### Summary
+- Files changed: `04_manuscript/chapter_07/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: revised the CH07 `draft_v2.md` closing line for the strain section and synchronized tracker/log state with the manuscript change
+- Chapter(s) affected: CH07
+
+### Decisions
+- Decision: replace the negating weak-versus-strong line with a more direct statement of why the friction matters
+- Rationale: the old line was serviceable but predictable, and it relied on a negating contrast the style guide explicitly discourages
+- Alternatives rejected: leaving the sentence in place, or replacing it with a more theatrical line that would overstate the moment
+
+### Issues & Resolution
+- Issue: the section's closing line explained the point, but did so in a familiar "not X, but Y" pattern that felt flatter than the surrounding draft
+- Resolution: replaced it with a line that frames the friction as the operating signature of a business clients depend on every day
+
+### Editorial Comments
+- Comment: "is the negating statement necessary here? ... Be more creative"
+- Response: replaced the line directly in CH07 `draft_v2` and updated tracker/log state in the same pass
+
+### Lessons Learned
+- Insight: this chapter gets stronger when the prose names what the burden means, rather than backing into the point through negation
+- What worked: choosing a more distinctive line that still sounds executive-readable and grounded
+- What did not: relying on contrast structure where a positive formulation could carry the idea more cleanly
+
+### Next Steps
+- [ ] Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass
+- [ ] Keep tightening repeated contrast constructions if they appear elsewhere in the chapter
+- [ ] Commit and push the revised CH07 draft package in the same session
+
 ## [2026-04-09] - Reorganized Chapter 7 Strain Section Into Bullets
 
 ### Summary

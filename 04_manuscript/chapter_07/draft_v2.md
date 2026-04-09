@@ -89,7 +89,7 @@ The current model's strain points are now clear enough to name directly.
 
 - Visibility remains uneven across many organizations. Treasury teams may have improved dashboards and reporting, but many operating decisions still depend on stitching status from multiple systems and handoffs, especially when cases age beyond straightforward repair paths.^[SRC-003]^[SRC-010]
 
-These are not signs of a weak business. They are signs of a strong business running under real operational load.
+These frictions are the operating signature of a business clients depend on every day.
 
 ## Why This Matters For The Rest Of The Book
 

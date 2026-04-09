@@ -64,6 +64,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-09
 
+- Replaced CH07's negating transition line with a stronger statement that treats current-state friction as the operating signature of a dependency-heavy business.
 - Reorganized CH07's `Where The Current Model Still Strains` section into a bulleted list to make the current-state burden easier to scan.
 - Clarified the actor model in CH07's same-day escalation scenario so the client treasury team owns the decision while BNY provides the payment, control, and exception-support layer.
 - Revised the CH07 forecasting paragraph in `draft_v2.md` to focus on intraday uncertainty, timing shifts, and reprioritization rather than on forecasting-error evidence.
