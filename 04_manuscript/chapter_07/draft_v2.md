@@ -81,13 +81,13 @@ The strongest version of the claim remains disciplined. Treasury services are st
 
 The current model's strain points are now clear enough to name directly.
 
-First, rail and corridor diversity still creates coordination overhead. The more pathways a client needs, the more translation and control burden sits in routing, timing, and status normalization.^[SRC-004]^[SRC-005]^[SRC-008]^[SRC-012]
+- Rail and corridor diversity still creates coordination overhead. The more pathways a client needs, the more translation and control burden sits in routing, timing, and status normalization.^[SRC-004]^[SRC-005]^[SRC-008]^[SRC-012]
 
-Second, exception workflows remain costly and reputation-sensitive. Operational issues can trigger recall or recovery work, client compensation pressure, and elevated scrutiny, especially when controls fail near cutoff windows.^[SRC-009]
+- Exception workflows remain costly and reputation-sensitive. Operational issues can trigger recall or recovery work, client compensation pressure, and elevated scrutiny, especially when controls fail near cutoff windows.^[SRC-009]
 
-Third, intraday liquidity coordination is inherently timing-sensitive. Even without dramatic market stress, normal day-to-day timing mismatches can force rapid reprioritization and tighter funding decisions near deadlines.^[SRC-004]^[SRC-011]^[SRC-012]
+- Intraday liquidity coordination is inherently timing-sensitive. Even without dramatic market stress, normal day-to-day timing mismatches can force rapid reprioritization and tighter funding decisions near deadlines.^[SRC-004]^[SRC-011]^[SRC-012]
 
-Fourth, visibility remains uneven across many organizations. Treasury teams may have improved dashboards and reporting, but many operating decisions still depend on stitching status from multiple systems and handoffs, especially when cases age beyond straightforward repair paths.^[SRC-003]^[SRC-010]
+- Visibility remains uneven across many organizations. Treasury teams may have improved dashboards and reporting, but many operating decisions still depend on stitching status from multiple systems and handoffs, especially when cases age beyond straightforward repair paths.^[SRC-003]^[SRC-010]
 
 These are not signs of a weak business. They are signs of a strong business running under real operational load.
 

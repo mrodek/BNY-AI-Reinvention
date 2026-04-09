@@ -45,6 +45,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Reorganized Chapter 7 Strain Section Into Bullets
+
+### Summary
+- Files changed: `04_manuscript/chapter_07/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: revised the CH07 `draft_v2.md` strain section into a bulleted list and synchronized tracker/log state with the manuscript change
+- Chapter(s) affected: CH07
+
+### Decisions
+- Decision: convert the `Where The Current Model Still Strains` section from numbered prose paragraphs into a bulleted list
+- Rationale: the section is inherently list-shaped, and bullets make the four current-state pressure points faster to scan without changing the argument
+- Alternatives rejected: leaving the section as prose, or expanding it into a larger table that would add more structure than the section needs
+
+### Issues & Resolution
+- Issue: the section's content was clear, but the numbered-prose form made the strain points less scannable than they should be
+- Resolution: reformatted the four strain points into bullets while preserving the concluding synthesis paragraph
+
+### Editorial Comments
+- Comment: "lets organize thiis section with a bulleted list : Where The Current Model Still Strains"
+- Response: reformatted the section directly in CH07 `draft_v2` and updated tracker/log state in the same pass
+
+### Lessons Learned
+- Insight: when a section is making a compact set of parallel points, list structure can improve readability without flattening the prose of the surrounding chapter
+- What worked: converting only the strain points, while keeping the lead-in and conclusion in normal paragraph form
+- What did not: forcing numbered prose where the chapter was already behaving like a list
+
+### Next Steps
+- [ ] Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass
+- [ ] Keep list formatting selective so it sharpens scanning without turning the chapter into outline prose
+- [ ] Commit and push the revised CH07 draft package in the same session
+
 ## [2026-04-09] - Clarified Treasury-Team Ownership In Chapter 7 Scenario
 
 ### Summary
