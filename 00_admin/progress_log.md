@@ -54,6 +54,337 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Drafted Chapter 8 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_08/chapter_brief.md`, `04_manuscript/chapter_08/source_notes.md`, `04_manuscript/chapter_08/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH08 `source_notes.md` and `draft_v1.md`, updated the chapter brief status to `drafting`, and synchronized tracker state to reflect the new draft
+- Chapter(s) affected: CH08
+
+### Decisions
+- Decision: write CH08 as a platform chapter with explicit workflow layers rather than as a custody-first explainer
+- Rationale: the research base now supports a stronger argument that Pershing combines regulated infrastructure, user-facing workflow surfaces, and open-ecosystem positioning in a way that already behaves like a platform
+- Alternatives rejected: structuring the chapter primarily around custody mechanics, or delaying drafting for one more research cycle before testing the chapter in prose
+
+### Issues & Resolution
+- Issue: the chapter needed to make workflow-friction visible without overstating Pershing-specific client dissatisfaction
+- Resolution: drafted the chapter so the platform and carrying-layer claims rest on Pershing and FINRA sources, while the advisor-friction argument is framed explicitly as market-level evidence from Envestnet, Advisor360, Cerulli, and T3 rather than as a claimed internal diagnosis of Pershing
+
+### Editorial Comments
+- Comment: "lets do that"
+- Response: created CH08 `source_notes.md`, drafted `draft_v1.md`, and updated the tracker and log in the same pass
+
+### Lessons Learned
+- Insight: CH08 gets stronger when the chapter keeps three layers distinct: regulated carrying infrastructure, visible advisor and operations workflows, and the remaining gap between connected tools and truly intelligent workflow support
+- What worked: using a workflow table early, then writing the chapter as one connected operating environment rather than as a product list
+- What did not: none material in this pass
+
+### Next Steps
+- [ ] Re-read CH08 `draft_v1` and decide whether to run a challenge round before `draft_v2`
+- [ ] Add one narrow business-model source only if it materially sharpens the chapter rather than delaying revision
+- [ ] Commit and push the CH08 draft package in the same session
+
+## [2026-04-09] - Moved The Glossary Into The Manuscript
+
+### Summary
+- Files changed: `AGENTS.md`, `04_manuscript/glossary.md`, `00_admin/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created a manuscript-level glossary file, moved canonical glossary ownership into `04_manuscript`, and converted the admin glossary file into a pointer
+- Chapter(s) affected: cross-book manuscript infrastructure; supports all chapters
+
+### Decisions
+- Decision: make `04_manuscript/glossary.md` the canonical glossary rather than keeping the glossary only in `00_admin`
+- Rationale: the glossary is intended to be part of the book itself, so its source of truth should live with the manuscript rather than only in project administration
+- Alternatives rejected: keeping the admin glossary as canonical, or maintaining duplicated glossary content in both locations
+
+### Issues & Resolution
+- Issue: the repository had just established glossary governance around `00_admin/glossary.md`, but that location treated the glossary as project infrastructure rather than manuscript content
+- Resolution: updated `AGENTS.md` so the manuscript glossary is canonical, copied the glossary into `04_manuscript/glossary.md`, and left `00_admin/glossary.md` as a simple redirect to prevent drift
+
+### Editorial Comments
+- Comment: "I should have mentioned that I want the glossary to be part of the manuscript"
+- Response: moved the glossary into the manuscript structure immediately and aligned the repository rules to that intent
+
+### Lessons Learned
+- Insight: for this project, glossary placement is not just a housekeeping issue; it affects whether the terminology system is treated as editorial support or as book content
+- What worked: switching the canonical location rather than trying to synchronize two live copies
+- What did not: assuming the admin location matched the intended publishing role of the glossary
+
+### Next Steps
+- [ ] Update future glossary expansions in `04_manuscript/glossary.md` rather than in admin files
+- [ ] Decide later whether the glossary should remain a standalone manuscript file or become a final appendix/back-matter component during assembly
+- [ ] Keep `00_admin/glossary.md` as a pointer only unless a clear administrative use case emerges
+
+## [2026-04-09] - Completed Chapter 8 Research Pass 2 On Advisor Workflow Friction
+
+### Summary
+- Files changed: `04_manuscript/chapter_08/research_tracker.md`, `04_manuscript/chapter_08/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: expanded the CH08 evidence base with third-party advisor-technology and market-research sources, updated pass-2 findings in the research tracker, and advanced CH08 workflow-friction claims from market-level qualification to supportable chapter claims
+- Chapter(s) affected: CH08
+
+### Decisions
+- Decision: treat market-wide advisor workflow fragmentation as sufficiently evidenced for CH08, while still avoiding unsupported claims about Pershing-specific internal pain
+- Rationale: the combination of Envestnet, Advisor360, Cerulli, and T3 evidence shows persistent integration gaps, productivity constraints, and demand for tighter platform workflows across the wealth ecosystem
+- Alternatives rejected: waiting for perfect Pershing-specific practitioner testimony before moving forward, or overstating market-wide evidence as direct proof of Pershing client dissatisfaction
+
+### Issues & Resolution
+- Issue: CH08 needed independent support for claims about fragmented advisor workflows and the limits of current platform intelligence
+- Resolution: added reviewed sources showing preference for all-in-one platforms, incomplete tech integration, continuing best-of-breed stack sprawl, and executive concern over data visibility and staff productivity
+
+### Editorial Comments
+- Comment: none new in this pass
+- Response: focused the pass on the chapter's clearest remaining evidence gap and translated the result directly into updated claims and tracker state
+
+### Lessons Learned
+- Insight: for CH08, the strongest writing posture is to separate two ideas clearly: Pershing is already a real platform, and the surrounding advisor workday still suffers from integration and productivity problems that make intelligence more valuable
+- What worked: combining Pershing's own workflow surfaces with independent wealth-tech and RIA research rather than trying to force all support out of one source category
+- What did not: assuming that official platform pages alone could support broader market-friction language
+
+### Next Steps
+- [ ] Decide whether CH08 now has enough support to move into `drafting`
+- [ ] Create `04_manuscript/chapter_08/source_notes.md` if drafting begins next
+- [ ] Review CH08 future-state-adjacent platform sources only enough to sharpen the bridge into CH23
+
+## [2026-04-09] - Expanded Glossary From Chapters 1 Through 6
+
+### Summary
+- Files changed: `00_admin/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: reviewed the latest CH01-CH06 drafts and added recurring current-state finance, market-structure, and operating-model terms to the canonical glossary
+- Chapter(s) affected: CH01, CH02, CH03, CH04, CH05, CH06
+
+### Decisions
+- Decision: promote recurring current-state terms from the opening and business-line chapters into the shared glossary rather than leaving them only as in-context chapter definitions
+- Rationale: Chapters 1 through 6 establish the reader's baseline mental model for the rest of the book, so inconsistent treatment of terms such as custody, settlement, reconciliation, netting, NAV, and asset servicing would create avoidable terminology drift later
+- Alternatives rejected: waiting until later editorial cleanup, or limiting the glossary pass only to AI and platform terminology
+
+### Issues & Resolution
+- Issue: the glossary had governance rules and a basic structure, but it still lacked many of the core terms already doing heavy explanatory work in the manuscript
+- Resolution: reviewed the latest CH01-CH06 drafts and added a set of recurring terms spanning infrastructure scale, post-trade mechanics, asset-servicing operations, and control concepts
+
+### Editorial Comments
+- Comment: none new beyond the standing request to maintain a durable alphabetized glossary across the book
+- Response: applied that rule to the current-state foundation chapters first, since they establish much of the book's shared vocabulary
+
+### Lessons Learned
+- Insight: the glossary becomes most useful when it is seeded from real draft language rather than from abstract brainstorming
+- What worked: reviewing the latest approved-or-near-approved drafts as a group and extracting only terms that recur across chapters or anchor later arguments
+- What did not: leaving core market-structure and servicing terms implicit while only glossarying higher-level platform language
+
+### Next Steps
+- [ ] Continue expanding the glossary as CH07 and CH08 introduce treasury-services and wealth-infrastructure vocabulary
+- [ ] Add later architecture terms such as ontology, canonical data product, control plane, and observability once those chapters become active
+- [ ] Watch for opportunities to merge or sharpen definitions if later drafts reveal overlap between custody, servicing, and post-trade terms
+
+## [2026-04-09] - Completed Chapter 7 Research Pass 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_07/research_tracker.md`, `04_manuscript/chapter_07/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: updated CH07 research tracker with reviewed-source findings and pass-1 analysis, advanced CH07 claim statuses from `pending` to `supported`/`qualified`, and synced tracker focus to CH07 research deepening
+- Chapter(s) affected: CH07
+
+### Decisions
+- Decision: complete CH07 pass 1 using a mixed evidence base of BNY treasury pages plus neutral infrastructure and standards sources before drafting
+- Rationale: the chapter needs operational specificity and control framing without relying only on vendor language
+- Alternatives rejected: drafting CH07 from initial hypotheses, or waiting for perfect practitioner sources before recording first-pass findings
+
+### Issues & Resolution
+- Issue: two queued BNY treasury URLs did not return usable content through the fetch tool
+- Resolution: replaced those links with the directly linked BNY global-payments and cash-management platform pages and documented the substitution in `research_tracker.md`
+
+### Editorial Comments
+- Comment: "go ahead"
+- Response: executed CH07 research pass 1 immediately and converted source findings into updated evidence status on disk
+
+### Lessons Learned
+- Insight: CH07 evidence quality improved quickly once payment-rail timing/finality sources were paired with BNY workflow sources
+- What worked: combining Fedwire/Swift/ECB context with BNY treasury and cash-management pages to separate market infrastructure from provider packaging
+- What did not: expecting all corporate-site URLs in the initial queue to be tool-accessible without fallback links
+
+### Next Steps
+- [ ] Add practitioner-grade CH07 sources on queue management, payment investigations, and exception-aging workflows
+- [ ] Add sources on intraday liquidity forecasting error and cutoff tradeoffs
+- [ ] Re-score CH07 qualified claims after pass 2 and decide readiness for `draft_v1`
+
+## [2026-04-09] - Completed Chapter 8 Research Pass 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_08/research_tracker.md`, `04_manuscript/chapter_08/claim_register.md`, `00_admin/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: updated CH08 research tracker with reviewed-source findings, added reviewed source entries, advanced the CH08 claim register from queued hypotheses to supported or qualified claims, and added shared glossary terms needed for the Pershing chapter
+- Chapter(s) affected: CH08
+
+### Decisions
+- Decision: frame CH08 explicitly as a platform chapter built on wealth infrastructure rather than as a narrower custody-services chapter
+- Rationale: the reviewed Pershing materials consistently describe a combined stack of clearing, settlement, custody, reporting, advisor workflow, operations tooling, and open-ecosystem integration
+- Alternatives rejected: treating Pershing mainly as a custody explainer, or overusing future-state Wove language before the current-state operating model is established
+
+### Issues & Resolution
+- Issue: the chapter risked becoming too promotional if it relied only on Pershing language about platform value
+- Resolution: paired Pershing operating pages with FINRA carrying-firm sources to ground why the carrying and custody layer is structurally important, then marked advisor-friction claims as qualified rather than fully supported
+
+### Editorial Comments
+- Comment: none new beyond the instruction to start working on CH08
+- Response: converted the initial source queue into a real first research pass and narrowed the remaining evidence gap to practitioner proof on workflow fragmentation
+
+### Lessons Learned
+- Insight: CH08 becomes clearer when Pershing is treated as the place where BNY's infrastructure and platform logic are already visible in one business
+- What worked: using the NetX360+, advisor-experience, operations-experience, and clearing/custody pages together instead of relying on one generic overview source
+- What did not: trying to support stronger friction claims from official platform pages alone
+
+### Next Steps
+- [ ] Add practitioner-quality sources on advisor workflow fragmentation and integration sprawl
+- [ ] Review future-state-adjacent Pershing sources only enough to sharpen the CH23 bridge
+- [ ] Decide whether CH08 is ready for `source_notes.md` and `draft_v1`
+
+## [2026-04-09] - Formalized Book-Level Glossary Governance
+
+### Summary
+- Files changed: `AGENTS.md`, `00_admin/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: added explicit glossary maintenance rules to the repository instructions and converted the glossary into a durable alphabetized template with seeded definitions
+- Chapter(s) affected: cross-book infrastructure; supports all chapters
+
+### Decisions
+- Decision: treat `00_admin/glossary.md` as the canonical glossary for the entire book and require strict alphabetical maintenance
+- Rationale: recurring financial-infrastructure, platform, data, and AI terms will appear across many chapters, so terminology needs one durable source of truth instead of drifting by chapter
+- Alternatives rejected: keeping glossary maintenance informal, creating separate chapter-level glossaries, or leaving the current seed-term list unstructured
+
+### Issues & Resolution
+- Issue: the repository had a glossary file, but it was only a loose seed-term list and there were no explicit agent rules requiring maintenance or alphabetical order
+- Resolution: added a dedicated `Glossary Rules` section to `AGENTS.md`, required same-session glossary updates when meaningful terms appear, and restructured the glossary under A-Z headings with concise seeded definitions
+
+### Editorial Comments
+- Comment: "I would like to add a glossary to this book where all technical and industry terms are recorded and defined... I would like to ensure that it is maintained in alphabetical order"
+- Response: implemented glossary governance directly in repository instructions and turned the glossary into an alphabetized canonical artifact
+
+### Lessons Learned
+- Insight: terminology control needs to be handled as project infrastructure, not as a late editorial cleanup task
+- What worked: aligning workflow rules and file structure in the same pass so the maintenance expectation is visible both in policy and in the artifact itself
+- What did not: relying on an unstructured seed list to stay useful once chapter drafting accelerates
+
+### Next Steps
+- [ ] Add chapter-specific financial-market terms to `00_admin/glossary.md` as CH07 and CH08 research deepens
+- [ ] Normalize recurring BNY manuscript terms such as custody, settlement, reconciliation, control plane, ontology, and canonical data product as they become active in draft work
+- [ ] Watch for duplicate or conflicting definitions as more chapters move from research into drafting
+
+## [2026-04-09] - Initiated Chapter 8 Artifact Set And Research Queue
+
+### Summary
+- Files changed: `04_manuscript/chapter_08/chapter_brief.md`, `04_manuscript/chapter_08/research_tracker.md`, `04_manuscript/chapter_08/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH08 brief, research tracker, and claim register; updated project tracker to move CH08 into active research
+- Chapter(s) affected: CH08
+
+### Decisions
+- Decision: start CH08 by creating a full minimum artifact set and an initial Pershing-centered source queue before any drafting work
+- Rationale: CH08 needs a durable platform framing and evidence spine before it can support later strategic and AI-adjacent claims
+- Alternatives rejected: drafting CH08 prose immediately without source grounding, or treating Pershing as a simple custody chapter without explicit platform logic
+
+### Issues & Resolution
+- Issue: CH08 could easily drift into either generic wealth-tech language or premature CH23 future-state language if the scope was not set carefully
+- Resolution: framed the chapter around current-state wealth infrastructure, carrying and custody responsibilities, advisor workflow surfaces, and visible but still qualified intelligence upside
+
+### Editorial Comments
+- Comment: "lets start working on chapter 8"
+- Response: created the CH08 artifact set and seeded the first research queue so the chapter is now in a restartable `researching` state
+
+### Lessons Learned
+- Insight: Pershing needs to be framed first as infrastructure that other firms run on, then as a platform with visible intelligence potential
+- What worked: pairing official Pershing platform sources with FINRA and SEC structure sources to avoid relying only on vendor language
+- What did not: none in this pass
+
+### Next Steps
+- [ ] Run CH08 research pass 1 and annotate the official Pershing operating sources
+- [ ] Add practitioner sources on advisor workflow fragmentation and integration burden
+- [ ] Upgrade CH08 claims from pending to supported or qualified based on reviewed evidence
+
+## [2026-04-09] - Initiated Chapter 7 Artifact Set And Research Queue
+
+### Summary
+- Files changed: `04_manuscript/chapter_07/chapter_brief.md`, `04_manuscript/chapter_07/research_tracker.md`, `04_manuscript/chapter_07/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH07 brief, research tracker, and claim register; updated project tracker to move CH07 into active research
+- Chapter(s) affected: CH07
+
+### Decisions
+- Decision: start CH07 by creating a full minimum artifact set and initial source queue before any drafting work
+- Rationale: repository rules require durable chapter setup and evidence-first progression for Part II business-line chapters
+- Alternatives rejected: drafting CH07 prose immediately without source grounding, or creating only one artifact and deferring the rest
+
+### Issues & Resolution
+- Issue: none material; primary requirement was to transition from CH06 work to CH07 without tracker/log drift
+- Resolution: completed CH07 setup artifacts and immediately synchronized `progress_tracker.md` and `progress_log.md` in the same pass
+
+### Editorial Comments
+- Comment: "ok lets move to chapter 7"
+- Response: transitioned active work to CH07 and established restartable chapter artifacts with an initial evidence queue
+
+### Lessons Learned
+- Insight: chapter transitions stay cleanest when chapter brief, research tracker, and claim register are created together and scoped before research deepening
+- What worked: reusing the CH05/CH06 artifact pattern and keeping CH07 in `researching` with explicit claims and source gaps
+- What did not: none in this pass
+
+### Next Steps
+- [ ] Run CH07 research pass 1 and annotate core BNY and infrastructure sources
+- [ ] Upgrade CH07 claims from pending to supported/qualified based on reviewed evidence
+- [ ] Decide whether CH07 has enough coverage to begin `draft_v1`
+
+## [2026-04-09] - Created Chapter 6 Draft V2 From Editorial Notes And Challenge Actions
+
+### Summary
+- Files changed: `04_manuscript/chapter_06/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH06 `draft_v2` and updated tracker state to reflect new draft readiness
+- Chapter(s) affected: CH06
+
+### Decisions
+- Decision: implement editorial notes and challenge-round actions in one integrated revision pass rather than separate incremental edits
+- Rationale: the notes were tightly related and all pointed to one objective, which was stronger operating specificity without expanding chapter scope
+- Alternatives rejected: making piecemeal line edits to `draft_v1`, or postponing changes until another research cycle
+
+### Issues & Resolution
+- Issue: CH06 `draft_v1` still needed deeper practical detail in Trade Capture and Affirmation, clearer definitions for counterparty and liquidity risk, and more explicit language for settlement "places" and "rails"
+- Resolution: `draft_v2` now adds a concrete trade-data contract table, explicit risk definitions, clearer settlement-path language, and a compact late-affirmation-to-fail walkthrough with detection, mitigation, escalation, and closure logic
+
+### Editorial Comments
+- Comment: "before you do I added an editorial_notes.md file to the ch 6 folder. review those before drafting v2"
+- Response: reviewed `editorial_notes.md` first, then drafted `draft_v2` directly against those notes and the CH06 challenge-round action list
+
+### Lessons Learned
+- Insight: practical reviewer notes become high-yield quickly when they are translated into explicit workflow artifacts such as data-contract tables and fail-management sequences
+- What worked: tightening prose while adding concrete operational checkpoints instead of broad additional exposition
+- What did not: leaving key terms and settlement-path references implied for readers to infer
+
+### Next Steps
+- [ ] Re-read CH06 `draft_v2` for final readability and flow across executive and operator audiences
+- [ ] Decide whether CH06 can move to `in_editor_review` or needs a narrow `draft_v3` polish
+- [ ] If further edits are made, keep CH06 source-note mappings aligned to any revised claim wording
+
+## [2026-04-09] - Ran Challenge Round For Chapter 6 Draft V1
+
+### Summary
+- Files changed: `04_manuscript/chapter_06/challenge_round.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH06 `challenge_round.md`; updated project tracker to reflect CH06 challenge-round completion and revision focus
+- Chapter(s) affected: CH06
+
+### Decisions
+- Decision: mark CH06 challenge outcome as `revise before proceeding`
+- Rationale: the draft is strong, but one targeted revision pass is needed to improve operational realism and reduce conceptual repetition before editor-facing review
+- Alternatives rejected: moving directly toward editor review from `draft_v1`, or reopening research before applying the obvious high-yield draft improvements
+
+### Issues & Resolution
+- Issue: CH06 `draft_v1` had strong conceptual framing but still lacked one compact end-to-end fail-management sequence and repeated the DTCC-versus-BNY distinction more than necessary
+- Resolution: documented a specific revision plan in `challenge_round.md` with four priorities: add a fuller fail sequence, tighten repeated role framing, add an executive economics bridge, and qualify product-level variation
+
+### Editorial Comments
+- Comment: "Lets run a challange round."
+- Response: completed the challenge round for CH06 and converted the result into explicit revision actions on disk
+
+### Lessons Learned
+- Insight: even a high-quality first draft benefits from one targeted pressure test before polish, especially in chapters balancing infrastructure explanation and strategic argument
+- What worked: structuring the challenge across insider, practitioner, and executive objections to isolate concrete revision priorities
+- What did not: relying only on broad prose quality signals without explicitly stress-testing flow, scope boundaries, and operating realism
+
+### Next Steps
+- [ ] Create `04_manuscript/chapter_06/draft_v2.md` using the challenge-round action list
+- [ ] Add one compact "late affirmation to aged fail" walkthrough with trigger, escalation, and closure logic
+- [ ] Tighten repeated DTCC-versus-BNY framing so each section adds new value
+- [ ] Add one concise economic-impact bridge paragraph without unsupported quantitative claims
+
 ## [2026-04-05] - Clarified Settlement-Timing Language For Non-Specialist Readers In Chapter 6
 
 ### Summary
