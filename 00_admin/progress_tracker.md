@@ -64,6 +64,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-09
 
+- Clarified the actor model in CH07's same-day escalation scenario so the client treasury team owns the decision while BNY provides the payment, control, and exception-support layer.
 - Revised the CH07 forecasting paragraph in `draft_v2.md` to focus on intraday uncertainty, timing shifts, and reprioritization rather than on forecasting-error evidence.
 - Simplified the prose so the liquidity section reads as chapter narrative rather than as an evidence-management disclaimer.
 - Revised `04_manuscript/chapter_07/draft_v2.md` to add a compact rail-inventory table in the rail-diversity section.

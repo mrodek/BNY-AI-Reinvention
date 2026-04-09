@@ -45,6 +45,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Clarified Treasury-Team Ownership In Chapter 7 Scenario
+
+### Summary
+- Files changed: `04_manuscript/chapter_07/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: revised the CH07 `draft_v2.md` same-day scenario to distinguish client treasury decision ownership from BNY's platform and exception-support role, and synchronized tracker/log state with the manuscript change
+- Chapter(s) affected: CH07
+
+### Decisions
+- Decision: make the scenario's actor model explicit by naming the client's treasury team as decision owner and BNY as the infrastructure and control partner
+- Rationale: the prior wording made "the treasury team" ambiguous and risked implying that BNY directly acts as the client's treasury function rather than enabling and supporting that function
+- Alternatives rejected: leaving the ambiguity in place, or rewriting the section in a way that removed BNY's visible role in control, status, and exception handling
+
+### Issues & Resolution
+- Issue: the phrase "the treasury team" could be read as either BNY's internal treasury team or the client's treasury organization
+- Resolution: rewrote the scenario so the client treasury team makes prioritization and liquidity decisions while BNY provides payment infrastructure, visibility, controls, and exception-handling support
+
+### Editorial Comments
+- Comment: "in this section: A Same-Day Treasury Escalation Looks Like This. Who is the treasury team"
+- Response: clarified the scenario directly in CH07 `draft_v2` and recorded the decision in the tracker and log
+
+### Lessons Learned
+- Insight: in client-facing infrastructure chapters, actor clarity matters as much as workflow clarity because role ambiguity can distort the business model being described
+- What worked: explicitly separating client decision ownership from provider enablement and escalation support
+- What did not: using shorthand like "the treasury team" when two plausible treasury actors exist in the same scene
+
+### Next Steps
+- [ ] Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass
+- [ ] Preserve explicit actor naming where client workflow ownership and BNY support roles could otherwise blur
+- [ ] Commit and push the revised CH07 draft package in the same session
+
 ## [2026-04-09] - Simplified Chapter 7 Forecasting Language In Draft 2
 
 ### Summary
