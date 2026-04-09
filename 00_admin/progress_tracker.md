@@ -5,7 +5,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: review CH08 `draft_v2` after the challenge-round revision pass while keeping CH07 available for editor-facing readiness review
+- Current focus: use the expanded CH08 product inventory and client-type view to clarify Pershing branded offerings while keeping CH08 and CH07 in draft-review mode
 - Next milestone: decide whether CH08 `draft_v2` is ready for editor-facing review or needs one final polish pass
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
@@ -64,6 +64,9 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-09
 
+- Created `04_manuscript/chapter_08/product_inventory.md` as an FDE-facing inventory of Pershing branded platforms and solution families, grouped by workflow relevance and chapter relevance.
+- Distinguished core CH08 platform anchors from broader solution families and more future-state offerings better reserved for CH23.
+- Expanded the CH08 product inventory with a client-type view and marked it as a plausible appendix candidate for the manuscript.
 - Replaced CH07's negating transition line with a stronger statement that treats current-state friction as the operating signature of a dependency-heavy business.
 - Reorganized CH07's `Where The Current Model Still Strains` section into a bulleted list to make the current-state burden easier to scan.
 - Clarified the actor model in CH07's same-day escalation scenario so the client treasury team owns the decision while BNY provides the payment, control, and exception-support layer.
@@ -184,10 +187,10 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Next Actions
 
 1. Re-read CH08 `draft_v2` and decide whether it is ready for editor-facing review or needs one final polish pass.
-2. Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass.
-3. Re-read CH06 `draft_v2` and decide whether it should move into editor review or receive a narrow `draft_v3` polish pass.
-4. Keep one backlog item to find a non-vendor forecasting source that could upgrade CH07 `CLM-003` from `qualified` to `supported`.
-5. Continue expanding `04_manuscript/glossary.md` as CH07 and CH08 terminology stabilizes through draft review.
+2. Decide whether the new CH08 `product_inventory.md` should remain a working artifact only or be formalized as a manuscript appendix.
+3. Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass.
+4. Re-read CH06 `draft_v2` and decide whether it should move into editor review or receive a narrow `draft_v3` polish pass.
+5. Keep one backlog item to find a non-vendor forecasting source that could upgrade CH07 `CLM-003` from `qualified` to `supported`.
 
 ## Update Rules
 

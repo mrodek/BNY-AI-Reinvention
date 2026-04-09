@@ -45,6 +45,66 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Created Pershing Product Inventory
+
+### Summary
+- Files changed: `04_manuscript/chapter_08/product_inventory.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created an FDE-facing Pershing product inventory that distinguishes named platforms, solution families, and adjacent offerings by workflow layer and chapter relevance
+- Chapter(s) affected: CH08
+
+### Decisions
+- Decision: create the Pershing product inventory as a supporting chapter artifact rather than turning CH08 prose into a brochure
+- Rationale: the user needs brochure-style familiarity with Pershing offerings for FDE purposes, but the manuscript chapter still works better when it stays focused on the operating model rather than product enumeration
+- Alternatives rejected: expanding CH08 prose into a long product catalog, or leaving the product understanding implicit in research notes only
+
+### Issues & Resolution
+- Issue: Pershing public materials mix core platform anchors, broad solution families, and newer platform directions under overlapping branding, which makes it easy to blur what matters most to CH08
+- Resolution: structured the inventory around workflow layer, primary user, and chapter relevance, while clearly separating core CH08 anchors such as `NetX360+` and clearing/custody from broader offerings like `Investment Solutions` and more CH23-relevant items like `Wove`
+
+### Editorial Comments
+- Comment: "I'm not sure - as an FDE I will need to be familiar with these product offerings so a brochure has value"
+- Response: created a dedicated product-inventory artifact that can function as a brochure-style working reference without weakening the manuscript chapter
+
+### Lessons Learned
+- Insight: for product-heavy businesses, a separate working inventory is often better than trying to make the chapter itself carry both explanation and commercial orientation
+- What worked: grouping offerings by workflow relevance and chapter relevance rather than by website navigation alone
+- What did not: relying only on product names without distinguishing named platforms from umbrella solution families
+
+### Next Steps
+- [ ] Decide whether the inventory should later expand into a broader BNY/Pershing commercial map
+- [ ] Decide whether a client-type view of the same inventory would be useful for FDE preparation
+- [ ] Keep CH08 prose disciplined and use the inventory as a supporting artifact, not as a substitute chapter outline
+
+## [2026-04-09] - Expanded Pershing Product Inventory With Client-Type View
+
+### Summary
+- Files changed: `04_manuscript/chapter_08/product_inventory.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: expanded the Pershing product inventory with a client-type view and marked the inventory as a plausible appendix candidate for the manuscript
+- Chapter(s) affected: CH08
+
+### Decisions
+- Decision: add the second view inside the existing product inventory rather than splitting it into another file
+- Rationale: one durable reference is easier to maintain, and the two views solve different problems on the same product set: workflow orientation and client-type orientation
+- Alternatives rejected: creating a second parallel inventory file, or leaving the artifact only in workflow-layer form
+
+### Issues & Resolution
+- Issue: the workflow-layer view was useful for chapter architecture, but it still did not answer the more practical FDE question of "which offerings matter for which client type?"
+- Resolution: added a client-type table covering broker-dealers, RIAs, bank-trust firms, home-office platforms, managed-account operators, HNW/complex-household use cases, retirement-focused firms, investors, and institutional edge cases
+
+### Editorial Comments
+- Comment: "lets go with option 1 - I think this product_inventory would probably make a good appendix to the manuscript that we could reference in the chapter"
+- Response: expanded the inventory with the client-type view and explicitly marked it as a strong appendix candidate
+
+### Lessons Learned
+- Insight: product inventories become much more usable when they answer both "what stack layer is this?" and "who actually cares about this?"
+- What worked: keeping the appendix decision in the artifact itself so its intended role is visible to future sessions
+- What did not: treating the workflow-layer view alone as sufficient for operator preparation
+
+### Next Steps
+- [ ] Decide whether to formalize `product_inventory.md` as an appendix artifact in manuscript structure
+- [ ] Consider adding a later competitive or client-conversation view if FDE preparation needs it
+- [ ] If CH08 is polished further, add only a light appendix reference rather than importing the inventory into body prose
+
 ## [2026-04-09] - Strengthened Chapter 7 Strain-Section Closing Line
 
 ### Summary
