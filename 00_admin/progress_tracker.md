@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: review CH09 `draft_v2` and create CH10 `draft_v2` while keeping CH08 and CH07 in draft-review mode
-- Next milestone: decide whether CH09 `draft_v2` is ready for editor-facing review, then create CH10 `draft_v2`
+- Current focus: review CH09 `draft_v2` and CH10 `draft_v2` while keeping CH08 and CH07 in draft-review mode
+- Next milestone: decide whether CH09 `draft_v2` and CH10 `draft_v2` are ready for editor-facing review
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -22,7 +22,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH07 | Treasury Services (Payments and Liquidity) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a same-day escalation scenario, sharper cutoff-pressure ownership language, and a clearer durability/economics bridge |
 | CH08 | Pershing (Wealth Infrastructure Platform) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a concrete advisor-service scenario, sharper carrying-layer consequences, and a tighter current-state bridge into CH23 |
 | CH09 | Investment Management | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now sharpens durable edge beyond generic judgment, strengthens the economics bridge, and makes the CH24 handoff more explicit |
-| CH10 | Collateral, Securities Lending, and Financing | revising | in_progress | draft_v1_ready | not_started | not_started | Challenge round recommends revision to sharpen role boundaries, distinguish sub-workflows more clearly, add one exception sequence, and make the CH25 handoff more concrete |
+| CH10 | Collateral, Securities Lending, and Financing | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 sharpens BNY-versus-client role boundaries, distinguishes repo, lending, and margin workflows more explicitly, adds a concrete exception path, and makes the CH25 bridge more operational |
 | CH11 | The Hidden Truth: A System Held Together by Reconciliation | not_started | not_started | not_started | not_started | not_started | Current-state synthesis chapter |
 | CH12 | BNY as the Financial Operating System | not_started | not_started | not_started | not_started | not_started | Core thesis chapter |
 | CH13 | Why Platforms Win in Financial Infrastructure | not_started | not_started | not_started | not_started | not_started | Platform-thesis support |
@@ -64,6 +64,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-09
 
+- Created `04_manuscript/chapter_10/draft_v2.md` by applying the practitioner challenge-round revisions in one focused pass.
+- Sharpened actor boundaries across BNY, client, and market participants; distinguished repo, securities lending, and margin workflows more explicitly; added a failed-eligibility/recall exception path; and made the CH25 handoff more concrete.
 - Ran the CH10 challenge round against `draft_v1` from a practitioner perspective; outcome was `revise before proceeding`.
 - Logged targeted revision priorities for CH10: sharpen BNY-versus-client role boundaries, distinguish triparty, securities lending, and margin workflows more explicitly, add one concrete exception sequence, and tighten the CH25 handoff.
 - Created `04_manuscript/chapter_09/draft_v2.md` by applying the challenge-round revisions in one focused pass.
@@ -217,7 +219,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Next Actions
 
 1. Re-read CH09 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass.
-2. Create CH10 `draft_v2` using the challenge-round priorities from the practitioner review.
+2. Re-read CH10 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass.
 3. Re-read CH08 `draft_v2` and decide whether it is ready for editor-facing review or needs one final polish pass.
 4. Decide whether CH08 `draft_v2` should explicitly reference `appendix_a_pershing_product_inventory/final.md`.
 5. Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass.

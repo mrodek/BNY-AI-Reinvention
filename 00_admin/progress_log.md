@@ -171,6 +171,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - [ ] Decide whether CH09 needs one additional economics source before the next revision
 - [ ] Commit and push the CH09 draft package in the same session
 
+## [2026-04-09] - Drafted Chapter 10 Version 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_10/chapter_brief.md`, `04_manuscript/chapter_10/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH10 `draft_v2.md`, returned the chapter brief to `drafting`, and synchronized tracker state with the revised draft
+- Chapter(s) affected: CH10
+
+### Decisions
+- Decision: apply the CH10 practitioner challenge-round recommendations in one focused revision pass rather than making only partial edits to `draft_v1`
+- Rationale: the challenge round identified a coherent set of operator-facing improvements that work best together: clearer role precision, sharper differentiation among sub-workflows, one more concrete exception path, and a more explicit CH25 handoff
+- Alternatives rejected: leaving the chapter in `revising`, or making only local sentence edits without strengthening the operating model
+
+### Issues & Resolution
+- Issue: `draft_v1` had the right unifying frame, but it still compressed distinctions that practitioners would notice across triparty, securities lending, margin support, and day-of exception handling
+- Resolution: `draft_v2` now distinguishes those sub-workflows more explicitly, clarifies where BNY provides infrastructure versus where clients own the funding decision, adds a recall/failed-eligibility exception sequence, and makes the closing bridge more operational
+
+### Editorial Comments
+- Comment: "yes"
+- Response: created `draft_v2` directly from the challenge-round action list and updated tracker/log state in the same pass
+
+### Lessons Learned
+- Insight: a chapter like CH10 gets materially stronger when it proves both sides of the argument at once: these workflows share one operating spine, but they are not operationally identical
+- What worked: revising whole sections around role precision and exception flow instead of trying to patch isolated lines
+- What did not: nothing material in this revision pass
+
+### Next Steps
+- [ ] Re-read CH10 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass
+- [ ] Keep the chapter's scope on standard financial collateral rather than drifting back into bespoke-asset examples
+- [ ] Commit and push the CH10 draft_v2 package in the same session
+
 ## [2026-04-09] - Ran Chapter 10 Challenge Round
 
 ### Summary
