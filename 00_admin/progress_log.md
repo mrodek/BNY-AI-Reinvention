@@ -45,6 +45,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Added Platform-Advantage Paragraph To Chapter 9
+
+### Summary
+- Files changed: `04_manuscript/chapter_09/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: revised CH09 `draft_v1.md` to state explicitly that BNY's broader platform businesses may create an investment-management advantage through scale, operating coherence, and efficiency
+- Chapter(s) affected: CH09
+
+### Decisions
+- Decision: make the platform-advantage point explicit in CH09 without introducing a conflicts-of-interest digression
+- Rationale: the chapter already implied that BNY's surrounding platform matters, but the draft did not yet state clearly enough that this can be an operating advantage in investment management rather than just adjacent context
+- Alternatives rejected: leaving the idea implicit, or expanding the paragraph into a broader discussion of potential conflicts that is not necessary for the current chapter objective
+
+### Issues & Resolution
+- Issue: the draft explained BNY's split role well, but it did not yet state plainly whether the wider platform could give BNY a distinct advantage in investment management
+- Resolution: added a short paragraph explaining that a firm embedded in data, accounting, reporting, and lifecycle support can run a more scalable, coherent, and cost-efficient surrounding machine even if that does not by itself guarantee better investment decisions
+
+### Editorial Comments
+- Comment: "yes - no need to mention the conflicts of interest if it's purely scale and efficiency"
+- Response: added the paragraph directly in CH09 `draft_v1` and kept the framing on scale, operating coherence, and efficiency
+
+### Lessons Learned
+- Insight: in these business-line chapters, some strategic implications need to be stated directly rather than left as implied conclusions
+- What worked: adding one compact paragraph that strengthens the platform thesis without pushing the chapter into legal or governance detours
+- What did not: leaving the operating-advantage implication too implicit in the first draft
+
+### Next Steps
+- [ ] Create `04_manuscript/chapter_09/draft_v2.md` using the challenge-round priorities
+- [ ] Decide whether one additional neutral economics source is needed after the revision pass
+- [ ] Keep CH24 setup explicit without letting CH09 drift into future-state design too early
+
 ## [2026-04-09] - Ran Chapter 9 Challenge Round
 
 ### Summary

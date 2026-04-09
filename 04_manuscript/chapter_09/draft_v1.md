@@ -26,6 +26,8 @@ This chapter should also be precise about what BNY is doing. Through BNY Investm
 
 But BNY also appears around that business as a platform and operating layer. Its data and analytics platform is explicitly positioned as a unified environment for data management, accounting, performance and analytics, and investment operations.^[SRC-002] Its investment-accounting materials emphasize one ledger across currencies and asset classes, audit trails, NAV oversight, real-time dashboards, and the coexistence of investment and accounting books of record.^[SRC-003] Its broader lifecycle positioning extends the frame even further by describing integrated capabilities across the investment continuum for both asset owners and asset managers.^[SRC-004]
 
+That broader platform position may give BNY a real advantage in investment management, at least in practical operating terms. A firm that already sits inside data management, accounting, reporting, and lifecycle support can move information, controls, and operating context across the investment process more efficiently than a manager built on a thinner stack. That does not guarantee better investment decisions by itself. It does mean the surrounding machine can be more scalable, more coherent, and potentially more cost-efficient, which matters when margins are under pressure and when clients increasingly expect both insight and operational credibility.
+
 That split matters for the chapter's logic. BNY is not only exposed to the question of whether investment judgment remains differentiated. It is also exposed to the question of how much of the surrounding operating stack becomes more automatable, more data-driven, and more compressible as AI improves.
 
 ## Where AI Changes The Process Fastest

@@ -64,6 +64,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-09
 
+- Added a CH09 paragraph arguing that BNY's broader platform businesses may create an investment-management advantage through scale, operating coherence, and efficiency rather than through front-office insight alone.
 - Ran the CH09 challenge round against `draft_v1`; outcome was `revise before proceeding`.
 - Logged targeted revision priorities for CH09: sharpen what remains differentiated beyond generic judgment, strengthen the economics bridge, and make the CH24 handoff more explicit.
 - Created `04_manuscript/chapter_10/source_notes.md` and `draft_v1.md` to convert the CH10 research base into a first current-state collateral and financing chapter draft.
