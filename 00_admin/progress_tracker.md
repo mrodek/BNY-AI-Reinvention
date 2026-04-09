@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: use the expanded CH08 product inventory and client-type view to clarify Pershing branded offerings while keeping CH08 and CH07 in draft-review mode
-- Next milestone: decide whether CH08 `draft_v2` is ready for editor-facing review or needs one final polish pass
+- Current focus: review CH09 `draft_v1` while keeping CH08 and CH07 in draft-review mode
+- Next milestone: decide whether CH09 should run a challenge round before `draft_v2`
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -21,7 +21,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH06 | Clearing and Settlement | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now incorporates editorial notes and challenge-round actions, including deeper trade-capture detail and a compact fail-management walkthrough |
 | CH07 | Treasury Services (Payments and Liquidity) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a same-day escalation scenario, sharper cutoff-pressure ownership language, and a clearer durability/economics bridge |
 | CH08 | Pershing (Wealth Infrastructure Platform) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a concrete advisor-service scenario, sharper carrying-layer consequences, and a tighter current-state bridge into CH23 |
-| CH09 | Investment Management | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
+| CH09 | Investment Management | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 frames investment management as differentiated judgment sitting on top of a large operating stack now under AI and economics pressure |
 | CH10 | Collateral, Securities Lending, and Financing | not_started | not_started | not_started | not_started | not_started | Current-state business-line chapter |
 | CH11 | The Hidden Truth: A System Held Together by Reconciliation | not_started | not_started | not_started | not_started | not_started | Current-state synthesis chapter |
 | CH12 | BNY as the Financial Operating System | not_started | not_started | not_started | not_started | not_started | Core thesis chapter |
@@ -64,6 +64,14 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-09
 
+- Completed CH09 research pass 1 across BNY Investments, BNY data and accounting platforms, CFA Institute workflow and governance sources, and McKinsey industry economics.
+- Updated CH09 claim statuses from `pending` to `supported` or `qualified` based on current evidence strength.
+- Created `04_manuscript/chapter_09/source_notes.md` and `draft_v1.md` to turn the CH09 source base into a first current-state investment-management draft.
+- Moved CH09 from `researching` to `drafting`.
+- Formalized the Pershing inventory into `04_manuscript/appendix_a_pershing_product_inventory/` with `appendix_brief.md` and `final.md`, and converted the CH08-local inventory file into a pointer to the appendix.
+- Initiated CH09 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md` in `04_manuscript/chapter_09/`.
+- Seeded CH09 research with an initial source queue spanning BNY investment operations and data platforms plus CFA Institute and McKinsey sources on AI in asset management.
+- Updated CH09 lifecycle from `not_started` to `researching`.
 - Created `04_manuscript/chapter_08/product_inventory.md` as an FDE-facing inventory of Pershing branded platforms and solution families, grouped by workflow relevance and chapter relevance.
 - Distinguished core CH08 platform anchors from broader solution families and more future-state offerings better reserved for CH23.
 - Expanded the CH08 product inventory with a client-type view and marked it as a plausible appendix candidate for the manuscript.
@@ -186,11 +194,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Re-read CH08 `draft_v2` and decide whether it is ready for editor-facing review or needs one final polish pass.
-2. Decide whether the new CH08 `product_inventory.md` should remain a working artifact only or be formalized as a manuscript appendix.
-3. Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass.
-4. Re-read CH06 `draft_v2` and decide whether it should move into editor review or receive a narrow `draft_v3` polish pass.
-5. Keep one backlog item to find a non-vendor forecasting source that could upgrade CH07 `CLM-003` from `qualified` to `supported`.
+1. Re-read CH09 `draft_v1` and decide whether it should run a challenge round before `draft_v2`.
+2. Re-read CH08 `draft_v2` and decide whether it is ready for editor-facing review or needs one final polish pass.
+3. Decide whether CH08 `draft_v2` should explicitly reference `appendix_a_pershing_product_inventory/final.md`.
+4. Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass.
+5. Re-read CH06 `draft_v2` and decide whether it should move into editor review or receive a narrow `draft_v3` polish pass.
 
 ## Update Rules
 

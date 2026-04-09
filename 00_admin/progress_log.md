@@ -45,6 +45,98 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Drafted Chapter 9 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_09/chapter_brief.md`, `04_manuscript/chapter_09/research_tracker.md`, `04_manuscript/chapter_09/claim_register.md`, `04_manuscript/chapter_09/source_notes.md`, `04_manuscript/chapter_09/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: completed CH09 research pass 1, created `source_notes.md` and `draft_v1.md`, updated the claim register to supported or qualified status, and moved CH09 from researching to drafting in the tracker
+- Chapter(s) affected: CH09
+
+### Decisions
+- Decision: draft CH09 now from the first-pass source base rather than delay for a wider economics or active-versus-passive research cycle
+- Rationale: the current evidence is already strong enough to support the chapter's main throughline, which is the distinction between differentiated investment judgment and the large operating machine around it that is increasingly exposed to AI and cost pressure
+- Alternatives rejected: turning CH09 into a generic asset-management overview, or delaying all drafting until a fuller fee-pressure evidence set is assembled
+
+### Issues & Resolution
+- Issue: CH09 risked collapsing into a generic debate about whether AI replaces portfolio managers
+- Resolution: wrote the chapter around a more concrete distinction between judgment, operating machinery, and the parts of the workflow where AI pressure is already real
+- Issue: BNY's public sources are stronger on the surrounding platform, accounting, and lifecycle machinery than on front-office portfolio process detail
+- Resolution: used BNY Investments for the direct business anchor and relied on BNY data/accounting sources plus CFA Institute and McKinsey material to make the operating stack and economics pressure legible without overclaiming BNY-specific front-office mechanics
+
+### Editorial Comments
+- Comment: "go ahead then progress right into the draft phase"
+- Response: carried CH09 from starter artifacts through research pass 1 into `draft_v1`, with source notes, claim updates, and tracker/log synchronization in the same pass
+
+### Lessons Learned
+- Insight: CH09 is strongest when it is framed as "judgment on top of a machine" rather than as a simple debate over whether AI can pick stocks
+- What worked: using BNY's direct investment-management business as the front-door explanation while letting the surrounding data, accounting, and lifecycle stack reveal where AI and operating pressure actually land
+- What did not: nothing material in this pass, though a later revision may still benefit from one sharper source on fee or product commoditization pressure
+
+### Next Steps
+- [ ] Re-read CH09 `draft_v1` and decide whether it should run a challenge round before `draft_v2`
+- [ ] Decide whether CH09 needs one additional economics source before the next revision
+- [ ] Commit and push the CH09 draft package in the same session
+
+## [2026-04-09] - Formalized Pershing Inventory As Appendix A
+
+### Summary
+- Files changed: `04_manuscript/appendix_a_pershing_product_inventory/appendix_brief.md`, `04_manuscript/appendix_a_pershing_product_inventory/final.md`, `04_manuscript/chapter_08/product_inventory.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created a standalone manuscript appendix unit for the Pershing product inventory and converted the CH08-local inventory file into a pointer to the canonical appendix location
+- Chapter(s) affected: CH08 and Appendix A
+
+### Decisions
+- Decision: treat the Pershing inventory as a manuscript appendix with its own folder rather than only as a chapter-supporting note
+- Rationale: the appendix is substantial enough to deserve its own manuscript boundary, and the user explicitly wanted it treated like a chapter
+- Alternatives rejected: leaving the inventory only inside `chapter_08`, or embedding the appendix content directly into CH08 body prose
+
+### Issues & Resolution
+- Issue: the prior artifact worked as a strong appendix candidate, but it still lived operationally as a chapter-side working note rather than as a manuscript unit
+- Resolution: created `appendix_a_pershing_product_inventory/` with `appendix_brief.md` and `final.md`, and turned the CH08-local file into a pointer to the canonical appendix path
+
+### Editorial Comments
+- Comment: "yes but I wanted the appendix to be treated like a chapter"
+- Response: promoted the Pershing appendix into its own manuscript folder with chapter-like structure
+
+### Lessons Learned
+- Insight: when a reference artifact becomes substantial enough to support both manuscript use and operator use, it should usually get its own manuscript boundary instead of living as a chapter footnote
+- What worked: separating the canonical appendix content from the CH08-local pointer so manuscript ownership is clear
+- What did not: stopping at "appendix candidate" language when the intended use had already become appendix-grade
+
+### Next Steps
+- [ ] Decide whether CH08 `draft_v2` should explicitly reference Appendix A
+- [ ] Keep the appendix updated as Pershing branding evolves
+- [ ] Consider whether later appendices should follow the same folder pattern for consistency
+
+## [2026-04-09] - Created Chapter 9 Artifact Set
+
+### Summary
+- Files changed: `04_manuscript/chapter_09/chapter_brief.md`, `04_manuscript/chapter_09/research_tracker.md`, `04_manuscript/chapter_09/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the CH09 brief, initial research tracker, and first-pass claim register, then moved CH09 into active research in the project tracker
+- Chapter(s) affected: CH09
+
+### Decisions
+- Decision: start CH09 by framing it as a current-state business-line chapter about the boundary between differentiated investment judgment and increasingly automatable operating work
+- Rationale: the outline makes CH09 more interesting than a generic asset-management overview; the chapter's real job is to explain where investment-management edge remains durable and where AI pressure is likely to compress process advantage
+- Alternatives rejected: treating CH09 as a broad survey of all BNY investment products, or beginning with future-state AI speculation before the current operating model is clear
+
+### Issues & Resolution
+- Issue: CH09 could easily drift into either generic active-versus-passive commentary or an overly abstract AI chapter without a clear current-state operating spine
+- Resolution: anchored the starter artifacts around two layers: judgment and the operating machine underneath it, then seeded the source queue with BNY investment-operations pages plus CFA Institute and McKinsey material on AI in asset management
+
+### Editorial Comments
+- Comment: "ok start chapter 9"
+- Response: created the required CH09 starter artifacts on disk and updated tracker/log state in the same pass
+
+### Lessons Learned
+- Insight: the strongest setup for CH09 is not "investment management as stock picking" but "investment management as judgment sitting on top of a large operational and analytical stack"
+- What worked: using the chapter-map language plus nearby Part II chapter patterns to keep the brief operator-first and book-consistent
+- What did not: nothing material in this initialization pass
+
+### Next Steps
+- [ ] Complete CH09 research pass 1 using the seeded BNY and CFA/McKinsey source set
+- [ ] Decide whether the chapter's primary operating lens should be asset managers, asset owners, or a combined model
+- [ ] Refine CH09 claims from `pending` to supported or qualified once the first source pass is complete
+
 ## [2026-04-09] - Created Pershing Product Inventory
 
 ### Summary
