@@ -45,6 +45,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Added Rail Inventory Table To Chapter 7 Draft 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_07/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: revised CH07 `draft_v2.md` to add a rail inventory table in the rail-diversity section and synchronized tracker/log state with the manuscript change
+- Chapter(s) affected: CH07
+
+### Decisions
+- Decision: add a compact rail-platform inventory table rather than expand the rail section only in prose
+- Rationale: the section already had the right conceptual content, but a table makes the different operating environments easier to scan and compare for an executive reader
+- Alternatives rejected: leaving the section prose-only, or expanding into a much more exhaustive rail taxonomy that would overcomplicate the chapter
+
+### Issues & Resolution
+- Issue: the rail-diversity section explained the point clearly but did not yet give the reader a quick inventory of the main rail environments in view
+- Resolution: added a four-row table covering Fedwire Funds, CHAPS, SWIFT payments tooling, and TARGET Services, organized by role, operating profile, and coordination burden
+
+### Editorial Comments
+- Comment: "I think we need a table in tthe Rail Diversity section with an inventory of the different rail platforms"
+- Response: added the table directly into CH07 `draft_v2` and updated tracker/log state in the same pass
+
+### Lessons Learned
+- Insight: in the infrastructure chapters, a well-placed inventory table can improve comprehension without sacrificing narrative flow
+- What worked: keeping the table narrow and operational rather than turning it into a full market-infrastructure catalog
+- What did not: relying on examples in prose alone when the reader also needs a quick comparative map
+
+### Next Steps
+- [ ] Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass
+- [ ] Preserve disciplined qualification on forecasting claims unless a stronger non-vendor source is added
+- [ ] Commit and push the revised CH07 draft package in the same session
+
 ## [2026-04-09] - Drafted Chapter 8 Version 2
 
 ### Summary

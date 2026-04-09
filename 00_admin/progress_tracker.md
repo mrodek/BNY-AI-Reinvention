@@ -64,6 +64,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-09
 
+- Revised `04_manuscript/chapter_07/draft_v2.md` to add a compact rail-inventory table in the rail-diversity section.
+- Made the rail section more scannable by distinguishing Fedwire, CHAPS, SWIFT, and TARGET Services by role, operating profile, and coordination burden.
 - Created `04_manuscript/chapter_08/draft_v2.md` by applying the CH08 challenge-round revisions in one focused pass.
 - Added a compact advisor-and-service workflow scenario, sharpened the carrying layer's day-to-day consequences, made the open-ecosystem section more wealth-specific, and tightened the current-state bridge into CH23.
 - Created `04_manuscript/chapter_07/draft_v2.md` by applying the challenge-round revisions in one focused pass.

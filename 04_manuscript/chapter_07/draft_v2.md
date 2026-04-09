@@ -28,6 +28,15 @@ The second misconception is that "payments" are one channel. Real treasury opera
 
 Cross-border flow adds another layer. SWIFT's payment architecture separates initiation, processing, tracking, and settlement support functions, with explicit tooling around pre-validation, tracking, and case management.^[SRC-005] The Eurosystem TARGET services illustrate the same principle from another angle: multiple linked services for payments, securities settlement, instant payments, and collateral management, all requiring coherent operational handling even when underlying services differ.^[SRC-008]
 
+One compact inventory helps show the range of rail environments treasury teams may need to coordinate across:
+
+| Rail or platform | Primary role in the chapter | Typical operating profile | Main coordination burden |
+| --- | --- | --- | --- |
+| Fedwire Funds | High-value domestic U.S. payment rail | Real-time gross settlement with immediate finality during defined operating windows | Cutoff discipline, funding readiness, and timing of high-value transfers |
+| CHAPS | High-value U.K. payment rail | Same-day RTGS for sterling payments within explicit send and receive windows | Liquidity tradeoffs, deadline management, and same-day completion pressure |
+| SWIFT network and payments tooling | Cross-border messaging, tracking, and investigation support layer | Connects institutions across corridors with messaging, tracking, and case-management capabilities | Corridor-specific data quality, exception routing, status visibility, and investigation handoffs |
+| TARGET Services | Eurosystem multi-service environment for payments and related market infrastructure | Linked services spanning large-value payments, instant payments, securities settlement, and collateral flows | Cross-service coordination, variation by service, and consistent handling across connected infrastructure |
+
 The shared operating logic is coordination under timing constraints. The exact cutoffs, data requirements, settlement models, and investigation paths vary by rail and corridor. For a non-specialist executive, the practical point is still simple. More rails increase optionality, reach, and resilience. They also increase coordination burden. Treasury value comes from making that complexity predictable for clients.
 
 ## Intraday Liquidity Management Is A Live Operating Discipline
