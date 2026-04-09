@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Drafted Chapter 9 Version 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_09/draft_v2.md`, `04_manuscript/chapter_09/chapter_brief.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH09 `draft_v2.md`, moved the chapter brief back into `drafting`, and synchronized tracker focus, milestone, and next actions with the new draft state
+- Chapter(s) affected: CH09
+
+### Decisions
+- Decision: create CH09 `draft_v2` now by folding the challenge-round actions directly into the chapter rather than reopening the research scope first
+- Rationale: the challenge round identified structural and wording improvements, not a major evidence failure, so the best next move was a clean revision pass that sharpens the chapter's central distinctions and business consequences
+- Alternatives rejected: leaving the changes as chat-only notes, or delaying revision for a broader new source search before testing the stronger chapter shape
+
+### Issues & Resolution
+- Issue: `draft_v1` relied too much on the broad term `judgment`, which left the durable sources of differentiation underdefined
+- Resolution: revised the chapter to name process design, mandate interpretation, governance credibility, and client trust as durable edge alongside judgment itself
+- Issue: the economics bridge and the fixed-income scenario were directionally right, but they did not yet say crisply enough what AI does not settle and why shared tooling changes the basis of competition
+- Resolution: added a compact economics paragraph on shared tooling, operating leverage, and premium compression, then strengthened the scenario with explicit language on accountability, mandate tradeoffs, and process credibility
+
+### Editorial Comments
+- Comment: "ok factor in the challanges and draft v2"
+- Response: created `draft_v2.md` directly from the challenge-round priorities and kept the revision focused on manuscript-level clarity rather than expanding the chapter sideways
+
+### Lessons Learned
+- Insight: CH09 gets stronger when it distinguishes durable edge as organizational and fiduciary, not just as abstract human judgment
+- What worked: treating the challenge round as a chapter-shaping tool rather than a list of marginal edits
+- What did not: letting the economics consequences remain implied instead of stating how shared tooling and automation pressure narrow the premium layer
+
+### Next Steps
+- [ ] Re-read CH09 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass
+- [ ] Create `04_manuscript/chapter_10/draft_v2.md` from the practitioner challenge-round priorities
+- [ ] Keep the CH24 handoff explicit if CH09 receives another revision pass
+
 ## [2026-04-09] - Added Platform-Advantage Paragraph To Chapter 9
 
 ### Summary
@@ -138,6 +170,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - [ ] Re-read CH09 `draft_v1` and decide whether it should run a challenge round before `draft_v2`
 - [ ] Decide whether CH09 needs one additional economics source before the next revision
 - [ ] Commit and push the CH09 draft package in the same session
+
+## [2026-04-09] - Ran Chapter 10 Challenge Round
+
+### Summary
+- Files changed: `04_manuscript/chapter_10/challenge_round.md`, `04_manuscript/chapter_10/chapter_brief.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the CH10 challenge-round file, moved the chapter brief to `revising`, and synchronized tracker state with the outcome
+- Chapter(s) affected: CH10
+
+### Decisions
+- Decision: treat the practitioner review as a `revise before proceeding` outcome rather than moving directly to `draft_v2` without pressure-testing adjustments
+- Rationale: the draft's core logic is strong, but a practitioner-grade reading exposes four concrete upgrade points: actor precision, workflow differentiation, one more exception path, and a more concrete CH25 handoff
+- Alternatives rejected: passing the draft with only minor notes, or expanding the challenge round into specialist legal detail beyond the chapter's purpose
+
+### Issues & Resolution
+- Issue: `draft_v1` unifies the domain well, but still compresses some distinctions a practitioner would care about, especially across triparty, securities lending, margin support, and who owns which real-time decisions
+- Resolution: captured the needed revision priorities explicitly in `challenge_round.md` so `draft_v2` can address them in one focused pass
+
+### Editorial Comments
+- Comment: "yes do a deep dive from a practioner perspepective"
+- Response: ran the challenge round from an operator viewpoint and recorded the result as `revise before proceeding`
+
+### Lessons Learned
+- Insight: CH10 gets stronger when it shows not only that these workflows belong together, but also where their day-to-day differences create distinct control and exception patterns
+- What worked: testing the draft against desk-level and operations-level objections instead of only against conceptual coherence
+- What did not: assuming the unifying frame alone was enough for practitioner credibility
+
+### Next Steps
+- [ ] Create `04_manuscript/chapter_10/draft_v2.md` from the practitioner challenge-round actions
+- [ ] Add one concrete exception sequence involving recall, substitution, or failed eligibility timing
+- [ ] Make actor boundaries more explicit across BNY infrastructure roles, client decisions, and counterparty interactions
 
 ## [2026-04-09] - Tightened CH10 Closing And Editorial Style Guidance
 

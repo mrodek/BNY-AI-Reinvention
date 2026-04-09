@@ -5,7 +5,7 @@
 - Chapter ID: `CH09`
 - Working title: `Investment Management`
 - Book section: `Part II - The System as It Exists Today`
-- Status: `revising`
+- Status: `drafting`
 - Last updated: `2026-04-09`
 
 ## Chapter Purpose
