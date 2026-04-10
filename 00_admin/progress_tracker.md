@@ -23,7 +23,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH08 | Pershing (Wealth Infrastructure Platform) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a concrete advisor-service scenario, sharper carrying-layer consequences, and a tighter current-state bridge into CH23 |
 | CH09 | Investment Management | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now sharpens durable edge beyond generic judgment, strengthens the economics bridge, and makes the CH24 handoff more explicit |
 | CH10 | Collateral, Securities Lending, and Financing | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 sharpens BNY-versus-client role boundaries, distinguishes repo, lending, and margin workflows more explicitly, adds a concrete exception path, and makes the CH25 bridge more operational |
-| CH11 | The Hidden Truth: A System Held Together by Reconciliation | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 tightens the Part II capstone into a shorter, more direct reconciliation diagnosis and bridge into Part III |
+| CH11 | The Hidden Truth: A System Held Together by Reconciliation | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round passed with minor monitoring; body prose now keeps DTCC/ISDA attribution in source notes rather than naming them in the chapter |
 | CH12 | BNY as the Financial Operating System | not_started | not_started | not_started | not_started | not_started | Core thesis chapter |
 | CH13 | Why Platforms Win in Financial Infrastructure | not_started | not_started | not_started | not_started | not_started | Platform-thesis support |
 | CH14 | The Missing Layer: Intelligence | not_started | not_started | not_started | not_started | not_started | Intelligence-thesis support |
@@ -68,6 +68,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Preserved the Part I and Part II structure in the combined file and normalized the CH03 image path so it renders correctly from the manuscript root.
 - Created CH11 `draft_v2.md` as a tighter Part II capstone, reducing explanatory sprawl and driving the reconciliation point more directly.
 - Refreshed the consolidated CH01-CH11 manuscript so it now uses CH11 `draft_v2`.
+- Revised CH11 `draft_v2.md` to remove explicit DTCC/ISDA body-prose callouts while preserving source markers and source-note traceability.
+- Ran the CH11 challenge round against `draft_v2`; outcome was `pass with minor monitoring`.
 - Created `04_manuscript/chapter_11/source_notes.md` and `draft_v1.md` to convert the CH11 research base into a diagnosis chapter for Part II.
 - Moved CH11 from `researching` to `drafting`.
 - Completed CH11 research pass 1 across BNY middle-office, managed-account, and custody sources plus DTCC and ISDA materials on exception management, reporting assurance, and portfolio reconciliation.
@@ -231,9 +233,9 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Next Actions
 
 1. Read through `04_manuscript/manuscript_ch01_ch11.md` for flow, repetition, and tone consistency across the first eleven chapters.
-2. Decide whether Part II needs a final cohesion pass now that CH11 has been tightened.
-3. Re-read CH09 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass.
-4. Re-read CH10 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass.
+2. Decide whether CH11's title should keep the phrase `hidden truth` after the full readthrough.
+3. Decide whether Part II needs a final cohesion pass now that CH11 has been tightened.
+4. Re-read CH09 `draft_v2` and CH10 `draft_v2` to decide whether they are ready for editor-facing review or need narrow polish.
 5. Re-read CH08 `draft_v2` and decide whether it is ready for editor-facing review or needs one final polish pass.
 
 ## Update Rules

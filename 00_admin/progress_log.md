@@ -45,6 +45,40 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Ran Chapter 11 Challenge Round After Source-Callout Cleanup
+
+### Summary
+- Files changed: `04_manuscript/chapter_11/draft_v2.md`, `04_manuscript/chapter_11/challenge_round.md`, `04_manuscript/manuscript_ch01_ch11.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: revised CH11 `draft_v2.md` to remove explicit DTCC/ISDA body-prose callouts, created CH11 `challenge_round.md`, and refreshed the consolidated CH01-CH11 manuscript
+- Chapter(s) affected: CH11 and consolidated CH01-CH11 manuscript
+
+### Decisions
+- Decision: keep institutional source names out of the CH11 body prose and leave full attribution in `source_notes.md`
+- Rationale: the reader does not need to remember DTCC or ISDA in the capstone paragraph; the manuscript point is that exception management and reconciliation are formal operating disciplines across market infrastructure, reporting, derivatives, and collateral workflows
+- Alternatives rejected: leaving the source-name-heavy paragraph in place, or stripping source markers entirely and weakening traceability
+
+### Issues & Resolution
+- Issue: the exceptions paragraph still read partly like a research memo after CH11 had otherwise been tightened into manuscript prose
+- Resolution: rewrote the paragraph around market-infrastructure and industry-practice materials generally, preserved source IDs, and documented the attribution logic in the existing source-note workflow
+- Issue: CH11 needed a challenge round after the cleanup to confirm the shortened capstone still carries enough force
+- Resolution: ran a focused challenge round with outcome `pass with minor monitoring`
+
+### Editorial Comments
+- Comment: "Do we need to call out DTCC/ISDA's materials so explicitly?"
+- Response: removed the explicit DTCC/ISDA body-prose callouts and kept the citation trail in `source_notes.md`
+- Comment: "yes please then run a challange round"
+- Response: created CH11 `challenge_round.md` and recorded the pass-with-monitoring outcome
+
+### Lessons Learned
+- Insight: capstone chapters should cite lightly in prose and keep source scaffolding behind the scenes unless the institution name itself matters to the argument
+- What worked: replacing named-source prose with a generalized evidence-backed operating statement
+- What did not: carrying research-tracker wording into a chapter meant to close a major part of the book
+
+### Next Steps
+- [ ] Read the consolidated CH01-CH11 manuscript for Part II cohesion
+- [ ] Decide whether CH11's title should retain the phrase `hidden truth`
+- [ ] Decide whether CH09, CH10, and CH11 can move into editor-facing review
+
 ## [2026-04-09] - Tightened Chapter 11 Part II Capstone
 
 ### Summary
