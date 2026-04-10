@@ -45,6 +45,96 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Drafted Chapter 11 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_11/chapter_brief.md`, `04_manuscript/chapter_11/source_notes.md`, `04_manuscript/chapter_11/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH11 `source_notes.md` and `draft_v1.md`, updated the chapter brief status, and moved CH11 from research into drafting
+- Chapter(s) affected: CH11
+
+### Decisions
+- Decision: draft CH11 now from the first-pass evidence base rather than reopening research before testing the synthesis in manuscript form
+- Rationale: the pass-1 source set is already strong enough to support the chapter's core diagnosis, and writing the synthesis is the best way to test whether the argument lands cleanly across CH05 through CH10
+- Alternatives rejected: delaying drafting for a broader books-and-records source search, or turning CH11 into a chapter-by-chapter recap of earlier material
+
+### Issues & Resolution
+- Issue: CH11 risked becoming repetitive unless it could synthesize multiple business lines through one deeper operating pattern
+- Resolution: `draft_v1` now defines reconciliation broadly, explains why multiple records persist, uses one cross-product sequence to show the pattern, and frames exception management as the lived form of reconciliation work
+
+### Editorial Comments
+- Comment: "yes go on"
+- Response: created the CH11 draft package directly from the supported research base and updated tracker/log state in the same pass
+
+### Lessons Learned
+- Insight: CH11 is strongest when it argues that finance works by continuously proving agreement across fragmented but legitimate views of reality
+- What worked: writing the chapter as a diagnosis capstone rather than as another business-line walkthrough
+- What did not: nothing material in this drafting pass
+
+### Next Steps
+- [ ] Re-read CH11 `draft_v1` and decide whether it should run a challenge round before `draft_v2`
+- [ ] Keep the Part III bridge focused on reducing hidden coordination tax rather than promising the elimination of reconciliation
+- [ ] Commit and push the CH11 draft package in the same session
+
+## [2026-04-09] - Completed Chapter 11 Research Pass 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_11/research_tracker.md`, `04_manuscript/chapter_11/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: completed the first CH11 research pass, updated reviewed-source findings and claim statuses, and synchronized tracker state with the stronger chapter diagnosis
+- Chapter(s) affected: CH11
+
+### Decisions
+- Decision: center CH11 on reconciliation as both records pluralism and exception-management burden rather than forcing a choice between those frames
+- Rationale: the source pattern shows that the system-wide reality is both at once. Multiple books, systems, and counterparties create the need for reconciliation, and teams experience that need operationally through exceptions, status mismatches, and repair workflows
+- Alternatives rejected: narrowing CH11 to accounting reconciliation only, or making it a broad "bad data" chapter detached from real operating controls
+
+### Issues & Resolution
+- Issue: CH11 risked becoming either too abstract or too repetitive unless the research could show reconciliation as an explicit cross-system discipline with concrete operational forms
+- Resolution: the BNY sources anchored reconciliations, hand-offs, and books of record inside actual operating platforms, while DTCC and ISDA sources showed exception management, portfolio reconciliation, and reporting assurance as formal market practices with real workflow burden
+
+### Editorial Comments
+- Comment: "yes"
+- Response: completed the first CH11 research pass, updated the claim register, and converted the chapter from hypothesis-only framing into a supported diagnosis
+
+### Lessons Learned
+- Insight: the strongest articulation of CH11 is not "finance has bad systems." It is "finance works by continuously proving agreement across multiple legitimate but fragmented views of reality"
+- What worked: combining BNY operating-language sources with DTCC and ISDA workflow sources so the chapter can synthesize the whole system without sounding generic
+- What did not: relying on a single business-line lens would have undersold the cross-system nature of reconciliation
+
+### Next Steps
+- [ ] Create `04_manuscript/chapter_11/source_notes.md` and `draft_v1.md`
+- [ ] Use CH05 through CH10 as concrete examples inside the draft without replaying each chapter sequentially
+- [ ] Add one more books-and-records source only if the draft needs stronger support for why multiple records persist
+
+## [2026-04-09] - Created Chapter 11 Artifact Set
+
+### Summary
+- Files changed: `04_manuscript/chapter_11/chapter_brief.md`, `04_manuscript/chapter_11/research_tracker.md`, `04_manuscript/chapter_11/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the CH11 brief, initial research tracker, and first-pass claim register, then moved CH11 into active research in the project tracker
+- Chapter(s) affected: CH11
+
+### Decisions
+- Decision: frame CH11 as the diagnosis capstone for Part II, centered on reconciliation as the hidden coordination mechanism of the current system rather than as a narrow accounting or post-trade chapter
+- Rationale: the strongest synthesis after CH05 through CH10 is that the system works because firms continuously compare, validate, explain, and repair mismatches across records, statuses, assets, cash, collateral, and workflow state
+- Alternatives rejected: treating CH11 as a generic "legacy systems" complaint, or narrowing it to one function such as accounting reconciliation alone
+
+### Issues & Resolution
+- Issue: CH11 could easily become repetitive if it simply replayed each prior chapter instead of naming the deeper operating pattern
+- Resolution: anchored the starter artifacts around reconciliation as a system-wide pattern and seeded the source queue with BNY workflow and data sources plus DTCC and ISDA materials on exception management, portfolio reconciliation, and reporting assurance
+
+### Editorial Comments
+- Comment: "it's ready start chapter 11"
+- Response: created the required CH11 starter artifacts on disk and updated tracker/log state in the same pass
+
+### Lessons Learned
+- Insight: CH11 works best when it diagnoses the system's hidden coordination tax rather than adding another business-line walkthrough
+- What worked: using CH05 through CH10 as implicit context while framing the new source search around exception management, books of record, and reconciliation as explicit operating practice
+- What did not: nothing material in this initialization pass
+
+### Next Steps
+- [ ] Complete CH11 research pass 1 using the seeded BNY, DTCC, and ISDA source set
+- [ ] Decide whether CH11 should center reconciliation as control burden, exception-management burden, or records-pluralism diagnosis
+- [ ] Refine CH11 claims from `pending` to supported or qualified once the first source pass is complete
+
 ## [2026-04-09] - Drafted Chapter 9 Version 2
 
 ### Summary

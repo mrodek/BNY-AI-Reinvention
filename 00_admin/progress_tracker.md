@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: review CH09 `draft_v2` and CH10 `draft_v2` while keeping CH08 and CH07 in draft-review mode
-- Next milestone: decide whether CH09 `draft_v2` and CH10 `draft_v2` are ready for editor-facing review
+- Current focus: review CH11 `draft_v1` while deciding whether CH09 and CH10 can move into editor-facing review
+- Next milestone: decide whether CH11 should run a challenge round before `draft_v2`, then clear CH09 and CH10 for editor-facing review or narrow polish
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -23,7 +23,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH08 | Pershing (Wealth Infrastructure Platform) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a concrete advisor-service scenario, sharper carrying-layer consequences, and a tighter current-state bridge into CH23 |
 | CH09 | Investment Management | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now sharpens durable edge beyond generic judgment, strengthens the economics bridge, and makes the CH24 handoff more explicit |
 | CH10 | Collateral, Securities Lending, and Financing | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 sharpens BNY-versus-client role boundaries, distinguishes repo, lending, and margin workflows more explicitly, adds a concrete exception path, and makes the CH25 bridge more operational |
-| CH11 | The Hidden Truth: A System Held Together by Reconciliation | not_started | not_started | not_started | not_started | not_started | Current-state synthesis chapter |
+| CH11 | The Hidden Truth: A System Held Together by Reconciliation | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 frames reconciliation as the hidden coordination mechanism beneath custody, settlement, treasury, collateral, wealth, and investment workflows |
 | CH12 | BNY as the Financial Operating System | not_started | not_started | not_started | not_started | not_started | Core thesis chapter |
 | CH13 | Why Platforms Win in Financial Infrastructure | not_started | not_started | not_started | not_started | not_started | Platform-thesis support |
 | CH14 | The Missing Layer: Intelligence | not_started | not_started | not_started | not_started | not_started | Intelligence-thesis support |
@@ -64,6 +64,14 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-09
 
+- Created `04_manuscript/chapter_11/source_notes.md` and `draft_v1.md` to convert the CH11 research base into a diagnosis chapter for Part II.
+- Moved CH11 from `researching` to `drafting`.
+- Completed CH11 research pass 1 across BNY middle-office, managed-account, and custody sources plus DTCC and ISDA materials on exception management, reporting assurance, and portfolio reconciliation.
+- Updated CH11 claim statuses from `pending` to `supported` based on current evidence strength.
+- Confirmed that CH11 should be written as a diagnosis chapter in which reconciliation is both a records-pluralism problem and the lived burden of exception management.
+- Initiated CH11 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md` in `04_manuscript/chapter_11/`.
+- Seeded CH11 research with an initial source queue spanning BNY data, custody, managed-account, and middle-office sources plus DTCC and ISDA materials on exception management and portfolio reconciliation.
+- Updated CH11 lifecycle from `not_started` to `researching`.
 - Created `04_manuscript/chapter_10/draft_v2.md` by applying the practitioner challenge-round revisions in one focused pass.
 - Sharpened actor boundaries across BNY, client, and market participants; distinguished repo, securities lending, and margin workflows more explicitly; added a failed-eligibility/recall exception path; and made the CH25 handoff more concrete.
 - Ran the CH10 challenge round against `draft_v1` from a practitioner perspective; outcome was `revise before proceeding`.
@@ -218,11 +226,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Re-read CH09 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass.
-2. Re-read CH10 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass.
-3. Re-read CH08 `draft_v2` and decide whether it is ready for editor-facing review or needs one final polish pass.
-4. Decide whether CH08 `draft_v2` should explicitly reference `appendix_a_pershing_product_inventory/final.md`.
-5. Re-read CH07 `draft_v2` and decide whether it should move into editor review or receive one narrow polish pass.
+1. Re-read CH11 `draft_v1` and decide whether it should run a challenge round before `draft_v2`.
+2. Re-read CH09 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass.
+3. Re-read CH10 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass.
+4. Re-read CH08 `draft_v2` and decide whether it is ready for editor-facing review or needs one final polish pass.
+5. Decide whether CH08 `draft_v2` should explicitly reference `appendix_a_pershing_product_inventory/final.md`.
 
 ## Update Rules
 
