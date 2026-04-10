@@ -45,6 +45,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Tightened Chapter 11 Part II Capstone
+
+### Summary
+- Files changed: `04_manuscript/chapter_11/draft_v2.md`, `04_manuscript/manuscript_ch01_ch11.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH11 `draft_v2.md` as a shorter, more direct Part II closing chapter and refreshed the consolidated CH01-CH11 manuscript to use the new draft
+- Chapter(s) affected: CH11 and consolidated CH01-CH11 manuscript
+
+### Decisions
+- Decision: revise CH11 into a concise capstone rather than a fuller explanatory synthesis chapter
+- Rationale: the user correctly identified that the final chapter of Part II should be a short read that hits home; after six business-line chapters, CH11 should name the pattern and drive the transition rather than keep explaining it from multiple angles
+- Alternatives rejected: leaving `draft_v1` as the consolidated manuscript version, or adding literary emphasis instead of reducing and sharpening the prose
+
+### Issues & Resolution
+- Issue: CH11 `draft_v1` made the right argument but carried too much explanatory sprawl for a Part II closer
+- Resolution: created `draft_v2` with fewer sections, more direct transitions, a tighter definition of reconciliation, and a sharper closing bridge into the platform and intelligence thesis
+
+### Editorial Comments
+- Comment: "I think this final chapter of part 2 should be concise and too the point, a short read that hits home. Tighten it up, not literary tricks just drive the point home"
+- Response: tightened CH11 around the core diagnosis that the current system works through constant alignment work across fragmented but legitimate views of financial reality
+
+### Lessons Learned
+- Insight: capstone chapters should compress accumulated evidence into a decisive turn, not replay the argument at the same density as the business-line chapters
+- What worked: cutting repetition while preserving the reconciliation definition, structural explanation, exception-management evidence, and Part III bridge
+- What did not: letting the first capstone draft explain too much after the preceding chapters had already done the groundwork
+
+### Next Steps
+- [ ] Read the refreshed consolidated CH01-CH11 manuscript for Part II cohesion
+- [ ] Decide whether CH11 `draft_v2` should move directly into editor-facing review or receive one final challenge round
+- [ ] Decide whether CH09 and CH10 are ready for editor-facing review or need one narrow polish pass
+
 ## [2026-04-09] - Created Consolidated Manuscript For Chapters 1 Through 11
 
 ### Summary
