@@ -45,6 +45,68 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-10] - Drafted Chapter 12 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_12/chapter_brief.md`, `04_manuscript/chapter_12/research_tracker.md`, `04_manuscript/chapter_12/claim_register.md`, `04_manuscript/chapter_12/source_notes.md`, `04_manuscript/chapter_12/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: completed CH12 research pass 1, updated claim support, created the CH12 citation map, and drafted `draft_v1.md`
+- Chapter(s) affected: CH12, with CH13 logic absorbed into the draft
+
+### Decisions
+- Decision: move directly from CH12 research pass 1 into draft mode rather than adding a broader platform-theory pass
+- Rationale: official BNY and Pershing sources were sufficient to support the operating-system layer map, and generic platform theory would have made the chapter less specific to BNY's actual operating scope
+- Alternatives rejected: using HBR platform theory in `draft_v1`, drafting CH13 separately, or delaying CH12 for additional abstract platform research
+
+### Issues & Resolution
+- Issue: CH12 needed to make the operating-system metaphor useful without overstating BNY as one literal unified software substrate
+- Resolution: the draft explicitly defines the metaphor as a strategic and organizational map, then grounds it in layers: state and records, movement, completion, resource allocation, workflow, control and evidence, and intelligence surface
+- Issue: CH12 had to absorb CH13 without becoming repetitive or obvious
+- Resolution: the platform-economics material now appears as a compact operating-dependency section focused on trust, scale, embedded workflow, data gravity, and operating leverage
+
+### Editorial Comments
+- Comment: "go ahead and do the research pass and them move directly into draft mode"
+- Response: completed the source review, documented source-selection rationale, updated the claim register, created `source_notes.md`, and wrote CH12 `draft_v1.md`
+
+### Lessons Learned
+- Insight: CH12 is strongest when it treats BNY as already platform-like in its operating footprint, while preserving the gap between platform breadth and unified intelligence
+- What worked: using official BNY sources to build the layer map and leaving generic platform theory deferred
+- What did not: nothing material in this pass, though the operating-system metaphor should still be tested in a practitioner challenge round
+
+### Next Steps
+- [ ] Re-read CH12 `draft_v1` and decide whether to run a practitioner challenge round before `draft_v2`
+- [ ] Start CH14 by creating the missing-intelligence-layer artifact set
+- [ ] Keep CH13 marked as absorbed unless a later manuscript review shows the platform-economics material needs to stand alone
+
+## [2026-04-09] - Consolidated Chapter 13 Into Chapter 12
+
+### Summary
+- Files changed: `02_outline/master_outline.md`, `02_outline/chapter_map.md`, `04_manuscript/chapter_12/chapter_brief.md`, `04_manuscript/chapter_12/research_tracker.md`, `04_manuscript/chapter_12/claim_register.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: updated the outline and chapter map to absorb CH13 into CH12, created the consolidated CH12 artifact set, and moved CH12 into active research while marking CH13 as absorbed
+- Chapter(s) affected: CH12 and CH13
+
+### Decisions
+- Decision: consolidate CH13's platform-economics argument into CH12 rather than drafting two adjacent platform-thesis chapters
+- Rationale: for the executive audience, a standalone CH13 risked feeling obvious and repetitive once CH12 makes the financial-operating-system argument; the useful CH13 concepts still belong in the manuscript but should be part of one stronger thesis chapter
+- Alternatives rejected: starting CH12 under the old structure, or deleting CH13's ideas entirely instead of absorbing them
+
+### Issues & Resolution
+- Issue: CH12 and CH13 had overlapping jobs: one reframed BNY as a platform, while the other explained why platforms win
+- Resolution: updated the durable outline files and created a CH12 brief that explicitly absorbs trust, embedded workflows, scale, switching costs, data gravity, and operating dependency into the operating-system chapter
+
+### Editorial Comments
+- Comment: "12 and 13 seem like they could be quite repetitive and potentially obvious - do you think it might make sense to consolidate them so as not to bore the reader?"
+- Response: recommended consolidation for the executive audience and implemented the structural change on disk
+
+### Lessons Learned
+- Insight: platform economics are useful here only when tied directly to BNY's operating dependencies; treated as a standalone strategy chapter, they risk sounding generic
+- What worked: consolidating before creating CH12 artifacts so the chapter starts with the right scope
+- What did not: the old outline separated platform metaphor and platform economics more than the reader likely needs
+
+### Next Steps
+- [ ] Complete CH12 research pass 1 using the seeded BNY and optional platform-strategy source set
+- [ ] Decide whether external platform theory is needed or whether BNY operating evidence is enough
+- [ ] Keep CH14 as the next distinct move: the missing intelligence layer
+
 ## [2026-04-09] - Addressed Chapter 11 Challenge-Round Watch Items
 
 ### Summary

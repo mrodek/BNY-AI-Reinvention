@@ -137,18 +137,19 @@ Much of financial infrastructure is automated on the surface and manually coordi
 - Reframe the firm from a set of products into a platform model.
 - Map custody to storage, clearing to compute, treasury to network, and Pershing to developer platform.
 - Give the reader a new organizing metaphor for the rest of the book.
+- Absorb the strategic logic previously assigned to Chapter 13: why platforms win in financial infrastructure through trust, embedded workflows, scale, switching costs, data gravity, and client operating dependency.
 
 Executive takeaway:
 BNY already looks like an operating system once its businesses are viewed as one interdependent infrastructure stack.
 
-### Chapter 13: Why Platforms Win in Financial Infrastructure
+### Chapter 13: Absorbed Into Chapter 12
 
-- Explain why platforms outperform isolated products in infrastructure markets.
-- Use network effects, data gravity, and client lock-in to strengthen the platform thesis.
-- Shift the reader from operational description to strategic logic.
+- Prior working title: `Why Platforms Win in Financial Infrastructure`.
+- Status: merged into Chapter 12 to avoid a repetitive strategy chapter for the executive audience.
+- Retained logic: platform economics, trust, embedded workflows, scale, switching costs, data gravity, and client operating dependency now belong inside Chapter 12.
 
-Signal:
-Platform economics explain why BNY's next advantage is architectural, not merely incremental.
+Editorial note:
+Do not draft this as a standalone chapter unless a later manuscript review finds that the platform-economics material needs more space than Chapter 12 can carry.
 
 ### Chapter 14: The Missing Layer: Intelligence
 

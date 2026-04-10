@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: review the tightened consolidated CH01-CH11 manuscript and decide whether CH09, CH10, and CH11 can move into editor-facing review
-- Next milestone: complete a continuous readthrough of CH01-CH11, then decide whether Part II needs a final cohesion pass
+- Current focus: review CH12 `draft_v1` after completing the consolidated research-and-drafting pass, while keeping the CH01-CH11 review artifact available for cohesion review
+- Next milestone: decide whether CH12 should run a challenge round before `draft_v2`, then move into CH14's missing-intelligence-layer setup
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -24,8 +24,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH09 | Investment Management | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now sharpens durable edge beyond generic judgment, strengthens the economics bridge, and makes the CH24 handoff more explicit |
 | CH10 | Collateral, Securities Lending, and Financing | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 sharpens BNY-versus-client role boundaries, distinguishes repo, lending, and margin workflows more explicitly, adds a concrete exception path, and makes the CH25 bridge more operational |
 | CH11 | Reconciliation Holds The System Together | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge-round watch items addressed: opening is less catalogue-like and title now matches the plainer capstone voice |
-| CH12 | BNY as the Financial Operating System | not_started | not_started | not_started | not_started | not_started | Core thesis chapter |
-| CH13 | Why Platforms Win in Financial Infrastructure | not_started | not_started | not_started | not_started | not_started | Platform-thesis support |
+| CH12 | BNY as the Financial Operating System | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; absorbs CH13 platform-economics logic into a grounded operating-system layer map and bridges to CH14's intelligence layer |
+| CH13 | Absorbed Into CH12 | absorbed | not_started | not_started | not_started | not_started | Former platform-thesis support chapter merged into CH12; do not draft separately unless later manuscript review reopens the structure |
 | CH14 | The Missing Layer: Intelligence | not_started | not_started | not_started | not_started | not_started | Intelligence-thesis support |
 | CH15 | The Ontology Problem | not_started | not_started | not_started | not_started | not_started | Semantic foundation chapter |
 | CH16 | Canonical Data Products as the Foundation | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
@@ -62,8 +62,19 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Session Log
 
+### 2026-04-10
+
+- Completed CH12 research pass 1 using official BNY/Pershing platform, securities-services, data, treasury, collateral, and lifecycle sources plus CH11's reconciliation diagnosis.
+- Deferred generic external platform-theory support because the BNY operating evidence was sufficient for `draft_v1` and better aligned to the executive reader.
+- Created `04_manuscript/chapter_12/source_notes.md` and `draft_v1.md`, moving CH12 from `researching` to `drafting`.
+- Framed CH12 around a disciplined financial-operating-system layer map: state and records, movement, completion, resource allocation, workflow, control and evidence, and intelligence surface.
+
 ### 2026-04-09
 
+- Consolidated CH13 into CH12 in `02_outline/master_outline.md` and `02_outline/chapter_map.md` to avoid repetitive platform-thesis chapters for the executive audience.
+- Initiated consolidated CH12 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md` in `04_manuscript/chapter_12/`.
+- Seeded CH12 research with official BNY infrastructure, securities-services, data, treasury, collateral, and Pershing sources plus an optional external platform-strategy source.
+- Updated CH12 lifecycle from `not_started` to `researching` and CH13 to `absorbed`.
 - Created `04_manuscript/manuscript_ch01_ch11.md` by consolidating the latest available drafts for CH01 through CH11 into one continuous manuscript file.
 - Preserved the Part I and Part II structure in the combined file and normalized the CH03 image path so it renders correctly from the manuscript root.
 - Created CH11 `draft_v2.md` as a tighter Part II capstone, reducing explanatory sprawl and driving the reconciliation point more directly.
@@ -233,11 +244,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Read through `04_manuscript/manuscript_ch01_ch11.md` for flow, repetition, and tone consistency across the first eleven chapters.
-2. Decide whether Part II needs a final cohesion pass now that CH11 has been tightened and its watch items have been addressed.
-3. Re-read CH09 `draft_v2` and CH10 `draft_v2` to decide whether they are ready for editor-facing review or need narrow polish.
-4. Re-read CH08 `draft_v2` and decide whether it is ready for editor-facing review or needs one final polish pass.
-5. Confirm whether the CH01-CH11 consolidated manuscript should become the standing review artifact for Part I and Part II.
+1. Re-read CH12 `draft_v1` and decide whether to run a practitioner challenge round before `draft_v2`.
+2. Start CH14 by creating the brief, research tracker, and claim register for the missing-intelligence-layer chapter.
+3. Read through `04_manuscript/manuscript_ch01_ch11.md` for flow, repetition, and tone consistency across the first eleven chapters.
+4. Decide whether Part II needs a final cohesion pass now that CH11 has been tightened and its watch items have been addressed.
+5. Re-read CH09 `draft_v2` and CH10 `draft_v2` to decide whether they are ready for editor-facing review or need narrow polish.
 
 ## Update Rules
 
