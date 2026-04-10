@@ -14,7 +14,7 @@ Use this file to translate the raw outline into a working manuscript architectur
 | CH08 | Pershing (Wealth Infrastructure Platform) | Part II | Position Pershing as a platform business with visible intelligence upside | Wealth-platform leader | not_started | Priority 2 business-line diagnostic |
 | CH09 | Investment Management | Part II | Clarify where AI changes process and advantage in investment management | Investment leader | not_started | Priority 2 business-line diagnostic |
 | CH10 | Collateral, Securities Lending, and Financing | Part II | Explain coordination-heavy financing workflows and their intelligence potential | Markets and financing operator | not_started | Priority 2 business-line diagnostic |
-| CH11 | The Hidden Truth: A System Held Together by Reconciliation | Part II | Synthesize the operating weaknesses across the current system | Executive sponsor of transformation | not_started | Priority 1 diagnosis capstone |
+| CH11 | Reconciliation Holds The System Together | Part II | Synthesize the operating weaknesses across the current system | Executive sponsor of transformation | not_started | Priority 1 diagnosis capstone |
 | CH12 | BNY as the Financial Operating System | Part III | Reframe the firm from products to platform | CEO, strategy, and transformation leadership | not_started | Priority 1 thesis chapter |
 | CH13 | Why Platforms Win in Financial Infrastructure | Part III | Provide the strategic logic behind the platform thesis | Strategy and product leadership | not_started | Priority 1 thesis support |
 | CH14 | The Missing Layer: Intelligence | Part III | Introduce intelligence as the missing system layer | Executive sponsor and architecture leader | not_started | Priority 1 thesis support |

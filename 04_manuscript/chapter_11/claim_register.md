@@ -9,7 +9,7 @@
 | CLM-003 | Exception management is often the lived operational form of reconciliation work. | operational synthesis | supported | `SRC-002`, `SRC-005`, `SRC-007`, `SRC-010`, `SRC-011` | Strongly supported once DTCC exception-handling sources are included |
 | CLM-004 | The current model remains durable partly because firms have built deep processes for matching, investigating, and repairing breaks across fragmented systems and counterparties. | strategic interpretation | supported | `SRC-002`, `SRC-005`, `SRC-006`, `SRC-009`, `SRC-010` | Important durability-with-friction claim is now supportable |
 | CLM-005 | The current model is also expensive and less intelligent than it should be because too much effort is spent proving that multiple records describe the same underlying reality. | strategic synthesis | supported | `SRC-003`, `SRC-005`, `SRC-007`, `SRC-010`, `SRC-011` | Supported as a system-level interpretation grounded in exception and reconciliation burden |
-| CLM-006 | CH11 should function as the diagnosis capstone for Part II by naming reconciliation as the hidden truth beneath the current system's visible business lines. | structural synthesis | supported | `SRC-002`, `SRC-003`, `SRC-005`, `SRC-006`, `SRC-007`, `SRC-010` | Framing claim for the chapter is now justified by the source pattern |
+| CLM-006 | CH11 should function as the diagnosis capstone for Part II by naming reconciliation as the common alignment mechanism beneath the current system's visible business lines. | structural synthesis | supported | `SRC-002`, `SRC-003`, `SRC-005`, `SRC-006`, `SRC-007`, `SRC-010` | Framing claim for the chapter is now justified by the source pattern |
 
 ## Claims To Avoid Or Qualify
 

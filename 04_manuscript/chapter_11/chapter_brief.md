@@ -3,7 +3,7 @@
 ## Chapter Metadata
 
 - Chapter ID: `CH11`
-- Working title: `The Hidden Truth: A System Held Together by Reconciliation`
+- Working title: `Reconciliation Holds The System Together`
 - Book section: `Part II - The System as It Exists Today`
 - Status: `drafting`
 - Last updated: `2026-04-09`
@@ -12,7 +12,7 @@
 
 This chapter should synthesize the operating weakness that has been visible across CH05 through CH10 but not yet named as the central diagnosis: much of the current financial system is held together by reconciliation, exception handling, and manual context assembly across fragmented records, workflows, and counterparties.
 
-Its job is not to explain reconciliation as a narrow accounting task. Its job is to show reconciliation as the hidden coordination mechanism of the current model. Positions, cash, collateral, records, reports, transfers, payment statuses, and investment books all have to be checked, matched, explained, repaired, and re-aligned because the system is distributed across institutions, platforms, books of record, legal entities, and timing boundaries.
+Its job is not to explain reconciliation as a narrow accounting task. Its job is to show reconciliation as the coordination mechanism of the current model. Positions, cash, collateral, records, reports, transfers, payment statuses, and investment books all have to be checked, matched, explained, repaired, and re-aligned because the system is distributed across institutions, platforms, books of record, legal entities, and timing boundaries.
 
 This chapter should function as the capstone diagnosis for Part II. After six business-line chapters, the reader should now see the pattern: the current model works, but it works partly because firms absorb huge amounts of comparison, validation, exception management, and repair work to keep reality coherent enough for clients, regulators, and markets.
 
@@ -58,7 +58,7 @@ Suggested sequence:
 2. Show how reconciliation appeared in each recent Part II chapter: positions, cash, settlements, collateral, service workflows, and investment records.
 3. Explain why multiple records exist and why one system of record is rarely enough in practice.
 4. Show the hidden labor: exceptions, breaks, aging queues, investigations, approvals, status reconstruction, and audit evidence.
-5. Close by naming reconciliation as the current system's hidden truth and the reason the book must move toward platform and intelligence layers next.
+5. Close by naming reconciliation as the current system's common alignment mechanism and the reason the book must move toward platform and intelligence layers next.
 
 ## Evidence Priorities
 

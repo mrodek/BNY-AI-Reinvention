@@ -17,7 +17,7 @@
 - CH08: Pershing (Wealth Infrastructure Platform)
 - CH09: Investment Management
 - CH10: Collateral, Securities Lending, and Financing
-- CH11: The Hidden Truth: A System Held Together by Reconciliation
+- CH11: Reconciliation Holds The System Together
 
 ---
 
@@ -734,9 +734,9 @@ CH25 can build from that current-state burden. The useful future-state question 
 
 ---
 
-### CH11: The Hidden Truth: A System Held Together by Reconciliation
+### CH11: Reconciliation Holds The System Together
 
-By this point in the book, the pattern should be clear. Custody depends on positions, cash, records, and reporting lining up. Settlement depends on trade details, status updates, and fail resolution staying coherent. Treasury depends on balances, payment statuses, and funding views being accurate enough to act on. Collateral depends on inventory, eligibility, haircuts, substitutions, and exposure records agreeing closely enough to move assets on time. Pershing depends on account status, service workflows, and operational handoffs staying believable across the advisor day. Investment management depends on positions, accounting, performance, and oversight views staying aligned enough to support decisions and reporting.
+Part II has looked at different businesses, but the same operating pattern keeps appearing. Asset servicing, settlement, treasury, collateral, Pershing, and investment management all depend on records and workflow states staying coherent enough to act on. Positions, cash, payment status, collateral eligibility, account updates, performance views, and reporting evidence may live in different systems or belong to different parties. The business can move only when those views are compared, explained, and brought back into alignment.
 
 The common mechanism is reconciliation.
 

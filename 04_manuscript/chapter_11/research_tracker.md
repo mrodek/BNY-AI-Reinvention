@@ -3,7 +3,7 @@
 ## Chapter Metadata
 
 - Chapter ID: `CH11`
-- Working title: `The Hidden Truth: A System Held Together by Reconciliation`
+- Working title: `Reconciliation Holds The System Together`
 - Status: `researching`
 - Last updated: `2026-04-09`
 

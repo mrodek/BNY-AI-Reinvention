@@ -56,6 +56,12 @@ Pressure-test CH11 `draft_v2` as the concise Part II capstone. Focus on whether 
 - Challenge or concern: The chapter should remain concise and direct.
 - Response completed: no expansion recommended in this challenge round. `draft_v2` should remain short unless a later continuous readthrough shows that the operating burden no longer lands.
 
+- Challenge or concern: The opening list may feel too catalogue-like.
+- Response completed: replaced the chapter-by-chapter opening list with a tighter synthesis paragraph that groups the Part II businesses and names the shared alignment pattern.
+
+- Challenge or concern: The title's "hidden truth" language may be more dramatic than the tightened body prose.
+- Response completed: retitled the chapter `Reconciliation Holds The System Together`.
+
 ## What We Will Not Address
 
 - Challenge or concern: Add a fuller cross-product example from `draft_v1`.
@@ -67,4 +73,4 @@ Pressure-test CH11 `draft_v2` as the concise Part II capstone. Focus on whether 
 ## Outcome
 
 - Recommendation: `pass with minor monitoring`
-- Notes: CH11 `draft_v2` is doing the right job as a short Part II close. It is concise, direct, and avoids literary tricks. The only watch items are whether the opening list feels too catalogue-like in the consolidated readthrough and whether the title's "hidden truth" language remains aligned with the manuscript's increasingly plain-spoken style.
+- Notes: CH11 `draft_v2` is doing the right job as a short Part II close. It is concise, direct, and avoids literary tricks. The initial watch items have now been addressed by replacing the catalogue-like opening and retitling the chapter in plainer language.

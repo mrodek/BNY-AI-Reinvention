@@ -121,7 +121,7 @@ Investment management is both an operating business and a test case for what rem
 Positioning:
 This business line reveals how much value depends on coordination quality across fragmented signals and constraints.
 
-### Chapter 11: The Hidden Truth: A System Held Together by Reconciliation
+### Chapter 11: Reconciliation Holds The System Together
 
 - Pull together the common weaknesses across the business-line chapters.
 - Expose fragmented systems, duplicated data, and manual exception handling as the true backbone of the current operating model.

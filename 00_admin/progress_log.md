@@ -45,6 +45,36 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-09] - Addressed Chapter 11 Challenge-Round Watch Items
+
+### Summary
+- Files changed: `04_manuscript/chapter_11/draft_v2.md`, `04_manuscript/chapter_11/chapter_brief.md`, `04_manuscript/chapter_11/challenge_round.md`, `04_manuscript/chapter_11/research_tracker.md`, `04_manuscript/chapter_11/claim_register.md`, `02_outline/master_outline.md`, `02_outline/chapter_map.md`, `04_manuscript/manuscript_ch01_ch11.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: retitled CH11, tightened the opening paragraph, updated chapter metadata and outline references, and refreshed the consolidated CH01-CH11 manuscript
+- Chapter(s) affected: CH11 and consolidated CH01-CH11 manuscript
+
+### Decisions
+- Decision: replace `The Hidden Truth: A System Held Together by Reconciliation` with `Reconciliation Holds The System Together`
+- Rationale: the tightened CH11 body prose is deliberately plain-spoken, and the prior title carried more dramatic weight than the chapter now needs
+- Alternatives rejected: keeping the title unchanged and relying on the body prose to counterbalance it
+
+### Issues & Resolution
+- Issue: the challenge round identified two watch items: the opening felt catalogue-like, and the title's `hidden truth` language felt more dramatic than the revised chapter voice
+- Resolution: rewrote the opening as a grouped Part II synthesis rather than a chapter-by-chapter list, and retitled the chapter in plainer language
+
+### Editorial Comments
+- Comment: "adress the watch items as well"
+- Response: addressed both watch items directly and updated the challenge-round file to record the completed responses
+
+### Lessons Learned
+- Insight: once a capstone is shortened, the title and opening have to become even more disciplined because they carry more of the chapter's first impression
+- What worked: shifting from a catalogue of business-line examples to a compact shared-pattern paragraph
+- What did not: leaving a dramatic title on a chapter whose prose had moved toward a direct operating diagnosis
+
+### Next Steps
+- [ ] Read the refreshed consolidated CH01-CH11 manuscript for Part II cohesion
+- [ ] Decide whether CH09, CH10, and CH11 can move into editor-facing review
+- [ ] Confirm whether the CH01-CH11 consolidated manuscript should remain the standing review artifact for Parts I and II
+
 ## [2026-04-09] - Ran Chapter 11 Challenge Round After Source-Callout Cleanup
 
 ### Summary
