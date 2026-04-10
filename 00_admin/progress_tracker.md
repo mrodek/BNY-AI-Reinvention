@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: review CH11 `draft_v1` while deciding whether CH09 and CH10 can move into editor-facing review
-- Next milestone: decide whether CH11 should run a challenge round before `draft_v2`, then clear CH09 and CH10 for editor-facing review or narrow polish
+- Current focus: review the consolidated CH01-CH11 manuscript while deciding whether CH11 should run a challenge round and whether CH09 and CH10 can move into editor-facing review
+- Next milestone: complete a continuous readthrough of CH01-CH11, then decide whether CH11 should run a challenge round before `draft_v2`
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -64,6 +64,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-09
 
+- Created `04_manuscript/manuscript_ch01_ch11.md` by consolidating the latest available drafts for CH01 through CH11 into one continuous manuscript file.
+- Preserved the Part I and Part II structure in the combined file and normalized the CH03 image path so it renders correctly from the manuscript root.
 - Created `04_manuscript/chapter_11/source_notes.md` and `draft_v1.md` to convert the CH11 research base into a diagnosis chapter for Part II.
 - Moved CH11 from `researching` to `drafting`.
 - Completed CH11 research pass 1 across BNY middle-office, managed-account, and custody sources plus DTCC and ISDA materials on exception management, reporting assurance, and portfolio reconciliation.
@@ -226,11 +228,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Re-read CH11 `draft_v1` and decide whether it should run a challenge round before `draft_v2`.
-2. Re-read CH09 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass.
-3. Re-read CH10 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass.
-4. Re-read CH08 `draft_v2` and decide whether it is ready for editor-facing review or needs one final polish pass.
-5. Decide whether CH08 `draft_v2` should explicitly reference `appendix_a_pershing_product_inventory/final.md`.
+1. Read through `04_manuscript/manuscript_ch01_ch11.md` for flow, repetition, and tone consistency across the first eleven chapters.
+2. Re-read CH11 `draft_v1` and decide whether it should run a challenge round before `draft_v2`.
+3. Re-read CH09 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass.
+4. Re-read CH10 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass.
+5. Re-read CH08 `draft_v2` and decide whether it is ready for editor-facing review or needs one final polish pass.
 
 ## Update Rules
 
