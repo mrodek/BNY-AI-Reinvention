@@ -18,11 +18,11 @@ This repository is a long-running writing, research, and knowledge-design projec
 
 ## Directory Map
 
-- `00_admin`: project overview, tracker, detailed progress log, style guide, glossary
+- `00_admin`: project overview, tracker, detailed progress log, style guide
 - `01_templates`: templates for chapter briefs, research trackers, claim registers, source summaries, graph extraction
 - `02_outline`: raw outline, source documents, and working chapter map
 - `03_research`: shared and chapter-specific research files
-- `04_manuscript`: one folder per chapter containing all writing artifacts
+- `04_manuscript`: one folder per chapter containing all writing artifacts plus book-level manuscript files such as the glossary
 - `05_knowledge_graph`: schema, entity definitions, relationship definitions, ingestion notes
 - `06_app`: product vision, use cases, coaching patterns
 
@@ -36,6 +36,7 @@ When resuming work after any pause, read these files first:
 4. The active chapter folder in `04_manuscript`, if one exists
 
 At the start of each new book, review `00_admin/editorial_style_guide.md` and align it to the intended tone before chapter drafting begins.
+Before revising an active chapter to a later draft, also skim the immediately adjacent chapter drafts when chapter-to-chapter flow or argument inheritance matters.
 
 ## Outline Intake Rules
 
@@ -83,6 +84,14 @@ Each chapter should eventually have its own folder under `04_manuscript`, typica
 Do not draft a chapter before creating at least the brief and research tracker.
 Chat-based editorial feedback is a valid primary review mode. A separate `editor_notes.md` file is optional, not required.
 `challenge_round.md` is optional but recommended for chapters that introduce important assumptions, taxonomies, or strong claims.
+
+## Cross-Chapter Cohesion Rule
+
+- Treat adjacent chapters as a sequence, not as isolated essays.
+- Before creating `draft_v2.md` for a concept-heavy chapter, review the immediately preceding and following chapter drafts if they already exist.
+- Do not restate the prior chapter's full setup unless repetition is essential for comprehension.
+- Use bridge sections to advance the argument, not to narrate book structure mechanically.
+- If a chapter introduces a standards stack, taxonomy, or framework set, assign each item a distinct role so the section reads as an argument rather than a list.
 
 ## Chapter Lifecycle
 
@@ -182,6 +191,7 @@ Each entry should use this structure:
 - `claim_register.md` is for what the chapter asserts.
 - `source_notes.md` is for how the manuscript cites and traces those assertions.
 - By default, drafts should be citation-light and notes-rich.
+- If a chapter relies materially on standards, regulatory frameworks, or other reader-relevant reference material, consider adding a compact reader-facing reference-links section in the draft itself so the manuscript remains explorable without turning body prose into a bibliography.
 
 ## Writing Rules
 
@@ -189,10 +199,29 @@ Each entry should use this structure:
 - Name tradeoffs directly.
 - Prefer specific guidance over generic transformation language.
 - Capture reusable concepts, claims, and relationships that can later feed the knowledge graph.
+- Define necessary technical or industry terms quickly in context on first use when reader comprehension depends on it.
 - Do not default to one-sentence paragraphs. Manuscript prose should normally be written in developed multi-sentence paragraphs.
 - Do not use em dashes in manuscript prose.
 - Use short standalone emphasis lines sparingly. At most 1 to 3 major emphatic claims per chapter, and only when they add real force.
 - Avoid obvious AI-writing signatures such as choppy paragraph rhythm, repeated contrast formulas, and theatrical sentence fragments.
+- Avoid chapter-opening throat-clearing in later thesis chapters. Start from the last established conclusion whenever possible.
+- In architecture and strategy chapters, add at least one concrete operating example, failure mode, or workflow consequence before abstraction stacks too high.
+
+## Glossary Rules
+
+- `04_manuscript/glossary.md` is the canonical glossary for the book and is part of the manuscript.
+- Record recurring technical, industry, architecture, operating-model, market-structure, and AI terms in the glossary when they matter across chapters or are likely to recur.
+- Record important industry acronyms and abbreviations as standalone glossary entries when they recur in the manuscript, especially for market infrastructure, regulation, operating models, and architecture.
+- Maintain `04_manuscript/glossary.md` in strict alphabetical order at all times.
+- Organize glossary entries under letter headings and insert new terms in the correct place immediately rather than appending them.
+- Each glossary entry should use one preferred term, a concise plain-English definition, and a short note on why the term matters in this book when useful.
+- For acronyms, use the acronym itself as the main entry and include the full expanded name in the definition.
+- Chapter drafts may still define a term briefly on first use for readability, but the glossary remains the canonical definition source.
+- When a new meaningful term appears during research, drafting, source-note creation, claim-register updates, or editorial review, update the glossary in the same work session or explicitly decide the term is too local or obvious to include.
+- If a term has multiple meanings, state the book-specific meaning directly and note nearby meanings only when confusion is likely.
+- Avoid near-duplicate entries. Normalize synonyms to one preferred term and cross-reference alternates briefly inside the preferred entry when needed.
+- `00_admin/glossary.md` may exist only as an administrative pointer or working note, but it must not diverge from the manuscript glossary.
+- Material glossary additions or terminology changes should be reflected in `00_admin/progress_log.md`.
 
 ## File Creation Rules
 
@@ -228,6 +257,7 @@ Update `00_admin/progress_tracker.md` immediately after any of the following:
 - the project focus, milestone, or next actions change
 
 The chapter status table must always match the actual latest draft version on disk. If the table says `draft_v2_ready` and `draft_v3.md` now exists, the tracker is wrong and must be corrected before any other work continues.
+Milestone text and current focus text must also match current disk reality. Do not leave stale next-step language that refers to a draft version that already exists.
 
 Update `00_admin/progress_log.md` immediately after any of the following:
 
@@ -251,4 +281,5 @@ For drafting sessions specifically:
 - material editorial feedback delivered in chat should be summarized into `00_admin/progress_log.md` under `Editorial Comments`
 - before moving from an exploratory early draft to a more polished later draft, run a challenge round when the chapter would benefit from assumption-testing or practitioner pushback
 - challenge rounds should ask what insiders, adjacent functions, practitioners, or executives would dispute, and what should be changed before the next draft
+- for concept-heavy chapters, challenge rounds should also test pacing, overlap with adjacent chapters, and whether standards/framework sections read as an argument rather than a catalogue
 - immediately after creating or revising a draft, update both `00_admin/progress_tracker.md` and `00_admin/progress_log.md` — do not batch these updates to the end of the session

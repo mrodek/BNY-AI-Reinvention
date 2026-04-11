@@ -45,6 +45,42 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - Tightened Editorial And Agent Rules From Progress-Log Patterns
+
+### Summary
+- Files changed: `00_admin/editorial_style_guide.md`, `AGENTS.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: updated the editorial style guide and repository operating rules based on recurring patterns visible in recent chapter work, especially across CH12 through CH16
+- Chapter(s) affected: no single chapter directly, but the changes are intended to improve future drafting and revision quality across Part III, Part IV, and later manuscript work
+
+### Decisions
+- Decision: codify the repeated lessons from recent drafting into the durable operating documents instead of leaving them implicit in the log
+- Rationale: the same issues kept recurring across concept-heavy chapters, so the project benefits more from stronger standing rules than from case-by-case cleanup
+- Alternatives rejected: leaving the guidance only in chat, relying on memory from recent sessions, or treating the patterns as chapter-specific rather than process-level
+
+### Issues & Resolution
+- Issue: adjacent thesis chapters were repeatedly at risk of restating prior setup instead of advancing from the last established conclusion
+- Resolution: added explicit cross-chapter cohesion guidance in `AGENTS.md` and matching style guidance in `editorial_style_guide.md`
+- Issue: standards-heavy sections tended to become catalogues unless deliberately structured into an argument
+- Resolution: added rules that standards stacks and taxonomies must be given distinct roles and organized as layered evidence rather than lists
+- Issue: some source links were durable in notes but invisible in the reader-facing draft when direct exploration would help
+- Resolution: added guidance allowing compact reader-facing reference-link sections in manuscript drafts when standards or regulatory materials are central to the chapter
+- Issue: tracker text can drift even when the chapter status row is correct
+- Resolution: strengthened `AGENTS.md` so milestone and focus text must also match current disk reality, not just the chapter status table
+
+### Editorial Comments
+- Comment: "review the progress_log for patterns and improvements we could make to the editorial_style and agents.md files"
+- Response: reviewed the recent log entries, extracted the repeated drafting and workflow issues, and revised both the style guide and AGENTS instructions in the same work pass
+
+### Lessons Learned
+- Insight: the log is mature enough now to function as a real process-improvement signal, not just a handoff record
+- What worked: translating repeated pain points into short standing rules instead of adding more one-off warnings in individual log entries
+- What did not: some lessons had already been learned informally but were not yet encoded in the governing documents, which made recurrence more likely
+
+### Next Steps
+- [ ] Apply the updated adjacent-chapter and pacing rules when re-reading CH15 and CH16 together
+- [ ] Use the new standards-section guidance in future architecture chapters that rely on frameworks or regulatory material
+- [ ] Watch whether future tracker updates stay better aligned at both the chapter-row and milestone-text level
+
 ## [2026-04-11] - Ran Chapter 16 Challenge Round And Revised The Closing Bridge
 
 ### Summary

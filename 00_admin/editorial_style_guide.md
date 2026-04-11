@@ -33,6 +33,11 @@
 - Avoid AI-shaped cadence: no repetitive staccato paragraphing, no artificial dramatic breaks, and no inflated rhetorical rhythm.
 - Avoid stage-direction prose in the manuscript such as "this chapter should end" or "the point here is." Make the point directly instead of narrating the intended effect.
 - Keep citations light in the prose draft. Put full source detail and claim mapping into `source_notes.md`.
+- For adjacent concept-heavy chapters, do not re-establish the previous chapter's full argument. Open from the inherited endpoint and advance the thesis.
+- When a section introduces several standards, frameworks, or taxonomies, organize them into a layered argument with a clear role for each item rather than presenting a catalogue.
+- If readers are likely to want direct access to cited standards, regulatory texts, or core frameworks, prefer one compact reader-facing reference section over scattered raw links in body prose.
+- Prefer section titles that name the idea or implication, not the manuscript mechanics. Avoid headings such as "Why the Next Chapter Follows."
+- In architecture chapters, include at least one concrete operating example or failure mode before moving too far into abstraction.
 
 ## Book-Level Tone
 
@@ -74,6 +79,7 @@ Use the chapter pattern flexibly based on chapter type.
 - In Parts V through VIII, stay concrete about operating changes, execution constraints, and decision tradeoffs.
 - Prefer a few strong recurring ideas over many disconnected insights.
 - Reuse the same core terms consistently once they are introduced.
+- Watch for pacing drag when several thesis chapters appear in sequence. Each chapter should add one clear increment of meaning, not restate the same abstraction at a higher volume.
 
 ## Evidence Labels
 

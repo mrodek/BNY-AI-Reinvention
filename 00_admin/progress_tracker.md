@@ -64,6 +64,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-11
 
+- Reviewed `progress_log.md` for repeated drafting and editorial patterns, then updated `editorial_style_guide.md` and `AGENTS.md` to tighten rules around adjacent-chapter flow, standards sections, reader-facing reference links, and tracker-state hygiene.
+
 - Ran the CH16 challenge round against `draft_v1`; outcome was `revise before proceeding`.
 - Created `04_manuscript/chapter_16/challenge_round.md` and `draft_v2.md` to tighten the canonical-product definition and replace the mechanical closing heading with a manuscript-facing transition.
 
