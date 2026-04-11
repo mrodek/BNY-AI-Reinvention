@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: build CH17 foundation artifacts and run research pass 1 before drafting begins
-- Next milestone: complete CH17 research pass 1, resolve source gaps in the research tracker, then move CH17 to `drafting`
+- Current focus: CH17 draft_v1 complete; chapter is ready for editorial review or challenge round before draft_v2
+- Next milestone: run CH17 challenge round, then assess whether CH18 brief and research should begin in parallel
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -29,7 +29,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH14 | The Missing Layer: Intelligence | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed and draft v2 now tightens the CH12 handoff, reduces repetition, and makes the CH15 bridge more explicit |
 | CH15 | The Ontology Problem | revising | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now tightens the standards section, adds concrete LEI/ISO 20022 examples, and strengthens the implementation bridge into CH16 |
 | CH16 | Canonical Data Products as the Foundation | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 editorial pass: converted mechanical paragraph lists to bulleted format, removed all CH## cross-references in favor of relative prose references |
-| CH17 | The AI Gateway (Control Plane) | brief_ready | not_started | not_started | not_started | not_started | Brief, research tracker, and claim register created; research pass 1 pending |
+| CH17 | The AI Gateway (Control Plane) | drafting | in_progress | draft_v1_ready | not_started | not_started | Research pass 1 complete; draft_v1 written; sources: BNY responsible AI, Eliza platform, SR 11-7, NIST AI RMF, FSB 2025, shadow AI data, AI gateway architecture |
 | CH18 | The Runtime: Agents and Orchestration | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
 | CH19 | Observability as Governance | not_started | not_started | not_started | not_started | not_started | AI-native governance chapter |
 | CH20 | AI-Native Asset Servicing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |

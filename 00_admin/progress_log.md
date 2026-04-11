@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - CH17 Research Pass 1 and Draft v1
+
+### Summary
+- Files changed: `04_manuscript/chapter_17/research_tracker.md`, `00_admin/progress_tracker.md`
+- Artifacts created: `04_manuscript/chapter_17/draft_v1.md`
+- Chapter(s) affected: CH17
+
+### Decisions
+- Decision: anchored the chapter on BNY's Eliza platform as the primary concrete evidence — it is the closest public evidence of BNY's control-plane answer, with standardized permissions, security, and oversight across all models and tools
+- Rationale: the chapter needed a BNY-specific anchor that is more than a governance commitment statement; Eliza provides an operating example of the principle
+- Decision: used SR 11-7 and NIST AI RMF as the two regulatory anchors, with FSB 2025 for systemic-risk framing; did not include EU AI Act to avoid making the chapter a compliance survey
+- Rationale: SR 11-7 is the US banking standard; NIST AI RMF is explicitly cited by BNY; FSB 2025 establishes that systemic regulators are watching; adding EU AI Act would shift the chapter's center of gravity from architecture to compliance
+- Decision: distinguished guardrails from policies as separate architectural concepts operating at different layers (runtime behavior vs. access authorization)
+- Rationale: conflating them is a common error in enterprise AI governance discussions; the distinction clarifies what the control plane must actually enforce at each layer
+- Decision: ended the chapter by opening the runtime problem rather than closing cleanly, to set up CH18 with genuine momentum
+- Rationale: the closing argument about agents outmaneuvering policy without a well-designed runtime creates a more compelling bridge than a summary of what the chapter covered
+
+### Issues & Resolution
+- FSB October 2025 report PDF was not machine-readable via web fetch; used search result summaries for FSB findings on AI monitoring and third-party concentration risk; should be reviewed in full before challenge round if PDF access improves
+
+### Editorial Comments
+- None yet; first draft, no editorial review
+
+### Lessons Learned
+- Shadow AI data is more concrete and striking than expected — empirical numbers (80%+ unapproved tool use, 97% of breached orgs lacking AI access controls) are more effective than abstract risk descriptions
+- The guardrails vs. policies distinction deserves its own section because it resolves a conceptual ambiguity that governance-focused readers will otherwise carry through the rest of Part IV
+
+### Next Steps
+- [ ] Run CH17 challenge round before draft_v2: test whether the governance-as-architecture argument is concrete enough, whether the Eliza evidence is used well, and whether the CH18 bridge is strong
+- [ ] Review full FSB October 2025 report when accessible for any additional systemic-risk framing
+- [ ] Check claim register against draft_v1 and update status of CLM-001 through CLM-006
+
 ## [2026-04-11] - CH17 Setup: Brief, Research Tracker, Claim Register
 
 ### Summary
