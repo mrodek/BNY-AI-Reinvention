@@ -45,6 +45,67 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - Ran Chapter 14 Challenge Round And Tightened Flow With Chapter 12
+
+### Summary
+- Files changed: `04_manuscript/chapter_14/challenge_round.md`, `04_manuscript/chapter_14/source_notes.md`, `04_manuscript/chapter_14/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the CH14 challenge-round artifact, revised the chapter into `draft_v2.md`, and updated source-note support to point to the newer draft
+- Chapter(s) affected: CH14, with explicit consistency work against CH12 and a cleaner bridge into CH15
+
+### Decisions
+- Decision: revise CH14 immediately after the challenge round rather than leaving the findings as deferred notes
+- Rationale: the main issues were flow and repetition against CH12, so the cleanest move was to fix them while the comparison was fresh and before CH14 drifted further behind CH15
+- Alternatives rejected: leaving CH14 at `draft_v1`, running the challenge round without a follow-on revision, or expanding CH14 with more AI examples instead of tightening the handoff
+
+### Issues & Resolution
+- Issue: CH14 `draft_v1` re-established too much of CH12's platform argument before advancing into its own intelligence-layer work
+- Resolution: `draft_v2` now opens from CH12's endpoint, moves more quickly into the definition of the intelligence layer, and reduces repeated platform setup
+- Issue: the bridge from intelligence into ontology needed to feel more inevitable
+- Resolution: tightened the final dependency section so CH15 reads as the next real bottleneck rather than as an added conceptual detour
+
+### Editorial Comments
+- Comment: "run a challange round on 14, ensure consistency and flow with chapter 12"
+- Response: ran the CH14 challenge round, wrote the artifact to disk, revised the chapter into `draft_v2`, and updated project memory in the same pass
+
+### Lessons Learned
+- Insight: when adjacent thesis chapters are both concept-heavy, the main editorial risk is not factual weakness but pacing drag from repeated setup
+- What worked: using the challenge round to test the CH12-to-CH14 handoff specifically, then revising immediately while the overlap points were concrete
+- What did not: nothing material in this pass, though CH12 may still benefit from a small alignment read now that CH14 is tighter
+
+### Next Steps
+- [ ] Re-read CH12 alongside CH14 `draft_v2` for any final Part III overlap or transition cleanup
+- [ ] Decide whether CH12 should also run a challenge round before a future `draft_v2`
+- [ ] Keep CH15 aligned to the revised CH14 bridge as Part III continues
+
+## [2026-04-11] - Added Direct Standards Links To Chapter 15 Notes
+
+### Summary
+- Files changed: `04_manuscript/chapter_15/research_tracker.md`, `04_manuscript/chapter_15/source_notes.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: added explicit direct links for FIBO, FINOS Legend, FINOS CDM, and BIAN in the CH15 research scaffolding so the standards set is easier to reuse in later chapters
+- Chapter(s) affected: CH15, with likely reuse in CH16 and later architecture chapters
+
+### Decisions
+- Decision: place the explicit standards links in `research_tracker.md` and `source_notes.md` rather than in body prose
+- Rationale: manuscript drafts should stay citation-light, while the chapter notes should make standards sources easy to recover and reuse
+- Alternatives rejected: inserting raw URLs into `draft_v1.md`, or leaving the standards links discoverable only through the source table
+
+### Issues & Resolution
+- Issue: the chapter already referenced the standards through source IDs, but the direct standards links were not grouped in one easy-to-scan place
+- Resolution: added dedicated link sections in the research tracker and source notes covering FIBO, FINOS Legend, FINOS CDM, and BIAN
+
+### Editorial Comments
+- Comment: "we should include links to FIBO. FINOS and BIAN and CDM if appropriate"
+- Response: added direct standards links to the durable CH15 research scaffolding while keeping the manuscript draft itself citation-light
+
+### Lessons Learned
+- Insight: for standards-heavy chapters, a compact direct-links section in the notes makes later drafting and cross-chapter reuse easier without cluttering the prose draft
+- What worked: keeping the links in the research artifacts where they are most useful operationally
+- What did not: nothing material in this pass
+
+### Next Steps
+- [ ] Reuse the CH15 standards links when starting CH16
+- [ ] Keep later architecture chapters citation-light in prose but notes-rich in supporting artifacts
+
 ## [2026-04-11] - Expanded Chapter 15 Research With BIAN
 
 ### Summary

@@ -4,7 +4,7 @@
 
 - Chapter ID: `CH14`
 - Working title: `The Missing Layer: Intelligence`
-- Draft supported: `draft_v1`
+- Draft supported: `draft_v2`
 - Last updated: `2026-04-11`
 
 ## Citation Map
@@ -21,7 +21,7 @@
 
 ## Drafting Notes
 
-- `draft_v1` should define the intelligence layer operationally: it assembles context, interprets significance, prioritizes work, routes actions, and supports decisions across existing platform surfaces.
+- `draft_v2` defines the intelligence layer operationally: it assembles context, interprets significance, prioritizes work, routes actions, and supports decisions across existing platform surfaces.
 - Keep the chapter disciplined about what AI is and is not. The point is not consumer-style novelty. The point is embedded operational intelligence inside important workflows.
 - Use BNY's own AI language to show that the firm already sees platformized AI as the right direction. The chapter should still keep a visible gap between current AI capability and the fuller cross-platform intelligence layer described by the book.
 - Use NIST and BIS to keep the chapter grounded in trust, governance, and data constraints rather than in model hype.
