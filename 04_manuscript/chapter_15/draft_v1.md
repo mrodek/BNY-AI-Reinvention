@@ -48,6 +48,8 @@ The FINOS Common Domain Model makes the same argument from another angle. Its ov
 
 The CDM's product model shows how detailed this becomes in practice. A financial product is expressed through building blocks such as assets, payouts, economic terms, identifiers, taxonomy, and conditions.^[SRC-010] That level of semantic precision is not bureaucratic overdesign. It is the price of making financial meaning machine-usable.
 
+BIAN belongs in the same standards family even though it comes from a slightly different angle. BIAN's current service landscape positions itself as a reference structure for banking service domains, and its recent releases have pushed harder on ISO 20022 links, business object content, event-driven design, and semantic APIs.^[SRC-012]^[SRC-013] Its practitioner guide makes the architectural point clearly: the banking business has to be decomposed into discrete service domains with explicit information profiles and semantic exchanges if banks want modular, interoperable systems rather than another layer of overlapping process applications.^[SRC-014] That is not a full substitute for ontology, but it is strong evidence that banking has already been formalizing shared meaning at the service and business-object layer because interoperability depends on it.
+
 ## What AI Gets Wrong Without It
 
 Without ontology, enterprise AI tends to be articulate but shallow.
@@ -75,6 +77,8 @@ Third, relationships and ownership. Which workflow owns this case? Which team is
 Fourth, constraints and policy semantics. A workflow is not just a path. It is a governed path. Eligibility rules, cutoffs, approval thresholds, client instructions, jurisdictional restrictions, and evidence requirements all shape what actions are valid.
 
 This is where practical semantic tooling becomes important. FINOS Legend describes a common data vocabulary and a graph of information that users can navigate with agreed terms, while also carrying lineage, governance, and productized data services.^[SRC-007] Its feature set is even more revealing: classes, associations, constraints, and model-to-model mappings are treated as first-class elements.^[SRC-008] In other words, the semantics are not static documentation. They are tied to validation, transformation, and delivery.
+
+BIAN reinforces the same implementation lesson for banking architecture. Its deliverables are explicitly aimed at a common framework for banking interoperability, and its coreless-banking work ties canonical service designs, semantic APIs, and underlying data schema to modular modernization.^[SRC-015]^[SRC-016] In other words, the semantics have to travel with service boundaries and interfaces, not live only in a conceptual model off to the side.
 
 That is the standard BNY should care about. Shared meaning only matters when it becomes executable enough to shape data products and workflows.
 

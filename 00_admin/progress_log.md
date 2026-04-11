@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - Expanded Chapter 15 Research With BIAN
+
+### Summary
+- Files changed: `04_manuscript/chapter_15/research_tracker.md`, `04_manuscript/chapter_15/claim_register.md`, `04_manuscript/chapter_15/source_notes.md`, `04_manuscript/chapter_15/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: completed a focused CH15 research pass on BIAN, expanded the source and claim base, revised `draft_v1.md` to fold BIAN into the standards discussion, and added `BIAN` to the glossary
+- Chapter(s) affected: CH15, with forward relevance to CH16 and later architecture chapters
+
+### Decisions
+- Decision: treat BIAN as a complementary standards source in CH15 rather than as a replacement for FIBO
+- Rationale: FIBO remains the cleaner ontology reference, while BIAN adds banking-specific service-domain, business-object, and semantic-API structure that strengthens the practical implementation angle
+- Alternatives rejected: leaving CH15 centered only on FIBO and FINOS, or overstating BIAN as a pure ontology standard when it is better described as a banking architecture and semantic interoperability standard
+
+### Issues & Resolution
+- Issue: the user referenced "BAIN or BIAN," and the chapter needed the correct standard and positioning
+- Resolution: verified the official BIAN materials, including service-landscape, semantic-API, practitioner-guide, and coreless-banking sources, then integrated BIAN as a complementary semantic standard for banking architecture
+- Issue: BIAN can be described too loosely as just another API framework
+- Resolution: updated the chapter to emphasize BIAN's service domains, business-object model, information profiles, and semantic APIs as evidence that banking semantics have to travel with service boundaries and interfaces
+
+### Editorial Comments
+- Comment: "I like the FIBO references there is another onotology BAIN or BIAN that should be folded in as well - do a research round on that"
+- Response: ran a dedicated BIAN research pass, updated the durable chapter artifacts, and revised CH15 `draft_v1` so the standards picture now includes both ontology-heavy and banking-architecture semantic approaches
+
+### Lessons Learned
+- Insight: CH15 becomes stronger when it shows multiple layers of shared meaning in finance: concept ontology through FIBO, lifecycle semantics through the FINOS CDM, and banking service-domain semantics through BIAN
+- What worked: using BIAN's own practitioner and release materials to keep the distinction between ontology and semantic architecture disciplined
+- What did not: nothing material in this pass, though CH15 should still be checked later to ensure the standards section stays compact
+
+### Next Steps
+- [ ] Re-read CH15 `draft_v1` to ensure the standards section stays tight and does not become list-like
+- [ ] Decide whether CH12, CH14, or CH15 should run challenge rounds before CH16 begins
+- [ ] Start CH16 by creating the canonical data-products artifact set
+
 ## [2026-04-11] - Drafted Chapter 15 Version 1
 
 ### Summary

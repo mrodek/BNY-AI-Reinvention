@@ -22,13 +22,18 @@
 | SRC-009 | Overview of the FINOS CDM | https://cdm.finos.org/docs/next/cdm-overview/ | Supports the role of standardized, machine-readable lifecycle semantics in interoperability, straight-through processing, and regulatory consistency | CLM-003, CLM-005 |
 | SRC-010 | Common Domain Model Product Model | https://cdm.finos.org/docs/product-model/ | Supports a concrete example of financial meaning encoded through assets, identifiers, taxonomy, products, and composable economic terms | CLM-003, CLM-005 |
 | SRC-011 | CH14 Source Notes / Intelligence-Layer Bridge | 04_manuscript/chapter_14/source_notes.md | Internal bridge from intelligence-layer thesis to the need for shared meaning | CLM-001, CLM-002 |
+| SRC-012 | BIAN Service Landscape 14.0 | https://bian.org/deliverables/bian-standards/the-bian-service-landscape-timeline/ | Supports BIAN as a current reference structure for banking service domains with stronger ISO 20022 links and interoperability focus | CLM-003, CLM-005 |
+| SRC-013 | BIAN Service Landscape 11.0 | https://bian.org/deliverables/service-landscape/bian-service-landscape-11-0/ | Supports BIAN's business capability model, information architecture/business object model, event-driven design, and semantic APIs | CLM-003, CLM-005 |
+| SRC-014 | BIAN Semantic API Practitioner Guide V8.1 | https://bian.org/wp-content/uploads/2024/12/BIAN-Semantic-API-Pactitioner-Guide-V8.1-FINAL.pdf | Supports the detailed link between service domains, information profiles, semantic APIs, and a component blueprint for banking | CLM-003, CLM-005, CLM-006 |
+| SRC-015 | BIAN Deliverables | https://bian.org/semantic-apis/ | Supports BIAN's top-level goal of providing a common framework for banking interoperability | CLM-003 |
+| SRC-016 | BIAN Develops New Coreless Banking Concept Advancing Banking Technology | https://bian.org/news-room/bian-new-coreless-banking-concept-banking-technology/ | Supports BIAN's practical link between canonical service designs, semantic APIs, underlying data schema, and modular modernization | CLM-005, CLM-006 |
 
 ## Drafting Notes
 
 - `draft_v1` should define ontology in plain business language first: the enterprise has to know what its records mean, how concepts relate, and how states change over time.
 - Keep the core contrast explicit: integration moves data; ontology makes the data interpretable across contexts.
 - Use BCBS 239 to show that the practical cost of weak shared meaning is impaired decision-making, reporting, and control, not merely architecture untidiness.
-- Use FIBO and the FINOS CDM as evidence that finance has already recognized the need for formalized shared semantics at product, event, and process level.
+- Use FIBO, the FINOS CDM, and BIAN as evidence that finance has already recognized the need for formalized shared semantics at concept, product, event, process, and service-domain level.
 - Use Legend to bridge from semantics to governed, reusable data products with lineage and quality controls.
 - End by showing that CH16's canonical data products are the implementation vehicle for the semantic discipline argued here.
 
@@ -49,6 +54,10 @@
 ### Why Lifecycle Semantics Matter
 
 `SRC-009` and `SRC-010` show that semantics in finance must include products, events, processes, identifiers, taxonomy, and economic terms, not just static entity dictionaries. This is useful for distinguishing ontology from narrower master-data conversations.
+
+### Why BIAN Belongs In The Same Conversation
+
+`SRC-012`, `SRC-013`, `SRC-014`, `SRC-015`, and `SRC-016` show that banking has its own complementary semantic standardization effort. BIAN's service landscape organizes banking into service domains, its releases explicitly include a business object model and semantic APIs, and its practitioner guide explains how semantic information profiles and service-domain encapsulation support modular implementation. This matters because BIAN is less about pure ontology than FIBO, but highly relevant to the book's argument that shared meaning has to become usable in interoperable service architecture.
 
 ### BNY-Specific Foundation And CH16 Bridge
 

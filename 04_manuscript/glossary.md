@@ -26,6 +26,12 @@ Why it matters in this book: AUC/A is one of the clearest indicators of BNY's in
 
 ## B
 
+### BIAN
+
+What it means: The Banking Industry Architecture Network, an industry standards body focused on common banking service domains, business objects, and semantic APIs for interoperable banking architecture.
+
+Why it matters in this book: BIAN matters because it complements ontology-heavy standards such as FIBO by showing how shared meaning also has to be expressed through banking service boundaries and reusable interface contracts.
+
 ## C
 
 ### Collateral

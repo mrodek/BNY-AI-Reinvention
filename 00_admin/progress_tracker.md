@@ -27,7 +27,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH12 | BNY as the Financial Operating System | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; absorbs CH13 platform-economics logic into a grounded operating-system layer map and bridges to CH14's intelligence layer |
 | CH13 | Absorbed Into CH12 | absorbed | not_started | not_started | not_started | not_started | Former platform-thesis support chapter merged into CH12; do not draft separately unless later manuscript review reopens the structure |
 | CH14 | The Missing Layer: Intelligence | drafting | in_progress | draft_v1_ready | not_started | not_started | Artifact set, research pass 1, source notes, and draft v1 complete; chapter defines intelligence as the governed context layer above BNY's operating platform and bridges to CH15 |
-| CH15 | The Ontology Problem | drafting | in_progress | draft_v1_ready | not_started | not_started | Artifact set, research pass 1, source notes, and draft v1 complete; chapter argues that enterprise AI needs stable shared meaning across entities, events, states, and controls |
+| CH15 | The Ontology Problem | drafting | in_progress | draft_v1_ready | not_started | not_started | Research pass 2 folded in BIAN alongside FIBO and FINOS standards; draft v1 now includes banking service-domain and semantic-API standards context |
 | CH16 | Canonical Data Products as the Foundation | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
 | CH17 | The AI Gateway (Control Plane) | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
 | CH18 | The Runtime: Agents and Orchestration | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
@@ -63,6 +63,9 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Session Log
 
 ### 2026-04-11
+
+- Completed CH15 research pass 2 on BIAN and revised `draft_v1.md`, `research_tracker.md`, `claim_register.md`, and `source_notes.md` to add banking service-domain, business-object, and semantic-API standards context.
+- Added `BIAN` to the manuscript glossary because the standard is likely to recur in Part III and Part IV architecture chapters.
 
 - Started CH15 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
 - Completed CH15 research pass 1 using official BNY data-governance and AI-governance materials plus BCBS 239, FIBO, FINOS Legend, and the FINOS Common Domain Model.
