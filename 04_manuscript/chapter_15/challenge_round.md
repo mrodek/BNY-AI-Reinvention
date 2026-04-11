@@ -82,3 +82,36 @@ Pressure-test `draft_v1` of CH15 before moving to a more polished revision. Focu
 
 - Recommendation: `revise before proceeding`
 - Notes: `draft_v1` has the right semantic argument and evidence discipline, but `draft_v2` should tighten the standards section, add one sharper concrete identity or messaging example, and make the CH16 implementation bridge more operational.
+
+## Part III Consistency And Flow Check
+
+### Chapters Reviewed Together
+
+- `CH12 draft_v1`
+- `CH14 draft_v2`
+- `CH15 draft_v1`
+
+### Cohesion Findings
+
+- Finding: The Part III sequence is conceptually strong and now reads as a disciplined escalation from platform surface, to intelligence layer, to semantic prerequisite.
+- Why it matters: The reader can follow a clear logic chain rather than feeling like the book is introducing three adjacent abstractions without progression.
+
+- Finding: CH12 and CH14 now hand off cleanly, but CH15 still benefits from one tighter sentence that reminds the reader it is solving the dependency CH14 just named.
+- Why it matters: CH15 opens correctly, but the reader should feel the dependence immediately rather than only infer it over the first few paragraphs.
+
+- Finding: CH15's standards section is useful, but it is the most likely place where Part III slows down.
+- Why it matters: CH12 and CH14 are both thesis chapters with strong forward motion; if CH15 becomes too inventory-like, the architecture turn in the next chapter will feel delayed.
+
+- Finding: The final section title `Why CH16 Follows` reads more like book navigation than manuscript prose.
+- Why it matters: The close should feel like an argument about implementation, not a signpost naming the next chapter number.
+
+### What We Will Address In The Next Draft
+
+- Concern: CH15 needs one sharper cohesion sentence back to CH14's dependency.
+- Planned response: Add one sentence early in `draft_v2` that frames ontology as the answer to the intelligence-layer bottleneck just established in CH14.
+
+- Concern: CH15's standards material needs slightly more compression and clearer layering.
+- Planned response: Keep the standards set, but make the sequence feel more cumulative: concept ontology, lifecycle semantics, banking service semantics, and concrete identity/message semantics.
+
+- Concern: The closing section title is too mechanical.
+- Planned response: Replace `Why CH16 Follows` with a more manuscript-natural title focused on implementation.

@@ -100,7 +100,7 @@ BNY needs shared meaning at the level where its platform already creates leverag
 
 That is the ontology problem in practical terms. The challenge is not making data available. The challenge is making enterprise reality legible.
 
-## Why CH16 Follows
+## From Shared Meaning To Operating Infrastructure
 
 Once the ontology problem is visible, the next question is implementation. Shared meaning cannot remain a slide, a wiki, or a standards reference sitting beside the real systems. It has to be carried into reusable operating artifacts.
 

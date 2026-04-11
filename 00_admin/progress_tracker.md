@@ -64,6 +64,9 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-11
 
+- Ran a Part III consistency-and-flow challenge across CH12, CH14, and CH15, confirming the platform-to-intelligence-to-ontology progression while flagging CH15's standards section as the main pacing risk before `draft_v2`.
+- Updated CH15 `challenge_round.md` with the cross-chapter cohesion findings and retitled the closing draft section from `Why CH16 Follows` to `From Shared Meaning To Operating Infrastructure`.
+
 - Ran the CH15 challenge round against `draft_v1`; outcome was `revise before proceeding`.
 - Completed CH15 secondary research on ISO 20022 business semantics and LEI/GLEIF identity semantics, expanding the notes and claim base with more concrete examples of message and entity meaning.
 - Added `ISO 20022` and `LEI` to the manuscript glossary because both terms are likely to recur in later architecture chapters.
