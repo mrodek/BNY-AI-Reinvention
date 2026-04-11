@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: review CH12 `draft_v1` after completing the consolidated research-and-drafting pass, while moving Part III forward through CH14's intelligence-layer thesis setup
-- Next milestone: decide whether CH12 should run a challenge round before `draft_v2`, then move into CH15's ontology foundation after CH14 `draft_v1`
+- Current focus: review CH12, CH14, and CH15 for overlap and challenge-round needs, then begin CH16's canonical-data-products architecture turn
+- Next milestone: review CH12 and CH14 for challenge-round needs, then start CH16 on canonical data products
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -27,7 +27,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH12 | BNY as the Financial Operating System | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; absorbs CH13 platform-economics logic into a grounded operating-system layer map and bridges to CH14's intelligence layer |
 | CH13 | Absorbed Into CH12 | absorbed | not_started | not_started | not_started | not_started | Former platform-thesis support chapter merged into CH12; do not draft separately unless later manuscript review reopens the structure |
 | CH14 | The Missing Layer: Intelligence | drafting | in_progress | draft_v1_ready | not_started | not_started | Artifact set, research pass 1, source notes, and draft v1 complete; chapter defines intelligence as the governed context layer above BNY's operating platform and bridges to CH15 |
-| CH15 | The Ontology Problem | not_started | not_started | not_started | not_started | not_started | Semantic foundation chapter |
+| CH15 | The Ontology Problem | drafting | in_progress | draft_v1_ready | not_started | not_started | Artifact set, research pass 1, source notes, and draft v1 complete; chapter argues that enterprise AI needs stable shared meaning across entities, events, states, and controls |
 | CH16 | Canonical Data Products as the Foundation | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
 | CH17 | The AI Gateway (Control Plane) | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
 | CH18 | The Runtime: Agents and Orchestration | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
@@ -63,6 +63,12 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Session Log
 
 ### 2026-04-11
+
+- Started CH15 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
+- Completed CH15 research pass 1 using official BNY data-governance and AI-governance materials plus BCBS 239, FIBO, FINOS Legend, and the FINOS Common Domain Model.
+- Created `04_manuscript/chapter_15/source_notes.md` and `draft_v1.md`, moving CH15 from `not_started` to `drafting`.
+- Added `Ontology` and `Semantic Interoperability` to the manuscript glossary to support Part III and Part IV terminology.
+- Positioned CH16 as the implementation follow-on: canonical data products are the practical carrier of shared meaning across the platform.
 
 - Started CH14 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
 - Completed CH14 research pass 1 using official BNY AI, data, annual-report, and Project Aikya materials plus NIST and BIS guidance on trustworthy AI and financial-services data governance.
@@ -253,8 +259,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Next Actions
 
 1. Re-read CH12 `draft_v1` and decide whether to run a practitioner challenge round before `draft_v2`.
-2. Re-read CH14 `draft_v1` for overlap with CH12 and decide whether a challenge round is needed before CH15 starts.
-3. Start CH15 by creating the brief, research tracker, and claim register for the ontology chapter.
+2. Re-read CH14 `draft_v1` for overlap with CH12 and decide whether a challenge round is needed before CH16 starts.
+3. Start CH16 by creating the brief, research tracker, and claim register for the canonical data-products chapter.
 4. Read through `04_manuscript/manuscript_ch01_ch11.md` for flow, repetition, and tone consistency across the first eleven chapters.
 5. Decide whether Part II needs a final cohesion pass now that CH11 has been tightened and its watch items have been addressed.
 

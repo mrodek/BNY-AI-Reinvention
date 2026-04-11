@@ -202,6 +202,12 @@ Why it matters in this book: NSCC is one of the clearest examples of how the mar
 
 ## O
 
+### Ontology
+
+What it means: An explicit model of the important things in a domain, the relationships among them, and the constraints or state changes that govern how they can be interpreted.
+
+Why it matters in this book: Ontology is the semantic foundation for the book's intelligence-layer argument. It explains why AI cannot reason reliably across BNY's platform unless core concepts such as clients, accounts, positions, events, and obligations have stable shared meaning.
+
 ### Operating Model
 
 What it means: The practical arrangement of roles, workflows, decision rights, governance, incentives, and handoffs through which work actually gets done.
@@ -251,6 +257,12 @@ Why it matters in this book: Reconciliation is one of the recurring hidden contr
 What it means: The controlled holding and protection of securities and related assets so ownership, access, and record integrity can be maintained reliably over time.
 
 Why it matters in this book: Safekeeping is one of the quiet but essential promises beneath custody. It makes asset ownership operationally durable rather than merely asserted.
+
+### Semantic Interoperability
+
+What it means: The ability of different systems, workflows, or teams to exchange data with a shared understanding of what that data means, how it relates to other concepts, and how it should be interpreted in context.
+
+Why it matters in this book: Semantic interoperability is what turns integration into usable intelligence. Without it, BNY can move data across the platform without gaining reliable cross-workflow understanding.
 
 ### Settlement
 

@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - Drafted Chapter 15 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_15/chapter_brief.md`, `04_manuscript/chapter_15/research_tracker.md`, `04_manuscript/chapter_15/claim_register.md`, `04_manuscript/chapter_15/source_notes.md`, `04_manuscript/chapter_15/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the full CH15 artifact set, completed research pass 1, built the citation map, drafted `draft_v1.md`, and added `Ontology` and `Semantic Interoperability` to the manuscript glossary
+- Chapter(s) affected: CH15, with direct bridge logic from CH14 and forward bridge logic into CH16
+
+### Decisions
+- Decision: frame CH15 as a practical semantic-foundation chapter rather than as a theoretical knowledge-representation chapter
+- Rationale: the executive reader needs to understand that ontology is an operating requirement for enterprise intelligence, not a detached technical specialty
+- Alternatives rejected: writing CH15 as a generic knowledge-graph chapter, reducing it to a narrow master-data-management discussion, or pushing the semantic argument into CH16
+
+### Issues & Resolution
+- Issue: ontology can easily sound too abstract for this manuscript's voice and audience
+- Resolution: anchored the chapter in workflow consequences, supervisory data-aggregation failures, finance-specific standards, and BNY's governed-data posture rather than in semantic-web theory
+- Issue: CH15 needed to stay distinct from CH14 while still inheriting its intelligence argument
+- Resolution: treated CH14 as the motivation chapter and CH15 as the semantic prerequisite chapter, with the draft focused on why context interpretation fails when enterprise meaning is unstable
+
+### Editorial Comments
+- Comment: "go ahead and start chapter 15, perform the setup, do the research and draft v1"
+- Response: created the artifact set, completed a standards-led research pass with direct-link source logging, wrote the source notes, updated the glossary, and completed CH15 `draft_v1` in the same work pass
+
+### Lessons Learned
+- Insight: CH15 is strongest when it distinguishes semantic instability from ordinary data-quality problems and shows that ontology is about entities, events, states, relationships, and constraints together
+- What worked: combining BNY data-governance sources with BCBS 239 and finance-specific semantic standards such as FIBO, FINOS Legend, and the FINOS CDM
+- What did not: nothing material in this pass, though the draft should still be checked for overlap with CH14's intelligence definition before `draft_v2`
+
+### Next Steps
+- [ ] Re-read CH15 `draft_v1` for overlap with CH14 and tighten any repeated intelligence framing
+- [ ] Decide whether CH12 or CH14 should run challenge rounds before CH16 begins
+- [ ] Start CH16 by creating the canonical data-products artifact set
+
 ## [2026-04-11] - Drafted Chapter 14 Version 1
 
 ### Summary
