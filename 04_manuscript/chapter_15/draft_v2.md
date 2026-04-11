@@ -106,6 +106,21 @@ BNY needs shared meaning at the level where its platform already creates leverag
 
 That is the ontology problem in practical terms. The challenge is not making data available. The challenge is making enterprise reality legible.
 
+## Reference Standards And Regulatory Documents
+
+Readers who want to explore the standards and supervisory materials directly can use the core references below.
+
+- [BCBS 239: Principles for effective risk data aggregation and risk reporting](https://www.bis.org/publ/bcbs239.htm)
+- [BCBS 239 implementation newsletter (2026)](https://www.bis.org/publ/bcbs_nl36.htm)
+- [Financial Industry Business Ontology (FIBO)](https://spec.edmcouncil.org/fibo/)
+- [FINOS Legend overview](https://legend.finos.org/docs/overview/legend-overview)
+- [FINOS Common Domain Model overview](https://cdm.finos.org/docs/next/cdm-overview/)
+- [FINOS Common Domain Model product model](https://cdm.finos.org/docs/product-model/)
+- [BIAN service landscape](https://bian.org/deliverables/bian-standards/the-bian-service-landscape-timeline/)
+- [BIAN semantic APIs](https://bian.org/semantic-apis/)
+- [ISO 20022 business model](https://www.iso20022.org/iso20022-repository/business-model)
+- [GLEIF and the Legal Entity Identifier](https://www.gleif.org/en/organizational-identity/introducing-the-legal-entity-identifier-lei/iso-17442-the-lei-code-structure)
+
 ## From Shared Meaning To Operating Infrastructure
 
 Once the ontology problem is visible, the next question is implementation. Shared meaning cannot remain a slide, a wiki, or a standards reference sitting beside the real systems. It has to be carried into reusable operating artifacts.

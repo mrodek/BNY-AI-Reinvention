@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: align CH15 and newly drafted CH16 so the semantic-foundation and canonical-data-products chapters hand off cleanly into the control-plane architecture turn
-- Next milestone: revise CH15 into `draft_v2`, then decide whether CH12 needs a challenge round or light alignment pass before CH17 starts
+- Current focus: tighten Part III and Part IV continuity so CH15 and CH16 hand off cleanly into the control-plane architecture turn while keeping reader-facing references usable
+- Next milestone: decide whether CH15 should hold at `draft_v2` or receive one more narrow polish pass, then assess whether CH12 needs a challenge round or light alignment pass before CH17 starts
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -72,6 +72,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 - Created `04_manuscript/chapter_15/draft_v2.md` by applying the challenge-round findings in one focused revision pass.
 - Tightened the standards section so it reads as layered semantic evidence rather than a catalogue, added concrete LEI and ISO 20022 examples, and strengthened the implementation bridge into CH16.
+- Added a compact reader-facing reference section to CH15 `draft_v2.md` with clickable links to BCBS 239, FIBO, FINOS, BIAN, ISO 20022, and GLEIF/LEI so standards and regulatory materials can be explored directly from the chapter draft.
 
 - Ran a Part III consistency-and-flow challenge across CH12, CH14, and CH15, confirming the platform-to-intelligence-to-ontology progression while flagging CH15's standards section as the main pacing risk before `draft_v2`.
 - Updated CH15 `challenge_round.md` with the cross-chapter cohesion findings and retitled the closing draft section from `Why CH16 Follows` to `From Shared Meaning To Operating Infrastructure`.

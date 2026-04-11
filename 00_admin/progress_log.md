@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - Added Reader-Facing Standards Links To Chapter 15
+
+### Summary
+- Files changed: `04_manuscript/chapter_15/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: revised CH15 `draft_v2.md` to include a compact reader-facing reference section with clickable links to the main standards and regulatory documents discussed in the chapter, and refreshed tracker state to reflect the current milestone accurately
+- Chapter(s) affected: CH15, with indirect benefit to CH16 and later architecture chapters that may reuse the same standards set
+
+### Decisions
+- Decision: surface the standards and regulatory links directly in the chapter draft rather than keeping them only in source notes
+- Rationale: the user wants the reader to be able to explore the underlying frameworks and supervisory materials from the chapter itself, and a compact reference section preserves that usability without cluttering body paragraphs
+- Alternatives rejected: leaving the links only in `source_notes.md`, inserting raw URLs inline throughout the prose, or adding a larger appendix-style standards catalogue inside the chapter
+
+### Issues & Resolution
+- Issue: CH15 already had the source links in the durable notes, but a manuscript reader would not see them while reading the draft itself
+- Resolution: added a short `Reference Standards And Regulatory Documents` section covering BCBS 239, the BCBS implementation note, FIBO, FINOS Legend, FINOS CDM, BIAN, ISO 20022, and GLEIF/LEI
+- Issue: the tracker milestone text still referred to revising CH15 into `draft_v2` even though `draft_v2.md` already exists on disk
+- Resolution: updated the tracker focus and next milestone so project memory now matches the actual chapter state
+
+### Editorial Comments
+- Comment: "I do not see the links to the frameworks, standards and regulatory docs (bcbs 239) we should include clickable links so reader can explore"
+- Response: revised CH15 `draft_v2.md` to include a visible reader-facing links section and updated project tracking in the same work pass
+
+### Lessons Learned
+- Insight: some standards references should stay out of body prose but still belong in the draft itself when the chapter is intended to function as an explorable manuscript, not just an internal writing artifact
+- What worked: adding one compact reference section preserved manuscript readability while making the evidence base discoverable
+- What did not: relying only on `source_notes.md` made the links durable for us but invisible for the eventual reader
+
+### Next Steps
+- [ ] Re-read CH15 `draft_v2` once with the new reference section in place to confirm the chapter still feels like prose rather than documentation
+- [ ] Decide whether CH15 should hold at `draft_v2` or receive one final polish pass before broader Part III review
+- [ ] Re-read CH15 and CH16 together so the semantic-foundation and canonical-data-products chapters remain distinct
+
 ## [2026-04-11] - Drafted Chapter 16 Version 1
 
 ### Summary
