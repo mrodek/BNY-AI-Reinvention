@@ -142,6 +142,12 @@ Why it matters in this book: Governance is a design requirement, not just a comp
 
 ## I
 
+### ISO 20022
+
+What it means: An international financial-industry standard for modeling and defining business messages through a shared methodology, repository, and dictionary of business concepts.
+
+Why it matters in this book: ISO 20022 matters because it shows that financial messaging depends on agreed business semantics, not just on technical schemas. It is a concrete example of shared meaning embedded in industry communication standards.
+
 ### Intelligence Layer
 
 What it means: The system layer that interprets context across records, events, workflows, obligations, and controls so it can support prioritization, routing, explanation, and better decisions.
@@ -165,6 +171,12 @@ What it means: A structured representation of entities, relationships, and conte
 Why it matters in this book: The project is designed so manuscript concepts can later feed a knowledge graph and support an assistant or coaching application with more consistent reasoning.
 
 ## L
+
+### LEI
+
+What it means: Legal Entity Identifier, a global 20-character code used to identify one legal entity uniquely and connect it to verified reference data.
+
+Why it matters in this book: LEI is a concrete example of semantic discipline applied to entity identity. It shows that reliable cross-system intelligence depends on shared, authoritative identification rather than on local naming conventions alone.
 
 ### Lesson Learned
 

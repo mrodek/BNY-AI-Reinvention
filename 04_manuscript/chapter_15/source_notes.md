@@ -27,6 +27,24 @@
 | SRC-014 | BIAN Semantic API Practitioner Guide V8.1 | https://bian.org/wp-content/uploads/2024/12/BIAN-Semantic-API-Pactitioner-Guide-V8.1-FINAL.pdf | Supports the detailed link between service domains, information profiles, semantic APIs, and a component blueprint for banking | CLM-003, CLM-005, CLM-006 |
 | SRC-015 | BIAN Deliverables | https://bian.org/semantic-apis/ | Supports BIAN's top-level goal of providing a common framework for banking interoperability | CLM-003 |
 | SRC-016 | BIAN Develops New Coreless Banking Concept Advancing Banking Technology | https://bian.org/news-room/bian-new-coreless-banking-concept-banking-technology/ | Supports BIAN's practical link between canonical service designs, semantic APIs, underlying data schema, and modular modernization | CLM-005, CLM-006 |
+| SRC-017 | ISO 20022 Business Model | https://www.iso20022.org/iso20022-repository/business-model | Supports industry-agreed business concepts, relationships, and message derivation across financial domains | CLM-005 |
+| SRC-018 | About ISO 20022 | https://www.iso20022.org/about-iso-20022 | Supports syntax-independent modeling, a central dictionary of business items, and agreed business semantics | CLM-005 |
+| SRC-019 | GLEIF: The Legal Entity Identifier (LEI) | https://www.gleif.org/en/organizational-identity/introducing-the-legal-entity-identifier-lei/iso-17442-the-lei-code-structure | Supports globally unique, interoperable legal-entity identity | CLM-001, CLM-005 |
+| SRC-020 | GLEIF Global LEI Index | https://www.gleif.org/lei-data/global-lei-index | Supports authoritative, open, standardized legal-entity reference data | CLM-001, CLM-005 |
+
+## Standards Links
+
+- FIBO: https://spec.edmcouncil.org/fibo/
+- FINOS Legend overview: https://legend.finos.org/docs/overview/legend-overview
+- FINOS CDM overview: https://cdm.finos.org/docs/next/cdm-overview/
+- FINOS CDM product model: https://cdm.finos.org/docs/product-model/
+- BIAN service landscape timeline: https://bian.org/deliverables/bian-standards/the-bian-service-landscape-timeline/
+- BIAN semantic APIs: https://bian.org/semantic-apis/
+- BIAN semantic API practitioner guide: https://bian.org/wp-content/uploads/2024/12/BIAN-Semantic-API-Pactitioner-Guide-V8.1-FINAL.pdf
+- ISO 20022 business model: https://www.iso20022.org/iso20022-repository/business-model
+- ISO 20022 overview: https://www.iso20022.org/about-iso-20022
+- GLEIF LEI: https://www.gleif.org/en/organizational-identity/introducing-the-legal-entity-identifier-lei/iso-17442-the-lei-code-structure
+- GLEIF Global LEI Index: https://www.gleif.org/lei-data/global-lei-index
 
 ## Drafting Notes
 
@@ -58,6 +76,10 @@
 ### Why BIAN Belongs In The Same Conversation
 
 `SRC-012`, `SRC-013`, `SRC-014`, `SRC-015`, and `SRC-016` show that banking has its own complementary semantic standardization effort. BIAN's service landscape organizes banking into service domains, its releases explicitly include a business object model and semantic APIs, and its practitioner guide explains how semantic information profiles and service-domain encapsulation support modular implementation. This matters because BIAN is less about pure ontology than FIBO, but highly relevant to the book's argument that shared meaning has to become usable in interoperable service architecture.
+
+### Why ISO 20022 And LEI Improve The Concrete Example Set
+
+`SRC-017` and `SRC-018` show that message interoperability in finance depends on business semantics, not just message syntax. ISO 20022 explicitly uses a business model and central dictionary to derive message definitions from shared concepts. `SRC-019` and `SRC-020` make the entity side equally concrete: the LEI and Global LEI Index exist because cross-firm identity has to be unique, verifiable, interoperable, and referenced through shared high-quality data. These sources help the next draft show that the ontology problem appears in message semantics and entity identity as well as in broader conceptual modeling.
 
 ### BNY-Specific Foundation And CH16 Bridge
 

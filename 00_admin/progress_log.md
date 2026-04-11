@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - Ran Chapter 15 Challenge Round And Secondary Research
+
+### Summary
+- Files changed: `04_manuscript/chapter_15/challenge_round.md`, `04_manuscript/chapter_15/research_tracker.md`, `04_manuscript/chapter_15/claim_register.md`, `04_manuscript/chapter_15/source_notes.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH15 `challenge_round.md`, completed a secondary research pass on ISO 20022 and LEI/GLEIF, expanded the source and claim base, added glossary entries for `ISO 20022` and `LEI`, and moved CH15 from `drafting` to `revising`
+- Chapter(s) affected: CH15, with forward relevance to CH16 and later architecture chapters
+
+### Decisions
+- Decision: keep CH15's core thesis intact but mark the chapter for revision before `draft_v2`
+- Rationale: the draft's argument is strong, but the challenge round showed that the next revision should sharpen the distinction among semantic layers, tighten the standards section, and add one more concrete example
+- Alternatives rejected: declaring the chapter ready as-is, or reopening the entire chapter architecture instead of tightening the existing draft
+
+### Issues & Resolution
+- Issue: the standards discussion risked becoming list-like and slightly flattening different semantic layers into one generalized ontology claim
+- Resolution: ran a focused secondary research pass on ISO 20022 message semantics and LEI/GLEIF identity semantics so the support base now distinguishes concept, lifecycle, service-domain, message, and identity layers more clearly
+- Issue: the chapter needed one more concrete operating anchor beyond broad architectural language
+- Resolution: added research support for shared entity identity and shared business-message semantics, which gives the next draft a stronger path to concrete examples
+
+### Editorial Comments
+- Comment: "then run a challange round and a secondary research round"
+- Response: created the CH15 challenge round, completed the secondary standards research pass, and updated the durable notes, claims, glossary, tracker, and log in the same work pass
+
+### Lessons Learned
+- Insight: CH15 works best when it does not argue for one abstract layer of meaning, but shows several interacting semantic layers that finance already treats as operationally important
+- What worked: pressure-testing the draft first, then using the challenge findings to target the secondary research pass rather than gathering more standards material indiscriminately
+- What did not: nothing material in this pass, though the next draft should keep the standards material compressed and example-led
+
+### Next Steps
+- [ ] Revise CH15 into `draft_v2` with one sharper concrete example and a tighter standards section
+- [ ] Decide whether CH12 or CH14 should run challenge rounds before CH16 begins
+- [ ] Start CH16 by creating the canonical data-products artifact set
+
 ## [2026-04-11] - Ran Chapter 14 Challenge Round And Tightened Flow With Chapter 12
 
 ### Summary
