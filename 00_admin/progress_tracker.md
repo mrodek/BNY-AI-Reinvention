@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: tighten Part III and Part IV continuity so CH15 and revised CH16 hand off cleanly into the control-plane architecture turn while keeping reader-facing references usable
-- Next milestone: decide whether CH15 should hold at `draft_v2` or receive one more narrow polish pass, then assess whether CH12 needs a challenge round or light alignment pass before CH17 starts from CH16's revised bridge
+- Current focus: build CH17 foundation artifacts and run research pass 1 before drafting begins
+- Next milestone: complete CH17 research pass 1, resolve source gaps in the research tracker, then move CH17 to `drafting`
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -29,7 +29,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH14 | The Missing Layer: Intelligence | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed and draft v2 now tightens the CH12 handoff, reduces repetition, and makes the CH15 bridge more explicit |
 | CH15 | The Ontology Problem | revising | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now tightens the standards section, adds concrete LEI/ISO 20022 examples, and strengthens the implementation bridge into CH16 |
 | CH16 | Canonical Data Products as the Foundation | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 editorial pass: converted mechanical paragraph lists to bulleted format, removed all CH## cross-references in favor of relative prose references |
-| CH17 | The AI Gateway (Control Plane) | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
+| CH17 | The AI Gateway (Control Plane) | brief_ready | not_started | not_started | not_started | not_started | Brief, research tracker, and claim register created; research pass 1 pending |
 | CH18 | The Runtime: Agents and Orchestration | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
 | CH19 | Observability as Governance | not_started | not_started | not_started | not_started | not_started | AI-native governance chapter |
 | CH20 | AI-Native Asset Servicing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |

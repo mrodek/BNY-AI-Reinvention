@@ -45,6 +45,33 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - CH17 Setup: Brief, Research Tracker, Claim Register
+
+### Summary
+- Files changed: `00_admin/progress_tracker.md`
+- Artifacts created: `04_manuscript/chapter_17/chapter_brief.md`, `04_manuscript/chapter_17/research_tracker.md`, `04_manuscript/chapter_17/claim_register.md`
+- Chapter(s) affected: CH17
+
+### Decisions
+- Decision: scoped CH17 around the control plane as an architectural governance capability rather than a compliance process chapter
+- Rationale: the book's argument depends on governance feeling like a design principle; a procedural compliance framing would undercut the architecture thesis in Part IV
+- Decision: anchored the regulatory side on SR 11-7 and NIST AI RMF as primary sources, with a flag to check for any 2024-2025 BCBS or FSB guidance specific to AI in systemic institutions
+- Rationale: SR 11-7 is the established model-risk anchor for US bank regulators; NIST AI RMF covers the broader AI governance vocabulary; newer guidance may sharpen or extend these anchors
+
+### Issues & Resolution
+- None at setup stage
+
+### Editorial Comments
+- None yet; chapter has not been drafted
+
+### Lessons Learned
+- The CH17 brief needs to draw a clear boundary with CH19 (observability as governance) early in research; the risk is conflating control-plane enforcement with the observability layer
+
+### Next Steps
+- [ ] Run CH17 research pass 1: confirm BNY responsible AI sources, review SR 11-7 and NIST AI RMF, search for enterprise AI gateway architecture patterns
+- [ ] Update research tracker with confirmed source links and source-selection rationale after pass 1
+- [ ] Move CH17 to `drafting` once research pass 1 is complete and sources are logged
+
 ## [2026-04-11] - CH16 Draft v2 Editorial Pass
 
 ### Summary
