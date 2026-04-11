@@ -64,6 +64,12 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-11
 
+- Started CH16 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
+- Completed CH16 research pass 1 using official BNY data-management and data-platform materials plus primary sources on data-as-a-product, lineage, and regulated-finance control requirements.
+- Created `04_manuscript/chapter_16/source_notes.md` and `draft_v1.md`, moving CH16 from `not_started` to `drafting`.
+- Added `Canonical Data Product` and `Data Lineage` to the manuscript glossary because both concepts are likely to recur across Part IV and later AI-native architecture chapters.
+- Positioned CH17 as the next architecture step: once trusted canonical products exist, the next question is how intelligence is routed and governed across them.
+
 - Created `04_manuscript/chapter_15/draft_v2.md` by applying the challenge-round findings in one focused revision pass.
 - Tightened the standards section so it reads as layered semantic evidence rather than a catalogue, added concrete LEI and ISO 20022 examples, and strengthened the implementation bridge into CH16.
 
@@ -276,10 +282,10 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Next Actions
 
 1. Re-read CH12 `draft_v1` and decide whether to run a practitioner challenge round before `draft_v2`.
-2. Re-read CH14 `draft_v2` against CH12 and CH15 for any final Part III flow polish.
-3. Start CH16 by creating the brief, research tracker, and claim register for the canonical data-products chapter.
+2. Re-read CH14 `draft_v2`, CH15 `draft_v2`, and CH16 `draft_v1` for final Part III to Part IV flow polish.
+3. Start CH17 by creating the brief, research tracker, and claim register for the AI gateway / control-plane chapter.
 4. Read through `04_manuscript/manuscript_ch01_ch11.md` for flow, repetition, and tone consistency across the first eleven chapters.
-5. Decide whether CH15 should hold at `draft_v2` pending broader Part III review or receive one more narrow polish pass before CH16 advances.
+5. Decide whether CH16 should run a challenge round before `draft_v2` or move directly into a light architecture-polish revision.
 
 ## Update Rules
 

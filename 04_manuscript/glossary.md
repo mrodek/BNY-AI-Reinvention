@@ -34,6 +34,12 @@ Why it matters in this book: BIAN matters because it complements ontology-heavy 
 
 ## C
 
+### Canonical Data Product
+
+What it means: A governed, reusable data asset that packages shared business meaning with clear ownership, interfaces, quality rules, lineage, and access controls so many workflows can rely on it consistently.
+
+Why it matters in this book: Canonical data products are the practical implementation layer for the semantic foundation argued in CH15 and the AI-native architecture developed from CH16 onward.
+
 ### Collateral
 
 What it means: Cash or securities pledged to secure an obligation, satisfy margin requirements, or protect a counterparty or market infrastructure against loss.
@@ -65,6 +71,12 @@ What it means: The safekeeping, settlement support, recordkeeping, and reporting
 Why it matters in this book: Custody is one of the foundational operating layers in BNY's business model. It sits close to trust because it determines whether ownership and control remain durable after the market event itself.
 
 ## D
+
+### Data Lineage
+
+What it means: The recorded path showing where data came from, how it was transformed, and which jobs, systems, or services produced the current representation.
+
+Why it matters in this book: Lineage is part of why a data product can be trusted in regulated finance. It supports explanation, auditability, governance, and reliable reuse by later AI systems.
 
 ### DTC
 

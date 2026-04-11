@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - Drafted Chapter 16 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_16/chapter_brief.md`, `04_manuscript/chapter_16/research_tracker.md`, `04_manuscript/chapter_16/claim_register.md`, `04_manuscript/chapter_16/source_notes.md`, `04_manuscript/chapter_16/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the full CH16 artifact set, completed research pass 1, built the citation map, drafted `draft_v1.md`, and added `Canonical Data Product` and `Data Lineage` to the glossary
+- Chapter(s) affected: CH16, with direct bridge logic from CH15 and forward bridge logic into CH17
+
+### Decisions
+- Decision: define canonical data products as ontology-backed, governed, reusable operating assets rather than as generic curated datasets
+- Rationale: this keeps CH16 implementation-minded and makes it a real architectural foundation chapter instead of a broad data-strategy essay
+- Alternatives rejected: writing CH16 as a general data-mesh chapter, reducing the concept to cleaned tables and APIs, or skipping straight to the control plane without defining the product layer
+
+### Issues & Resolution
+- Issue: CH16 could easily drift into generic data-platform language and lose the bridge from CH15's ontology argument
+- Resolution: the draft starts by stating that ontology alone is too abstract to run a platform and frames canonical data products as the packaging layer that makes shared meaning reusable
+- Issue: the chapter needed a regulated-finance reason for why contracts, lineage, and quality controls belong inside the product definition
+- Resolution: combined BNY data-management materials with BCBS 239, FINOS Legend, OpenLineage, and the primary data-as-a-product source so the chapter ties reusable products directly to trust, auditability, and later AI reliability
+
+### Editorial Comments
+- Comment: "lets start chapter 16, perform the rersearch and draft v1"
+- Response: created the artifact set, ran the first research pass with direct-link source logging, wrote the source notes, updated the glossary, and completed CH16 `draft_v1` in the same work pass
+
+### Lessons Learned
+- Insight: CH16 is strongest when it treats canonical data products as the operating form of shared meaning, not as another abstraction layered on top of ontology
+- What worked: using BNY's own data-management language plus product, lineage, and control sources to keep the chapter specific and architecture-aware
+- What did not: nothing material in this pass, though CH16 should still be checked later to ensure it stays distinct from CH17's control-plane work
+
+### Next Steps
+- [ ] Re-read CH16 `draft_v1` against CH15 `draft_v2` so the semantic-foundation and implementation chapters do not repeat each other
+- [ ] Decide whether CH16 should run a challenge round before `draft_v2`
+- [ ] Start CH17 by creating the AI gateway / control-plane artifact set
+
 ## [2026-04-11] - Drafted Chapter 15 Version 2
 
 ### Summary
