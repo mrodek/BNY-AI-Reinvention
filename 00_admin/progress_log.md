@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - Ran Chapter 16 Challenge Round And Revised The Closing Bridge
+
+### Summary
+- Files changed: `04_manuscript/chapter_16/challenge_round.md`, `04_manuscript/chapter_16/source_notes.md`, `04_manuscript/chapter_16/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the CH16 challenge-round artifact, revised the chapter into `draft_v2.md`, and updated source-note support to point to the newer draft
+- Chapter(s) affected: CH16, with direct impact on the handoff into the control-plane chapter
+
+### Decisions
+- Decision: revise CH16 immediately after the challenge round instead of leaving the findings as deferred editorial notes
+- Rationale: the main issues were manuscript-facing clarity and the mechanical closing heading, so the cleanest move was to fix them while the architecture argument was still fresh
+- Alternatives rejected: leaving CH16 at `draft_v1`, changing only the heading without recording the challenge findings, or expanding the chapter into more tooling detail
+
+### Issues & Resolution
+- Issue: the final section heading `Why CH17 Follows` read like outline scaffolding rather than manuscript prose
+- Resolution: replaced it with `From Trusted Products To Governed Intelligence`, which keeps the control-plane bridge while reading like chapter language rather than project bookkeeping
+- Issue: the chapter benefited from one sharper sentence on what makes a product canonical
+- Resolution: tightened the definition so trusted enterprise reuse and product obligations stay central
+
+### Editorial Comments
+- Comment: "run a challange round, replace this section heading with something less emchanical 'Why CH17 Follows' I don't like using chapter #17 explicitly"
+- Response: ran the CH16 challenge round, wrote the artifact to disk, revised the chapter into `draft_v2`, and replaced the closing heading with a manuscript-facing transition
+
+### Lessons Learned
+- Insight: architecture chapters need especially careful closing headings because mechanical transitions make the manuscript feel like an outline even when the argument itself is strong
+- What worked: treating the heading complaint as a real flow issue rather than a cosmetic preference and fixing it in the draft immediately
+- What did not: nothing material in this pass, though CH16 may still benefit from a later narrow polish once CH17 exists
+
+### Next Steps
+- [ ] Re-read CH16 `draft_v2` against CH15 `draft_v2` for any remaining overlap
+- [ ] Decide whether CH12 needs a challenge round before CH17 starts
+- [ ] Start CH17 by creating the AI gateway / control-plane artifact set
+
 ## [2026-04-11] - Added Reader-Facing Standards Links To Chapter 15
 
 ### Summary

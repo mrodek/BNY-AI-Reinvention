@@ -4,7 +4,7 @@
 
 - Chapter ID: `CH16`
 - Working title: `Canonical Data Products as the Foundation`
-- Draft supported: `draft_v1`
+- Draft supported: `draft_v2`
 - Last updated: `2026-04-11`
 
 ## Citation Map

@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: tighten Part III and Part IV continuity so CH15 and CH16 hand off cleanly into the control-plane architecture turn while keeping reader-facing references usable
-- Next milestone: decide whether CH15 should hold at `draft_v2` or receive one more narrow polish pass, then assess whether CH12 needs a challenge round or light alignment pass before CH17 starts
+- Current focus: tighten Part III and Part IV continuity so CH15 and revised CH16 hand off cleanly into the control-plane architecture turn while keeping reader-facing references usable
+- Next milestone: decide whether CH15 should hold at `draft_v2` or receive one more narrow polish pass, then assess whether CH12 needs a challenge round or light alignment pass before CH17 starts from CH16's revised bridge
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -28,7 +28,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH13 | Absorbed Into CH12 | absorbed | not_started | not_started | not_started | not_started | Former platform-thesis support chapter merged into CH12; do not draft separately unless later manuscript review reopens the structure |
 | CH14 | The Missing Layer: Intelligence | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed and draft v2 now tightens the CH12 handoff, reduces repetition, and makes the CH15 bridge more explicit |
 | CH15 | The Ontology Problem | revising | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now tightens the standards section, adds concrete LEI/ISO 20022 examples, and strengthens the implementation bridge into CH16 |
-| CH16 | Canonical Data Products as the Foundation | drafting | in_progress | draft_v1_ready | not_started | not_started | Artifact set, research pass 1, source notes, and draft v1 complete; chapter defines canonical data products as ontology-backed, governed, reusable operating assets |
+| CH16 | Canonical Data Products as the Foundation | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed and draft v2 now replaces the mechanical closing heading, sharpens the canonical-product definition, and improves the control-plane bridge |
 | CH17 | The AI Gateway (Control Plane) | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
 | CH18 | The Runtime: Agents and Orchestration | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
 | CH19 | Observability as Governance | not_started | not_started | not_started | not_started | not_started | AI-native governance chapter |
@@ -63,6 +63,9 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Session Log
 
 ### 2026-04-11
+
+- Ran the CH16 challenge round against `draft_v1`; outcome was `revise before proceeding`.
+- Created `04_manuscript/chapter_16/challenge_round.md` and `draft_v2.md` to tighten the canonical-product definition and replace the mechanical closing heading with a manuscript-facing transition.
 
 - Started CH16 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
 - Completed CH16 research pass 1 using official BNY data-management and data-platform materials plus primary sources on data-as-a-product, lineage, and regulated-finance control requirements.
@@ -283,10 +286,10 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Next Actions
 
 1. Re-read CH12 `draft_v1` and decide whether to run a practitioner challenge round before `draft_v2`.
-2. Re-read CH14 `draft_v2`, CH15 `draft_v2`, and CH16 `draft_v1` for final Part III to Part IV flow polish.
+2. Re-read CH14 `draft_v2`, CH15 `draft_v2`, and CH16 `draft_v2` for final Part III to Part IV flow polish.
 3. Start CH17 by creating the brief, research tracker, and claim register for the AI gateway / control-plane chapter.
 4. Read through `04_manuscript/manuscript_ch01_ch11.md` for flow, repetition, and tone consistency across the first eleven chapters.
-5. Decide whether CH16 should run a challenge round before `draft_v2` or move directly into a light architecture-polish revision.
+5. Decide whether CH16 `draft_v2` should receive one more narrow architecture-polish pass before CH17 starts.
 
 ## Update Rules
 
