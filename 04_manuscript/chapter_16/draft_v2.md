@@ -1,6 +1,6 @@
 # Chapter 16: Canonical Data Products as the Foundation
 
-CH15 made the semantic argument. An intelligent platform cannot reason reliably across records, events, workflows, and controls if the enterprise cannot represent what those things mean consistently. But that chapter also left an obvious implementation question behind. Shared meaning is necessary. What carries it into the real platform?
+The previous chapter made the semantic argument. An intelligent platform cannot reason reliably across records, events, workflows, and controls if the enterprise cannot represent what those things mean consistently. But that chapter also left an obvious implementation question behind. Shared meaning is necessary. What carries it into the real platform?
 
 The answer is canonical data products.
 
@@ -22,15 +22,11 @@ The phrase should be used carefully. A data product is not canonical just becaus
 
 That means at least five things.
 
-First, the semantics are explicit. The product represents a defined thing in the business: a client identity, an account structure, a security master, a cash position, a payment event, a collateral exposure, a lifecycle status, a control state. The meaning is documented well enough that consuming systems do not have to guess what the fields and states represent.
-
-Second, ownership is explicit. A product without a clear steward is just a shared dependency waiting to decay. Someone must be accountable for the representation, its quality standards, its change process, and its consumer obligations.
-
-Third, interfaces are explicit. Consumers need stable ways to use the product, whether through APIs, governed queries, event streams, or embedded services. A canonical product cannot require every consumer to negotiate a bespoke extract.
-
-Fourth, quality and controls are explicit. Consumers need to know what validation rules, permissions, freshness expectations, and policy constraints apply. In regulated finance, that is part of whether the product is usable at all.
-
-Fifth, lineage is explicit. The consumer should be able to tell where the product came from, how it was transformed, what upstream sources it depends on, and what changed. A product that cannot explain its own provenance may be useful for exploration. It is not strong enough to support intelligence at scale.
+- **Semantics are explicit.** The product represents a defined thing in the business: a client identity, an account structure, a security master, a cash position, a payment event, a collateral exposure, a lifecycle status, a control state. The meaning is documented well enough that consuming systems do not have to guess what the fields and states represent.
+- **Ownership is explicit.** A product without a clear steward is just a shared dependency waiting to decay. Someone must be accountable for the representation, its quality standards, its change process, and its consumer obligations.
+- **Interfaces are explicit.** Consumers need stable ways to use the product, whether through APIs, governed queries, event streams, or embedded services. A canonical product cannot require every consumer to negotiate a bespoke extract.
+- **Quality and controls are explicit.** Consumers need to know what validation rules, permissions, freshness expectations, and policy constraints apply. In regulated finance, that is part of whether the product is usable at all.
+- **Lineage is explicit.** The consumer should be able to tell where the product came from, how it was transformed, what upstream sources it depends on, and what changed. A product that cannot explain its own provenance may be useful for exploration. It is not strong enough to support intelligence at scale.
 
 That is the difference between a convenient data asset and a canonical data product.
 
@@ -84,7 +80,10 @@ An intelligence layer should not consume raw, semantically unstable data exhaust
 
 That changes several things at once.
 
-It improves reuse because multiple capabilities can rely on the same product instead of rebuilding extraction and mapping logic. It improves explanation because the system can point to stable product definitions and lineage rather than to improvised joins. It improves governance because permissions, quality checks, and controls can attach to durable products. It improves speed because later capabilities can compose products instead of beginning every project by rediscovering what the underlying records mean.
+- **Reuse improves** because multiple capabilities can rely on the same product instead of rebuilding extraction and mapping logic.
+- **Explanation improves** because the system can point to stable product definitions and lineage rather than to improvised joins.
+- **Governance improves** because permissions, quality checks, and controls can attach to durable products.
+- **Speed improves** because later capabilities can compose products instead of beginning every project by rediscovering what the underlying records mean.
 
 Without canonical products, AI initiatives keep drifting back toward handcrafted context assembly. With canonical products, the platform starts to accumulate reusable intelligence infrastructure. That lowers the marginal cost of each additional intelligence capability because more of the groundwork is already trustworthy, governed, and reusable.
 
@@ -94,7 +93,7 @@ A useful mental model is to think in layers.
 
 The ontology defines what the enterprise believes key concepts and relationships mean. The canonical data product carries one of those concepts into reusable operating form. Later architecture layers decide how intelligence services, models, policies, and workflows consume that product.
 
-Take client identity as an example. CH15 argues that the enterprise needs stable meaning around legal entities, client hierarchies, and relationships. CH16 says that this meaning should not remain trapped in a conceptual model or scattered across onboarding, servicing, compliance, and reporting systems. It should appear as a canonical product with explicit identifiers, relationship semantics, quality checks, lineage, permissions, and interfaces that many workflows can trust.
+Take client identity as an example. The previous chapter argues that the enterprise needs stable meaning around legal entities, client hierarchies, and relationships. This chapter argues that this meaning should not remain trapped in a conceptual model or scattered across onboarding, servicing, compliance, and reporting systems. It should appear as a canonical product with explicit identifiers, relationship semantics, quality checks, lineage, permissions, and interfaces that many workflows can trust.
 
 The same logic applies to a payment event product, a settlement-state product, a collateral-eligibility product, or an exception-state product. Once the enterprise has stable products for those concepts, later AI systems can do higher-value work: assemble context, recognize related events, recommend action, or route decisions with more confidence and better explanation.
 
@@ -102,7 +101,7 @@ That is a much more credible path to agentic finance than starting from prompts 
 
 ## What This Chapter Is Really Arguing
 
-CH16 is not a plea for prettier data architecture. It is an argument about leverage.
+This chapter is not a plea for prettier data architecture. It is an argument about leverage.
 
 Every time the enterprise lacks a canonical product for a concept that many workflows share, it pays again. It pays in mapping work, duplicate controls, inconsistent reporting, brittle AI behavior, slower delivery, and more reconciliation between local interpretations of the same underlying reality.
 

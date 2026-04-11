@@ -45,6 +45,33 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - CH16 Draft v2 Editorial Pass
+
+### Summary
+- Files changed: `04_manuscript/chapter_16/draft_v2.md`, `00_admin/progress_tracker.md`
+- Artifacts created or updated: revised `draft_v2.md` in place; no new files created
+- Chapter(s) affected: CH16
+
+### Decisions
+- Decision: converted two mechanical "First/Second/Third..." paragraph sequences into bulleted lists with bolded lead terms — the canonical-product definition (five criteria) and the AI-layer benefits (four items)
+- Rationale: the ordinal paragraph structure read as formulaic; bulleted format makes the criteria scannable without changing the substance
+- Decision: removed all CH## cross-references (CH15, CH16) and replaced with relative prose references ("the previous chapter", "this chapter")
+- Rationale: hard-coded chapter numbers break when the manuscript is edited for sequence and read as internal scaffolding rather than finished prose
+
+### Issues & Resolution
+- None
+
+### Editorial Comments
+- The two list-formatted sections now read more cleanly as argument structure rather than enumeration
+- Removing CH## references makes the prose feel more like a finished manuscript and less like a working draft
+
+### Lessons Learned
+- CH## references should be treated as draft scaffolding and removed before any editorial review pass
+
+### Next Steps
+- [ ] Assess whether CH16 draft_v2 is ready for editor review or needs one more pass
+- [ ] Begin CH17 brief and research tracker once CH16 is cleared
+
 ## [2026-04-11] - Tightened Editorial And Agent Rules From Progress-Log Patterns
 
 ### Summary
