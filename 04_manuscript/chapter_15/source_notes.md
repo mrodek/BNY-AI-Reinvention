@@ -4,7 +4,7 @@
 
 - Chapter ID: `CH15`
 - Working title: `The Ontology Problem`
-- Draft supported: `draft_v1`
+- Draft supported: `draft_v2`
 - Last updated: `2026-04-11`
 
 ## Citation Map
@@ -48,10 +48,10 @@
 
 ## Drafting Notes
 
-- `draft_v1` should define ontology in plain business language first: the enterprise has to know what its records mean, how concepts relate, and how states change over time.
+- `draft_v2` should define ontology in plain business language first: the enterprise has to know what its records mean, how concepts relate, and how states change over time.
 - Keep the core contrast explicit: integration moves data; ontology makes the data interpretable across contexts.
 - Use BCBS 239 to show that the practical cost of weak shared meaning is impaired decision-making, reporting, and control, not merely architecture untidiness.
-- Use FIBO, the FINOS CDM, and BIAN as evidence that finance has already recognized the need for formalized shared semantics at concept, product, event, process, and service-domain level.
+- Use FIBO, the FINOS CDM, BIAN, ISO 20022, and LEI/GLEIF as evidence that finance has already recognized the need for formalized shared semantics at concept, product, event, process, service-domain, message, and identity levels.
 - Use Legend to bridge from semantics to governed, reusable data products with lineage and quality controls.
 - End by showing that CH16's canonical data products are the implementation vehicle for the semantic discipline argued here.
 

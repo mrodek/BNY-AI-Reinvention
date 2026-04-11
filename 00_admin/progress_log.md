@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - Drafted Chapter 15 Version 2
+
+### Summary
+- Files changed: `04_manuscript/chapter_15/draft_v2.md`, `04_manuscript/chapter_15/source_notes.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH15 `draft_v2.md`, updated the source-note metadata to support the newer draft, and refreshed tracker state so CH15 now reflects `draft_v2_ready`
+- Chapter(s) affected: CH15, with direct bridge relevance to CH14 and CH16
+
+### Decisions
+- Decision: convert the challenge-round and secondary-research findings into a new chapter draft rather than continuing to accumulate notes around `draft_v1`
+- Rationale: CH15 had enough revision guidance to justify a clean new draft, and the semantic-layer distinctions are easier to read in prose than in scattered challenge notes
+- Alternatives rejected: leaving CH15 at `draft_v1`, making more invisible revisions inside the existing draft, or delaying prose changes until CH16 had started
+
+### Issues & Resolution
+- Issue: the standards section in `draft_v1` risked reading like a catalogue and slowing the reader after CH12 and CH14
+- Resolution: `draft_v2` now presents the standards as layered evidence: concept ontology, lifecycle semantics, banking service semantics, and concrete message and identity semantics
+- Issue: the chapter needed one more practical operating anchor
+- Resolution: added explicit LEI/GLEIF and ISO 20022 examples so the ontology problem is visible in entity identity and business-message semantics, not only in abstract modeling language
+
+### Editorial Comments
+- Comment: "go ahead"
+- Response: created CH15 `draft_v2.md`, updated the supporting notes and tracker/log artifacts, and completed the required draft commit workflow in the same pass
+
+### Lessons Learned
+- Insight: CH15 improves materially when the standards discussion is treated as a layered operating stack rather than as a set of adjacent references
+- What worked: turning the challenge-round findings directly into prose changes instead of continuing to extend the note scaffolding
+- What did not: nothing material in this pass, though CH15 may still benefit from one final narrow polish after a Part III sequence read
+
+### Next Steps
+- [ ] Re-read CH12 `draft_v1` and decide whether it should run a practitioner challenge round before `draft_v2`
+- [ ] Re-read CH14 `draft_v2` and CH15 `draft_v2` together for final Part III pacing
+- [ ] Start CH16 by creating the canonical data-products artifact set
+
 ## [2026-04-11] - Ran Part III Consistency And Flow Challenge Across Chapters 12, 14, And 15
 
 ### Summary
