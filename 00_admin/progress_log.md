@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - Drafted Chapter 14 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_14/chapter_brief.md`, `04_manuscript/chapter_14/research_tracker.md`, `04_manuscript/chapter_14/claim_register.md`, `04_manuscript/chapter_14/source_notes.md`, `04_manuscript/chapter_14/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the full CH14 artifact set, completed research pass 1, built the citation map, drafted `draft_v1.md`, and added `Intelligence Layer` to the manuscript glossary
+- Chapter(s) affected: CH14, with direct bridge logic from CH12 and forward bridge logic into CH15
+
+### Decisions
+- Decision: define intelligence as a governed context layer across BNY's existing platform rather than as a generic AI-tool category
+- Rationale: this keeps the chapter tightly connected to CH12's operating-system thesis and avoids turning Part III into a loose AI trend section
+- Alternatives rejected: treating CH14 as a survey of AI features, leaning on generic productivity use cases, or writing the chapter as speculative autonomy rhetoric
+
+### Issues & Resolution
+- Issue: CH14 could easily collapse into vague "AI as transformation" language unless it had a precise operational definition
+- Resolution: the draft defines the intelligence layer through concrete jobs: context assembly, relevance interpretation, prioritization, routing, explanation, and governed decision support
+- Issue: the chapter needed to stay strategic without outrunning the evidence on BNY's current internal integration depth
+- Resolution: the research set uses official BNY AI, data, annual-report, and Project Aikya materials plus NIST and BIS sources, and the draft treats the intelligence layer as a strategic requirement and opportunity rather than as a claim that BNY has already fully built it
+
+### Editorial Comments
+- Comment: "ok lets get started on a chapter 14, do the setup run research and create draft 1"
+- Response: created the artifact set, ran the first research pass with direct-link source logging, wrote the source notes, and completed CH14 `draft_v1` in the same work pass
+
+### Lessons Learned
+- Insight: CH14 is strongest when it distinguishes sharply between platform breadth and intelligence, then defines intelligence in workflow and governance terms rather than in model-centric terms
+- What worked: combining BNY's own AI-platform language with NIST and BIS governance framing to keep the chapter specific, sober, and regulated-finance-aware
+- What did not: nothing material in this pass, though the draft should still be checked for overlap with CH12 before moving to `draft_v2`
+
+### Next Steps
+- [ ] Re-read CH14 `draft_v1` for repetition against CH12 and tighten any duplicate platform framing
+- [ ] Decide whether CH14 should run a challenge round before CH15 begins
+- [ ] Start CH15 by creating the ontology chapter artifact set
+
 ## [2026-04-10] - Drafted Chapter 12 Version 1
 
 ### Summary

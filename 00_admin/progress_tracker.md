@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: review CH12 `draft_v1` after completing the consolidated research-and-drafting pass, while keeping the CH01-CH11 review artifact available for cohesion review
-- Next milestone: decide whether CH12 should run a challenge round before `draft_v2`, then move into CH14's missing-intelligence-layer setup
+- Current focus: review CH12 `draft_v1` after completing the consolidated research-and-drafting pass, while moving Part III forward through CH14's intelligence-layer thesis setup
+- Next milestone: decide whether CH12 should run a challenge round before `draft_v2`, then move into CH15's ontology foundation after CH14 `draft_v1`
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -26,7 +26,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH11 | Reconciliation Holds The System Together | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge-round watch items addressed: opening is less catalogue-like and title now matches the plainer capstone voice |
 | CH12 | BNY as the Financial Operating System | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; absorbs CH13 platform-economics logic into a grounded operating-system layer map and bridges to CH14's intelligence layer |
 | CH13 | Absorbed Into CH12 | absorbed | not_started | not_started | not_started | not_started | Former platform-thesis support chapter merged into CH12; do not draft separately unless later manuscript review reopens the structure |
-| CH14 | The Missing Layer: Intelligence | not_started | not_started | not_started | not_started | not_started | Intelligence-thesis support |
+| CH14 | The Missing Layer: Intelligence | drafting | in_progress | draft_v1_ready | not_started | not_started | Artifact set, research pass 1, source notes, and draft v1 complete; chapter defines intelligence as the governed context layer above BNY's operating platform and bridges to CH15 |
 | CH15 | The Ontology Problem | not_started | not_started | not_started | not_started | not_started | Semantic foundation chapter |
 | CH16 | Canonical Data Products as the Foundation | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
 | CH17 | The AI Gateway (Control Plane) | not_started | not_started | not_started | not_started | not_started | AI-native architecture chapter |
@@ -61,6 +61,14 @@ This file is the high-level dashboard for the project. It should stay concise an
 - `Graph Extract`: chapter has been converted into structured concepts, claims, and relationships
 
 ## Session Log
+
+### 2026-04-11
+
+- Started CH14 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
+- Completed CH14 research pass 1 using official BNY AI, data, annual-report, and Project Aikya materials plus NIST and BIS guidance on trustworthy AI and financial-services data governance.
+- Created `04_manuscript/chapter_14/source_notes.md` and `draft_v1.md`, moving CH14 from `not_started` to `drafting`.
+- Defined CH14 around the distinction between platform breadth and intelligence: the missing layer is governed contextual understanding across records, events, workflows, obligations, and controls.
+- Positioned CH15 as the immediate next step because the intelligence layer depends on shared meaning across systems.
 
 ### 2026-04-10
 
@@ -245,10 +253,10 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Next Actions
 
 1. Re-read CH12 `draft_v1` and decide whether to run a practitioner challenge round before `draft_v2`.
-2. Start CH14 by creating the brief, research tracker, and claim register for the missing-intelligence-layer chapter.
-3. Read through `04_manuscript/manuscript_ch01_ch11.md` for flow, repetition, and tone consistency across the first eleven chapters.
-4. Decide whether Part II needs a final cohesion pass now that CH11 has been tightened and its watch items have been addressed.
-5. Re-read CH09 `draft_v2` and CH10 `draft_v2` to decide whether they are ready for editor-facing review or need narrow polish.
+2. Re-read CH14 `draft_v1` for overlap with CH12 and decide whether a challenge round is needed before CH15 starts.
+3. Start CH15 by creating the brief, research tracker, and claim register for the ontology chapter.
+4. Read through `04_manuscript/manuscript_ch01_ch11.md` for flow, repetition, and tone consistency across the first eleven chapters.
+5. Decide whether Part II needs a final cohesion pass now that CH11 has been tightened and its watch items have been addressed.
 
 ## Update Rules
 
