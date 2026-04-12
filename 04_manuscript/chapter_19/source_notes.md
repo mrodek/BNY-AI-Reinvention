@@ -54,7 +54,7 @@
 - Full citation: NIST, `Artificial Intelligence Risk Management Framework (AI RMF 1.0)`
 - Link: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
 - Claims supported: CLM-001, CLM-002, CLM-005
-- Where used in draft: governance and measurement sections
+- Where used in draft: governance and measurement sections; risk-proportionate monitoring principle
 - Key supporting facts or paraphrase notes: deployment-context measurement should validate whether the system performs consistently as intended; measurable performance improvements or declines should be identified and documented across the lifecycle.
 - Limits or cautions: voluntary framework, so frame as governance vocabulary and discipline rather than formal banking law
 
@@ -72,7 +72,7 @@
 - Full citation: OpenTelemetry, `Signals`
 - Link: https://opentelemetry.io/docs/concepts/signals/
 - Claims supported: CLM-003
-- Where used in draft: telemetry section
+- Where used in draft: telemetry section; statement distinguishing telemetry from governance
 - Key supporting facts or paraphrase notes: defines traces as the path of a request, metrics as measurements captured at runtime, logs as recordings of events, and baggage as contextual information passed between signals.
 - Limits or cautions: observability standard documentation, not finance-specific
 
@@ -81,7 +81,7 @@
 - Full citation: OpenTelemetry, `Context Propagation`
 - Link: https://opentelemetry.io/docs/concepts/context-propagation/
 - Claims supported: CLM-003, CLM-004
-- Where used in draft: section on service-to-service and step-to-step correlation
+- Where used in draft: section on service-to-service and step-to-step correlation; intervention consequence in trace-context discussion
 - Key supporting facts or paraphrase notes: context propagation correlates signals regardless of where they are generated; trace ID and span ID make it possible to track the full flow of a request across service boundaries.
 - Limits or cautions: technical explainer rather than governance framework
 
@@ -90,6 +90,6 @@
 - Full citation: OpenAI, `New tools for building agents`
 - Link: https://openai.com/index/new-tools-for-building-agents/
 - Claims supported: CLM-001, CLM-002, CLM-005
-- Where used in draft: opening and observability sections; runtime-to-observability bridge
+- Where used in draft: opening and observability sections; runtime-to-observability bridge; section on agent systems raising the stakes
 - Key supporting facts or paraphrase notes: says production-ready agents need visibility and built-in support; describes integrated observability tools for tracing and inspecting agent workflow execution.
 - Limits or cautions: platform/product source; use for agent-observability concepts rather than broad industry claims

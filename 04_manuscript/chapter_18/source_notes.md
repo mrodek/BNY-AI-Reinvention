@@ -18,7 +18,7 @@
 - Full citation: BNY, `Annual Report 2025`
 - Link: https://www.bny.com/corporate/global/en/investor-relations/annual-report-2025.html
 - Claims supported: CLM-005
-- Where used in draft: opening BNY evidence section; closing transition on workflow embedding
+- Where used in draft: BNY evidence section; operating-payoff paragraph on workflow embedding and digital employees
 - Key supporting facts or paraphrase notes: BNY says its AI platform is model-agnostic, supports multi-agentic functionality, serves as a foundation for digital employees, and is being embedded into workflows and client solutions.
 - Limits or cautions: public strategic language, not a technical architecture disclosure
 
@@ -36,7 +36,7 @@
 - Full citation: Anthropic, `Building Effective AI Agents`
 - Link: https://www.anthropic.com/engineering/building-effective-agents
 - Claims supported: CLM-001, CLM-002, CLM-003
-- Where used in draft: workflow-versus-agent distinction; orchestration minimalism section
+- Where used in draft: workflow-versus-agent distinction; orchestration minimalism section; explicit selection rule for workflow vs. single-agent vs. multi-agent design
 - Key supporting facts or paraphrase notes: recommends using the simplest solution that works; distinguishes workflows from agents; identifies common orchestration patterns such as prompt chaining, routing, parallelization, evaluator-optimizer, and orchestrator-workers.
 - Limits or cautions: broad cross-industry guidance, not specific to financial-services regulation
 
@@ -72,6 +72,6 @@
 - Full citation: NIST, `Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile`
 - Link: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
 - Claims supported: CLM-003, CLM-004, CLM-006, CLM-007
-- Where used in draft: regulated-finance risk section; closing boundary with observability
+- Where used in draft: regulated-finance risk section; risk-proportionate autonomy paragraph; closing boundary with observability
 - Key supporting facts or paraphrase notes: names generative-AI risks such as confabulation, over-reliance, and human-AI configuration failures; useful for explaining why bounded execution and monitoring matter more as systems become multi-step and tool-using.
 - Limits or cautions: risk profile, not a runtime architecture manual

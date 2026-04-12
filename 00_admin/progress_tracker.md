@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: consolidated manuscript for CH01-CH19 created for review; CH17 draft_v2 and CH18-CH19 draft_v1 remain ready for challenge-round and editorial follow-up
-- Next milestone: review `manuscript_ch01_ch19.md`, then run the CH18 and CH19 challenge rounds before moving into Part V drafting
+- Current focus: CH18 and CH19 draft_v2 complete after challenge rounds; the Part IV architecture sequence is now ready for author review alongside CH17 draft_v2
+- Next milestone: author review of CH17 draft_v2, CH18 draft_v2, and CH19 draft_v2; then begin CH20 setup and research
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -30,8 +30,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH15 | The Ontology Problem | revising | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now tightens the standards section, adds concrete LEI/ISO 20022 examples, and strengthens the implementation bridge into CH16 |
 | CH16 | Canonical Data Products as the Foundation | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 editorial pass: converted mechanical paragraph lists to bulleted format, removed all CH## cross-references in favor of relative prose references |
 | CH17 | The AI Gateway (Control Plane) | in_editor_review | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft_v2 addresses SR 11-7 extension, Eliza/production distinction, concrete failure scenario, topology, CH19 boundary, and positive capability argument |
-| CH18 | The Runtime: Agents and Orchestration | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; distinguishes workflows from agents, defines the runtime as the execution layer for tools/state/approvals, and sets up CH19's observability boundary |
-| CH19 | Observability as Governance | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; reframes observability as the governance layer that interprets traces, metrics, logs, approvals, and outcomes over time |
+| CH18 | The Runtime: Agents and Orchestration | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 adds a clearer selection rule for workflow vs. single-agent vs. multi-agent design, sharper over-orchestration failure language, and a cleaner CH19 boundary |
+| CH19 | Observability as Governance | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 now states that observability complements prior governance layers, makes monitoring risk-proportionate, and sharpens the intervention bridge into CH20 |
 | CH20 | AI-Native Asset Servicing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH21 | AI-Native Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH22 | AI-Native Treasury Services | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
@@ -61,6 +61,14 @@ This file is the high-level dashboard for the project. It should stay concise an
 - `Graph Extract`: chapter has been converted into structured concepts, claims, and relationships
 
 ## Session Log
+
+### 2026-04-12
+
+- Ran the CH18 and CH19 challenge rounds and created `04_manuscript/chapter_18/challenge_round.md`, `draft_v2.md`, `04_manuscript/chapter_19/challenge_round.md`, and `draft_v2.md`.
+- Revised CH18 to make the workflow-versus-agent-versus-multi-agent choice more actionable, clarify bounded autonomy, and sharpen the over-orchestration failure mode.
+- Revised CH19 to state more explicitly that observability complements rather than replaces prior governance layers, make monitoring risk-proportionate, and connect correlated telemetry more directly to intervention and ownership.
+- Updated both chapter `source_notes.md` files so the claim support matches the revised `draft_v2` language.
+- Positioned CH20 as the next active drafting step after author review of the now-complete Part IV architecture sequence.
 
 ### 2026-04-11
 
@@ -302,11 +310,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Read through `04_manuscript/manuscript_ch01_ch19.md` for flow, repetition, and tone consistency across the opening architecture sequence.
-2. Run the CH18 challenge round before drafting `draft_v2`.
-3. Run the CH19 challenge round before drafting `draft_v2`.
-4. Re-read CH17 `draft_v2`, CH18 `draft_v1`, and CH19 `draft_v1` together for Part IV architecture flow and overlap.
-5. Begin CH20 setup and research once the Part IV sequence is pressure-tested.
+1. Review CH17 `draft_v2`, CH18 `draft_v2`, and CH19 `draft_v2` together as the Part IV architecture sequence.
+2. Begin CH20 setup and research once the Part IV sequence is cleared.
+3. Decide whether CH17 needs a narrow final polish after Part IV is reviewed as one unit.
+4. Read through `04_manuscript/manuscript_ch01_ch19.md` for flow, repetition, and tone consistency across the opening architecture sequence.
+5. Revisit whether CH16 should move to editor review now that CH17-CH19 are all materially shaped.
 
 ## Update Rules
 
