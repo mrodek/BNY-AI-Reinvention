@@ -250,6 +250,12 @@ What it means: An explicit model of the important things in a domain, the relati
 
 Why it matters in this book: Ontology is the semantic foundation for the book's intelligence-layer argument. It explains why AI cannot reason reliably across BNY's platform unless core concepts such as clients, accounts, positions, events, and obligations have stable shared meaning.
 
+### Observability
+
+What it means: The capability to reconstruct and interpret how a system behaves in production by correlating telemetry such as traces, metrics, logs, and contextual metadata across its components and workflows.
+
+Why it matters in this book: Observability is the final governance layer in the Part IV architecture stack. The book treats it not as a debugging convenience, but as the way BNY can monitor drift, anomalies, approvals, and outcomes across AI-native workflows over time.
+
 ### Orchestration
 
 What it means: The logic that coordinates how a task is decomposed, sequenced, handed off, retried, or evaluated across one or more AI-enabled steps or agents.
@@ -337,6 +343,12 @@ Why it matters in this book: Sub-custodian networks show why global custody is a
 What it means: A structured interface through which an AI system can access data, invoke a service, query an application, or take a bounded external action.
 
 Why it matters in this book: Tools are where AI systems stop being purely conversational and start affecting real workflows. The runtime chapters treat tool access as one of the main sources of both value and risk.
+
+### Telemetry
+
+What it means: The traces, metrics, logs, and related contextual signals a system emits about its own behavior while it is running.
+
+Why it matters in this book: Telemetry is the raw material of observability. The manuscript distinguishes between collecting telemetry and actually using it to govern AI-native workflows, detect drift, and intervene when behavior degrades.
 
 ### Transfer Agency
 

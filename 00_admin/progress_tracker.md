@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: CH18 draft_v1 complete after setup and research pass 1; CH17 draft_v2 remains ready for editorial review
-- Next milestone: author review of CH17 draft_v2 and CH18 draft_v1; then run the CH18 challenge round before draft_v2
+- Current focus: CH19 draft_v1 complete after setup and research pass 1; CH17 draft_v2 remains ready for editorial review while CH18 and CH19 both need challenge rounds before revision
+- Next milestone: author review of CH17 draft_v2 plus CH18 and CH19 draft_v1; then run the CH18 and CH19 challenge rounds before moving into Part V drafting
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -31,7 +31,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH16 | Canonical Data Products as the Foundation | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 editorial pass: converted mechanical paragraph lists to bulleted format, removed all CH## cross-references in favor of relative prose references |
 | CH17 | The AI Gateway (Control Plane) | in_editor_review | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft_v2 addresses SR 11-7 extension, Eliza/production distinction, concrete failure scenario, topology, CH19 boundary, and positive capability argument |
 | CH18 | The Runtime: Agents and Orchestration | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; distinguishes workflows from agents, defines the runtime as the execution layer for tools/state/approvals, and sets up CH19's observability boundary |
-| CH19 | Observability as Governance | not_started | not_started | not_started | not_started | not_started | AI-native governance chapter |
+| CH19 | Observability as Governance | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; reframes observability as the governance layer that interprets traces, metrics, logs, approvals, and outcomes over time |
 | CH20 | AI-Native Asset Servicing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH21 | AI-Native Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH22 | AI-Native Treasury Services | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
@@ -63,6 +63,12 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Session Log
 
 ### 2026-04-11
+
+- Started CH19 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
+- Completed CH19 research pass 1 using official BNY AI materials, SR 11-7, NIST AI RMF, W3C Trace Context, OpenTelemetry, and OpenAI's official agent observability language.
+- Created `04_manuscript/chapter_19/source_notes.md` and `draft_v1.md`, moving CH19 from `not_started` to `drafting`.
+- Added `Observability` and `Telemetry` to the manuscript glossary because both terms recur across the AI-native architecture and autonomy chapters.
+- Positioned CH20 as the next business-line step: with control, runtime, and observability defined, the manuscript can return to asset servicing and show what AI-native operation looks like in a real workflow domain.
 
 - Started CH18 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
 - Completed CH18 research pass 1 using BNY's 2025 annual report and Eliza materials plus primary official sources from Anthropic, OpenAI, Google Cloud, MCP, and NIST on agents, orchestration, tool use, and runtime controls.
@@ -294,10 +300,10 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Next Actions
 
 1. Run the CH18 challenge round before drafting `draft_v2`.
-2. Re-read CH16 `draft_v2`, CH17 `draft_v2`, and CH18 `draft_v1` together for Part IV architecture flow and overlap.
-3. Begin CH19 setup and research once the CH18 challenge round is complete.
-4. Read through `04_manuscript/manuscript_ch01_ch11.md` for flow, repetition, and tone consistency across the first eleven chapters.
-5. Decide whether CH17 `draft_v2` needs a narrow final polish after author review.
+2. Run the CH19 challenge round before drafting `draft_v2`.
+3. Re-read CH17 `draft_v2`, CH18 `draft_v1`, and CH19 `draft_v1` together for Part IV architecture flow and overlap.
+4. Begin CH20 setup and research once the Part IV sequence is pressure-tested.
+5. Read through `04_manuscript/manuscript_ch01_ch11.md` for flow, repetition, and tone consistency across the first eleven chapters.
 
 ## Update Rules
 

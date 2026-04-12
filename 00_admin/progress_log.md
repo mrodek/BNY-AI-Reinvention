@@ -45,6 +45,46 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - CH19 Setup, Research Pass 1, and Draft v1
+
+### Summary
+- Files changed: `04_manuscript/chapter_19/chapter_brief.md`, `04_manuscript/chapter_19/research_tracker.md`, `04_manuscript/chapter_19/claim_register.md`, `04_manuscript/chapter_19/source_notes.md`, `04_manuscript/chapter_19/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created: the full CH19 artifact set plus glossary additions and mandatory tracker/log updates
+- Chapter(s) affected: CH19, completing the Part IV architecture sequence and bridging directly into CH20
+
+### Decisions
+- Decision: frame observability as a governance capability rather than as a logging or SRE chapter
+- Rationale: CH17 and CH18 already established policy enforcement and runtime discipline; CH19 needed to explain how the institution interprets behavior across time rather than restate those controls
+- Decision: make the distinction between telemetry and governance central
+- Rationale: many enterprises collect logs and metrics but still lack a usable control picture, so the chapter needed to argue that correlated interpretation and intervention are what turn telemetry into governance
+- Decision: anchor the technical explanation on W3C Trace Context and OpenTelemetry rather than on vendor-specific observability tooling
+- Rationale: the chapter needed primary standards that explain causal traceability and signal correlation without collapsing into product selection
+- Decision: use reconciliation exception triage as the concrete workflow example
+- Rationale: the example fits BNY's operating reality, shows why override patterns and drift matter, and creates a clean bridge into CH20's asset-servicing redesign
+- Decision: use SR 11-7 and NIST AI RMF as the two main governance anchors
+- Rationale: they justify ongoing monitoring and deployment-context measurement in disciplined lifecycle language that risk and regulatory readers will recognize
+
+### Issues & Resolution
+- Issue: observability risked sounding like a generic engineering discipline rather than a governance chapter
+- Resolution: organized the draft around institutional questions such as drift, overrides, stale context, and degraded business outcomes rather than around tooling features
+- Issue: public BNY material is strong on continuous oversight and deployment scale but does not disclose internal observability architecture
+- Resolution: kept BNY claims at the level of public direction and governance posture, while presenting the observability layer as the required enterprise response rather than as a disclosed internal design
+
+### Editorial Comments
+- The chapter now draws a clean Part IV sequence: CH17 governs each request, CH18 governs each execution sequence, and CH19 governs confidence in the system over time.
+- The observability chapter is intentionally anti-dashboard and anti-tool-sprawl. Its emphasis is on causal traceability, interpretable patterns, and intervention.
+
+### Lessons Learned
+- Architecture chapters become much clearer when the controlling question is institutional rather than technical: not "what data do we collect?" but "what must the bank be able to see well enough to govern?"
+- Trace context is the cleanest way to make observability feel consequential instead of cosmetic because it links a technical implementation detail to accountability across many systems
+- The strongest boundary for CH19 is that it should complete the foundation and then leave immediately for business-line redesign, rather than continuing Part IV into another abstract layer
+
+### Next Steps
+- [ ] Run the CH18 challenge round before drafting `draft_v2`
+- [ ] Run the CH19 challenge round before drafting `draft_v2`
+- [ ] Re-read CH17 `draft_v2`, CH18 `draft_v1`, and CH19 `draft_v1` together for flow, overlap, and boundary discipline
+- [ ] Begin CH20 setup and research once the Part IV sequence is pressure-tested
+
 ## [2026-04-11] - CH18 Setup, Research Pass 1, and Draft v1
 
 ### Summary
