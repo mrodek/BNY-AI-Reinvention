@@ -45,6 +45,41 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-12] - Built Consolidated Manuscript For Chapters 1-19
+
+### Summary
+- Files changed: `04_manuscript/manuscript_ch01_ch19.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the first consolidated manuscript covering CH01 through CH19 using the latest available draft files on disk
+- Chapter(s) affected: CH01-CH19 as a reader-facing combined manuscript artifact
+
+### Decisions
+- Decision: build the consolidated file from the latest available draft for each chapter rather than from older partial manuscript files
+- Rationale: the combined manuscript should reflect the current disk truth, especially now that CH12 and CH17-CH19 exist and CH01-CH11 already have later revisions
+- Decision: omit CH13 as a standalone section and note explicitly that it was absorbed into CH12
+- Rationale: this preserves the intended manuscript sequence without creating the false impression that a chapter is missing accidentally
+- Decision: normalize the CH03 image path during consolidation
+- Rationale: the chapter-local `images/tradelifecycle.png` path would not render correctly from the manuscript root without adjustment
+
+### Issues & Resolution
+- Issue: the existing consolidated manuscript covered only CH01-CH11 and could not simply be extended blindly because CH12 onward now exists and CH13 is intentionally absorbed
+- Resolution: generated a new `manuscript_ch01_ch19.md` from the current latest chapter drafts, preserving part boundaries and adding an editorial note at the CH12/CH13 boundary
+- Issue: relative asset references can break when chapter text is moved from a chapter folder into the manuscript root
+- Resolution: updated the CH03 image reference in the consolidated manuscript output so it points to `chapter_03/images/tradelifecycle.png`
+
+### Editorial Comments
+- The consolidated file now gives the author one continuous read from the book opening through the end of Part IV, which should make pacing, repetition, and bridge quality much easier to judge
+- The CH13 absorbed note is worth keeping because readers reviewing the combined manuscript might otherwise assume a numbering error
+
+### Lessons Learned
+- Consolidated manuscript files should be regenerated from latest drafts rather than hand-extended over time once the chapter count gets large
+- Relative image and asset paths are the main structural risk when chapter-local drafts are promoted into a manuscript-root artifact
+
+### Next Steps
+- [ ] Read through `04_manuscript/manuscript_ch01_ch19.md` for flow, repetition, and transition quality
+- [ ] Run the CH18 challenge round before drafting `draft_v2`
+- [ ] Run the CH19 challenge round before drafting `draft_v2`
+- [ ] Begin CH20 setup once Part IV is pressure-tested against the consolidated manuscript
+
 ## [2026-04-11] - CH19 Setup, Research Pass 1, and Draft v1
 
 ### Summary

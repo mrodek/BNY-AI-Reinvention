@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: CH19 draft_v1 complete after setup and research pass 1; CH17 draft_v2 remains ready for editorial review while CH18 and CH19 both need challenge rounds before revision
-- Next milestone: author review of CH17 draft_v2 plus CH18 and CH19 draft_v1; then run the CH18 and CH19 challenge rounds before moving into Part V drafting
+- Current focus: consolidated manuscript for CH01-CH19 created for review; CH17 draft_v2 and CH18-CH19 draft_v1 remain ready for challenge-round and editorial follow-up
+- Next milestone: review `manuscript_ch01_ch19.md`, then run the CH18 and CH19 challenge rounds before moving into Part V drafting
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -63,6 +63,9 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Session Log
 
 ### 2026-04-11
+
+- Created `04_manuscript/manuscript_ch01_ch19.md` by consolidating the latest available drafts for CH01 through CH19 into one continuous manuscript file.
+- Preserved the part structure across CH01-CH19, normalized the CH03 image path so it renders from the manuscript root, and noted explicitly that CH13 is absorbed into CH12 rather than omitted by mistake.
 
 - Started CH19 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
 - Completed CH19 research pass 1 using official BNY AI materials, SR 11-7, NIST AI RMF, W3C Trace Context, OpenTelemetry, and OpenAI's official agent observability language.
@@ -299,11 +302,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Run the CH18 challenge round before drafting `draft_v2`.
-2. Run the CH19 challenge round before drafting `draft_v2`.
-3. Re-read CH17 `draft_v2`, CH18 `draft_v1`, and CH19 `draft_v1` together for Part IV architecture flow and overlap.
-4. Begin CH20 setup and research once the Part IV sequence is pressure-tested.
-5. Read through `04_manuscript/manuscript_ch01_ch11.md` for flow, repetition, and tone consistency across the first eleven chapters.
+1. Read through `04_manuscript/manuscript_ch01_ch19.md` for flow, repetition, and tone consistency across the opening architecture sequence.
+2. Run the CH18 challenge round before drafting `draft_v2`.
+3. Run the CH19 challenge round before drafting `draft_v2`.
+4. Re-read CH17 `draft_v2`, CH18 `draft_v1`, and CH19 `draft_v1` together for Part IV architecture flow and overlap.
+5. Begin CH20 setup and research once the Part IV sequence is pressure-tested.
 
 ## Update Rules
 
