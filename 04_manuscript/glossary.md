@@ -12,6 +12,12 @@ This glossary is part of the manuscript and is the canonical glossary for the bo
 
 ## A
 
+### Agent
+
+What it means: A software component that can interpret a goal, choose among available tools or next steps, and carry work forward across multiple interactions rather than returning only one static answer.
+
+Why it matters in this book: Agents are one of the central execution concepts in the AI-native architecture chapters. The book treats them as useful only when bounded by clear runtime controls, permissions, and oversight.
+
 ### Asset Servicing
 
 What it means: The set of operating activities required to keep assets, funds, cash balances, investor records, and related reports accurate, governable, and usable over time after trades have completed.
@@ -152,6 +158,12 @@ Why it matters in this book: Governance is a design requirement, not just a comp
 
 ## H
 
+### Human-in-the-Loop
+
+What it means: A control pattern in which a person can review, approve, deny, or override an AI system's proposed action before the action is completed or allowed to continue.
+
+Why it matters in this book: Human-in-the-loop controls matter because BNY's highest-stakes workflows cannot rely on unreviewed automation at every step. The book uses the term to distinguish useful bounded autonomy from opaque delegated judgment.
+
 ## I
 
 ### ISO 20022
@@ -238,6 +250,12 @@ What it means: An explicit model of the important things in a domain, the relati
 
 Why it matters in this book: Ontology is the semantic foundation for the book's intelligence-layer argument. It explains why AI cannot reason reliably across BNY's platform unless core concepts such as clients, accounts, positions, events, and obligations have stable shared meaning.
 
+### Orchestration
+
+What it means: The logic that coordinates how a task is decomposed, sequenced, handed off, retried, or evaluated across one or more AI-enabled steps or agents.
+
+Why it matters in this book: Orchestration is how the runtime turns isolated model calls into bounded operational workflows. It is one of the main places where execution discipline either accumulates or breaks down.
+
 ### Operating Model
 
 What it means: The practical arrangement of roles, workflows, decision rights, governance, incentives, and handoffs through which work actually gets done.
@@ -280,6 +298,12 @@ What it means: The comparison of records, balances, positions, cash movements, o
 
 Why it matters in this book: Reconciliation is one of the recurring hidden control mechanisms in the current financial system. It keeps the machine believable when activity lands across many systems, timings, and institutions.
 
+### Runtime
+
+What it means: The execution environment that manages state, tool use, approvals, retries, and completion across multi-step AI work.
+
+Why it matters in this book: Runtime is the layer that makes agentic systems operational rather than merely impressive in demos. It sits between governance policy and system-wide observability.
+
 ## S
 
 ### Safekeeping
@@ -307,6 +331,12 @@ What it means: A local or regional custody provider used by a global custodian t
 Why it matters in this book: Sub-custodian networks show why global custody is a coordination business carried across many local operating environments rather than one uniform process.
 
 ## T
+
+### Tool
+
+What it means: A structured interface through which an AI system can access data, invoke a service, query an application, or take a bounded external action.
+
+Why it matters in this book: Tools are where AI systems stop being purely conversational and start affecting real workflows. The runtime chapters treat tool access as one of the main sources of both value and risk.
 
 ### Transfer Agency
 

@@ -45,6 +45,45 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - CH18 Setup, Research Pass 1, and Draft v1
+
+### Summary
+- Files changed: `04_manuscript/chapter_18/chapter_brief.md`, `04_manuscript/chapter_18/research_tracker.md`, `04_manuscript/chapter_18/claim_register.md`, `04_manuscript/chapter_18/source_notes.md`, `04_manuscript/chapter_18/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created: the full CH18 artifact set plus glossary additions and mandatory tracker/log updates
+- Chapter(s) affected: CH18, with direct continuity from CH17 and a direct bridge into CH19
+
+### Decisions
+- Decision: frame CH18 around the runtime as the execution layer for state, tools, approvals, retries, and completion rather than as a generic "agents are coming" chapter
+- Rationale: CH17 already handled policy and per-request governance; CH18 needed to explain what governs cumulative behavior across time
+- Decision: make the workflow-versus-agent distinction central and explicitly argue for using the simplest execution pattern that works
+- Rationale: this keeps the chapter operationally disciplined and avoids turning orchestration into a catalogue of fashionable patterns
+- Decision: treat multi-agent design as a tradeoff rather than a default upgrade path
+- Rationale: every added agent creates another permission surface, handoff boundary, and failure mode, which matters much more in regulated financial workflows than in low-stakes demos
+- Decision: use a settlement-exception scenario as the concrete operating example
+- Rationale: the chapter needed one grounded workflow consequence before moving into abstractions about runtime, orchestration, and tool mediation
+- Decision: anchor BNY evidence on the 2025 annual report and Eliza materials rather than speculating about internal implementation details
+- Rationale: the annual report now explicitly uses the language of model agnosticism, multi-agentic functionality, digital employees, and workflow embedding, which is enough to support the direction-of-travel argument without overreach
+
+### Issues & Resolution
+- Issue: public BNY material is strong on platform direction but thin on the exact production runtime design
+- Resolution: kept BNY claims at the level of public evidence and wrote the runtime as the required architectural response rather than as a disclosed internal diagram
+- Issue: source-note support for CH17 appears to be missing on disk even though the chapter has a mature research tracker and draft
+- Resolution: left CH17 untouched in this pass and focused on producing a complete CH18 artifact set with `source_notes.md` included from the start
+
+### Editorial Comments
+- The runtime chapter now draws a clean line: CH17 governs each request, CH18 governs the execution sequence, and CH19 will govern interpretation across many runs over time
+- The orchestration section is intentionally anti-hype and should help the architecture sequence feel more executive-readable than a framework survey
+
+### Lessons Learned
+- Concrete workflow examples are especially important in architecture chapters because otherwise the prose can drift into stacks of abstractions
+- The workflow-versus-agent distinction is doing real editorial work; it keeps the chapter from sounding like every task should become autonomous
+- Tool access is the clearest way to explain why runtime design matters: text generation feels optional, tool invocation feels consequential
+
+### Next Steps
+- [ ] Run the CH18 challenge round before drafting `draft_v2`
+- [ ] Re-read CH17 `draft_v2` and CH18 `draft_v1` together to check that the control-plane and runtime boundaries remain crisp
+- [ ] Begin CH19 setup once the CH18 challenge round is complete
+
 ## [2026-04-11] - CH17 Challenge Round and Draft v2
 
 ### Summary
