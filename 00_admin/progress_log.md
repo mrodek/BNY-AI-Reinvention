@@ -45,6 +45,42 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-11] - CH17 Challenge Round and Draft v2
+
+### Summary
+- Files changed: `00_admin/progress_tracker.md`
+- Artifacts created: `04_manuscript/chapter_17/challenge_round.md`, `04_manuscript/chapter_17/draft_v2.md`
+- Chapter(s) affected: CH17
+
+### Decisions
+- Decision: added a concrete failure scenario (ungoverned trading agent, $4.7M loss in 12 minutes) to make the shadow AI risk operationally tangible rather than statistically abstract
+- Rationale: challenge round identified that industry-wide statistics do not land for a custody/settlement audience the way a specific operational failure mode does
+- Decision: distinguished Eliza (employee AI access governance) from the production control plane (governs AI in consequential financial workflows) explicitly rather than conflating them
+- Rationale: the challenge round correctly identified that Eliza's public description is primarily as a workplace AI tool; the chapter needed to use it as evidence of governance intent while acknowledging the production layer is a distinct architecture problem
+- Decision: reordered the chapter so the guardrails/policies vocabulary section comes before the functions breakdown
+- Rationale: readers need the conceptual vocabulary before the function list makes sense; the prior ordering put the list before the framework
+- Decision: tightened the auditability section and added an explicit CH19 boundary — the control plane produces the transaction record; observability interprets it at system level over time
+- Rationale: challenge round flagged that the original auditability section was doing CH19's work; the chapter now draws the boundary clearly
+- Decision: added SR 21-8 and 2023 interagency TPRM guidance as evidence that SR 11-7 principles extend to AI contexts, replacing the vague "regulators are extending the spirit" hedge
+- Rationale: specific regulatory artifacts are more credible than assertion; SR 21-8 and the 2023 TPRM guidance show the actual extension pattern
+
+### Issues & Resolution
+- Could not access the BPI/OCC PDF on SR 11-7 application to AI directly; used search summaries and SR 21-8 as the concrete regulatory extension evidence instead; adequate for draft_v2 but may warrant a deeper regulatory source in a later pass
+- The $4.7M trading agent failure scenario appears in practitioner sources; its exact provenance should be verified before final manuscript
+
+### Editorial Comments
+- The positive capability argument — governance enables ambition rather than restraining it — now has a dedicated paragraph and should resonate better with executive readers who might otherwise read the chapter as a compliance argument
+- The CH19 boundary section is now clean; the chapter closes the transaction-level audit argument and explicitly hands the system-level monitoring argument to the next chapter
+
+### Lessons Learned
+- Concrete failure scenarios make governance arguments land harder than statistics; worth building one into every architecture chapter that makes a risk case
+- The employee AI vs. production AI distinction is worth making explicitly in any chapter that uses enterprise AI platform evidence — they are different architecture layers
+
+### Next Steps
+- [ ] Author review of CH17 draft_v2
+- [ ] Verify provenance of the $4.7M trading agent failure scenario before final manuscript
+- [ ] Begin CH18 brief, research tracker, and claim register once CH17 review is complete
+
 ## [2026-04-11] - CH17 Research Pass 1 and Draft v1
 
 ### Summary
