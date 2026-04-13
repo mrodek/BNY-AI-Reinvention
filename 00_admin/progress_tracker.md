@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: CH19 challenge round completed and `draft_v2` now sharpens queue quality, control boundaries, and the observability-to-servicing handoff
-- Next milestone: author review of CH19 `draft_v2`, then decide whether to open CH20 or run a broader Part V sequence read
+- Current focus: CH25 `draft_v1` complete after setup and research pass 1; Part V now has a cross-domain capstone chapter built around proxy voting and post-KYC onboarding
+- Next milestone: author review of CH25 `draft_v1`, then run the CH25 challenge round before drafting `draft_v2`
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -37,7 +37,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH22 | AI-Native Pershing Platform | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH23 | AI-Native Investment Management | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH24 | AI-Native Collateral and Financing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
-| CH25 | AI-Native Enterprise Workflows | not_started | not_started | not_started | not_started | not_started | Cross-domain Part V chapter for workflows such as proxy voting, post-KYC onboarding, and other enterprise processes that span product silos |
+| CH25 | AI-Native Enterprise Workflows | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; frames proxy voting and post-KYC onboarding as cross-domain workflows built on shared client context, controls, and orchestrated execution |
 | CH26 | From Products to Intelligence Graphs | not_started | not_started | not_started | not_started | not_started | Cross-product breakthrough chapter |
 | CH27 | The Client Graph | not_started | not_started | not_started | not_started | not_started | Cross-product intelligence chapter |
 | CH28 | Event-Driven Intelligence Layer | not_started | not_started | not_started | not_started | not_started | Cross-product intelligence chapter |
@@ -63,6 +63,12 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Session Log
 
 ### 2026-04-13
+
+- Started CH25 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
+- Completed CH25 research pass 1 using BNY's 2025 annual report, Pershing workflow pages, SEC proxy-voting guidance, Broadridge proxy-voting workflow materials, Swift's KYC Registry, and GLEIF identity sources.
+- Created `04_manuscript/chapter_25/source_notes.md` and `draft_v1.md`, moving CH25 from `not_started` to `drafting`.
+- Positioned the chapter as the Part V capstone for workflows that do not belong neatly to one business line, using proxy voting and post-KYC onboarding to show why shared context, control, and observability matter above the product silo.
+- Added `KYC` and `Proxy Voting` to the manuscript glossary because both terms now matter beyond one chapter and are likely to recur in later workflow and graph chapters.
 
 - Added a separate `AGENTS_fiction.md` at the repo root as a fiction-oriented operating manual, preserving the existing nonfiction `AGENTS.md` while defining alternate rules around plot, character, scene continuity, worldbuilding, and story-bible maintenance.
 
@@ -329,11 +335,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Review CH19 `draft_v2` and decide whether it is ready to hold pending later Part V sequence edits.
-2. Decide whether CH20 should now be opened as the next future-state business-line chapter.
-3. Read through `04_manuscript/manuscript_ch01_ch19.md` for flow, repetition, and tone consistency across the opening architecture sequence after the chapter-flow cleanup.
-4. Revisit whether CH15 should move to editor review now that CH16-CH19 are all materially shaped.
-5. Decide whether CH16 needs a narrow final polish after Part IV is reviewed as one unit.
+1. Run the CH25 challenge round before drafting `draft_v2`.
+2. Decide whether proxy voting or post-KYC onboarding should open the polished version of CH25.
+3. Review CH19 `draft_v2` and decide whether it is ready to hold pending later Part V sequence edits.
+4. Decide whether CH20 should now be opened as the next future-state business-line chapter.
+5. Revisit whether CH15 should move to editor review now that CH16-CH19 are all materially shaped.
 
 ## Update Rules
 

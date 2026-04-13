@@ -45,6 +45,42 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-13] - CH25 Setup, Research Pass 1, and Draft v1
+
+### Summary
+- Files changed: `04_manuscript/chapter_25/chapter_brief.md`, `04_manuscript/chapter_25/research_tracker.md`, `04_manuscript/chapter_25/claim_register.md`, `04_manuscript/chapter_25/source_notes.md`, `04_manuscript/chapter_25/draft_v1.md`, `04_manuscript/glossary.md`, `02_outline/chapter_map.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created: the full CH25 starter set plus `draft_v1.md`, glossary additions, and mandatory tracker/log updates
+- Chapter(s) affected: CH25 directly, with structural effect on the Part V to Part VI transition
+
+### Decisions
+- Decision: write CH25 now as a standalone cross-domain chapter rather than waiting for CH20-CH24
+- Rationale: the chapter's job is to prove the value of shared context, controls, and orchestration across workflows, and that argument does not depend on finishing every remaining business-line chapter first
+- Decision: anchor `draft_v1` on proxy voting and post-KYC onboarding
+- Rationale: these are the two clearest lighthouse workflows currently identified, and together they show both sides of the enterprise-workflow pattern: client-lifecycle activation and deadline-driven entitlement execution
+- Decision: frame the chapter around enterprise workflows rather than around enterprise automation
+- Rationale: the important argument is not that these processes can be sped up, but that they depend on shared client, entity, document, entitlement, and approval state across business boundaries
+- Decision: make CH25 an explicit bridge into the graph chapters
+- Rationale: once these workflows are shown to depend on reasoning across clients, entities, accounts, documents, and events, the move into graph-native intelligence becomes much more natural
+
+### Issues & Resolution
+- Issue: CH25 could easily drift into a loose catalogue of use cases or repeat Part IV architecture abstractions
+- Resolution: constrained the chapter to two anchor workflows and made each section show the specific role of canonical products, control plane, runtime, and observability in practice
+- Issue: public BNY material is stronger on unified platforms and onboarding direction than on a fully disclosed end-to-end enterprise workflow architecture
+- Resolution: used BNY and Pershing sources to ground the platform direction, then paired them with official workflow sources from SEC, Swift, GLEIF, and Broadridge to build a disciplined target operating model without overstating internal implementation details
+
+### Editorial Comments
+- CH25 works best when it feels like the culmination of Part V rather than a miscellaneous appendix of use cases
+- Proxy voting and post-KYC onboarding complement each other well because one is client-activation heavy and the other is event-and-deadline heavy, yet both reveal the same need for shared context and governed execution
+
+### Lessons Learned
+- Cross-domain workflow chapters need a tighter source strategy than business-line chapters because no single business-page source captures the whole operating picture
+- The cleanest way to prevent a cross-domain chapter from becoming abstract is to use two concrete workflows that share the same architectural pattern
+
+### Next Steps
+- [ ] Run the CH25 challenge round before drafting `draft_v2`
+- [ ] Decide whether proxy voting or post-KYC onboarding should open the polished version of the chapter
+- [ ] Check whether CH26 should now be set up sooner while the workflow-to-graph bridge is fresh
+
 ## [2026-04-13] - CH19 Challenge Round And Draft v2 Revision
 
 ### Summary

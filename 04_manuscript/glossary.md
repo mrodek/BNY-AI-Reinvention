@@ -44,7 +44,7 @@ Why it matters in this book: BIAN matters because it complements ontology-heavy 
 
 What it means: A governed, reusable data asset that packages shared business meaning with clear ownership, interfaces, quality rules, lineage, and access controls so many workflows can rely on it consistently.
 
-Why it matters in this book: Canonical data products are the practical implementation layer for the semantic foundation argued in CH15 and the AI-native architecture developed from CH16 onward.
+Why it matters in this book: Canonical data products are the practical implementation layer for the semantic foundation argued in CH14 and the AI-native architecture developed from CH15 onward.
 
 ### Collateral
 
@@ -188,6 +188,12 @@ Why it matters in this book: The distinction between introducing and carrying fi
 
 ## K
 
+### KYC
+
+What it means: Know Your Customer, the due-diligence and verification process institutions use to identify clients, assess relevant risks, and satisfy applicable compliance obligations before and during a business relationship.
+
+Why it matters in this book: KYC matters because the book repeatedly distinguishes the risk gate itself from the longer operational workflow that follows it. Many client-lifecycle delays persist after KYC because identity, documentation, authority, and activation still remain fragmented across systems and teams.
+
 ### Knowledge Graph
 
 What it means: A structured representation of entities, relationships, and context that makes important business concepts and their connections explicit and queryable.
@@ -287,6 +293,12 @@ Why it matters in this book: The term is useful when discussing scalable adoptio
 What it means: A reusable foundation of shared capabilities, data, controls, and interfaces on which multiple products, workflows, or business activities can run.
 
 Why it matters in this book: Platform is one of the central strategic terms in the manuscript. It distinguishes BNY's deeper role in financial infrastructure from a collection of isolated products or services.
+
+### Proxy Voting
+
+What it means: The process by which an eligible shareholder or authorized intermediary votes on meeting matters without attending in person, typically through a workflow that combines entitlements, policies, instructions, deadlines, and records of how the vote was cast.
+
+Why it matters in this book: Proxy voting matters because it is a strong example of a cross-domain enterprise workflow. It depends on more than governance preference alone. It requires coordination across positions, issuer events, client authority, policy controls, communication, and auditable execution.
 
 ## Q
 
