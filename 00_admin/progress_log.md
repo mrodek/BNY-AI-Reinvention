@@ -107,6 +107,8 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 ### Editorial Comments
 - Direct author feedback: the first two examples in CH19 still felt handwavy and not concrete enough as use cases
 - Response: revised the NAV-oversight and reconciliation sections to add one compact scenario each, showing what the operator sees, what evidence the system assembles, and where human judgment still sits
+- Direct author feedback: the next two examples should be made equally concrete before moving on
+- Response: added one books-and-records quality scenario around a dividend/event-posting mismatch and one investor-servicing scenario around a subscription blocked by registration-data mismatch
 - The revision improves the chapter most where it states that better servicing means better queue quality, not simply more AI-generated activity
 - The observability handoff from CH18 now lands more cleanly because override rates, recommendation precision, and queue aging are framed as governance signals rather than generic metrics
 - The chapter still works best when it stays close to CH05's operating burden map rather than drifting into broad AI-platform language
