@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: CH20 `draft_v1` complete after setup and research pass 1; the first Part V chapter now turns the Part IV architecture into a supervised asset-servicing operating model
-- Next milestone: author review of CH20 `draft_v1`, then run the CH20 challenge round before drafting `draft_v2`
+- Current focus: CH19 challenge round completed and `draft_v2` now sharpens queue quality, control boundaries, and the observability-to-servicing handoff
+- Next milestone: author review of CH19 `draft_v2`, then decide whether to open CH20 or run a broader Part V sequence read
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -20,24 +20,24 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH05 | Asset Servicing (Custody and Fund Accounting) | in_editor_review | in_progress | draft_v3_ready | in_progress | not_started | Opening now clarifies that CH05 starts after trades are complete and focuses on keeping positions, funds, and records governable over time |
 | CH06 | Clearing and Settlement | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now incorporates editorial notes and challenge-round actions, including deeper trade-capture detail and a compact fail-management walkthrough |
 | CH07 | Treasury Services (Payments and Liquidity) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a same-day escalation scenario, sharper cutoff-pressure ownership language, and a clearer durability/economics bridge |
-| CH08 | Pershing (Wealth Infrastructure Platform) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a concrete advisor-service scenario, sharper carrying-layer consequences, and a tighter current-state bridge into CH23 |
-| CH09 | Investment Management | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now sharpens durable edge beyond generic judgment, strengthens the economics bridge, and makes the CH24 handoff more explicit |
-| CH10 | Collateral, Securities Lending, and Financing | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 sharpens BNY-versus-client role boundaries, distinguishes repo, lending, and margin workflows more explicitly, adds a concrete exception path, and makes the CH25 bridge more operational |
+| CH08 | Pershing (Wealth Infrastructure Platform) | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 adds a concrete advisor-service scenario, sharper carrying-layer consequences, and a tighter current-state bridge into CH22 |
+| CH09 | Investment Management | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now sharpens durable edge beyond generic judgment, strengthens the economics bridge, and makes the CH23 handoff more explicit |
+| CH10 | Collateral, Securities Lending, and Financing | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 sharpens BNY-versus-client role boundaries, distinguishes repo, lending, and margin workflows more explicitly, adds a concrete exception path, and makes the CH24 bridge more operational |
 | CH11 | Reconciliation Holds The System Together | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge-round watch items addressed: opening is less catalogue-like and title now matches the plainer capstone voice |
-| CH12 | BNY as the Financial Operating System | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; absorbs CH13 platform-economics logic into a grounded operating-system layer map and bridges to CH14's intelligence layer |
-| CH13 | Absorbed Into CH12 | absorbed | not_started | not_started | not_started | not_started | Former platform-thesis support chapter merged into CH12; do not draft separately unless later manuscript review reopens the structure |
-| CH14 | The Missing Layer: Intelligence | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed and draft v2 now tightens the CH12 handoff, reduces repetition, and makes the CH15 bridge more explicit |
-| CH15 | The Ontology Problem | revising | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now tightens the standards section, adds concrete LEI/ISO 20022 examples, and strengthens the implementation bridge into CH16 |
-| CH16 | Canonical Data Products as the Foundation | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 editorial pass: converted mechanical paragraph lists to bulleted format, removed all CH## cross-references in favor of relative prose references |
-| CH17 | The AI Gateway (Control Plane) | in_editor_review | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft_v2 addresses SR 11-7 extension, Eliza/production distinction, concrete failure scenario, topology, CH19 boundary, and positive capability argument |
-| CH18 | The Runtime: Agents and Orchestration | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 adds a clearer selection rule for workflow vs. single-agent vs. multi-agent design, sharper over-orchestration failure language, and a cleaner CH19 boundary |
-| CH19 | Observability as Governance | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 now states that observability complements prior governance layers, makes monitoring risk-proportionate, and sharpens the intervention bridge into CH20 |
-| CH20 | AI-Native Asset Servicing | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; reframes asset servicing as continuous supervised servicing with AI-native NAV oversight, reconciliation triage, investor tooling, and stronger transparency |
-| CH21 | AI-Native Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
-| CH22 | AI-Native Treasury Services | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
-| CH23 | AI-Native Pershing Platform | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
-| CH24 | AI-Native Investment Management | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
-| CH25 | AI-Native Collateral and Financing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH12 | BNY as the Financial Operating System | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; absorbs the former standalone platform-economics logic into a grounded operating-system layer map and bridges to CH13's intelligence layer |
+| CH13 | The Missing Layer: Intelligence | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed and draft v2 now tightens the CH12 handoff, reduces repetition, and makes the CH14 bridge more explicit |
+| CH14 | The Ontology Problem | revising | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now tightens the standards section, adds concrete LEI/ISO 20022 examples, and strengthens the implementation bridge into CH15 |
+| CH15 | Canonical Data Products as the Foundation | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 editorial pass: converted mechanical paragraph lists to bulleted format, removed all CH## cross-references in favor of relative prose references |
+| CH16 | The AI Gateway (Control Plane) | in_editor_review | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft_v2 addresses SR 11-7 extension, Eliza/production distinction, concrete failure scenario, topology, CH18 boundary, and positive capability argument |
+| CH17 | The Runtime: Agents and Orchestration | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 adds a clearer selection rule for workflow vs. single-agent vs. multi-agent design, sharper over-orchestration failure language, and a cleaner CH18 boundary |
+| CH18 | Observability as Governance | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 now states that observability complements prior governance layers, makes monitoring risk-proportionate, and sharpens the intervention bridge into CH19 |
+| CH19 | AI-Native Asset Servicing | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 sharpens queue-quality discipline, clarifies the autonomy stop line, and makes the investor-servicing and observability arguments more concrete |
+| CH20 | AI-Native Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH21 | AI-Native Treasury Services | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH22 | AI-Native Pershing Platform | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH23 | AI-Native Investment Management | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH24 | AI-Native Collateral and Financing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH25 | AI-Native Enterprise Workflows | not_started | not_started | not_started | not_started | not_started | Cross-domain Part V chapter for workflows such as proxy voting, post-KYC onboarding, and other enterprise processes that span product silos |
 | CH26 | From Products to Intelligence Graphs | not_started | not_started | not_started | not_started | not_started | Cross-product breakthrough chapter |
 | CH27 | The Client Graph | not_started | not_started | not_started | not_started | not_started | Cross-product intelligence chapter |
 | CH28 | Event-Driven Intelligence Layer | not_started | not_started | not_started | not_started | not_started | Cross-product intelligence chapter |
@@ -64,78 +64,88 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-13
 
-- Reviewed CH17 `draft_v2`, CH18 `draft_v2`, and CH19 `draft_v2` together and confirmed the Part IV sequence is clean enough to open Part V without a blocking overlap issue.
-- Started CH20 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
-- Completed CH20 research pass 1 using BNY's 2025 annual report, fund administration, fund services, integrated fund-and-investor solutions, investor solutions, and AI platform materials plus CH05's current-state servicing evidence base.
-- Positioned CH20 around continuous supervised servicing rather than full autonomy, with the strongest near-term wedges in NAV oversight, anomaly detection, reconciliation triage, investor servicing, and transparency.
-- Created `04_manuscript/chapter_20/source_notes.md` and `draft_v1.md`, moving CH20 from `not_started` to `drafting`.
+- Added a separate `AGENTS_fiction.md` at the repo root as a fiction-oriented operating manual, preserving the existing nonfiction `AGENTS.md` while defining alternate rules around plot, character, scene continuity, worldbuilding, and story-bible maintenance.
+
+- Removed the numbering gap created when the former standalone platform-economics chapter was absorbed into CH12, restoring a clean sequential chapter flow across the outline, tracker, and combined manuscript.
+- Confirmed the new cross-domain Part V chapter remains in the structure as `CH25 | AI-Native Enterprise Workflows`, with all downstream chapters now aligned back to the 39-chapter sequence.
+
+- Updated the manuscript architecture to add `CH25 | AI-Native Enterprise Workflows` at the end of Part V for cross-domain use cases such as proxy voting and post-KYC client onboarding, then renumbered downstream chapters through the closing chapter.
+- Positioned the new chapter as the bridge between business-line reinvention and Part VI's cross-product intelligence argument: some of the strongest early lighthouse workflows span operations, servicing, approvals, outreach, and shared client context rather than fitting one silo cleanly.
+
+- Reviewed CH16 `draft_v2`, CH17 `draft_v2`, and CH18 `draft_v2` together and confirmed the Part IV sequence is clean enough to open Part V without a blocking overlap issue.
+- Started CH19 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
+- Completed CH19 research pass 1 using BNY's 2025 annual report, fund administration, fund services, integrated fund-and-investor solutions, investor solutions, and AI platform materials plus CH05's current-state servicing evidence base.
+- Positioned CH19 around continuous supervised servicing rather than full autonomy, with the strongest near-term wedges in NAV oversight, anomaly detection, reconciliation triage, investor servicing, and transparency.
+- Created `04_manuscript/chapter_19/source_notes.md` and `draft_v1.md`, moving CH19 from `not_started` to `drafting`.
 - Positioned the chapter as the first business-line proof of the Part IV stack: canonical data products, runtime controls, and observability now show up as earlier detection, better case assembly, clearer explanations, and bounded autonomy in servicing workflows.
+- Ran the CH19 challenge round and created `04_manuscript/chapter_19/challenge_round.md`.
+- Revised CH19 into `draft_v2.md` to sharpen the queue-quality argument, distinguish present public signals from the inferred target operating model, make investor-servicing transparency more concrete, and state the autonomy stop line more plainly.
 
 ### 2026-04-12
 
-- Ran the CH18 and CH19 challenge rounds and created `04_manuscript/chapter_18/challenge_round.md`, `draft_v2.md`, `04_manuscript/chapter_19/challenge_round.md`, and `draft_v2.md`.
-- Revised CH18 to make the workflow-versus-agent-versus-multi-agent choice more actionable, clarify bounded autonomy, and sharpen the over-orchestration failure mode.
-- Revised CH19 to state more explicitly that observability complements rather than replaces prior governance layers, make monitoring risk-proportionate, and connect correlated telemetry more directly to intervention and ownership.
+- Ran the CH17 and CH18 challenge rounds and created `04_manuscript/chapter_17/challenge_round.md`, `draft_v2.md`, `04_manuscript/chapter_18/challenge_round.md`, and `draft_v2.md`.
+- Revised CH17 to make the workflow-versus-agent-versus-multi-agent choice more actionable, clarify bounded autonomy, and sharpen the over-orchestration failure mode.
+- Revised CH18 to state more explicitly that observability complements rather than replaces prior governance layers, make monitoring risk-proportionate, and connect correlated telemetry more directly to intervention and ownership.
 - Updated both chapter `source_notes.md` files so the claim support matches the revised `draft_v2` language.
-- Positioned CH20 as the next active drafting step after author review of the now-complete Part IV architecture sequence.
+- Positioned CH19 as the next active drafting step after author review of the now-complete Part IV architecture sequence.
 
 ### 2026-04-11
 
-- Created `04_manuscript/manuscript_ch01_ch19.md` by consolidating the latest available drafts for CH01 through CH19 into one continuous manuscript file.
-- Preserved the part structure across CH01-CH19, normalized the CH03 image path so it renders from the manuscript root, and noted explicitly that CH13 is absorbed into CH12 rather than omitted by mistake.
-
-- Started CH19 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
-- Completed CH19 research pass 1 using official BNY AI materials, SR 11-7, NIST AI RMF, W3C Trace Context, OpenTelemetry, and OpenAI's official agent observability language.
-- Created `04_manuscript/chapter_19/source_notes.md` and `draft_v1.md`, moving CH19 from `not_started` to `drafting`.
-- Added `Observability` and `Telemetry` to the manuscript glossary because both terms recur across the AI-native architecture and autonomy chapters.
-- Positioned CH20 as the next business-line step: with control, runtime, and observability defined, the manuscript can return to asset servicing and show what AI-native operation looks like in a real workflow domain.
+- Created the first `04_manuscript/manuscript_ch01_ch19.md` as a continuous manuscript artifact for the opening sequence, later superseded by the renumber-cleanup regeneration that now runs cleanly through CH19.
+- Preserved the part structure and normalized the CH03 image path so it renders correctly from the manuscript root.
 
 - Started CH18 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
-- Completed CH18 research pass 1 using BNY's 2025 annual report and Eliza materials plus primary official sources from Anthropic, OpenAI, Google Cloud, MCP, and NIST on agents, orchestration, tool use, and runtime controls.
+- Completed CH18 research pass 1 using official BNY AI materials, SR 11-7, NIST AI RMF, W3C Trace Context, OpenTelemetry, and OpenAI's official agent observability language.
 - Created `04_manuscript/chapter_18/source_notes.md` and `draft_v1.md`, moving CH18 from `not_started` to `drafting`.
+- Added `Observability` and `Telemetry` to the manuscript glossary because both terms recur across the AI-native architecture and autonomy chapters.
+- Positioned CH19 as the next business-line step: with control, runtime, and observability defined, the manuscript can return to asset servicing and show what AI-native operation looks like in a real workflow domain.
+
+- Started CH17 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
+- Completed CH17 research pass 1 using BNY's 2025 annual report and Eliza materials plus primary official sources from Anthropic, OpenAI, Google Cloud, MCP, and NIST on agents, orchestration, tool use, and runtime controls.
+- Created `04_manuscript/chapter_17/source_notes.md` and `draft_v1.md`, moving CH17 from `not_started` to `drafting`.
 - Added `Agent`, `Human-in-the-Loop`, `Orchestration`, `Runtime`, and `Tool` to the manuscript glossary because these terms recur across Part IV and later AI-native workflow chapters.
-- Positioned CH19 as the next architecture step: once runtime behavior is bounded and recoverable, the next question is how the institution interprets patterns, drift, and failure across many runs over time.
+- Positioned CH18 as the next architecture step: once runtime behavior is bounded and recoverable, the next question is how the institution interprets patterns, drift, and failure across many runs over time.
 
 - Reviewed `progress_log.md` for repeated drafting and editorial patterns, then updated `editorial_style_guide.md` and `AGENTS.md` to tighten rules around adjacent-chapter flow, standards sections, reader-facing reference links, and tracker-state hygiene.
 
-- Ran the CH16 challenge round against `draft_v1`; outcome was `revise before proceeding`.
-- Created `04_manuscript/chapter_16/challenge_round.md` and `draft_v2.md` to tighten the canonical-product definition and replace the mechanical closing heading with a manuscript-facing transition.
-
-- Started CH16 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
-- Completed CH16 research pass 1 using official BNY data-management and data-platform materials plus primary sources on data-as-a-product, lineage, and regulated-finance control requirements.
-- Created `04_manuscript/chapter_16/source_notes.md` and `draft_v1.md`, moving CH16 from `not_started` to `drafting`.
-- Added `Canonical Data Product` and `Data Lineage` to the manuscript glossary because both concepts are likely to recur across Part IV and later AI-native architecture chapters.
-- Positioned CH17 as the next architecture step: once trusted canonical products exist, the next question is how intelligence is routed and governed across them.
-
-- Created `04_manuscript/chapter_15/draft_v2.md` by applying the challenge-round findings in one focused revision pass.
-- Tightened the standards section so it reads as layered semantic evidence rather than a catalogue, added concrete LEI and ISO 20022 examples, and strengthened the implementation bridge into CH16.
-- Added a compact reader-facing reference section to CH15 `draft_v2.md` with clickable links to BCBS 239, FIBO, FINOS, BIAN, ISO 20022, and GLEIF/LEI so standards and regulatory materials can be explored directly from the chapter draft.
-
-- Ran a Part III consistency-and-flow challenge across CH12, CH14, and CH15, confirming the platform-to-intelligence-to-ontology progression while flagging CH15's standards section as the main pacing risk before `draft_v2`.
-- Updated CH15 `challenge_round.md` with the cross-chapter cohesion findings and retitled the closing draft section from `Why CH16 Follows` to `From Shared Meaning To Operating Infrastructure`.
-
 - Ran the CH15 challenge round against `draft_v1`; outcome was `revise before proceeding`.
-- Completed CH15 secondary research on ISO 20022 business semantics and LEI/GLEIF identity semantics, expanding the notes and claim base with more concrete examples of message and entity meaning.
-- Added `ISO 20022` and `LEI` to the manuscript glossary because both terms are likely to recur in later architecture chapters.
-
-- Ran the CH14 challenge round against `draft_v1`; outcome was `revise before proceeding`.
-- Created `04_manuscript/chapter_14/challenge_round.md` and `draft_v2.md` to tighten consistency and flow with CH12.
-- Reduced repeated platform setup in CH14, moved faster into the intelligence definition, and made the CH15 ontology bridge more explicit.
-
-- Completed CH15 research pass 2 on BIAN and revised `draft_v1.md`, `research_tracker.md`, `claim_register.md`, and `source_notes.md` to add banking service-domain, business-object, and semantic-API standards context.
-- Added `BIAN` to the manuscript glossary because the standard is likely to recur in Part III and Part IV architecture chapters.
+- Created `04_manuscript/chapter_15/challenge_round.md` and `draft_v2.md` to tighten the canonical-product definition and replace the mechanical closing heading with a manuscript-facing transition.
 
 - Started CH15 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
-- Completed CH15 research pass 1 using official BNY data-governance and AI-governance materials plus BCBS 239, FIBO, FINOS Legend, and the FINOS Common Domain Model.
+- Completed CH15 research pass 1 using official BNY data-management and data-platform materials plus primary sources on data-as-a-product, lineage, and regulated-finance control requirements.
 - Created `04_manuscript/chapter_15/source_notes.md` and `draft_v1.md`, moving CH15 from `not_started` to `drafting`.
-- Added `Ontology` and `Semantic Interoperability` to the manuscript glossary to support Part III and Part IV terminology.
-- Positioned CH16 as the implementation follow-on: canonical data products are the practical carrier of shared meaning across the platform.
+- Added `Canonical Data Product` and `Data Lineage` to the manuscript glossary because both concepts are likely to recur across Part IV and later AI-native architecture chapters.
+- Positioned CH16 as the next architecture step: once trusted canonical products exist, the next question is how intelligence is routed and governed across them.
+
+- Created `04_manuscript/chapter_14/draft_v2.md` by applying the challenge-round findings in one focused revision pass.
+- Tightened the standards section so it reads as layered semantic evidence rather than a catalogue, added concrete LEI and ISO 20022 examples, and strengthened the implementation bridge into CH15.
+- Added a compact reader-facing reference section to CH14 `draft_v2.md` with clickable links to BCBS 239, FIBO, FINOS, BIAN, ISO 20022, and GLEIF/LEI so standards and regulatory materials can be explored directly from the chapter draft.
+
+- Ran a Part III consistency-and-flow challenge across CH12, CH13, and CH14, confirming the platform-to-intelligence-to-ontology progression while flagging CH14's standards section as the main pacing risk before `draft_v2`.
+- Updated CH14 `challenge_round.md` with the cross-chapter cohesion findings and retitled the closing draft section from `Why CH15 Follows` to `From Shared Meaning To Operating Infrastructure`.
+
+- Ran the CH14 challenge round against `draft_v1`; outcome was `revise before proceeding`.
+- Completed CH14 secondary research on ISO 20022 business semantics and LEI/GLEIF identity semantics, expanding the notes and claim base with more concrete examples of message and entity meaning.
+- Added `ISO 20022` and `LEI` to the manuscript glossary because both terms are likely to recur in later architecture chapters.
+
+- Ran the CH13 challenge round against `draft_v1`; outcome was `revise before proceeding`.
+- Created `04_manuscript/chapter_13/challenge_round.md` and `draft_v2.md` to tighten consistency and flow with CH12.
+- Reduced repeated platform setup in CH13, moved faster into the intelligence definition, and made the CH14 ontology bridge more explicit.
+
+- Completed CH14 research pass 2 on BIAN and revised `draft_v1.md`, `research_tracker.md`, `claim_register.md`, and `source_notes.md` to add banking service-domain, business-object, and semantic-API standards context.
+- Added `BIAN` to the manuscript glossary because the standard is likely to recur in Part III and Part IV architecture chapters.
 
 - Started CH14 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
-- Completed CH14 research pass 1 using official BNY AI, data, annual-report, and Project Aikya materials plus NIST and BIS guidance on trustworthy AI and financial-services data governance.
+- Completed CH14 research pass 1 using official BNY data-governance and AI-governance materials plus BCBS 239, FIBO, FINOS Legend, and the FINOS Common Domain Model.
 - Created `04_manuscript/chapter_14/source_notes.md` and `draft_v1.md`, moving CH14 from `not_started` to `drafting`.
-- Defined CH14 around the distinction between platform breadth and intelligence: the missing layer is governed contextual understanding across records, events, workflows, obligations, and controls.
-- Positioned CH15 as the immediate next step because the intelligence layer depends on shared meaning across systems.
+- Added `Ontology` and `Semantic Interoperability` to the manuscript glossary to support Part III and Part IV terminology.
+- Positioned CH15 as the implementation follow-on: canonical data products are the practical carrier of shared meaning across the platform.
+
+- Started CH13 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
+- Completed CH13 research pass 1 using official BNY AI, data, annual-report, and Project Aikya materials plus NIST and BIS guidance on trustworthy AI and financial-services data governance.
+- Created `04_manuscript/chapter_13/source_notes.md` and `draft_v1.md`, moving CH13 from `not_started` to `drafting`.
+- Defined CH13 around the distinction between platform breadth and intelligence: the missing layer is governed contextual understanding across records, events, workflows, obligations, and controls.
+- Positioned CH14 as the immediate next step because the intelligence layer depends on shared meaning across systems.
 
 ### 2026-04-10
 
@@ -166,17 +176,17 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Seeded CH11 research with an initial source queue spanning BNY data, custody, managed-account, and middle-office sources plus DTCC and ISDA materials on exception management and portfolio reconciliation.
 - Updated CH11 lifecycle from `not_started` to `researching`.
 - Created `04_manuscript/chapter_10/draft_v2.md` by applying the practitioner challenge-round revisions in one focused pass.
-- Sharpened actor boundaries across BNY, client, and market participants; distinguished repo, securities lending, and margin workflows more explicitly; added a failed-eligibility/recall exception path; and made the CH25 handoff more concrete.
+- Sharpened actor boundaries across BNY, client, and market participants; distinguished repo, securities lending, and margin workflows more explicitly; added a failed-eligibility/recall exception path; and made the CH24 handoff more concrete.
 - Ran the CH10 challenge round against `draft_v1` from a practitioner perspective; outcome was `revise before proceeding`.
-- Logged targeted revision priorities for CH10: sharpen BNY-versus-client role boundaries, distinguish triparty, securities lending, and margin workflows more explicitly, add one concrete exception sequence, and tighten the CH25 handoff.
+- Logged targeted revision priorities for CH10: sharpen BNY-versus-client role boundaries, distinguish triparty, securities lending, and margin workflows more explicitly, add one concrete exception sequence, and tighten the CH24 handoff.
 - Created `04_manuscript/chapter_09/draft_v2.md` by applying the challenge-round revisions in one focused pass.
 - Sharpened CH09's account of durable edge by naming process design, mandate interpretation, governance credibility, and client trust alongside judgment.
-- Strengthened the economics bridge around shared tooling, operating leverage, and narrowing premium differentiation, and tightened the CH24 handoff question.
+- Strengthened the economics bridge around shared tooling, operating leverage, and narrowing premium differentiation, and tightened the CH23 handoff question.
 - Updated the editorial style guide to discourage stage-direction prose and dramatic contrast lines in manuscript chapters.
 - Revised CH10 `draft_v1.md` to remove the rhetorical "sober point, not a futuristic one" framing and retitled the closing section more directly.
 - Added a CH09 paragraph arguing that BNY's broader platform businesses may create an investment-management advantage through scale, operating coherence, and efficiency rather than through front-office insight alone.
 - Ran the CH09 challenge round against `draft_v1`; outcome was `revise before proceeding`.
-- Logged targeted revision priorities for CH09: sharpen what remains differentiated beyond generic judgment, strengthen the economics bridge, and make the CH24 handoff more explicit.
+- Logged targeted revision priorities for CH09: sharpen what remains differentiated beyond generic judgment, strengthen the economics bridge, and make the CH23 handoff more explicit.
 - Created `04_manuscript/chapter_10/source_notes.md` and `draft_v1.md` to convert the CH10 research base into a first current-state collateral and financing chapter draft.
 - Moved CH10 from `researching` to `drafting`.
 - Created `04_manuscript/appendix_b_nonstandard_collateral/` with `appendix_brief.md` and `final.md` to hold contextual contrast on exotic or bespoke collateral outside CH10's core scope.
@@ -198,7 +208,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Seeded CH09 research with an initial source queue spanning BNY investment operations and data platforms plus CFA Institute and McKinsey sources on AI in asset management.
 - Updated CH09 lifecycle from `not_started` to `researching`.
 - Created `04_manuscript/chapter_08/product_inventory.md` as an FDE-facing inventory of Pershing branded platforms and solution families, grouped by workflow relevance and chapter relevance.
-- Distinguished core CH08 platform anchors from broader solution families and more future-state offerings better reserved for CH23.
+- Distinguished core CH08 platform anchors from broader solution families and more future-state offerings better reserved for CH22.
 - Expanded the CH08 product inventory with a client-type view and marked it as a plausible appendix candidate for the manuscript.
 - Replaced CH07's negating transition line with a stronger statement that treats current-state friction as the operating signature of a dependency-heavy business.
 - Reorganized CH07's `Where The Current Model Still Strains` section into a bulleted list to make the current-state burden easier to scan.
@@ -208,7 +218,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Revised `04_manuscript/chapter_07/draft_v2.md` to add a compact rail-inventory table in the rail-diversity section.
 - Made the rail section more scannable by distinguishing Fedwire, CHAPS, SWIFT, and TARGET Services by role, operating profile, and coordination burden.
 - Created `04_manuscript/chapter_08/draft_v2.md` by applying the CH08 challenge-round revisions in one focused pass.
-- Added a compact advisor-and-service workflow scenario, sharpened the carrying layer's day-to-day consequences, made the open-ecosystem section more wealth-specific, and tightened the current-state bridge into CH23.
+- Added a compact advisor-and-service workflow scenario, sharpened the carrying layer's day-to-day consequences, made the open-ecosystem section more wealth-specific, and tightened the current-state bridge into CH22.
 - Created `04_manuscript/chapter_07/draft_v2.md` by applying the challenge-round revisions in one focused pass.
 - Added a same-day treasury escalation scenario, strengthened ownership language across operations, treasury, service, and risk, and rewrote forecasting qualification so it stays inside the operating narrative.
 - Sharpened CH07's durability section so client dependency, execution certainty, and funding-scramble avoidance carry the economics bridge more clearly.
@@ -236,7 +246,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 - Created `04_manuscript/chapter_08/source_notes.md` and `draft_v1.md` to convert the CH08 research base into a first current-state platform chapter draft.
 - Moved CH08 from `researching` to `drafting`.
 - Ran the CH08 challenge round against `draft_v1`; outcome was `revise before proceeding`.
-- Logged targeted revision priorities for CH08: add one compact operating scenario, make the carrying layer's day-to-day consequences more explicit, keep the open-ecosystem section more wealth-specific, and cool the CH23 bridge slightly.
+- Logged targeted revision priorities for CH08: add one compact operating scenario, make the carrying layer's day-to-day consequences more explicit, keep the open-ecosystem section more wealth-specific, and cool the CH22 bridge slightly.
 - Initiated CH08 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md` in `04_manuscript/chapter_08/`.
 - Seeded CH08 research with an initial source queue spanning Pershing platform pages plus FINRA and SEC context on carrying and custody responsibilities.
 - Updated CH08 lifecycle from `not_started` to `researching`.
@@ -319,11 +329,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Run the CH20 challenge round before drafting `draft_v2`.
-2. Decide whether CH17 needs a narrow final polish after Part IV is reviewed as one unit.
-3. Read through `04_manuscript/manuscript_ch01_ch19.md` for flow, repetition, and tone consistency across the opening architecture sequence.
-4. Revisit whether CH16 should move to editor review now that CH17-CH19 are all materially shaped.
-5. Decide whether CH20 needs a second research pass before or after the challenge round.
+1. Review CH19 `draft_v2` and decide whether it is ready to hold pending later Part V sequence edits.
+2. Decide whether CH20 should now be opened as the next future-state business-line chapter.
+3. Read through `04_manuscript/manuscript_ch01_ch19.md` for flow, repetition, and tone consistency across the opening architecture sequence after the chapter-flow cleanup.
+4. Revisit whether CH15 should move to editor review now that CH16-CH19 are all materially shaped.
+5. Decide whether CH16 needs a narrow final polish after Part IV is reviewed as one unit.
 
 ## Update Rules
 

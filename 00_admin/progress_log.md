@@ -45,17 +45,154 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
-## [2026-04-13] - CH20 Setup, Research Pass 1, and Draft v1
+## [2026-04-13] - CH19 Challenge Round And Draft v2 Revision
 
 ### Summary
-- Files changed: `04_manuscript/chapter_20/chapter_brief.md`, `04_manuscript/chapter_20/research_tracker.md`, `04_manuscript/chapter_20/claim_register.md`, `04_manuscript/chapter_20/source_notes.md`, `04_manuscript/chapter_20/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created: the full CH20 starter set plus `draft_v1.md` and mandatory tracker/log updates
-- Chapter(s) affected: CH20 directly, with a sequencing check across CH17-CH19 and continuity from CH05
+- Files changed: `04_manuscript/chapter_19/challenge_round.md`, `04_manuscript/chapter_19/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH19 challenge-round file plus `draft_v2.md`, with tracker and log state synchronized in the same pass
+- Chapter(s) affected: CH19 directly, with adjacent-sequence checks against CH05 and CH18
 
 ### Decisions
-- Decision: proceed from the CH17-CH19 sequence directly into CH20 without another blocking revision pass
+- Decision: revise CH19 immediately after the challenge round instead of holding findings for a later pass
+- Rationale: the strongest issues were editorial and control-boundary clarifications rather than evidence gaps, so delaying the revision would only create state drift
+- Decision: keep the chapter anchored in "continuous supervised servicing"
+- Rationale: this remains the most defensible frame for asset servicing, especially once the revision makes queue quality, recommendation precision, and official-record boundaries more explicit
+- Decision: sharpen the distinction between BNY's public capability signals and the fuller target operating model described in the chapter
+- Rationale: the chapter should infer the most plausible next operating shape from public evidence without implying that BNY already runs the entire future-state design in production
+
+### Issues & Resolution
+- Issue: `draft_v1` described earlier detection and smarter triage well, but it did not state clearly enough that noisy recommendation layers can worsen servicing operations rather than improve them
+- Resolution: added explicit queue-quality language so false positives, weak selectivity, and rising alert volume read as failure modes, not hidden assumptions
+- Issue: the investor-servicing section was directionally correct but less concrete than the NAV and reconciliation sections
+- Resolution: revised it around delayed account activity, visible dependencies, case history, and explanation quality at the point where operators or clients actually feel the workflow
+- Issue: the autonomy boundary was right in substance but could still be read too loosely around official records and signoffs
+- Resolution: tightened the stop line so record-changing, signoff-sensitive, and attestation-bearing actions remain under stronger human supervision
+
+### Editorial Comments
+- The revision improves the chapter most where it states that better servicing means better queue quality, not simply more AI-generated activity
+- The observability handoff from CH18 now lands more cleanly because override rates, recommendation precision, and queue aging are framed as governance signals rather than generic metrics
+- The chapter still works best when it stays close to CH05's operating burden map rather than drifting into broad AI-platform language
+
+### Lessons Learned
+- Future-state servicing chapters need an explicit statement that bad recommendation precision can create more control burden, not less
+- Public capability pages are strong enough to support a disciplined future-state design when the draft is careful to separate evidence of direction from claims about full production reality
+- Adjacent-chapter cohesion matters most when the later chapter uses the earlier architecture operationally instead of summarizing it
+
+### Next Steps
+- [ ] Review CH19 `draft_v2` for final pacing and bridge quality against CH18
+- [ ] Decide whether to open CH20 next or pause for a broader Part V sequence read
+- [ ] Commit and push the CH19 `draft_v2` revision as its own checkpoint
+
+## [2026-04-13] - Added A Separate Fiction-Oriented Agent Operating Manual
+
+### Summary
+- Files changed: `AGENTS_fiction.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: added a new root-level fiction version of the agent instructions while preserving the existing nonfiction `AGENTS.md`
+- Chapter(s) affected: no manuscript chapters directly; this change affects repository operating guidance
+
+### Decisions
+- Decision: create a separate `AGENTS_fiction.md` instead of rewriting the existing `AGENTS.md`
+- Rationale: the current repo instructions are tightly optimized for nonfiction research, claims, citations, and knowledge extraction, so a fiction workflow should coexist as an alternate operating mode rather than overwrite those rules
+- Decision: keep the same durable-project structure while changing the creative logic
+- Rationale: the repository discipline around progress tracking, chapter artifacts, and restartable sessions is still useful for fiction, but the manuscript rules needed to shift toward plot, scene, continuity, character, and worldbuilding concerns
+
+### Issues & Resolution
+- Issue: the nonfiction `AGENTS.md` is built around evidence, source tracking, and claim validation, which does not map cleanly to a novel or story project
+- Resolution: rewrote the mission, workflows, and review standards around story bible maintenance, chapter and scene sequencing, canon control, POV handling, chronology, emotional truth, and scene usefulness
+- Issue: replacing the main `AGENTS.md` would create ambiguity for the current book project
+- Resolution: created a clearly named parallel file, `AGENTS_fiction.md`, so future fiction work has a dedicated operating manual without disturbing the active nonfiction workflow
+
+### Editorial Comments
+- The fiction version preserves the useful discipline of durable artifacts and session memory while replacing research-heavy language with creative-development language
+- The strongest shift is from citation and claim workflows to canon, continuity, character, and scene-review workflows
+
+### Lessons Learned
+- The repository's operating model is flexible, but genre-specific guidance matters a lot once the work moves from explanatory writing into narrative craft
+- A separate fiction manual is cleaner than trying to make one instruction file serve both nonfiction and fiction equally well
+
+### Next Steps
+- [ ] Decide whether the fiction workflow should also get companion templates in `01_templates`
+- [ ] If fiction work begins in this repo, add starter files under `05_story_bible` to match the new guidance
+
+## [2026-04-13] - Removed The Absorbed-Chapter Numbering Gap And Realigned The Manuscript Flow
+
+### Summary
+- Files changed: `02_outline/chapter_map.md`, `02_outline/master_outline.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`, `04_manuscript/manuscript_ch01_ch19.md`
+- Artifacts created or updated: cleaned up the durable outline and tracker artifacts after the earlier CH13 absorption, then regenerated the consolidated manuscript so the sequential chapter flow is consistent on disk
+- Chapter(s) affected: Part III onward, with direct effect on CH12-CH19 and the placement of `CH25 | AI-Native Enterprise Workflows`
+
+### Decisions
+- Decision: remove the absorbed standalone CH13 placeholder from the active chapter flow rather than keep a visible numbering gap
+- Rationale: the merged platform-economics material now truly belongs inside CH12, so leaving a phantom chapter in the sequence creates unnecessary manuscript friction and reference drift
+- Decision: keep `AI-Native Enterprise Workflows` as `CH25`
+- Rationale: once the absorbed-chapter gap is removed, the cross-domain Part V chapter still belongs at the end of the business-line reinvention section, but the downstream numbering should return to the cleaner 39-chapter sequence
+- Decision: regenerate the CH01-CH19 combined manuscript immediately after the renumber cleanup
+- Rationale: the consolidated artifact is used for flow review, so it must reflect the current chapter sequence and should not preserve the now-obsolete absorbed-chapter editorial note
+
+### Issues & Resolution
+- Issue: the filesystem chapter folders had already been renumbered, but the durable outline and manuscript artifacts still carried the absorbed CH13 placeholder and stale cross-references
+- Resolution: removed the placeholder from `chapter_map.md`, removed the standalone absorbed section from `master_outline.md`, updated tracker language, and rebuilt the combined manuscript from the latest current drafts
+- Issue: the earlier consolidated manuscript still described CH13 as intentionally omitted, which no longer matches the active chapter flow
+- Resolution: regenerated `manuscript_ch01_ch19.md` so Part III now runs directly from CH12 to CH13 to CH14 and Part V begins at CH19 without explanatory scaffolding
+
+### Editorial Comments
+- The chapter flow is cleaner when absorbed material disappears into the surviving chapter instead of leaving a visible artifact of the old structure
+- `AI-Native Enterprise Workflows` now has a better setup because it lands as a true Part V capstone rather than as a downstream side effect of two separate numbering changes
+
+### Lessons Learned
+- Structural merges should be reflected all the way through the manuscript architecture, not only in the outline decision itself
+- Combined manuscript artifacts become misleading quickly when chapter numbering changes, so they should be regenerated as part of the same cleanup pass
+
+### Next Steps
+- [ ] Review the regenerated `04_manuscript/manuscript_ch01_ch19.md` for bridge quality and any stale in-text chapter references
+- [ ] Return to planning and setup for `CH25 | AI-Native Enterprise Workflows`
+- [ ] Decide whether proxy voting or post-KYC onboarding should be the opening workflow example in CH25
+
+## [2026-04-13] - Added Cross-Domain Part V Chapter And Renumbered Downstream Structure
+
+### Summary
+- Files changed: `02_outline/chapter_map.md`, `02_outline/master_outline.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: updated the durable outline artifacts and project tracker to insert a new Part V cross-domain chapter and renumber all downstream chapters
+- Chapter(s) affected: Part V onward, especially the transition from business-line reinvention into Part VI cross-product intelligence
+
+### Decisions
+- Decision: add a new Part V chapter, `CH25 | AI-Native Enterprise Workflows`, after the business-line future-state chapters
+- Rationale: early lighthouse use cases such as proxy voting and post-KYC client onboarding do not sit cleanly inside one business silo, but they are too important to leave diffuse across multiple chapters
+- Decision: position the new chapter at the end of Part V rather than inside Part VI
+- Rationale: these workflows are still concrete operating redesigns and belong with the business-line reinvention material before the manuscript moves into graphs, client understanding, and broader cross-product intelligence
+- Decision: renumber all downstream chapters rather than leave a lettered insertion or an unnumbered placeholder
+- Rationale: the manuscript structure remains easier to read, cite, and maintain when the numbering is sequential and durable
+
+### Issues & Resolution
+- Issue: adding one cross-domain chapter in Part V creates a numbering shift that affects every later part of the book
+- Resolution: updated both `chapter_map.md` and `master_outline.md` in the same pass, then synchronized `progress_tracker.md` so project memory matches the new chapter sequence
+- Issue: the new chapter needed a clear role distinct from Part VI's graph and cross-product intelligence chapters
+- Resolution: defined CH25 around enterprise workflows that span servicing, approvals, outreach, evidence, and shared client context, making it the proving ground for cross-domain use cases before the manuscript moves into graph-native strategy
+
+### Editorial Comments
+- The new chapter makes Part V more believable because it creates a home for lighthouse workflows that are operationally important but not owned by one line of business
+- The revised structure now has a cleaner progression: business-line reinvention, then cross-domain enterprise workflows, then cross-product intelligence
+
+### Lessons Learned
+- Some of the strongest AI-native use cases in financial infrastructure are workflow-native rather than product-native, and the outline should make that visible instead of forcing them into awkward chapter homes
+- Structural chapter additions should be implemented as full renumbering changes immediately rather than tracked informally in chat, otherwise chapter references drift quickly
+
+### Next Steps
+- [ ] Decide which lighthouse workflows anchor CH25, with proxy voting and post-KYC onboarding as the leading candidates
+- [ ] Review CH19 and upcoming Part V chapter plans against the new CH25 boundary so business-line chapters stay focused
+- [ ] Update any future planning notes or prompts that still refer to the old CH25-CH38 numbering
+
+## [2026-04-13] - CH19 Setup, Research Pass 1, and Draft v1
+
+### Summary
+- Files changed: `04_manuscript/chapter_19/chapter_brief.md`, `04_manuscript/chapter_19/research_tracker.md`, `04_manuscript/chapter_19/claim_register.md`, `04_manuscript/chapter_19/source_notes.md`, `04_manuscript/chapter_19/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created: the full CH19 starter set plus `draft_v1.md` and mandatory tracker/log updates
+- Chapter(s) affected: CH19 directly, with a sequencing check across CH16-CH18 and continuity from CH05
+
+### Decisions
+- Decision: proceed from the CH16-CH18 sequence directly into CH19 without another blocking revision pass
 - Rationale: the Part IV chapters now hold their boundaries clearly enough that the first business-line future-state chapter can use them without repeating the architecture
-- Decision: frame CH20 around "continuous supervised servicing" rather than around full autonomy
+- Decision: frame CH19 around "continuous supervised servicing" rather than around full autonomy
 - Rationale: this keeps the chapter ambitious but defensible; the source base supports AI-powered oversight, anomaly detection, and workflow automation more strongly than unsupervised official-record changes
 - Decision: build the chapter's before/after spine directly from CH05's burden map
 - Rationale: the strongest future-state argument comes from redesigning known pressure points such as NAV oversight, reconciliation triage, investor servicing, and reporting transparency rather than introducing a new abstract taxonomy
@@ -64,12 +201,12 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Issues & Resolution
 - Issue: future-state business-line chapters can easily drift into generic AI language disconnected from the current operating model
-- Resolution: tied CH20 explicitly to CH05's servicing burden and limited the research pass to BNY primary sources plus the existing current-state evidence base
-- Issue: CH20 needed to use the Part IV stack without restating it chapter by chapter
+- Resolution: tied CH19 explicitly to CH05's servicing burden and limited the research pass to BNY primary sources plus the existing current-state evidence base
+- Issue: CH19 needed to use the Part IV stack without restating it chapter by chapter
 - Resolution: wrote the chapter so canonical products, runtime controls, and observability appear through their workflow effects: earlier detection, better case assembly, bounded autonomy, and stronger operating transparency
 
 ### Editorial Comments
-- CH20 now reads like the first proving ground of the book's architecture rather than like a generic transformation chapter
+- CH19 now reads like the first proving ground of the book's architecture rather than like a generic transformation chapter
 - The "continuous supervised servicing" phrase is doing useful editorial work because it preserves ambition while keeping books-and-records realism intact
 
 ### Lessons Learned
@@ -77,58 +214,58 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - In trust-sensitive operating businesses, transparency and explainability are as important a future-state payoff as raw automation
 
 ### Next Steps
-- [ ] Run the CH20 challenge round before drafting `draft_v2`
-- [ ] Decide whether CH20 needs a second research pass before or after the challenge round
-- [ ] Review whether CH17 needs a narrow final polish after the Part IV sequence is considered as one unit
+- [ ] Run the CH19 challenge round before drafting `draft_v2`
+- [ ] Decide whether CH19 needs a second research pass before or after the challenge round
+- [ ] Review whether CH16 needs a narrow final polish after the Part IV sequence is considered as one unit
 
-## [2026-04-12] - CH18 And CH19 Challenge Rounds And Draft v2 Revisions
+## [2026-04-12] - CH17 And CH18 Challenge Rounds And Draft v2 Revisions
 
 ### Summary
-- Files changed: `04_manuscript/chapter_18/challenge_round.md`, `04_manuscript/chapter_18/draft_v2.md`, `04_manuscript/chapter_18/source_notes.md`, `04_manuscript/chapter_19/challenge_round.md`, `04_manuscript/chapter_19/draft_v2.md`, `04_manuscript/chapter_19/source_notes.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created: CH18 and CH19 challenge-round files plus `draft_v2.md` for both chapters
-- Chapter(s) affected: CH18 and CH19, with direct effect on the Part IV architecture sequence and the bridge into CH20
+- Files changed: `04_manuscript/chapter_17/challenge_round.md`, `04_manuscript/chapter_17/draft_v2.md`, `04_manuscript/chapter_17/source_notes.md`, `04_manuscript/chapter_18/challenge_round.md`, `04_manuscript/chapter_18/draft_v2.md`, `04_manuscript/chapter_18/source_notes.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created: CH17 and CH18 challenge-round files plus `draft_v2.md` for both chapters
+- Chapter(s) affected: CH17 and CH18, with direct effect on the Part IV architecture sequence and the bridge into CH19
 
 ### Decisions
-- Decision: run CH18 and CH19 challenge rounds as one contiguous Part IV review rather than as isolated chapter checks
-- Rationale: the main editorial risk at this stage was boundary drift across CH17, CH18, and CH19, so the critique needed to test sequence logic and overlap directly
+- Decision: run CH17 and CH18 challenge rounds as one contiguous Part IV review rather than as isolated chapter checks
+- Rationale: the main editorial risk at this stage was boundary drift across CH16, CH17, and CH18, so the critique needed to test sequence logic and overlap directly
 - Decision: revise both chapters immediately after the challenge rounds instead of logging findings for later
 - Rationale: the changes were crisp editorial-and-architecture clarifications rather than open research questions, so delaying them would only create tracker drift and duplicate work
-- Decision: sharpen CH18 around a practical selection rule for workflow vs. single-agent vs. multi-agent design
+- Decision: sharpen CH17 around a practical selection rule for workflow vs. single-agent vs. multi-agent design
 - Rationale: the anti-hype stance was already strong, but the chapter needed a more actionable decision frame for platform and engineering readers
-- Decision: sharpen CH19 around complement-not-substitute governance, risk-proportionate monitoring, and intervention ownership
+- Decision: sharpen CH18 around complement-not-substitute governance, risk-proportionate monitoring, and intervention ownership
 - Rationale: the chapter's core idea was sound, but those additions make observability feel more disciplined and less like a generalized telemetry argument
 
 ### Issues & Resolution
-- Issue: CH18's "simplest pattern that works" argument was correct but still a little too conceptual for a builder deciding among execution patterns
+- Issue: CH17's "simplest pattern that works" argument was correct but still a little too conceptual for a builder deciding among execution patterns
 - Resolution: added a compact operating rule, named the practitioner failure mode of orchestration sprawl more directly, and clarified that low-consequence steps can run autonomously while consequential actions require stronger checkpoints
-- Issue: CH19's title and thesis risked being read as though observability replaces prior governance layers
+- Issue: CH18's title and thesis risked being read as though observability replaces prior governance layers
 - Resolution: added explicit language that observability extends the control plane and runtime into production rather than substituting for them, made monitoring depth risk-proportionate, and tied trace-context discussion more directly to precise intervention
 
 ### Editorial Comments
-- Part IV now reads with a cleaner cadence: CH17 governs each request, CH18 governs each execution sequence, and CH19 governs confidence in the system over time
-- CH18 `draft_v2` now gives readers a more usable choice model instead of only an anti-pattern warning
-- CH19 `draft_v2` now lands more clearly as a governance chapter rather than as an observability tooling chapter
+- Part IV now reads with a cleaner cadence: CH16 governs each request, CH17 governs each execution sequence, and CH18 governs confidence in the system over time
+- CH17 `draft_v2` now gives readers a more usable choice model instead of only an anti-pattern warning
+- CH18 `draft_v2` now lands more clearly as a governance chapter rather than as an observability tooling chapter
 
 ### Lessons Learned
 - Adjacent architecture chapters benefit from challenge rounds run as a sequence review rather than as isolated draft critiques
 - The most effective way to tighten a concept-heavy chapter is often to add one compact operating rule rather than more exposition
-- "Telemetry is not control" is the key editorial pressure point in CH19 and should remain visible in later Part VI autonomy and event-driven chapters
+- "Telemetry is not control" is the key editorial pressure point in CH18 and should remain visible in later Part VI autonomy and event-driven chapters
 
 ### Next Steps
-- [ ] Review CH17 `draft_v2`, CH18 `draft_v2`, and CH19 `draft_v2` together as the Part IV architecture sequence
-- [ ] Begin CH20 setup and research once Part IV is cleared
-- [ ] Decide whether CH17 needs a narrow final polish after the Part IV sequence is reviewed as one unit
+- [ ] Review CH16 `draft_v2`, CH17 `draft_v2`, and CH18 `draft_v2` together as the Part IV architecture sequence
+- [ ] Begin CH19 setup and research once Part IV is cleared
+- [ ] Decide whether CH16 needs a narrow final polish after the Part IV sequence is reviewed as one unit
 
 ## [2026-04-12] - Built Consolidated Manuscript For Chapters 1-19
 
 ### Summary
 - Files changed: `04_manuscript/manuscript_ch01_ch19.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: created the first consolidated manuscript covering CH01 through CH19 using the latest available draft files on disk
-- Chapter(s) affected: CH01-CH19 as a reader-facing combined manuscript artifact
+- Artifacts created or updated: created the first consolidated manuscript covering CH01 through CH18 using the latest available draft files on disk
+- Chapter(s) affected: CH01-CH18 as a reader-facing combined manuscript artifact
 
 ### Decisions
 - Decision: build the consolidated file from the latest available draft for each chapter rather than from older partial manuscript files
-- Rationale: the combined manuscript should reflect the current disk truth, especially now that CH12 and CH17-CH19 exist and CH01-CH11 already have later revisions
+- Rationale: the combined manuscript should reflect the current disk truth, especially now that CH12 and CH16-CH18 exist and CH01-CH11 already have later revisions
 - Decision: omit CH13 as a standalone section and note explicitly that it was absorbed into CH12
 - Rationale: this preserves the intended manuscript sequence without creating the false impression that a chapter is missing accidentally
 - Decision: normalize the CH03 image path during consolidation
@@ -150,26 +287,26 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Next Steps
 - [ ] Read through `04_manuscript/manuscript_ch01_ch19.md` for flow, repetition, and transition quality
+- [ ] Run the CH17 challenge round before drafting `draft_v2`
 - [ ] Run the CH18 challenge round before drafting `draft_v2`
-- [ ] Run the CH19 challenge round before drafting `draft_v2`
-- [ ] Begin CH20 setup once Part IV is pressure-tested against the consolidated manuscript
+- [ ] Begin CH19 setup once Part IV is pressure-tested against the consolidated manuscript
 
-## [2026-04-11] - CH19 Setup, Research Pass 1, and Draft v1
+## [2026-04-11] - CH18 Setup, Research Pass 1, and Draft v1
 
 ### Summary
-- Files changed: `04_manuscript/chapter_19/chapter_brief.md`, `04_manuscript/chapter_19/research_tracker.md`, `04_manuscript/chapter_19/claim_register.md`, `04_manuscript/chapter_19/source_notes.md`, `04_manuscript/chapter_19/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created: the full CH19 artifact set plus glossary additions and mandatory tracker/log updates
-- Chapter(s) affected: CH19, completing the Part IV architecture sequence and bridging directly into CH20
+- Files changed: `04_manuscript/chapter_18/chapter_brief.md`, `04_manuscript/chapter_18/research_tracker.md`, `04_manuscript/chapter_18/claim_register.md`, `04_manuscript/chapter_18/source_notes.md`, `04_manuscript/chapter_18/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created: the full CH18 artifact set plus glossary additions and mandatory tracker/log updates
+- Chapter(s) affected: CH18, completing the Part IV architecture sequence and bridging directly into CH19
 
 ### Decisions
 - Decision: frame observability as a governance capability rather than as a logging or SRE chapter
-- Rationale: CH17 and CH18 already established policy enforcement and runtime discipline; CH19 needed to explain how the institution interprets behavior across time rather than restate those controls
+- Rationale: CH16 and CH17 already established policy enforcement and runtime discipline; CH18 needed to explain how the institution interprets behavior across time rather than restate those controls
 - Decision: make the distinction between telemetry and governance central
 - Rationale: many enterprises collect logs and metrics but still lack a usable control picture, so the chapter needed to argue that correlated interpretation and intervention are what turn telemetry into governance
 - Decision: anchor the technical explanation on W3C Trace Context and OpenTelemetry rather than on vendor-specific observability tooling
 - Rationale: the chapter needed primary standards that explain causal traceability and signal correlation without collapsing into product selection
 - Decision: use reconciliation exception triage as the concrete workflow example
-- Rationale: the example fits BNY's operating reality, shows why override patterns and drift matter, and creates a clean bridge into CH20's asset-servicing redesign
+- Rationale: the example fits BNY's operating reality, shows why override patterns and drift matter, and creates a clean bridge into CH19's asset-servicing redesign
 - Decision: use SR 11-7 and NIST AI RMF as the two main governance anchors
 - Rationale: they justify ongoing monitoring and deployment-context measurement in disciplined lifecycle language that risk and regulatory readers will recognize
 
@@ -180,30 +317,30 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Resolution: kept BNY claims at the level of public direction and governance posture, while presenting the observability layer as the required enterprise response rather than as a disclosed internal design
 
 ### Editorial Comments
-- The chapter now draws a clean Part IV sequence: CH17 governs each request, CH18 governs each execution sequence, and CH19 governs confidence in the system over time.
+- The chapter now draws a clean Part IV sequence: CH16 governs each request, CH17 governs each execution sequence, and CH18 governs confidence in the system over time.
 - The observability chapter is intentionally anti-dashboard and anti-tool-sprawl. Its emphasis is on causal traceability, interpretable patterns, and intervention.
 
 ### Lessons Learned
 - Architecture chapters become much clearer when the controlling question is institutional rather than technical: not "what data do we collect?" but "what must the bank be able to see well enough to govern?"
 - Trace context is the cleanest way to make observability feel consequential instead of cosmetic because it links a technical implementation detail to accountability across many systems
-- The strongest boundary for CH19 is that it should complete the foundation and then leave immediately for business-line redesign, rather than continuing Part IV into another abstract layer
+- The strongest boundary for CH18 is that it should complete the foundation and then leave immediately for business-line redesign, rather than continuing Part IV into another abstract layer
 
 ### Next Steps
+- [ ] Run the CH17 challenge round before drafting `draft_v2`
 - [ ] Run the CH18 challenge round before drafting `draft_v2`
-- [ ] Run the CH19 challenge round before drafting `draft_v2`
-- [ ] Re-read CH17 `draft_v2`, CH18 `draft_v1`, and CH19 `draft_v1` together for flow, overlap, and boundary discipline
-- [ ] Begin CH20 setup and research once the Part IV sequence is pressure-tested
+- [ ] Re-read CH16 `draft_v2`, CH17 `draft_v1`, and CH18 `draft_v1` together for flow, overlap, and boundary discipline
+- [ ] Begin CH19 setup and research once the Part IV sequence is pressure-tested
 
-## [2026-04-11] - CH18 Setup, Research Pass 1, and Draft v1
+## [2026-04-11] - CH17 Setup, Research Pass 1, and Draft v1
 
 ### Summary
-- Files changed: `04_manuscript/chapter_18/chapter_brief.md`, `04_manuscript/chapter_18/research_tracker.md`, `04_manuscript/chapter_18/claim_register.md`, `04_manuscript/chapter_18/source_notes.md`, `04_manuscript/chapter_18/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created: the full CH18 artifact set plus glossary additions and mandatory tracker/log updates
-- Chapter(s) affected: CH18, with direct continuity from CH17 and a direct bridge into CH19
+- Files changed: `04_manuscript/chapter_17/chapter_brief.md`, `04_manuscript/chapter_17/research_tracker.md`, `04_manuscript/chapter_17/claim_register.md`, `04_manuscript/chapter_17/source_notes.md`, `04_manuscript/chapter_17/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created: the full CH17 artifact set plus glossary additions and mandatory tracker/log updates
+- Chapter(s) affected: CH17, with direct continuity from CH16 and a direct bridge into CH18
 
 ### Decisions
-- Decision: frame CH18 around the runtime as the execution layer for state, tools, approvals, retries, and completion rather than as a generic "agents are coming" chapter
-- Rationale: CH17 already handled policy and per-request governance; CH18 needed to explain what governs cumulative behavior across time
+- Decision: frame CH17 around the runtime as the execution layer for state, tools, approvals, retries, and completion rather than as a generic "agents are coming" chapter
+- Rationale: CH16 already handled policy and per-request governance; CH17 needed to explain what governs cumulative behavior across time
 - Decision: make the workflow-versus-agent distinction central and explicitly argue for using the simplest execution pattern that works
 - Rationale: this keeps the chapter operationally disciplined and avoids turning orchestration into a catalogue of fashionable patterns
 - Decision: treat multi-agent design as a tradeoff rather than a default upgrade path
@@ -216,11 +353,11 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 ### Issues & Resolution
 - Issue: public BNY material is strong on platform direction but thin on the exact production runtime design
 - Resolution: kept BNY claims at the level of public evidence and wrote the runtime as the required architectural response rather than as a disclosed internal diagram
-- Issue: source-note support for CH17 appears to be missing on disk even though the chapter has a mature research tracker and draft
-- Resolution: left CH17 untouched in this pass and focused on producing a complete CH18 artifact set with `source_notes.md` included from the start
+- Issue: source-note support for CH16 appears to be missing on disk even though the chapter has a mature research tracker and draft
+- Resolution: left CH16 untouched in this pass and focused on producing a complete CH17 artifact set with `source_notes.md` included from the start
 
 ### Editorial Comments
-- The runtime chapter now draws a clean line: CH17 governs each request, CH18 governs the execution sequence, and CH19 will govern interpretation across many runs over time
+- The runtime chapter now draws a clean line: CH16 governs each request, CH17 governs the execution sequence, and CH18 will govern interpretation across many runs over time
 - The orchestration section is intentionally anti-hype and should help the architecture sequence feel more executive-readable than a framework survey
 
 ### Lessons Learned
@@ -229,16 +366,16 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Tool access is the clearest way to explain why runtime design matters: text generation feels optional, tool invocation feels consequential
 
 ### Next Steps
-- [ ] Run the CH18 challenge round before drafting `draft_v2`
-- [ ] Re-read CH17 `draft_v2` and CH18 `draft_v1` together to check that the control-plane and runtime boundaries remain crisp
-- [ ] Begin CH19 setup once the CH18 challenge round is complete
+- [ ] Run the CH17 challenge round before drafting `draft_v2`
+- [ ] Re-read CH16 `draft_v2` and CH17 `draft_v1` together to check that the control-plane and runtime boundaries remain crisp
+- [ ] Begin CH18 setup once the CH17 challenge round is complete
 
-## [2026-04-11] - CH17 Challenge Round and Draft v2
+## [2026-04-11] - CH16 Challenge Round and Draft v2
 
 ### Summary
 - Files changed: `00_admin/progress_tracker.md`
-- Artifacts created: `04_manuscript/chapter_17/challenge_round.md`, `04_manuscript/chapter_17/draft_v2.md`
-- Chapter(s) affected: CH17
+- Artifacts created: `04_manuscript/chapter_16/challenge_round.md`, `04_manuscript/chapter_16/draft_v2.md`
+- Chapter(s) affected: CH16
 
 ### Decisions
 - Decision: added a concrete failure scenario (ungoverned trading agent, $4.7M loss in 12 minutes) to make the shadow AI risk operationally tangible rather than statistically abstract
@@ -247,8 +384,8 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Rationale: the challenge round correctly identified that Eliza's public description is primarily as a workplace AI tool; the chapter needed to use it as evidence of governance intent while acknowledging the production layer is a distinct architecture problem
 - Decision: reordered the chapter so the guardrails/policies vocabulary section comes before the functions breakdown
 - Rationale: readers need the conceptual vocabulary before the function list makes sense; the prior ordering put the list before the framework
-- Decision: tightened the auditability section and added an explicit CH19 boundary — the control plane produces the transaction record; observability interprets it at system level over time
-- Rationale: challenge round flagged that the original auditability section was doing CH19's work; the chapter now draws the boundary clearly
+- Decision: tightened the auditability section and added an explicit CH18 boundary — the control plane produces the transaction record; observability interprets it at system level over time
+- Rationale: challenge round flagged that the original auditability section was doing CH18's work; the chapter now draws the boundary clearly
 - Decision: added SR 21-8 and 2023 interagency TPRM guidance as evidence that SR 11-7 principles extend to AI contexts, replacing the vague "regulators are extending the spirit" hedge
 - Rationale: specific regulatory artifacts are more credible than assertion; SR 21-8 and the 2023 TPRM guidance show the actual extension pattern
 
@@ -258,23 +395,23 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Editorial Comments
 - The positive capability argument — governance enables ambition rather than restraining it — now has a dedicated paragraph and should resonate better with executive readers who might otherwise read the chapter as a compliance argument
-- The CH19 boundary section is now clean; the chapter closes the transaction-level audit argument and explicitly hands the system-level monitoring argument to the next chapter
+- The CH18 boundary section is now clean; the chapter closes the transaction-level audit argument and explicitly hands the system-level monitoring argument to the next chapter
 
 ### Lessons Learned
 - Concrete failure scenarios make governance arguments land harder than statistics; worth building one into every architecture chapter that makes a risk case
 - The employee AI vs. production AI distinction is worth making explicitly in any chapter that uses enterprise AI platform evidence — they are different architecture layers
 
 ### Next Steps
-- [ ] Author review of CH17 draft_v2
+- [ ] Author review of CH16 draft_v2
 - [ ] Verify provenance of the $4.7M trading agent failure scenario before final manuscript
-- [ ] Begin CH18 brief, research tracker, and claim register once CH17 review is complete
+- [ ] Begin CH17 brief, research tracker, and claim register once CH16 review is complete
 
-## [2026-04-11] - CH17 Research Pass 1 and Draft v1
+## [2026-04-11] - CH16 Research Pass 1 and Draft v1
 
 ### Summary
-- Files changed: `04_manuscript/chapter_17/research_tracker.md`, `00_admin/progress_tracker.md`
-- Artifacts created: `04_manuscript/chapter_17/draft_v1.md`
-- Chapter(s) affected: CH17
+- Files changed: `04_manuscript/chapter_16/research_tracker.md`, `00_admin/progress_tracker.md`
+- Artifacts created: `04_manuscript/chapter_16/draft_v1.md`
+- Chapter(s) affected: CH16
 
 ### Decisions
 - Decision: anchored the chapter on BNY's Eliza platform as the primary concrete evidence — it is the closest public evidence of BNY's control-plane answer, with standardized permissions, security, and oversight across all models and tools
@@ -283,7 +420,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Rationale: SR 11-7 is the US banking standard; NIST AI RMF is explicitly cited by BNY; FSB 2025 establishes that systemic regulators are watching; adding EU AI Act would shift the chapter's center of gravity from architecture to compliance
 - Decision: distinguished guardrails from policies as separate architectural concepts operating at different layers (runtime behavior vs. access authorization)
 - Rationale: conflating them is a common error in enterprise AI governance discussions; the distinction clarifies what the control plane must actually enforce at each layer
-- Decision: ended the chapter by opening the runtime problem rather than closing cleanly, to set up CH18 with genuine momentum
+- Decision: ended the chapter by opening the runtime problem rather than closing cleanly, to set up CH17 with genuine momentum
 - Rationale: the closing argument about agents outmaneuvering policy without a well-designed runtime creates a more compelling bridge than a summary of what the chapter covered
 
 ### Issues & Resolution
@@ -297,19 +434,19 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - The guardrails vs. policies distinction deserves its own section because it resolves a conceptual ambiguity that governance-focused readers will otherwise carry through the rest of Part IV
 
 ### Next Steps
-- [ ] Run CH17 challenge round before draft_v2: test whether the governance-as-architecture argument is concrete enough, whether the Eliza evidence is used well, and whether the CH18 bridge is strong
+- [ ] Run CH16 challenge round before draft_v2: test whether the governance-as-architecture argument is concrete enough, whether the Eliza evidence is used well, and whether the CH17 bridge is strong
 - [ ] Review full FSB October 2025 report when accessible for any additional systemic-risk framing
 - [ ] Check claim register against draft_v1 and update status of CLM-001 through CLM-006
 
-## [2026-04-11] - CH17 Setup: Brief, Research Tracker, Claim Register
+## [2026-04-11] - CH16 Setup: Brief, Research Tracker, Claim Register
 
 ### Summary
 - Files changed: `00_admin/progress_tracker.md`
-- Artifacts created: `04_manuscript/chapter_17/chapter_brief.md`, `04_manuscript/chapter_17/research_tracker.md`, `04_manuscript/chapter_17/claim_register.md`
-- Chapter(s) affected: CH17
+- Artifacts created: `04_manuscript/chapter_16/chapter_brief.md`, `04_manuscript/chapter_16/research_tracker.md`, `04_manuscript/chapter_16/claim_register.md`
+- Chapter(s) affected: CH16
 
 ### Decisions
-- Decision: scoped CH17 around the control plane as an architectural governance capability rather than a compliance process chapter
+- Decision: scoped CH16 around the control plane as an architectural governance capability rather than a compliance process chapter
 - Rationale: the book's argument depends on governance feeling like a design principle; a procedural compliance framing would undercut the architecture thesis in Part IV
 - Decision: anchored the regulatory side on SR 11-7 and NIST AI RMF as primary sources, with a flag to check for any 2024-2025 BCBS or FSB guidance specific to AI in systemic institutions
 - Rationale: SR 11-7 is the established model-risk anchor for US bank regulators; NIST AI RMF covers the broader AI governance vocabulary; newer guidance may sharpen or extend these anchors
@@ -321,24 +458,24 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - None yet; chapter has not been drafted
 
 ### Lessons Learned
-- The CH17 brief needs to draw a clear boundary with CH19 (observability as governance) early in research; the risk is conflating control-plane enforcement with the observability layer
+- The CH16 brief needs to draw a clear boundary with CH18 (observability as governance) early in research; the risk is conflating control-plane enforcement with the observability layer
 
 ### Next Steps
-- [ ] Run CH17 research pass 1: confirm BNY responsible AI sources, review SR 11-7 and NIST AI RMF, search for enterprise AI gateway architecture patterns
+- [ ] Run CH16 research pass 1: confirm BNY responsible AI sources, review SR 11-7 and NIST AI RMF, search for enterprise AI gateway architecture patterns
 - [ ] Update research tracker with confirmed source links and source-selection rationale after pass 1
-- [ ] Move CH17 to `drafting` once research pass 1 is complete and sources are logged
+- [ ] Move CH16 to `drafting` once research pass 1 is complete and sources are logged
 
-## [2026-04-11] - CH16 Draft v2 Editorial Pass
+## [2026-04-11] - CH15 Draft v2 Editorial Pass
 
 ### Summary
-- Files changed: `04_manuscript/chapter_16/draft_v2.md`, `00_admin/progress_tracker.md`
+- Files changed: `04_manuscript/chapter_15/draft_v2.md`, `00_admin/progress_tracker.md`
 - Artifacts created or updated: revised `draft_v2.md` in place; no new files created
-- Chapter(s) affected: CH16
+- Chapter(s) affected: CH15
 
 ### Decisions
 - Decision: converted two mechanical "First/Second/Third..." paragraph sequences into bulleted lists with bolded lead terms — the canonical-product definition (five criteria) and the AI-layer benefits (four items)
 - Rationale: the ordinal paragraph structure read as formulaic; bulleted format makes the criteria scannable without changing the substance
-- Decision: removed all CH## cross-references (CH15, CH16) and replaced with relative prose references ("the previous chapter", "this chapter")
+- Decision: removed all CH## cross-references (CH14, CH15) and replaced with relative prose references ("the previous chapter", "this chapter")
 - Rationale: hard-coded chapter numbers break when the manuscript is edited for sequence and read as internal scaffolding rather than finished prose
 
 ### Issues & Resolution
@@ -352,14 +489,14 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - CH## references should be treated as draft scaffolding and removed before any editorial review pass
 
 ### Next Steps
-- [ ] Assess whether CH16 draft_v2 is ready for editor review or needs one more pass
-- [ ] Begin CH17 brief and research tracker once CH16 is cleared
+- [ ] Assess whether CH15 draft_v2 is ready for editor review or needs one more pass
+- [ ] Begin CH16 brief and research tracker once CH15 is cleared
 
 ## [2026-04-11] - Tightened Editorial And Agent Rules From Progress-Log Patterns
 
 ### Summary
 - Files changed: `00_admin/editorial_style_guide.md`, `AGENTS.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: updated the editorial style guide and repository operating rules based on recurring patterns visible in recent chapter work, especially across CH12 through CH16
+- Artifacts created or updated: updated the editorial style guide and repository operating rules based on recurring patterns visible in recent chapter work, especially across CH12 through CH15
 - Chapter(s) affected: no single chapter directly, but the changes are intended to improve future drafting and revision quality across Part III, Part IV, and later manuscript work
 
 ### Decisions
@@ -387,48 +524,48 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - What did not: some lessons had already been learned informally but were not yet encoded in the governing documents, which made recurrence more likely
 
 ### Next Steps
-- [ ] Apply the updated adjacent-chapter and pacing rules when re-reading CH15 and CH16 together
+- [ ] Apply the updated adjacent-chapter and pacing rules when re-reading CH14 and CH15 together
 - [ ] Use the new standards-section guidance in future architecture chapters that rely on frameworks or regulatory material
 - [ ] Watch whether future tracker updates stay better aligned at both the chapter-row and milestone-text level
 
-## [2026-04-11] - Ran Chapter 16 Challenge Round And Revised The Closing Bridge
+## [2026-04-11] - Ran Chapter 15 Challenge Round And Revised The Closing Bridge
 
 ### Summary
-- Files changed: `04_manuscript/chapter_16/challenge_round.md`, `04_manuscript/chapter_16/source_notes.md`, `04_manuscript/chapter_16/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: created the CH16 challenge-round artifact, revised the chapter into `draft_v2.md`, and updated source-note support to point to the newer draft
-- Chapter(s) affected: CH16, with direct impact on the handoff into the control-plane chapter
+- Files changed: `04_manuscript/chapter_15/challenge_round.md`, `04_manuscript/chapter_15/source_notes.md`, `04_manuscript/chapter_15/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the CH15 challenge-round artifact, revised the chapter into `draft_v2.md`, and updated source-note support to point to the newer draft
+- Chapter(s) affected: CH15, with direct impact on the handoff into the control-plane chapter
 
 ### Decisions
-- Decision: revise CH16 immediately after the challenge round instead of leaving the findings as deferred editorial notes
+- Decision: revise CH15 immediately after the challenge round instead of leaving the findings as deferred editorial notes
 - Rationale: the main issues were manuscript-facing clarity and the mechanical closing heading, so the cleanest move was to fix them while the architecture argument was still fresh
-- Alternatives rejected: leaving CH16 at `draft_v1`, changing only the heading without recording the challenge findings, or expanding the chapter into more tooling detail
+- Alternatives rejected: leaving CH15 at `draft_v1`, changing only the heading without recording the challenge findings, or expanding the chapter into more tooling detail
 
 ### Issues & Resolution
-- Issue: the final section heading `Why CH17 Follows` read like outline scaffolding rather than manuscript prose
+- Issue: the final section heading `Why CH16 Follows` read like outline scaffolding rather than manuscript prose
 - Resolution: replaced it with `From Trusted Products To Governed Intelligence`, which keeps the control-plane bridge while reading like chapter language rather than project bookkeeping
 - Issue: the chapter benefited from one sharper sentence on what makes a product canonical
 - Resolution: tightened the definition so trusted enterprise reuse and product obligations stay central
 
 ### Editorial Comments
-- Comment: "run a challange round, replace this section heading with something less emchanical 'Why CH17 Follows' I don't like using chapter #17 explicitly"
-- Response: ran the CH16 challenge round, wrote the artifact to disk, revised the chapter into `draft_v2`, and replaced the closing heading with a manuscript-facing transition
+- Comment: "run a challange round, replace this section heading with something less emchanical 'Why CH16 Follows' I don't like using chapter #17 explicitly"
+- Response: ran the CH15 challenge round, wrote the artifact to disk, revised the chapter into `draft_v2`, and replaced the closing heading with a manuscript-facing transition
 
 ### Lessons Learned
 - Insight: architecture chapters need especially careful closing headings because mechanical transitions make the manuscript feel like an outline even when the argument itself is strong
 - What worked: treating the heading complaint as a real flow issue rather than a cosmetic preference and fixing it in the draft immediately
-- What did not: nothing material in this pass, though CH16 may still benefit from a later narrow polish once CH17 exists
+- What did not: nothing material in this pass, though CH15 may still benefit from a later narrow polish once CH16 exists
 
 ### Next Steps
-- [ ] Re-read CH16 `draft_v2` against CH15 `draft_v2` for any remaining overlap
-- [ ] Decide whether CH12 needs a challenge round before CH17 starts
-- [ ] Start CH17 by creating the AI gateway / control-plane artifact set
+- [ ] Re-read CH15 `draft_v2` against CH14 `draft_v2` for any remaining overlap
+- [ ] Decide whether CH12 needs a challenge round before CH16 starts
+- [ ] Start CH16 by creating the AI gateway / control-plane artifact set
 
-## [2026-04-11] - Added Reader-Facing Standards Links To Chapter 15
+## [2026-04-11] - Added Reader-Facing Standards Links To Chapter 14
 
 ### Summary
-- Files changed: `04_manuscript/chapter_15/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: revised CH15 `draft_v2.md` to include a compact reader-facing reference section with clickable links to the main standards and regulatory documents discussed in the chapter, and refreshed tracker state to reflect the current milestone accurately
-- Chapter(s) affected: CH15, with indirect benefit to CH16 and later architecture chapters that may reuse the same standards set
+- Files changed: `04_manuscript/chapter_14/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: revised CH14 `draft_v2.md` to include a compact reader-facing reference section with clickable links to the main standards and regulatory documents discussed in the chapter, and refreshed tracker state to reflect the current milestone accurately
+- Chapter(s) affected: CH14, with indirect benefit to CH15 and later architecture chapters that may reuse the same standards set
 
 ### Decisions
 - Decision: surface the standards and regulatory links directly in the chapter draft rather than keeping them only in source notes
@@ -436,14 +573,14 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Alternatives rejected: leaving the links only in `source_notes.md`, inserting raw URLs inline throughout the prose, or adding a larger appendix-style standards catalogue inside the chapter
 
 ### Issues & Resolution
-- Issue: CH15 already had the source links in the durable notes, but a manuscript reader would not see them while reading the draft itself
+- Issue: CH14 already had the source links in the durable notes, but a manuscript reader would not see them while reading the draft itself
 - Resolution: added a short `Reference Standards And Regulatory Documents` section covering BCBS 239, the BCBS implementation note, FIBO, FINOS Legend, FINOS CDM, BIAN, ISO 20022, and GLEIF/LEI
-- Issue: the tracker milestone text still referred to revising CH15 into `draft_v2` even though `draft_v2.md` already exists on disk
+- Issue: the tracker milestone text still referred to revising CH14 into `draft_v2` even though `draft_v2.md` already exists on disk
 - Resolution: updated the tracker focus and next milestone so project memory now matches the actual chapter state
 
 ### Editorial Comments
 - Comment: "I do not see the links to the frameworks, standards and regulatory docs (bcbs 239) we should include clickable links so reader can explore"
-- Response: revised CH15 `draft_v2.md` to include a visible reader-facing links section and updated project tracking in the same work pass
+- Response: revised CH14 `draft_v2.md` to include a visible reader-facing links section and updated project tracking in the same work pass
 
 ### Lessons Learned
 - Insight: some standards references should stay out of body prose but still belong in the draft itself when the chapter is intended to function as an explorable manuscript, not just an internal writing artifact
@@ -451,95 +588,95 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - What did not: relying only on `source_notes.md` made the links durable for us but invisible for the eventual reader
 
 ### Next Steps
-- [ ] Re-read CH15 `draft_v2` once with the new reference section in place to confirm the chapter still feels like prose rather than documentation
-- [ ] Decide whether CH15 should hold at `draft_v2` or receive one final polish pass before broader Part III review
-- [ ] Re-read CH15 and CH16 together so the semantic-foundation and canonical-data-products chapters remain distinct
+- [ ] Re-read CH14 `draft_v2` once with the new reference section in place to confirm the chapter still feels like prose rather than documentation
+- [ ] Decide whether CH14 should hold at `draft_v2` or receive one final polish pass before broader Part III review
+- [ ] Re-read CH14 and CH15 together so the semantic-foundation and canonical-data-products chapters remain distinct
 
-## [2026-04-11] - Drafted Chapter 16 Version 1
+## [2026-04-11] - Drafted Chapter 15 Version 1
 
 ### Summary
-- Files changed: `04_manuscript/chapter_16/chapter_brief.md`, `04_manuscript/chapter_16/research_tracker.md`, `04_manuscript/chapter_16/claim_register.md`, `04_manuscript/chapter_16/source_notes.md`, `04_manuscript/chapter_16/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: created the full CH16 artifact set, completed research pass 1, built the citation map, drafted `draft_v1.md`, and added `Canonical Data Product` and `Data Lineage` to the glossary
-- Chapter(s) affected: CH16, with direct bridge logic from CH15 and forward bridge logic into CH17
+- Files changed: `04_manuscript/chapter_15/chapter_brief.md`, `04_manuscript/chapter_15/research_tracker.md`, `04_manuscript/chapter_15/claim_register.md`, `04_manuscript/chapter_15/source_notes.md`, `04_manuscript/chapter_15/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the full CH15 artifact set, completed research pass 1, built the citation map, drafted `draft_v1.md`, and added `Canonical Data Product` and `Data Lineage` to the glossary
+- Chapter(s) affected: CH15, with direct bridge logic from CH14 and forward bridge logic into CH16
 
 ### Decisions
 - Decision: define canonical data products as ontology-backed, governed, reusable operating assets rather than as generic curated datasets
-- Rationale: this keeps CH16 implementation-minded and makes it a real architectural foundation chapter instead of a broad data-strategy essay
-- Alternatives rejected: writing CH16 as a general data-mesh chapter, reducing the concept to cleaned tables and APIs, or skipping straight to the control plane without defining the product layer
+- Rationale: this keeps CH15 implementation-minded and makes it a real architectural foundation chapter instead of a broad data-strategy essay
+- Alternatives rejected: writing CH15 as a general data-mesh chapter, reducing the concept to cleaned tables and APIs, or skipping straight to the control plane without defining the product layer
 
 ### Issues & Resolution
-- Issue: CH16 could easily drift into generic data-platform language and lose the bridge from CH15's ontology argument
+- Issue: CH15 could easily drift into generic data-platform language and lose the bridge from CH14's ontology argument
 - Resolution: the draft starts by stating that ontology alone is too abstract to run a platform and frames canonical data products as the packaging layer that makes shared meaning reusable
 - Issue: the chapter needed a regulated-finance reason for why contracts, lineage, and quality controls belong inside the product definition
 - Resolution: combined BNY data-management materials with BCBS 239, FINOS Legend, OpenLineage, and the primary data-as-a-product source so the chapter ties reusable products directly to trust, auditability, and later AI reliability
 
 ### Editorial Comments
 - Comment: "lets start chapter 16, perform the rersearch and draft v1"
-- Response: created the artifact set, ran the first research pass with direct-link source logging, wrote the source notes, updated the glossary, and completed CH16 `draft_v1` in the same work pass
+- Response: created the artifact set, ran the first research pass with direct-link source logging, wrote the source notes, updated the glossary, and completed CH15 `draft_v1` in the same work pass
 
 ### Lessons Learned
-- Insight: CH16 is strongest when it treats canonical data products as the operating form of shared meaning, not as another abstraction layered on top of ontology
+- Insight: CH15 is strongest when it treats canonical data products as the operating form of shared meaning, not as another abstraction layered on top of ontology
 - What worked: using BNY's own data-management language plus product, lineage, and control sources to keep the chapter specific and architecture-aware
-- What did not: nothing material in this pass, though CH16 should still be checked later to ensure it stays distinct from CH17's control-plane work
+- What did not: nothing material in this pass, though CH15 should still be checked later to ensure it stays distinct from CH16's control-plane work
 
 ### Next Steps
-- [ ] Re-read CH16 `draft_v1` against CH15 `draft_v2` so the semantic-foundation and implementation chapters do not repeat each other
-- [ ] Decide whether CH16 should run a challenge round before `draft_v2`
-- [ ] Start CH17 by creating the AI gateway / control-plane artifact set
+- [ ] Re-read CH15 `draft_v1` against CH14 `draft_v2` so the semantic-foundation and implementation chapters do not repeat each other
+- [ ] Decide whether CH15 should run a challenge round before `draft_v2`
+- [ ] Start CH16 by creating the AI gateway / control-plane artifact set
 
-## [2026-04-11] - Drafted Chapter 15 Version 2
+## [2026-04-11] - Drafted Chapter 14 Version 2
 
 ### Summary
-- Files changed: `04_manuscript/chapter_15/draft_v2.md`, `04_manuscript/chapter_15/source_notes.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: created CH15 `draft_v2.md`, updated the source-note metadata to support the newer draft, and refreshed tracker state so CH15 now reflects `draft_v2_ready`
-- Chapter(s) affected: CH15, with direct bridge relevance to CH14 and CH16
+- Files changed: `04_manuscript/chapter_14/draft_v2.md`, `04_manuscript/chapter_14/source_notes.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH14 `draft_v2.md`, updated the source-note metadata to support the newer draft, and refreshed tracker state so CH14 now reflects `draft_v2_ready`
+- Chapter(s) affected: CH14, with direct bridge relevance to CH13 and CH15
 
 ### Decisions
 - Decision: convert the challenge-round and secondary-research findings into a new chapter draft rather than continuing to accumulate notes around `draft_v1`
-- Rationale: CH15 had enough revision guidance to justify a clean new draft, and the semantic-layer distinctions are easier to read in prose than in scattered challenge notes
-- Alternatives rejected: leaving CH15 at `draft_v1`, making more invisible revisions inside the existing draft, or delaying prose changes until CH16 had started
+- Rationale: CH14 had enough revision guidance to justify a clean new draft, and the semantic-layer distinctions are easier to read in prose than in scattered challenge notes
+- Alternatives rejected: leaving CH14 at `draft_v1`, making more invisible revisions inside the existing draft, or delaying prose changes until CH15 had started
 
 ### Issues & Resolution
-- Issue: the standards section in `draft_v1` risked reading like a catalogue and slowing the reader after CH12 and CH14
+- Issue: the standards section in `draft_v1` risked reading like a catalogue and slowing the reader after CH12 and CH13
 - Resolution: `draft_v2` now presents the standards as layered evidence: concept ontology, lifecycle semantics, banking service semantics, and concrete message and identity semantics
 - Issue: the chapter needed one more practical operating anchor
 - Resolution: added explicit LEI/GLEIF and ISO 20022 examples so the ontology problem is visible in entity identity and business-message semantics, not only in abstract modeling language
 
 ### Editorial Comments
 - Comment: "go ahead"
-- Response: created CH15 `draft_v2.md`, updated the supporting notes and tracker/log artifacts, and completed the required draft commit workflow in the same pass
+- Response: created CH14 `draft_v2.md`, updated the supporting notes and tracker/log artifacts, and completed the required draft commit workflow in the same pass
 
 ### Lessons Learned
-- Insight: CH15 improves materially when the standards discussion is treated as a layered operating stack rather than as a set of adjacent references
+- Insight: CH14 improves materially when the standards discussion is treated as a layered operating stack rather than as a set of adjacent references
 - What worked: turning the challenge-round findings directly into prose changes instead of continuing to extend the note scaffolding
-- What did not: nothing material in this pass, though CH15 may still benefit from one final narrow polish after a Part III sequence read
+- What did not: nothing material in this pass, though CH14 may still benefit from one final narrow polish after a Part III sequence read
 
 ### Next Steps
 - [ ] Re-read CH12 `draft_v1` and decide whether it should run a practitioner challenge round before `draft_v2`
-- [ ] Re-read CH14 `draft_v2` and CH15 `draft_v2` together for final Part III pacing
-- [ ] Start CH16 by creating the canonical data-products artifact set
+- [ ] Re-read CH13 `draft_v2` and CH14 `draft_v2` together for final Part III pacing
+- [ ] Start CH15 by creating the canonical data-products artifact set
 
 ## [2026-04-11] - Ran Part III Consistency And Flow Challenge Across Chapters 12, 14, And 15
 
 ### Summary
-- Files changed: `04_manuscript/chapter_15/challenge_round.md`, `04_manuscript/chapter_15/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: expanded the CH15 challenge-round artifact with a Part III cohesion check against CH12 and CH14, and revised the CH15 closing section title to read less mechanically in manuscript form
-- Chapter(s) affected: CH12, CH14, and CH15 at consistency level; direct file edits were made in CH15
+- Files changed: `04_manuscript/chapter_14/challenge_round.md`, `04_manuscript/chapter_14/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: expanded the CH14 challenge-round artifact with a Part III cohesion check against CH12 and CH13, and revised the CH14 closing section title to read less mechanically in manuscript form
+- Chapter(s) affected: CH12, CH13, and CH14 at consistency level; direct file edits were made in CH14
 
 ### Decisions
-- Decision: keep the Part III structure intact and adjust CH15's framing rather than reopening the chapter sequence
-- Rationale: the three-chapter progression now works conceptually, and the main issue is pacing and manuscript feel inside CH15 rather than a structural flaw in the order
-- Alternatives rejected: reshuffling chapter order, changing the core CH12-to-CH15 thesis progression, or leaving the CH15 closing title in chapter-navigation language
+- Decision: keep the Part III structure intact and adjust CH14's framing rather than reopening the chapter sequence
+- Rationale: the three-chapter progression now works conceptually, and the main issue is pacing and manuscript feel inside CH14 rather than a structural flaw in the order
+- Alternatives rejected: reshuffling chapter order, changing the core CH12-to-CH14 thesis progression, or leaving the CH14 closing title in chapter-navigation language
 
 ### Issues & Resolution
-- Issue: CH15's standards section is the most likely place where Part III can lose forward momentum relative to CH12 and CH14
+- Issue: CH14's standards section is the most likely place where Part III can lose forward momentum relative to CH12 and CH13
 - Resolution: recorded that pacing risk explicitly in the challenge-round artifact so `draft_v2` can compress and layer the standards discussion more cleanly
-- Issue: the section title `Why CH16 Follows` read too mechanical for manuscript prose
+- Issue: the section title `Why CH15 Follows` read too mechanical for manuscript prose
 - Resolution: renamed the section `From Shared Meaning To Operating Infrastructure` while preserving the implementation bridge into the next chapter
 
 ### Editorial Comments
-- Comment: "Run a consistency and flow challange with chapter 15, 14, 12. Replace this section \"Why CH16 Follows\" title with something less mechanical don't want to reference chapter numbers"
-- Response: ran the Part III consistency pass, wrote the cohesion findings into the durable challenge artifact, and replaced the CH15 closing section title directly in the draft
+- Comment: "Run a consistency and flow challange with chapter 15, 14, 12. Replace this section \"Why CH15 Follows\" title with something less mechanical don't want to reference chapter numbers"
+- Response: ran the Part III consistency pass, wrote the cohesion findings into the durable challenge artifact, and replaced the CH14 closing section title directly in the draft
 
 ### Lessons Learned
 - Insight: once adjacent thesis chapters are all strong individually, the main editorial risk becomes pace and reader fatigue from stacked abstractions rather than argument weakness
@@ -547,19 +684,19 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - What did not: nothing material in this pass
 
 ### Next Steps
-- [ ] Revise CH15 into `draft_v2` with a tighter standards sequence and one stronger opening callback to CH14
+- [ ] Revise CH14 into `draft_v2` with a tighter standards sequence and one stronger opening callback to CH13
 - [ ] Re-read CH12 `draft_v1` and decide whether it needs its own challenge round before `draft_v2`
-- [ ] Start CH16 once the Part III handoff feels fully clean
+- [ ] Start CH15 once the Part III handoff feels fully clean
 
-## [2026-04-11] - Ran Chapter 15 Challenge Round And Secondary Research
+## [2026-04-11] - Ran Chapter 14 Challenge Round And Secondary Research
 
 ### Summary
-- Files changed: `04_manuscript/chapter_15/challenge_round.md`, `04_manuscript/chapter_15/research_tracker.md`, `04_manuscript/chapter_15/claim_register.md`, `04_manuscript/chapter_15/source_notes.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: created CH15 `challenge_round.md`, completed a secondary research pass on ISO 20022 and LEI/GLEIF, expanded the source and claim base, added glossary entries for `ISO 20022` and `LEI`, and moved CH15 from `drafting` to `revising`
-- Chapter(s) affected: CH15, with forward relevance to CH16 and later architecture chapters
+- Files changed: `04_manuscript/chapter_14/challenge_round.md`, `04_manuscript/chapter_14/research_tracker.md`, `04_manuscript/chapter_14/claim_register.md`, `04_manuscript/chapter_14/source_notes.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created CH14 `challenge_round.md`, completed a secondary research pass on ISO 20022 and LEI/GLEIF, expanded the source and claim base, added glossary entries for `ISO 20022` and `LEI`, and moved CH14 from `drafting` to `revising`
+- Chapter(s) affected: CH14, with forward relevance to CH15 and later architecture chapters
 
 ### Decisions
-- Decision: keep CH15's core thesis intact but mark the chapter for revision before `draft_v2`
+- Decision: keep CH14's core thesis intact but mark the chapter for revision before `draft_v2`
 - Rationale: the draft's argument is strong, but the challenge round showed that the next revision should sharpen the distinction among semantic layers, tighten the standards section, and add one more concrete example
 - Alternatives rejected: declaring the chapter ready as-is, or reopening the entire chapter architecture instead of tightening the existing draft
 
@@ -571,56 +708,56 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Editorial Comments
 - Comment: "then run a challange round and a secondary research round"
-- Response: created the CH15 challenge round, completed the secondary standards research pass, and updated the durable notes, claims, glossary, tracker, and log in the same work pass
+- Response: created the CH14 challenge round, completed the secondary standards research pass, and updated the durable notes, claims, glossary, tracker, and log in the same work pass
 
 ### Lessons Learned
-- Insight: CH15 works best when it does not argue for one abstract layer of meaning, but shows several interacting semantic layers that finance already treats as operationally important
+- Insight: CH14 works best when it does not argue for one abstract layer of meaning, but shows several interacting semantic layers that finance already treats as operationally important
 - What worked: pressure-testing the draft first, then using the challenge findings to target the secondary research pass rather than gathering more standards material indiscriminately
 - What did not: nothing material in this pass, though the next draft should keep the standards material compressed and example-led
 
 ### Next Steps
-- [ ] Revise CH15 into `draft_v2` with one sharper concrete example and a tighter standards section
-- [ ] Decide whether CH12 or CH14 should run challenge rounds before CH16 begins
-- [ ] Start CH16 by creating the canonical data-products artifact set
+- [ ] Revise CH14 into `draft_v2` with one sharper concrete example and a tighter standards section
+- [ ] Decide whether CH12 or CH13 should run challenge rounds before CH15 begins
+- [ ] Start CH15 by creating the canonical data-products artifact set
 
-## [2026-04-11] - Ran Chapter 14 Challenge Round And Tightened Flow With Chapter 12
+## [2026-04-11] - Ran Chapter 13 Challenge Round And Tightened Flow With Chapter 12
 
 ### Summary
-- Files changed: `04_manuscript/chapter_14/challenge_round.md`, `04_manuscript/chapter_14/source_notes.md`, `04_manuscript/chapter_14/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: created the CH14 challenge-round artifact, revised the chapter into `draft_v2.md`, and updated source-note support to point to the newer draft
-- Chapter(s) affected: CH14, with explicit consistency work against CH12 and a cleaner bridge into CH15
+- Files changed: `04_manuscript/chapter_13/challenge_round.md`, `04_manuscript/chapter_13/source_notes.md`, `04_manuscript/chapter_13/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the CH13 challenge-round artifact, revised the chapter into `draft_v2.md`, and updated source-note support to point to the newer draft
+- Chapter(s) affected: CH13, with explicit consistency work against CH12 and a cleaner bridge into CH14
 
 ### Decisions
-- Decision: revise CH14 immediately after the challenge round rather than leaving the findings as deferred notes
-- Rationale: the main issues were flow and repetition against CH12, so the cleanest move was to fix them while the comparison was fresh and before CH14 drifted further behind CH15
-- Alternatives rejected: leaving CH14 at `draft_v1`, running the challenge round without a follow-on revision, or expanding CH14 with more AI examples instead of tightening the handoff
+- Decision: revise CH13 immediately after the challenge round rather than leaving the findings as deferred notes
+- Rationale: the main issues were flow and repetition against CH12, so the cleanest move was to fix them while the comparison was fresh and before CH13 drifted further behind CH14
+- Alternatives rejected: leaving CH13 at `draft_v1`, running the challenge round without a follow-on revision, or expanding CH13 with more AI examples instead of tightening the handoff
 
 ### Issues & Resolution
-- Issue: CH14 `draft_v1` re-established too much of CH12's platform argument before advancing into its own intelligence-layer work
+- Issue: CH13 `draft_v1` re-established too much of CH12's platform argument before advancing into its own intelligence-layer work
 - Resolution: `draft_v2` now opens from CH12's endpoint, moves more quickly into the definition of the intelligence layer, and reduces repeated platform setup
 - Issue: the bridge from intelligence into ontology needed to feel more inevitable
-- Resolution: tightened the final dependency section so CH15 reads as the next real bottleneck rather than as an added conceptual detour
+- Resolution: tightened the final dependency section so CH14 reads as the next real bottleneck rather than as an added conceptual detour
 
 ### Editorial Comments
 - Comment: "run a challange round on 14, ensure consistency and flow with chapter 12"
-- Response: ran the CH14 challenge round, wrote the artifact to disk, revised the chapter into `draft_v2`, and updated project memory in the same pass
+- Response: ran the CH13 challenge round, wrote the artifact to disk, revised the chapter into `draft_v2`, and updated project memory in the same pass
 
 ### Lessons Learned
 - Insight: when adjacent thesis chapters are both concept-heavy, the main editorial risk is not factual weakness but pacing drag from repeated setup
-- What worked: using the challenge round to test the CH12-to-CH14 handoff specifically, then revising immediately while the overlap points were concrete
-- What did not: nothing material in this pass, though CH12 may still benefit from a small alignment read now that CH14 is tighter
+- What worked: using the challenge round to test the CH12-to-CH13 handoff specifically, then revising immediately while the overlap points were concrete
+- What did not: nothing material in this pass, though CH12 may still benefit from a small alignment read now that CH13 is tighter
 
 ### Next Steps
-- [ ] Re-read CH12 alongside CH14 `draft_v2` for any final Part III overlap or transition cleanup
+- [ ] Re-read CH12 alongside CH13 `draft_v2` for any final Part III overlap or transition cleanup
 - [ ] Decide whether CH12 should also run a challenge round before a future `draft_v2`
-- [ ] Keep CH15 aligned to the revised CH14 bridge as Part III continues
+- [ ] Keep CH14 aligned to the revised CH13 bridge as Part III continues
 
-## [2026-04-11] - Added Direct Standards Links To Chapter 15 Notes
+## [2026-04-11] - Added Direct Standards Links To Chapter 14 Notes
 
 ### Summary
-- Files changed: `04_manuscript/chapter_15/research_tracker.md`, `04_manuscript/chapter_15/source_notes.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: added explicit direct links for FIBO, FINOS Legend, FINOS CDM, and BIAN in the CH15 research scaffolding so the standards set is easier to reuse in later chapters
-- Chapter(s) affected: CH15, with likely reuse in CH16 and later architecture chapters
+- Files changed: `04_manuscript/chapter_14/research_tracker.md`, `04_manuscript/chapter_14/source_notes.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: added explicit direct links for FIBO, FINOS Legend, FINOS CDM, and BIAN in the CH14 research scaffolding so the standards set is easier to reuse in later chapters
+- Chapter(s) affected: CH14, with likely reuse in CH15 and later architecture chapters
 
 ### Decisions
 - Decision: place the explicit standards links in `research_tracker.md` and `source_notes.md` rather than in body prose
@@ -633,7 +770,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Editorial Comments
 - Comment: "we should include links to FIBO. FINOS and BIAN and CDM if appropriate"
-- Response: added direct standards links to the durable CH15 research scaffolding while keeping the manuscript draft itself citation-light
+- Response: added direct standards links to the durable CH14 research scaffolding while keeping the manuscript draft itself citation-light
 
 ### Lessons Learned
 - Insight: for standards-heavy chapters, a compact direct-links section in the notes makes later drafting and cross-chapter reuse easier without cluttering the prose draft
@@ -641,20 +778,20 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - What did not: nothing material in this pass
 
 ### Next Steps
-- [ ] Reuse the CH15 standards links when starting CH16
+- [ ] Reuse the CH14 standards links when starting CH15
 - [ ] Keep later architecture chapters citation-light in prose but notes-rich in supporting artifacts
 
-## [2026-04-11] - Expanded Chapter 15 Research With BIAN
+## [2026-04-11] - Expanded Chapter 14 Research With BIAN
 
 ### Summary
-- Files changed: `04_manuscript/chapter_15/research_tracker.md`, `04_manuscript/chapter_15/claim_register.md`, `04_manuscript/chapter_15/source_notes.md`, `04_manuscript/chapter_15/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: completed a focused CH15 research pass on BIAN, expanded the source and claim base, revised `draft_v1.md` to fold BIAN into the standards discussion, and added `BIAN` to the glossary
-- Chapter(s) affected: CH15, with forward relevance to CH16 and later architecture chapters
+- Files changed: `04_manuscript/chapter_14/research_tracker.md`, `04_manuscript/chapter_14/claim_register.md`, `04_manuscript/chapter_14/source_notes.md`, `04_manuscript/chapter_14/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: completed a focused CH14 research pass on BIAN, expanded the source and claim base, revised `draft_v1.md` to fold BIAN into the standards discussion, and added `BIAN` to the glossary
+- Chapter(s) affected: CH14, with forward relevance to CH15 and later architecture chapters
 
 ### Decisions
-- Decision: treat BIAN as a complementary standards source in CH15 rather than as a replacement for FIBO
+- Decision: treat BIAN as a complementary standards source in CH14 rather than as a replacement for FIBO
 - Rationale: FIBO remains the cleaner ontology reference, while BIAN adds banking-specific service-domain, business-object, and semantic-API structure that strengthens the practical implementation angle
-- Alternatives rejected: leaving CH15 centered only on FIBO and FINOS, or overstating BIAN as a pure ontology standard when it is better described as a banking architecture and semantic interoperability standard
+- Alternatives rejected: leaving CH14 centered only on FIBO and FINOS, or overstating BIAN as a pure ontology standard when it is better described as a banking architecture and semantic interoperability standard
 
 ### Issues & Resolution
 - Issue: the user referenced "BAIN or BIAN," and the chapter needed the correct standard and positioning
@@ -664,81 +801,81 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Editorial Comments
 - Comment: "I like the FIBO references there is another onotology BAIN or BIAN that should be folded in as well - do a research round on that"
-- Response: ran a dedicated BIAN research pass, updated the durable chapter artifacts, and revised CH15 `draft_v1` so the standards picture now includes both ontology-heavy and banking-architecture semantic approaches
+- Response: ran a dedicated BIAN research pass, updated the durable chapter artifacts, and revised CH14 `draft_v1` so the standards picture now includes both ontology-heavy and banking-architecture semantic approaches
 
 ### Lessons Learned
-- Insight: CH15 becomes stronger when it shows multiple layers of shared meaning in finance: concept ontology through FIBO, lifecycle semantics through the FINOS CDM, and banking service-domain semantics through BIAN
+- Insight: CH14 becomes stronger when it shows multiple layers of shared meaning in finance: concept ontology through FIBO, lifecycle semantics through the FINOS CDM, and banking service-domain semantics through BIAN
 - What worked: using BIAN's own practitioner and release materials to keep the distinction between ontology and semantic architecture disciplined
-- What did not: nothing material in this pass, though CH15 should still be checked later to ensure the standards section stays compact
+- What did not: nothing material in this pass, though CH14 should still be checked later to ensure the standards section stays compact
 
 ### Next Steps
-- [ ] Re-read CH15 `draft_v1` to ensure the standards section stays tight and does not become list-like
-- [ ] Decide whether CH12, CH14, or CH15 should run challenge rounds before CH16 begins
-- [ ] Start CH16 by creating the canonical data-products artifact set
-
-## [2026-04-11] - Drafted Chapter 15 Version 1
-
-### Summary
-- Files changed: `04_manuscript/chapter_15/chapter_brief.md`, `04_manuscript/chapter_15/research_tracker.md`, `04_manuscript/chapter_15/claim_register.md`, `04_manuscript/chapter_15/source_notes.md`, `04_manuscript/chapter_15/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: created the full CH15 artifact set, completed research pass 1, built the citation map, drafted `draft_v1.md`, and added `Ontology` and `Semantic Interoperability` to the manuscript glossary
-- Chapter(s) affected: CH15, with direct bridge logic from CH14 and forward bridge logic into CH16
-
-### Decisions
-- Decision: frame CH15 as a practical semantic-foundation chapter rather than as a theoretical knowledge-representation chapter
-- Rationale: the executive reader needs to understand that ontology is an operating requirement for enterprise intelligence, not a detached technical specialty
-- Alternatives rejected: writing CH15 as a generic knowledge-graph chapter, reducing it to a narrow master-data-management discussion, or pushing the semantic argument into CH16
-
-### Issues & Resolution
-- Issue: ontology can easily sound too abstract for this manuscript's voice and audience
-- Resolution: anchored the chapter in workflow consequences, supervisory data-aggregation failures, finance-specific standards, and BNY's governed-data posture rather than in semantic-web theory
-- Issue: CH15 needed to stay distinct from CH14 while still inheriting its intelligence argument
-- Resolution: treated CH14 as the motivation chapter and CH15 as the semantic prerequisite chapter, with the draft focused on why context interpretation fails when enterprise meaning is unstable
-
-### Editorial Comments
-- Comment: "go ahead and start chapter 15, perform the setup, do the research and draft v1"
-- Response: created the artifact set, completed a standards-led research pass with direct-link source logging, wrote the source notes, updated the glossary, and completed CH15 `draft_v1` in the same work pass
-
-### Lessons Learned
-- Insight: CH15 is strongest when it distinguishes semantic instability from ordinary data-quality problems and shows that ontology is about entities, events, states, relationships, and constraints together
-- What worked: combining BNY data-governance sources with BCBS 239 and finance-specific semantic standards such as FIBO, FINOS Legend, and the FINOS CDM
-- What did not: nothing material in this pass, though the draft should still be checked for overlap with CH14's intelligence definition before `draft_v2`
-
-### Next Steps
-- [ ] Re-read CH15 `draft_v1` for overlap with CH14 and tighten any repeated intelligence framing
-- [ ] Decide whether CH12 or CH14 should run challenge rounds before CH16 begins
-- [ ] Start CH16 by creating the canonical data-products artifact set
+- [ ] Re-read CH14 `draft_v1` to ensure the standards section stays tight and does not become list-like
+- [ ] Decide whether CH12, CH13, or CH14 should run challenge rounds before CH15 begins
+- [ ] Start CH15 by creating the canonical data-products artifact set
 
 ## [2026-04-11] - Drafted Chapter 14 Version 1
 
 ### Summary
 - Files changed: `04_manuscript/chapter_14/chapter_brief.md`, `04_manuscript/chapter_14/research_tracker.md`, `04_manuscript/chapter_14/claim_register.md`, `04_manuscript/chapter_14/source_notes.md`, `04_manuscript/chapter_14/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: created the full CH14 artifact set, completed research pass 1, built the citation map, drafted `draft_v1.md`, and added `Intelligence Layer` to the manuscript glossary
-- Chapter(s) affected: CH14, with direct bridge logic from CH12 and forward bridge logic into CH15
+- Artifacts created or updated: created the full CH14 artifact set, completed research pass 1, built the citation map, drafted `draft_v1.md`, and added `Ontology` and `Semantic Interoperability` to the manuscript glossary
+- Chapter(s) affected: CH14, with direct bridge logic from CH13 and forward bridge logic into CH15
+
+### Decisions
+- Decision: frame CH14 as a practical semantic-foundation chapter rather than as a theoretical knowledge-representation chapter
+- Rationale: the executive reader needs to understand that ontology is an operating requirement for enterprise intelligence, not a detached technical specialty
+- Alternatives rejected: writing CH14 as a generic knowledge-graph chapter, reducing it to a narrow master-data-management discussion, or pushing the semantic argument into CH15
+
+### Issues & Resolution
+- Issue: ontology can easily sound too abstract for this manuscript's voice and audience
+- Resolution: anchored the chapter in workflow consequences, supervisory data-aggregation failures, finance-specific standards, and BNY's governed-data posture rather than in semantic-web theory
+- Issue: CH14 needed to stay distinct from CH13 while still inheriting its intelligence argument
+- Resolution: treated CH13 as the motivation chapter and CH14 as the semantic prerequisite chapter, with the draft focused on why context interpretation fails when enterprise meaning is unstable
+
+### Editorial Comments
+- Comment: "go ahead and start chapter 15, perform the setup, do the research and draft v1"
+- Response: created the artifact set, completed a standards-led research pass with direct-link source logging, wrote the source notes, updated the glossary, and completed CH14 `draft_v1` in the same work pass
+
+### Lessons Learned
+- Insight: CH14 is strongest when it distinguishes semantic instability from ordinary data-quality problems and shows that ontology is about entities, events, states, relationships, and constraints together
+- What worked: combining BNY data-governance sources with BCBS 239 and finance-specific semantic standards such as FIBO, FINOS Legend, and the FINOS CDM
+- What did not: nothing material in this pass, though the draft should still be checked for overlap with CH13's intelligence definition before `draft_v2`
+
+### Next Steps
+- [ ] Re-read CH14 `draft_v1` for overlap with CH13 and tighten any repeated intelligence framing
+- [ ] Decide whether CH12 or CH13 should run challenge rounds before CH15 begins
+- [ ] Start CH15 by creating the canonical data-products artifact set
+
+## [2026-04-11] - Drafted Chapter 13 Version 1
+
+### Summary
+- Files changed: `04_manuscript/chapter_13/chapter_brief.md`, `04_manuscript/chapter_13/research_tracker.md`, `04_manuscript/chapter_13/claim_register.md`, `04_manuscript/chapter_13/source_notes.md`, `04_manuscript/chapter_13/draft_v1.md`, `04_manuscript/glossary.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: created the full CH13 artifact set, completed research pass 1, built the citation map, drafted `draft_v1.md`, and added `Intelligence Layer` to the manuscript glossary
+- Chapter(s) affected: CH13, with direct bridge logic from CH12 and forward bridge logic into CH14
 
 ### Decisions
 - Decision: define intelligence as a governed context layer across BNY's existing platform rather than as a generic AI-tool category
 - Rationale: this keeps the chapter tightly connected to CH12's operating-system thesis and avoids turning Part III into a loose AI trend section
-- Alternatives rejected: treating CH14 as a survey of AI features, leaning on generic productivity use cases, or writing the chapter as speculative autonomy rhetoric
+- Alternatives rejected: treating CH13 as a survey of AI features, leaning on generic productivity use cases, or writing the chapter as speculative autonomy rhetoric
 
 ### Issues & Resolution
-- Issue: CH14 could easily collapse into vague "AI as transformation" language unless it had a precise operational definition
+- Issue: CH13 could easily collapse into vague "AI as transformation" language unless it had a precise operational definition
 - Resolution: the draft defines the intelligence layer through concrete jobs: context assembly, relevance interpretation, prioritization, routing, explanation, and governed decision support
 - Issue: the chapter needed to stay strategic without outrunning the evidence on BNY's current internal integration depth
 - Resolution: the research set uses official BNY AI, data, annual-report, and Project Aikya materials plus NIST and BIS sources, and the draft treats the intelligence layer as a strategic requirement and opportunity rather than as a claim that BNY has already fully built it
 
 ### Editorial Comments
 - Comment: "ok lets get started on a chapter 14, do the setup run research and create draft 1"
-- Response: created the artifact set, ran the first research pass with direct-link source logging, wrote the source notes, and completed CH14 `draft_v1` in the same work pass
+- Response: created the artifact set, ran the first research pass with direct-link source logging, wrote the source notes, and completed CH13 `draft_v1` in the same work pass
 
 ### Lessons Learned
-- Insight: CH14 is strongest when it distinguishes sharply between platform breadth and intelligence, then defines intelligence in workflow and governance terms rather than in model-centric terms
+- Insight: CH13 is strongest when it distinguishes sharply between platform breadth and intelligence, then defines intelligence in workflow and governance terms rather than in model-centric terms
 - What worked: combining BNY's own AI-platform language with NIST and BIS governance framing to keep the chapter specific, sober, and regulated-finance-aware
 - What did not: nothing material in this pass, though the draft should still be checked for overlap with CH12 before moving to `draft_v2`
 
 ### Next Steps
-- [ ] Re-read CH14 `draft_v1` for repetition against CH12 and tighten any duplicate platform framing
-- [ ] Decide whether CH14 should run a challenge round before CH15 begins
-- [ ] Start CH15 by creating the ontology chapter artifact set
+- [ ] Re-read CH13 `draft_v1` for repetition against CH12 and tighten any duplicate platform framing
+- [ ] Decide whether CH13 should run a challenge round before CH14 begins
+- [ ] Start CH14 by creating the ontology chapter artifact set
 
 ## [2026-04-10] - Drafted Chapter 12 Version 1
 
@@ -769,7 +906,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Next Steps
 - [ ] Re-read CH12 `draft_v1` and decide whether to run a practitioner challenge round before `draft_v2`
-- [ ] Start CH14 by creating the missing-intelligence-layer artifact set
+- [ ] Start CH13 by creating the missing-intelligence-layer artifact set
 - [ ] Keep CH13 marked as absorbed unless a later manuscript review shows the platform-economics material needs to stand alone
 
 ## [2026-04-09] - Consolidated Chapter 13 Into Chapter 12
@@ -800,7 +937,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 ### Next Steps
 - [ ] Complete CH12 research pass 1 using the seeded BNY and optional platform-strategy source set
 - [ ] Decide whether external platform theory is needed or whether BNY operating evidence is enough
-- [ ] Keep CH14 as the next distinct move: the missing intelligence layer
+- [ ] Keep CH13 as the next distinct move: the missing intelligence layer
 
 ## [2026-04-09] - Addressed Chapter 11 Challenge-Round Watch Items
 
@@ -1046,7 +1183,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 ### Next Steps
 - [ ] Re-read CH09 `draft_v2` and decide whether it is ready for editor-facing review or needs one narrow polish pass
 - [ ] Create `04_manuscript/chapter_10/draft_v2.md` from the practitioner challenge-round priorities
-- [ ] Keep the CH24 handoff explicit if CH09 receives another revision pass
+- [ ] Keep the CH23 handoff explicit if CH09 receives another revision pass
 
 ## [2026-04-09] - Added Platform-Advantage Paragraph To Chapter 9
 
@@ -1076,7 +1213,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 ### Next Steps
 - [ ] Create `04_manuscript/chapter_09/draft_v2.md` using the challenge-round priorities
 - [ ] Decide whether one additional neutral economics source is needed after the revision pass
-- [ ] Keep CH24 setup explicit without letting CH09 drift into future-state design too early
+- [ ] Keep CH23 setup explicit without letting CH09 drift into future-state design too early
 
 ## [2026-04-09] - Ran Chapter 9 Challenge Round
 
@@ -1087,7 +1224,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Decisions
 - Decision: move CH09 from `drafting` to `revising` and run one focused revision pass before `draft_v2`
-- Rationale: `draft_v1` already has a strong conceptual spine, but it will be materially more defensible if it states more crisply what remains differentiated, sharpens the economics bridge, and tightens the CH24 handoff
+- Rationale: `draft_v1` already has a strong conceptual spine, but it will be materially more defensible if it states more crisply what remains differentiated, sharpens the economics bridge, and tightens the CH23 handoff
 - Alternatives rejected: treating the current draft as ready for editor-facing review immediately, or reopening research broadly before applying the most obvious structural improvements
 
 ### Issues & Resolution
@@ -1108,7 +1245,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 ### Next Steps
 - [ ] Create `04_manuscript/chapter_09/draft_v2.md` using the challenge-round priorities
 - [ ] Decide whether one additional neutral economics source is needed after the revision pass
-- [ ] Keep CH24 setup explicit without letting CH09 drift into future-state design too early
+- [ ] Keep CH23 setup explicit without letting CH09 drift into future-state design too early
 
 ## [2026-04-09] - Drafted Chapter 9 Version 1
 
@@ -1151,7 +1288,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Decisions
 - Decision: apply the CH10 practitioner challenge-round recommendations in one focused revision pass rather than making only partial edits to `draft_v1`
-- Rationale: the challenge round identified a coherent set of operator-facing improvements that work best together: clearer role precision, sharper differentiation among sub-workflows, one more concrete exception path, and a more explicit CH25 handoff
+- Rationale: the challenge round identified a coherent set of operator-facing improvements that work best together: clearer role precision, sharper differentiation among sub-workflows, one more concrete exception path, and a more explicit CH24 handoff
 - Alternatives rejected: leaving the chapter in `revising`, or making only local sentence edits without strengthening the operating model
 
 ### Issues & Resolution
@@ -1181,7 +1318,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Decisions
 - Decision: treat the practitioner review as a `revise before proceeding` outcome rather than moving directly to `draft_v2` without pressure-testing adjustments
-- Rationale: the draft's core logic is strong, but a practitioner-grade reading exposes four concrete upgrade points: actor precision, workflow differentiation, one more exception path, and a more concrete CH25 handoff
+- Rationale: the draft's core logic is strong, but a practitioner-grade reading exposes four concrete upgrade points: actor precision, workflow differentiation, one more exception path, and a more concrete CH24 handoff
 - Alternatives rejected: passing the draft with only minor notes, or expanding the challenge round into specialist legal detail beyond the chapter's purpose
 
 ### Issues & Resolution
@@ -1456,7 +1593,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Issues & Resolution
 - Issue: Pershing public materials mix core platform anchors, broad solution families, and newer platform directions under overlapping branding, which makes it easy to blur what matters most to CH08
-- Resolution: structured the inventory around workflow layer, primary user, and chapter relevance, while clearly separating core CH08 anchors such as `NetX360+` and clearing/custody from broader offerings like `Investment Solutions` and more CH23-relevant items like `Wove`
+- Resolution: structured the inventory around workflow layer, primary user, and chapter relevance, while clearly separating core CH08 anchors such as `NetX360+` and clearing/custody from broader offerings like `Investment Solutions` and more CH22-relevant items like `Wove`
 
 ### Editorial Comments
 - Comment: "I'm not sure - as an FDE I will need to be familiar with these product offerings so a brochure has value"
@@ -1665,7 +1802,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Alternatives rejected: keeping `draft_v1` as-is for editor review, or reopening research before making the obvious draft-level improvements
 
 ### Issues & Resolution
-- Issue: `draft_v1` still needed one lived workflow example, clearer day-to-day consequences of the carrying layer, and a more disciplined close that landed on current-state constraints before CH23
+- Issue: `draft_v1` still needed one lived workflow example, clearer day-to-day consequences of the carrying layer, and a more disciplined close that landed on current-state constraints before CH22
 - Resolution: `draft_v2` now adds a compact advisor-and-service transfer scenario, strengthens the carrying-layer consequences around statements, visibility, transfers, and escalation ownership, makes the open-ecosystem section more specifically about wealth-tech stack choices, and cools the future-state bridge
 
 ### Editorial Comments
@@ -1744,7 +1881,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 ### Next Steps
 - [ ] Create `04_manuscript/chapter_07/draft_v2.md` using the challenge-round priorities
 - [ ] Preserve disciplined qualification on forecasting claims unless a stronger non-vendor source is added
-- [ ] Keep CH07's current-state close focused on present operating burden before sharpening the bridge to CH22
+- [ ] Keep CH07's current-state close focused on present operating burden before sharpening the bridge to CH21
 
 ## [2026-04-09] - Ran Challenge Round For Chapter 8 Draft V1
 
@@ -1755,12 +1892,12 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Decisions
 - Decision: mark CH08 challenge outcome as `revise before proceeding`
-- Rationale: the chapter's platform framing is strong, but one focused revision pass should make workflow friction feel more lived, keep the platform language more wealth-specific, and tighten the boundary between current-state analysis and CH23 setup
+- Rationale: the chapter's platform framing is strong, but one focused revision pass should make workflow friction feel more lived, keep the platform language more wealth-specific, and tighten the boundary between current-state analysis and CH22 setup
 - Alternatives rejected: moving directly to editor-facing review from `draft_v1`, or reopening broad research before applying the obvious high-yield revisions
 
 ### Issues & Resolution
 - Issue: `draft_v1` explains Pershing well at the platform level, but the operating burden is still more inferred than demonstrated in one compact scenario, and the later sections drift slightly toward future-state language
-- Resolution: documented a concrete revision plan in `challenge_round.md` covering four priorities: add one operating mini-scenario, sharpen the carrying layer's daily consequences, make the open-ecosystem section more wealth-specific, and cool the CH23 bridge
+- Resolution: documented a concrete revision plan in `challenge_round.md` covering four priorities: add one operating mini-scenario, sharpen the carrying layer's daily consequences, make the open-ecosystem section more wealth-specific, and cool the CH22 bridge
 
 ### Editorial Comments
 - Comment: "go ahead and run a challange round"
@@ -1774,7 +1911,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 ### Next Steps
 - [ ] Create `04_manuscript/chapter_08/draft_v2.md` using the challenge-round action list
 - [ ] Add one compact advisor or service workflow scenario with visible handoffs and status ambiguity
-- [ ] Tighten the close so it lands on current-state constraints before bridging into CH23
+- [ ] Tighten the close so it lands on current-state constraints before bridging into CH22
 
 ## [2026-04-09] - Drafted Chapter 7 Version 1
 
@@ -1954,7 +2091,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 ### Next Steps
 - [ ] Decide whether CH08 now has enough support to move into `drafting`
 - [ ] Create `04_manuscript/chapter_08/source_notes.md` if drafting begins next
-- [ ] Review CH08 future-state-adjacent platform sources only enough to sharpen the bridge into CH23
+- [ ] Review CH08 future-state-adjacent platform sources only enough to sharpen the bridge into CH22
 
 ## [2026-04-09] - Expanded Glossary From Chapters 1 Through 6
 
@@ -2043,7 +2180,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ### Next Steps
 - [ ] Add practitioner-quality sources on advisor workflow fragmentation and integration sprawl
-- [ ] Review future-state-adjacent Pershing sources only enough to sharpen the CH23 bridge
+- [ ] Review future-state-adjacent Pershing sources only enough to sharpen the CH22 bridge
 - [ ] Decide whether CH08 is ready for `source_notes.md` and `draft_v1`
 
 ## [2026-04-09] - Formalized Book-Level Glossary Governance
@@ -2089,7 +2226,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Alternatives rejected: drafting CH08 prose immediately without source grounding, or treating Pershing as a simple custody chapter without explicit platform logic
 
 ### Issues & Resolution
-- Issue: CH08 could easily drift into either generic wealth-tech language or premature CH23 future-state language if the scope was not set carefully
+- Issue: CH08 could easily drift into either generic wealth-tech language or premature CH22 future-state language if the scope was not set carefully
 - Resolution: framed the chapter around current-state wealth infrastructure, carrying and custody responsibilities, advisor workflow surfaces, and visible but still qualified intelligence upside
 
 ### Editorial Comments
