@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: CH18 and CH19 draft_v2 complete after challenge rounds; the Part IV architecture sequence is now ready for author review alongside CH17 draft_v2
-- Next milestone: author review of CH17 draft_v2, CH18 draft_v2, and CH19 draft_v2; then begin CH20 setup and research
+- Current focus: CH20 `draft_v1` complete after setup and research pass 1; the first Part V chapter now turns the Part IV architecture into a supervised asset-servicing operating model
+- Next milestone: author review of CH20 `draft_v1`, then run the CH20 challenge round before drafting `draft_v2`
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -32,7 +32,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH17 | The AI Gateway (Control Plane) | in_editor_review | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft_v2 addresses SR 11-7 extension, Eliza/production distinction, concrete failure scenario, topology, CH19 boundary, and positive capability argument |
 | CH18 | The Runtime: Agents and Orchestration | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 adds a clearer selection rule for workflow vs. single-agent vs. multi-agent design, sharper over-orchestration failure language, and a cleaner CH19 boundary |
 | CH19 | Observability as Governance | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 now states that observability complements prior governance layers, makes monitoring risk-proportionate, and sharpens the intervention bridge into CH20 |
-| CH20 | AI-Native Asset Servicing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH20 | AI-Native Asset Servicing | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 complete; reframes asset servicing as continuous supervised servicing with AI-native NAV oversight, reconciliation triage, investor tooling, and stronger transparency |
 | CH21 | AI-Native Clearing and Settlement | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH22 | AI-Native Treasury Services | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH23 | AI-Native Pershing Platform | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
@@ -61,6 +61,15 @@ This file is the high-level dashboard for the project. It should stay concise an
 - `Graph Extract`: chapter has been converted into structured concepts, claims, and relationships
 
 ## Session Log
+
+### 2026-04-13
+
+- Reviewed CH17 `draft_v2`, CH18 `draft_v2`, and CH19 `draft_v2` together and confirmed the Part IV sequence is clean enough to open Part V without a blocking overlap issue.
+- Started CH20 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
+- Completed CH20 research pass 1 using BNY's 2025 annual report, fund administration, fund services, integrated fund-and-investor solutions, investor solutions, and AI platform materials plus CH05's current-state servicing evidence base.
+- Positioned CH20 around continuous supervised servicing rather than full autonomy, with the strongest near-term wedges in NAV oversight, anomaly detection, reconciliation triage, investor servicing, and transparency.
+- Created `04_manuscript/chapter_20/source_notes.md` and `draft_v1.md`, moving CH20 from `not_started` to `drafting`.
+- Positioned the chapter as the first business-line proof of the Part IV stack: canonical data products, runtime controls, and observability now show up as earlier detection, better case assembly, clearer explanations, and bounded autonomy in servicing workflows.
 
 ### 2026-04-12
 
@@ -310,11 +319,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Review CH17 `draft_v2`, CH18 `draft_v2`, and CH19 `draft_v2` together as the Part IV architecture sequence.
-2. Begin CH20 setup and research once the Part IV sequence is cleared.
-3. Decide whether CH17 needs a narrow final polish after Part IV is reviewed as one unit.
-4. Read through `04_manuscript/manuscript_ch01_ch19.md` for flow, repetition, and tone consistency across the opening architecture sequence.
-5. Revisit whether CH16 should move to editor review now that CH17-CH19 are all materially shaped.
+1. Run the CH20 challenge round before drafting `draft_v2`.
+2. Decide whether CH17 needs a narrow final polish after Part IV is reviewed as one unit.
+3. Read through `04_manuscript/manuscript_ch01_ch19.md` for flow, repetition, and tone consistency across the opening architecture sequence.
+4. Revisit whether CH16 should move to editor review now that CH17-CH19 are all materially shaped.
+5. Decide whether CH20 needs a second research pass before or after the challenge round.
 
 ## Update Rules
 

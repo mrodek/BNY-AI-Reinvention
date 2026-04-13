@@ -45,6 +45,42 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-13] - CH20 Setup, Research Pass 1, and Draft v1
+
+### Summary
+- Files changed: `04_manuscript/chapter_20/chapter_brief.md`, `04_manuscript/chapter_20/research_tracker.md`, `04_manuscript/chapter_20/claim_register.md`, `04_manuscript/chapter_20/source_notes.md`, `04_manuscript/chapter_20/draft_v1.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created: the full CH20 starter set plus `draft_v1.md` and mandatory tracker/log updates
+- Chapter(s) affected: CH20 directly, with a sequencing check across CH17-CH19 and continuity from CH05
+
+### Decisions
+- Decision: proceed from the CH17-CH19 sequence directly into CH20 without another blocking revision pass
+- Rationale: the Part IV chapters now hold their boundaries clearly enough that the first business-line future-state chapter can use them without repeating the architecture
+- Decision: frame CH20 around "continuous supervised servicing" rather than around full autonomy
+- Rationale: this keeps the chapter ambitious but defensible; the source base supports AI-powered oversight, anomaly detection, and workflow automation more strongly than unsupervised official-record changes
+- Decision: build the chapter's before/after spine directly from CH05's burden map
+- Rationale: the strongest future-state argument comes from redesigning known pressure points such as NAV oversight, reconciliation triage, investor servicing, and reporting transparency rather than introducing a new abstract taxonomy
+- Decision: make transparency, earlier detection, and better case assembly as important as speed or labor reduction
+- Rationale: asset servicing is a trust business, so the future-state payoff has to include clearer explanations and better control evidence, not just efficiency
+
+### Issues & Resolution
+- Issue: future-state business-line chapters can easily drift into generic AI language disconnected from the current operating model
+- Resolution: tied CH20 explicitly to CH05's servicing burden and limited the research pass to BNY primary sources plus the existing current-state evidence base
+- Issue: CH20 needed to use the Part IV stack without restating it chapter by chapter
+- Resolution: wrote the chapter so canonical products, runtime controls, and observability appear through their workflow effects: earlier detection, better case assembly, bounded autonomy, and stronger operating transparency
+
+### Editorial Comments
+- CH20 now reads like the first proving ground of the book's architecture rather than like a generic transformation chapter
+- The "continuous supervised servicing" phrase is doing useful editorial work because it preserves ambition while keeping books-and-records realism intact
+
+### Lessons Learned
+- The best way to write a future-state business-line chapter is to preserve the current-state workflow skeleton and then show what changes in each pressure point
+- In trust-sensitive operating businesses, transparency and explainability are as important a future-state payoff as raw automation
+
+### Next Steps
+- [ ] Run the CH20 challenge round before drafting `draft_v2`
+- [ ] Decide whether CH20 needs a second research pass before or after the challenge round
+- [ ] Review whether CH17 needs a narrow final polish after the Part IV sequence is considered as one unit
+
 ## [2026-04-12] - CH18 And CH19 Challenge Rounds And Draft v2 Revisions
 
 ### Summary
