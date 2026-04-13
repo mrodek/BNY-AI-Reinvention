@@ -69,6 +69,8 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Resolution: tightened the stop line so record-changing, signoff-sensitive, and attestation-bearing actions remain under stronger human supervision
 
 ### Editorial Comments
+- Direct author feedback: the first two examples in CH19 still felt handwavy and not concrete enough as use cases
+- Response: revised the NAV-oversight and reconciliation sections to add one compact scenario each, showing what the operator sees, what evidence the system assembles, and where human judgment still sits
 - The revision improves the chapter most where it states that better servicing means better queue quality, not simply more AI-generated activity
 - The observability handoff from CH18 now lands more cleanly because override rates, recommendation precision, and queue aging are framed as governance signals rather than generic metrics
 - The chapter still works best when it stays close to CH05's operating burden map rather than drifting into broad AI-platform language
