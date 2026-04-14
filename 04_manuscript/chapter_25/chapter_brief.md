@@ -6,8 +6,8 @@
 - Working title: `AI-Native Enterprise Workflows`
 - Book section: `Part V - Rebuilding Each Business With AI`
 - Status: `drafting`
-- Last updated: `2026-04-13`
-- Structural note: CH25 is the capstone chapter for Part V. It should show that some of the strongest early AI-native use cases do not belong to one business line at all. They depend on shared client context, enterprise controls, workflow orchestration, and evidence assembled across many business capabilities.
+- Last updated: `2026-04-14`
+- Structural note: CH25 is the capstone chapter for Part V. It should show that some of the strongest early AI-native use cases do not belong to one business line at all. They depend on shared client context, enterprise controls, workflow orchestration, and evidence assembled across many business capabilities. The next draft should make proxy voting and post-KYC onboarding more concrete as business workflows and quantify the economic upside in disciplined, source-backed terms.
 
 ## Chapter Purpose
 

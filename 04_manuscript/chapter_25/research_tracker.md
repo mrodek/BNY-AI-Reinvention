@@ -6,6 +6,7 @@
 - Working title: `AI-Native Enterprise Workflows`
 - Status: `drafting`
 - Last updated: `2026-04-13`
+- Last updated: `2026-04-14`
 
 ## Research Questions
 
@@ -27,6 +28,11 @@
 | SRC-006 | reviewed | Swift KYC Registry | https://www.swift.com/our-solutions/compliance-and-shared-services/financial-crime-compliance/know-your-customer-kyc/kyc-registry | Official source on standardized KYC data exchange, audit trails, API integration, access control, and reusable documents across institutions | Strong source for post-KYC onboarding as a multi-institution workflow |
 | SRC-007 | reviewed | GLEIF, LEI in KYC: A New Future for Legal Entity Identification | https://www.gleif.org/en/lei-solutions/lei-in-kyc-a-new-future-for-legal-entity-identification/ | Useful evidence on onboarding drag, fragmented identifiers, and the value of a common legal-entity identity layer | Grounds the identity-fragmentation problem in concrete workflow cost |
 | SRC-008 | reviewed | GLEIF, The verifiable LEI (vLEI) | https://www.gleif.org/en/organizational-identity/lei-vlei/the-verifiable-lei-vlei | Strong source on instant automated identity verification and role-bound credentials | Useful for the future-state onboarding argument around identity and authority verification |
+| SRC-009 | reviewed | McKinsey, Solving the KYC Puzzle with Straight-Through Processing | https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/solving-the-kyc-puzzle-with-straight-through-processing | Strong quantitative source on KYC operating-cost reduction, handling-time reduction, and quality improvements from workflow automation | Best source for quantified onboarding economics |
+| SRC-010 | reviewed | McKinsey, Winning Corporate Clients with Great Onboarding | https://www.mckinsey.com/industries/financial-services/our-insights/winning-corporate-clients-with-great-onboarding | Strong source on onboarding cycle times, time-to-revenue impact, and onboarding operating-cost reduction | Good source for why post-KYC onboarding economics matter commercially |
+| SRC-011 | reviewed | Broadridge, Proxy Voting Explained | https://www.broadridge.com/campaigns/proxy-vote-101 | Plain-language definition of proxy voting and the business issues that are actually voted | Best source for a concise operational definition |
+| SRC-012 | reviewed | Broadridge, ProxyVote App Enhancements | https://www.broadridge.com/press-release/2023/proxy-voting-gets-easier-for-investors | Quantified scale source for shares voted and investor participation | Useful for showing that proxy voting is not a niche edge case |
+| SRC-013 | reviewed | Broadridge, End-to-End Vote Confirmation | https://www.broadridge.com/press-release/2022/broadridge-enhances-trust-in-proxy-voting-results | Useful source on reconciliation and vote-confirmation economics across 2,000+ U.S. public companies | Supports the trust-and-assurance argument |
 
 ## Working Hypotheses
 
@@ -35,6 +41,7 @@
 - Proxy voting is the clearest example of a deadline-sensitive enterprise workflow built from positions, entitlements, policies, ballots, instructions, exceptions, and evidence.
 - The strongest value of the Part IV architecture in CH25 is not generic automation. It is reliable context assembly, governed routing, and auditable execution across many teams and systems.
 - CH25 should serve as the bridge from Part V workflow redesign into Part VI graph-native intelligence.
+- The chapter needs a stronger business definition of proxy voting and clearer quantified economics for both anchor workflows.
 
 ## Source Selection Notes
 
@@ -52,6 +59,8 @@
 - Post-KYC onboarding is delayed less by one missing form than by fragmented ownership of client context after the risk gate has already been cleared.
 - Proxy voting is not just a governance service. It is a deadline-driven instruction and audit workflow.
 - AI-native redesign should increase throughput and explainability together.
+- The strongest quantified economic case for onboarding is lower operating cost, faster time-to-revenue, and higher multiproduct conversion.
+- The strongest quantified economic case for proxy voting is lower processing and reconciliation friction plus better retention and AUM capture for clients that increasingly care about voting choice, proof, and reporting quality.
 
 ## Gaps Resolved
 
@@ -75,3 +84,7 @@
 - GLEIF's research is useful because it makes the identity problem concrete: onboarding new client organizations was shown to take six weeks on average in the surveyed sample, and many institutions rely on multiple identifiers for the same organization.^[SRC-007]
 - GLEIF's vLEI material is useful for the future-state chapter because it points to role-bound digital identity and instant automated verification for legal entities and those acting on their behalf.^[SRC-008]
 - The SEC and Broadridge sources together show why proxy voting belongs in CH25: it requires policies, disclosures, rule handling, account setup, vote tracking, reconciliation, and reporting, all under deadline pressure.^[SRC-004]^[SRC-005]
+- McKinsey's KYC research now gives the chapter quantified onboarding economics: leading banks have streamlined KYC work by 20 to 30 percent, improved quality by 15 to 40 percent, and, in some cases, reduced low-risk review time from 100 minutes to 30 minutes through a blend of automation and targeted intervention.^[SRC-009]
+- McKinsey's transaction-banking onboarding research strengthens the commercial argument beyond cost. It says the average onboarding process for a new corporate client can take up to 100 days, that more than 40 percent of onboarding time is consumed by KYC due diligence and account opening, and that banks improving onboarding can boost EBITDA and reduce onboarding operating costs.^[SRC-010]
+- Broadridge's proxy-voting material gives the chapter a cleaner business definition and stronger scale signals. Proxy voting is how shareholders vote on governance and strategy matters without attending meetings in person, and Broadridge says more than 16.3 billion shares were voted on ProxyVote in 2023, representing 22 percent of total voted shares.^[SRC-011]^[SRC-012]
+- The same Broadridge sources also sharpen the economic case for BNY and its customers: proxy-voting platforms are now framed not only as compliance tooling but as efficiency, reconciliation, reporting, and client-choice infrastructure, with pass-through-voting capabilities already available across more than 600 funds and more than $8 trillion in assets.^[SRC-005]^[SRC-013]

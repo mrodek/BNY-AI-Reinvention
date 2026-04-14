@@ -45,6 +45,47 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-14] - CH25 Research Pass 2 And Draft v2 Revision
+
+### Summary
+- Files changed: `04_manuscript/chapter_25/research_tracker.md`, `04_manuscript/chapter_25/source_notes.md`, `04_manuscript/chapter_25/claim_register.md`, `04_manuscript/chapter_25/chapter_brief.md`, `04_manuscript/chapter_25/draft_v2.md`, `02_outline/chapter_map.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH25 source set expanded with McKinsey onboarding-economics and Broadridge proxy-voting scale sources; `draft_v2.md` created; tracker and log synchronized in the same pass
+- Chapter(s) affected: CH25 directly, with a status-note update in the chapter map
+
+### Decisions
+- Decision: revise CH25 immediately in response to direct editorial feedback rather than wait for a formal challenge round
+- Rationale: the needed changes were clear and specific: strengthen the workflow definitions, remove weak self-referential prose, and quantify the economic upside with a tighter evidence base
+- Decision: keep proxy voting and post-KYC onboarding as the two anchor workflows
+- Rationale: they still provide the best contrast between a client-activation workflow and a deadline-sensitive entitlement workflow while sharing the same enterprise-platform logic
+- Decision: treat the economic case as directional and source-backed rather than inventing precise BNY dollar figures
+- Rationale: the available sources strongly support time, cost, quality, scale, and trust arguments, but not a defensible public BNY-specific ROI estimate
+
+### Issues & Resolution
+- Issue: `draft_v1` opened with abstract language and included low-value self-referential statements about where the chapter belonged in the book
+- Resolution: rewrote the opening around client-experienced journeys, removed explicit chapter-self-reference, and kept the framing tied to workflow friction and platform value
+- Issue: proxy voting was described too narrowly and lacked a plain business definition
+- Resolution: rewrote the section to define proxy voting in shareholder and operating terms, then explained why it matters to both clients and BNY as a trust-and-evidence workflow
+- Issue: both anchor workflows needed a stronger quantified economic case
+- Resolution: added McKinsey benchmarks on onboarding time, cost, and quality and Broadridge data on proxy-voting volume, pass-through scale, and vote-confirmation coverage, then framed the business case as a disciplined inference from those sources
+
+### Editorial Comments
+- Direct author feedback: the prior opening sentence read like word salad
+- Response: replaced it with a simpler workflow-first opening grounded in what clients actually experience
+- Direct author feedback: avoid empty lines such as "This is why CH25 belongs here" and avoid chapter-number references in the prose
+- Response: removed those lines entirely and rewrote the chapter without in-body chapter-number references
+- Direct author feedback: proxy voting needed a real business definition, a clearer explanation of why it matters to BNY and its customers, and quantified economic upside for both anchor workflows
+- Response: expanded both sections accordingly and made the quantified claims explicit but carefully bounded
+
+### Lessons Learned
+- Cross-domain chapters improve quickly once the use cases are defined in operating terms rather than in taxonomy terms
+- Economic quantification works best here when the draft separates direct source facts from the author's inferred BNY value logic
+- Self-referential manuscript language is especially costly in capstone chapters because it makes the argument feel less earned
+
+### Next Steps
+- [ ] Review CH25 `draft_v2` for pacing and decide whether proxy voting should open the next revision
+- [ ] Decide whether CH25 now needs a formal challenge round before `draft_v3`
+- [ ] Commit and push the CH25 `draft_v2` revision as its own checkpoint
+
 ## [2026-04-13] - CH25 Setup, Research Pass 1, and Draft v1
 
 ### Summary

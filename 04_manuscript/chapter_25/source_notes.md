@@ -84,3 +84,48 @@
 - Where used in draft: future-state onboarding and authority-verification language
 - Key supporting facts or paraphrase notes: page says the vLEI provides instant automated identity verification for legal entities and those acting on their behalf, including specific persons in specific roles.
 - Limits or cautions: future-oriented identity credential source, so keep usage bounded to workflow potential rather than near-term universal adoption
+
+### SRC-009
+
+- Full citation: McKinsey, `Solving the KYC Puzzle with Straight-Through Processing`
+- Link: https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/solving-the-kyc-puzzle-with-straight-through-processing
+- Claims supported: CLM-002, CLM-007
+- Where used in draft: onboarding economics and workflow-improvement section
+- Key supporting facts or paraphrase notes: McKinsey says better KYC operating models can reduce operating costs by 20 to 30 percent, improve quality by 15 to 40 percent, and in some cases reduce low-risk review time from roughly 100 minutes to 30 minutes.
+- Limits or cautions: industry benchmark source, not a BNY-specific result
+
+### SRC-010
+
+- Full citation: McKinsey, `Winning Corporate Clients with Great Onboarding`
+- Link: https://www.mckinsey.com/industries/financial-services/our-insights/winning-corporate-clients-with-great-onboarding
+- Claims supported: CLM-002, CLM-007
+- Where used in draft: onboarding business case and time-to-revenue section
+- Key supporting facts or paraphrase notes: McKinsey says onboarding a new corporate client can take up to 100 days, more than 40 percent of that time can be consumed by KYC due diligence and account opening, and better onboarding can improve EBITDA while reducing operating cost.
+- Limits or cautions: sector benchmark source, so use for directional economics rather than as a universal timing claim
+
+### SRC-011
+
+- Full citation: Broadridge, `Proxy Voting Explained`
+- Link: https://www.broadridge.com/campaigns/proxy-vote-101
+- Claims supported: CLM-003, CLM-008
+- Where used in draft: proxy-voting business definition and market-scale context
+- Key supporting facts or paraphrase notes: proxy voting allows shareholders to vote on company matters without attending the meeting in person; Broadridge says more than 16.3 billion shares were voted through ProxyVote in 2023, representing 22 percent of total voted shares.
+- Limits or cautions: explanatory and vendor-scale source, not a full market census
+
+### SRC-012
+
+- Full citation: Broadridge, `Proxy Voting Gets Easier for Investors with New ProxyVote App Enhancements`
+- Link: https://www.broadridge.com/press-release/2023/proxy-voting-gets-easier-for-investors
+- Claims supported: CLM-003, CLM-008
+- Where used in draft: proxy-voting investor-choice and pass-through section
+- Key supporting facts or paraphrase notes: Broadridge says pass-through voting capabilities are available across more than 600 funds and over $8 trillion in assets.
+- Limits or cautions: vendor press release; use for scale of pass-through-voting availability, not as a claim about universal adoption
+
+### SRC-013
+
+- Full citation: Broadridge, `Broadridge Enhances Trust in Proxy Voting Results with End-to-End Vote Confirmation`
+- Link: https://www.broadridge.com/press-release/2022/broadridge-enhances-trust-in-proxy-voting-results
+- Claims supported: CLM-003, CLM-008
+- Where used in draft: proxy-voting confirmation and evidence section
+- Key supporting facts or paraphrase notes: Broadridge says its end-to-end vote confirmation capability covers more than 2,000 U.S. public companies, highlighting the importance of proof, auditability, and trust in vote processing.
+- Limits or cautions: vendor press release about service coverage, useful as evidence of workflow emphasis on confirmation rather than as a full market benchmark
