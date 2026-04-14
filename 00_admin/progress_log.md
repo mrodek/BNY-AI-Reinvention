@@ -154,6 +154,8 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Response: revised that section to name three concrete weak-signal cases, then spelled out the resulting benefits in operational terms: less reconstruction work, better prioritization, lower aging pressure, and clearer client explanations
 - Direct author feedback: the NAV example implied a detection problem in a world where market data is visible, and "before NAV strike" needed plainer wording
 - Response: rewrote the example around valuation governance rather than simple visibility, and replaced "before NAV strike" with explicit language about the point in the valuation cycle when the day's official NAV must be finalized and approved
+- Direct author feedback: remove the negating construction from the NAV example and use more original language
+- Response: rewrote the passage around valuation judgment under time pressure, replacing the "not X, but Y" pattern with a more direct description of the operator's decision burden
 - The revision improves the chapter most where it states that better servicing means better queue quality, not simply more AI-generated activity
 - The observability handoff from CH18 now lands more cleanly because override rates, recommendation precision, and queue aging are framed as governance signals rather than generic metrics
 - The chapter still works best when it stays close to CH05's operating burden map rather than drifting into broad AI-platform language
