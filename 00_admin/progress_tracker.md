@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: CH20 `draft_v2` complete after applying the challenge-round findings to sharpen pre-fail intervention, make Treasury-clearing readiness more operational, tighten the autonomy boundary, and separate the chapter more clearly from CH21
-- Next milestone: review CH20 `draft_v2` and decide whether the next pass is minor polish or a second pressure test before moving deeper into the remaining Part V sequence
+- Current focus: CH22 `draft_v1` complete after a deep first research pass that reframes Pershing as a context-rich wealth operating system and grounds the chapter in current official Pershing and Wove workflow surfaces
+- Next milestone: review CH22 `draft_v1` and decide whether the next pass should be a challenge round or a direct `draft_v2` revision
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -34,7 +34,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH19 | AI-Native Asset Servicing | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 now makes the opening control-loop argument more actionable with explicit weak-signal examples, clearer operational benefits, and cleaner non-negating valuation-governance language in the NAV example |
 | CH20 | AI-Native Clearing and Settlement | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 sharpens the pre-fail example, makes Treasury-clearing readiness more operational, states queue-quality risk more directly, and tightens the post-trade autonomy boundary |
 | CH21 | AI-Native Treasury Services | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 positions treasury as an AI-native decision-and-control business, with the strongest near-term gains in validation, investigations, liquidity prioritization, and client transparency |
-| CH22 | AI-Native Pershing Platform | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH22 | AI-Native Pershing Platform | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 positions Pershing as a visible AI-native proving ground across advisor workflow coherence, operations orchestration, investor experience, and multi-custodial intelligence |
 | CH23 | AI-Native Investment Management | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH24 | AI-Native Collateral and Financing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH25 | AI-Native Enterprise Workflows | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now defines proxy voting as a real business workflow, expands post-KYC onboarding economics, removes weak chapter-self-reference, and sharpens both use cases as enterprise value cases |
@@ -64,21 +64,22 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-19
 
+- Started CH22 by creating the chapter brief, research tracker, claim register, and source-notes scaffold.
+- Completed CH22 research pass 1 using current official Pershing and Wove sources on NetX360+, advisor and operations workflow, Wove Advisory, Wove Investor, Wove Connect, Wove Data, and the CH08 platform baseline.
+- Created `source_notes.md` and `draft_v1.md`, moving CH22 into drafting.
+- Positioned CH22 around Pershing as a context-rich wealth operating system rather than a custody platform with an assistant attached, with wedges in advisor workflow coherence, service-orchestration quality, investor transparency, and multi-custodial data usability.
+- Added `Interoperability` to the glossary.
+
+### 2026-04-19
+
 - Revised CH20 into `draft_v2.md` by applying the challenge-round findings in one focused pass.
 - Added a sharper pre-fail example around affirmation and instruction quality, made the Treasury-clearing section more operational by tying the SEC implementation path to readiness and financing consequences, and tightened the distinction between bounded autonomy and formal post-trade control.
 - Kept CH20 anchored in trade-state coherence, settlement readiness, netting, liquidity, and fail prevention so it reads more distinctly from CH21's broader workflow logic.
+
 ### 2026-04-19
 
 - Ran the CH20 challenge round against `draft_v1`; outcome was `revise before proceeding`.
 - Logged targeted revision priorities for CH20: add one sharper pre-fail operating example, make Treasury-clearing readiness more operational, state queue-quality risk more explicitly, and tighten the post-trade autonomy boundary.
-
-### 2026-04-19
-
-- Started CH21 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
-- Completed CH21 research pass 1 using official BNY treasury and AI materials plus Swift, FRFS, and BCBS sources on payment pre-validation, anomaly controls, case management, intraday liquidity, and ISO 20022 investigation handling.
-- Created `04_manuscript/chapter_21/source_notes.md` and `draft_v1.md`, moving CH21 from `not_started` to `drafting`.
-- Positioned CH21 around continuous treasury supervision rather than autonomous payments, with payment-quality improvement, case orchestration, intraday decision support, and client transparency as the main future-state wedges.
-- Updated the chapter map and project tracker in the same pass so CH21's lifecycle state, draft status, and milestone language match disk reality.
 
 ### 2026-04-19
 
@@ -375,11 +376,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Review CH21 `draft_v1` for pacing, concrete scenario quality, and whether the liquidity section needs one more operating example before the challenge round.
-2. Decide whether CH21 should go through a formal challenge round before `draft_v2`.
-3. Review CH20 `draft_v1` for whether the Treasury-clearing section needs a sharper example before `draft_v2`.
-4. Review CH25 `draft_v2` for sequencing, pacing, and whether proxy voting should now open the chapter.
-5. Decide whether CH22 should be the next future-state business-line chapter after CH21.
+1. Review CH22 `draft_v1` for whether it needs one sharper advisor-client journey example before `draft_v2`.
+2. Decide whether CH22 should go through a formal challenge round before `draft_v2`.
+3. Review CH21 `draft_v1` for pacing, concrete scenario quality, and whether it should now go through a formal challenge round.
+4. Revise CH20 into `draft_v2` using the challenge-round findings.
+5. Review CH25 `draft_v2` for sequencing, pacing, and whether proxy voting should now open the chapter.
 
 ## Update Rules
 
@@ -403,5 +404,3 @@ Research standard reminder:
 - research trackers should include direct links for each source
 - material source-set changes should include source-selection notes in the relevant chapter tracker
 - source-backed chapter drafts should use `source_notes.md` for citation mapping and keep full citation detail out of the main prose draft
-
-

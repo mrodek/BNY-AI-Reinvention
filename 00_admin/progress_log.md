@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-19] - CH22 Research Pass 1 And Draft v1
+
+### Summary
+- Files changed: `04_manuscript/chapter_22/chapter_brief.md`, `04_manuscript/chapter_22/research_tracker.md`, `04_manuscript/chapter_22/claim_register.md`, `04_manuscript/chapter_22/source_notes.md`, `04_manuscript/chapter_22/draft_v1.md`, `04_manuscript/glossary.md`, `02_outline/chapter_map.md`, `00_admin/progress_tracker.md`, and `00_admin/progress_log.md`.
+- Started CH22 from the current Part V sequence and created a full first-pass chapter artifact set plus `draft_v1.md`.
+- Grounded the chapter in current official Pershing and Wove product surfaces instead of generic industry commentary.
+
+### Decisions
+- Framed CH22 around Pershing as a context-rich wealth operating system rather than as a conventional custody platform with an AI assistant layered on top.
+- Anchored the chapter on four wedges: advisor workbench coherence, onboarding and service orchestration, investor experience, and data/connect interoperability.
+- Relied primarily on official Pershing and Wove sources plus the CH08 baseline so the chapter could stay disciplined about what is current, visible, and attributable.
+
+### Issues & Resolution
+- The main writing risk was slipping into generic "AI for advisors" language; resolved by tying each section to a visible workflow surface or operating consequence.
+- Public materials needed reconciliation between custody-native Pershing and the broader multi-custodial Wove layer; resolved by treating Wove as the visible future-state intelligence layer above and across Pershing.
+- The source set is stronger on platform direction and workflow design than on hard performance metrics; resolved by writing the chapter as a disciplined synthesis rather than as a quantified impact case.
+
+### Editorial Comments
+- The most important editorial move was to make the intelligence shift visible to advisors, operations teams, managers, and clients rather than describing the platform in abstract capability language.
+- The chapter works best when it contrasts connected tools with a context-rich operating system that can carry state, sequence work, and improve next-best action quality.
+- The next pressure test should be whether one fuller advisor-client journey would make the argument more concrete before `draft_v2`.
+
+### Lessons Learned
+- Interoperability becomes a manuscript-level operating concept in CH22 rather than just a product feature.
+- The strongest distinction from CH08 is shifting from platform existence to workflow coherence, orchestration quality, and the practical value of context persistence.
+- Official Wove pages provide enough evidence for a first future-state draft as long as control boundaries and evidentiary limits stay explicit.
+
+### Next Steps
+- [ ] Review CH22 `draft_v1` for a sharper advisor-client journey example.
+- [ ] Decide whether CH22 should go through a formal challenge round before `draft_v2`.
+- [ ] Commit and push the CH22 `draft_v1` checkpoint.
+
 ## [2026-04-19] - CH20 Draft v2 Revision
 
 ### Summary
@@ -82,6 +114,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - [ ] Review CH20 `draft_v2` for pacing and decide whether the chapter now only needs light polish
 - [ ] Decide whether CH20 needs a second pressure test before it is held
 - [ ] Commit and push the CH20 `draft_v2` revision as its own checkpoint
+
 ## [2026-04-19] - CH20 Challenge Round
 
 ### Summary
@@ -117,45 +150,6 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - [ ] Revise CH20 into `draft_v2` with one sharper pre-fail operating example
 - [ ] Tighten the Treasury-clearing section around one concrete readiness or funding consequence
 - [ ] Make queue-quality risk and the post-trade autonomy stop line more explicit in the next draft
-
-## [2026-04-19] - CH21 Research Pass 1 And Draft v1
-
-### Summary
-- Files changed: `04_manuscript/chapter_21/chapter_brief.md`, `04_manuscript/chapter_21/research_tracker.md`, `04_manuscript/chapter_21/claim_register.md`, `04_manuscript/chapter_21/source_notes.md`, `04_manuscript/chapter_21/draft_v1.md`, `02_outline/chapter_map.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
-- Artifacts created or updated: the full CH21 starter set plus `draft_v1.md`, with tracker and map state synchronized in the same pass
-- Chapter(s) affected: CH21 directly, with Part V sequencing implications for the remaining treasury-adjacent future-state chapters
-
-### Decisions
-- Decision: frame CH21 around continuous treasury supervision rather than autonomous payments
-- Rationale: the source base strongly supports better validation, investigations, prioritization, and visibility, while full payment autonomy would overstate what this domain can safely delegate
-- Decision: anchor the first draft on four operating wedges: upstream payment quality, investigation orchestration, intraday liquidity decision support, and client transparency
-- Rationale: those are the clearest places where CH07's current-state burdens map into an AI-native redesign without repeating generic architecture language
-- Decision: rely primarily on official BNY, Swift, FRFS, and BCBS sources
-- Rationale: CH21 needed workflow and standards evidence strong enough to support a disciplined future-state model, not a loose vendor-market narrative
-
-### Issues & Resolution
-- Issue: BNY's public material is strong on treasury capabilities and AI posture, but does not disclose a full AI-native treasury operating model
-- Resolution: built the chapter as a disciplined synthesis from disclosed platform capabilities, public AI posture, and official workflow and standards sources rather than implying inside knowledge
-- Issue: the draft could easily collapse into a generic faster-payments chapter
-- Resolution: kept the chapter focused on decision quality, investigations, liquidity posture, and explainability under cutoff pressure rather than on payment speed alone
-- Issue: the chapter needed concrete economic and workflow evidence for investigations rather than only conceptual claims
-- Resolution: used Swift's product and April 17, 2025 press-release material on exceptions and investigations, including quantified industry cost and resolution-time claims plus BNY commentary on the value of real-time transparency
-
-### Editorial Comments
-- Direct author instruction: proceed to a deep and thorough research round and write `draft_v1` when ready
-- Response: completed a full CH21 research pass and drafted the chapter in the same work session instead of stopping at setup
-- The draft is strongest when it treats treasury as a decision-and-control system whose burden sits in late reconstruction, not just message movement
-- The chapter should be pressure-tested next on whether the liquidity section needs one more compact operating example before revision
-
-### Lessons Learned
-- Treasury becomes much clearer as an AI-native chapter when the argument starts with repair, prioritization, and investigation burden rather than with faster rails
-- Official standards sources now make the workflow future state more defensible because payment investigations and structured data are increasingly encoded directly into the infrastructure stack
-- The strongest discipline for CH21 is to make bounded autonomy explicit. Without that, the chapter would drift into implausible payment-automation language
-
-### Next Steps
-- [ ] Review CH21 `draft_v1` for pacing and decide whether the liquidity section needs one more late-day operating example
-- [ ] Run the CH21 challenge round before drafting `draft_v2`
-- [ ] Commit and push the CH21 `draft_v1` checkpoint as its own changeset
 
 ## [2026-04-19] - CH21 Research Pass 1 And Draft v1
 
@@ -660,7 +654,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Rationale: the challenge round correctly identified that Eliza's public description is primarily as a workplace AI tool; the chapter needed to use it as evidence of governance intent while acknowledging the production layer is a distinct architecture problem
 - Decision: reordered the chapter so the guardrails/policies vocabulary section comes before the functions breakdown
 - Rationale: readers need the conceptual vocabulary before the function list makes sense; the prior ordering put the list before the framework
-- Decision: tightened the auditability section and added an explicit CH18 boundary ? the control plane produces the transaction record; observability interprets it at system level over time
+- Decision: tightened the auditability section and added an explicit CH18 boundary — the control plane produces the transaction record; observability interprets it at system level over time
 - Rationale: challenge round flagged that the original auditability section was doing CH18's work; the chapter now draws the boundary clearly
 - Decision: added SR 21-8 and 2023 interagency TPRM guidance as evidence that SR 11-7 principles extend to AI contexts, replacing the vague "regulators are extending the spirit" hedge
 - Rationale: specific regulatory artifacts are more credible than assertion; SR 21-8 and the 2023 TPRM guidance show the actual extension pattern
@@ -670,12 +664,12 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - The $4.7M trading agent failure scenario appears in practitioner sources; its exact provenance should be verified before final manuscript
 
 ### Editorial Comments
-- The positive capability argument ? governance enables ambition rather than restraining it ? now has a dedicated paragraph and should resonate better with executive readers who might otherwise read the chapter as a compliance argument
+- The positive capability argument — governance enables ambition rather than restraining it — now has a dedicated paragraph and should resonate better with executive readers who might otherwise read the chapter as a compliance argument
 - The CH18 boundary section is now clean; the chapter closes the transaction-level audit argument and explicitly hands the system-level monitoring argument to the next chapter
 
 ### Lessons Learned
 - Concrete failure scenarios make governance arguments land harder than statistics; worth building one into every architecture chapter that makes a risk case
-- The employee AI vs. production AI distinction is worth making explicitly in any chapter that uses enterprise AI platform evidence ? they are different architecture layers
+- The employee AI vs. production AI distinction is worth making explicitly in any chapter that uses enterprise AI platform evidence — they are different architecture layers
 
 ### Next Steps
 - [ ] Author review of CH16 draft_v2
@@ -690,7 +684,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Chapter(s) affected: CH16
 
 ### Decisions
-- Decision: anchored the chapter on BNY's Eliza platform as the primary concrete evidence ? it is the closest public evidence of BNY's control-plane answer, with standardized permissions, security, and oversight across all models and tools
+- Decision: anchored the chapter on BNY's Eliza platform as the primary concrete evidence — it is the closest public evidence of BNY's control-plane answer, with standardized permissions, security, and oversight across all models and tools
 - Rationale: the chapter needed a BNY-specific anchor that is more than a governance commitment statement; Eliza provides an operating example of the principle
 - Decision: used SR 11-7 and NIST AI RMF as the two regulatory anchors, with FSB 2025 for systemic-risk framing; did not include EU AI Act to avoid making the chapter a compliance survey
 - Rationale: SR 11-7 is the US banking standard; NIST AI RMF is explicitly cited by BNY; FSB 2025 establishes that systemic regulators are watching; adding EU AI Act would shift the chapter's center of gravity from architecture to compliance
@@ -706,7 +700,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - None yet; first draft, no editorial review
 
 ### Lessons Learned
-- Shadow AI data is more concrete and striking than expected ? empirical numbers (80%+ unapproved tool use, 97% of breached orgs lacking AI access controls) are more effective than abstract risk descriptions
+- Shadow AI data is more concrete and striking than expected — empirical numbers (80%+ unapproved tool use, 97% of breached orgs lacking AI access controls) are more effective than abstract risk descriptions
 - The guardrails vs. policies distinction deserves its own section because it resolves a conceptual ambiguity that governance-focused readers will otherwise carry through the rest of Part IV
 
 ### Next Steps
@@ -749,7 +743,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Chapter(s) affected: CH15
 
 ### Decisions
-- Decision: converted two mechanical "First/Second/Third..." paragraph sequences into bulleted lists with bolded lead terms ? the canonical-product definition (five criteria) and the AI-layer benefits (four items)
+- Decision: converted two mechanical "First/Second/Third..." paragraph sequences into bulleted lists with bolded lead terms — the canonical-product definition (five criteria) and the AI-layer benefits (four items)
 - Rationale: the ordinal paragraph structure read as formulaic; bulleted format makes the criteria scannable without changing the substance
 - Decision: removed all CH## cross-references (CH14, CH15) and replaced with relative prose references ("the previous chapter", "this chapter")
 - Rationale: hard-coded chapter numbers break when the manuscript is edited for sequence and read as internal scaffolding rather than finished prose
@@ -4468,5 +4462,3 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - [ ] Draft the Chapter 1 brief and initial research tracker
 - [ ] Validate whether the 39-chapter structure should be consolidated before broader artifact creation
 - [ ] Decide the preferred early sequence after CH01-CH04: CH11 first or CH12 first
-
-

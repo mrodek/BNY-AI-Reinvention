@@ -25,7 +25,7 @@ Use this file to translate the raw outline into a working manuscript architectur
 | CH19 | AI-Native Asset Servicing | Part V | Show how AI changes asset-servicing workflows and outcomes | Asset-servicing operator | drafting | Priority 2 transformation chapter; draft_v2 ready |
 | CH20 | AI-Native Clearing and Settlement | Part V | Show how AI reduces breaks and compresses operational latency | Operations and market-infrastructure leader | drafting | Priority 2 transformation chapter; draft_v1 frames the chapter around continuous settlement-readiness supervision, pre-fail intervention, and liquidity-aware post-trade intelligence |
 | CH21 | AI-Native Treasury Services | Part V | Translate AI-native operating logic into treasury decisions | Treasury and payments operator | drafting | Priority 2 transformation chapter; draft_v1 reframes treasury as a continuously supervised decision system across validation, investigations, liquidity, and client transparency |
-| CH22 | AI-Native Pershing Platform | Part V | Make platform intelligence visible through advisor and client workflows | Wealth-platform leader | not_started | Priority 2 transformation chapter |
+| CH22 | AI-Native Pershing Platform | Part V | Make platform intelligence visible through advisor and client workflows | Wealth-platform leader | drafting | Priority 2 transformation chapter; draft_v1 frames Pershing as a context-rich wealth operating system across advisor, operations, investor, and multi-custodial data layers |
 | CH23 | AI-Native Investment Management | Part V | Distinguish durable edge from commoditized AI in investing | Investment executive | not_started | Priority 2 transformation chapter |
 | CH24 | AI-Native Collateral and Financing | Part V | Show how intelligence can improve financing coordination under constraints | Markets and financing operator | not_started | Priority 2 transformation chapter |
 | CH25 | AI-Native Enterprise Workflows | Part V | Show how cross-domain workflows such as onboarding, proxy voting, and document-heavy servicing can become AI-native across shared enterprise controls and client context | Operations, servicing, and transformation leadership | drafting | Priority 1 cross-domain transformation chapter; draft_v2 expands proxy voting as a defined business workflow and quantifies the economic case for both anchor use cases |
@@ -57,4 +57,3 @@ Use this file to translate the raw outline into a working manuscript architectur
 - First milestone: complete CH01 artifact set and Chapter 1 brief.
 - Second milestone: complete CH02-CH04 artifacts so the opening argument can be written as a coherent sequence.
 - Third milestone: decide whether CH11 or CH12 is the next major thesis chapter after the opening set.
-

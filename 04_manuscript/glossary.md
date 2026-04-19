@@ -172,6 +172,12 @@ Why it matters in this book: Human-in-the-loop controls matter because BNY's hig
 
 ## I
 
+### Interoperability
+
+What it means: The practical ability of systems, workflows, and applications to work together reliably so data, context, and actions can move across them without repeated translation or manual reconstruction.
+
+Why it matters in this book: Interoperability is what lets a platform become an intelligence layer instead of just a collection of connected screens. The book uses it to distinguish shallow integration from workflows that can actually preserve meaning and state.
+
 ### ISO 20022
 
 What it means: An international financial-industry standard for modeling and defining business messages through a shared methodology, repository, and dictionary of business concepts.
