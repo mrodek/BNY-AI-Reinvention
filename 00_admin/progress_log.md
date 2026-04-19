@@ -45,6 +45,83 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-19] - CH21 Research Pass 1 And Draft v1
+
+### Summary
+- Files changed: `04_manuscript/chapter_21/chapter_brief.md`, `04_manuscript/chapter_21/research_tracker.md`, `04_manuscript/chapter_21/claim_register.md`, `04_manuscript/chapter_21/source_notes.md`, `04_manuscript/chapter_21/draft_v1.md`, `02_outline/chapter_map.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: the full CH21 starter set plus `draft_v1.md`, with tracker and map state synchronized in the same pass
+- Chapter(s) affected: CH21 directly, with Part V sequencing implications for the remaining treasury-adjacent future-state chapters
+
+### Decisions
+- Decision: frame CH21 around continuous treasury supervision rather than autonomous payments
+- Rationale: the source base strongly supports better validation, investigations, prioritization, and visibility, while full payment autonomy would overstate what this domain can safely delegate
+- Decision: anchor the first draft on four operating wedges: upstream payment quality, investigation orchestration, intraday liquidity decision support, and client transparency
+- Rationale: those are the clearest places where CH07's current-state burdens map into an AI-native redesign without repeating generic architecture language
+- Decision: rely primarily on official BNY, Swift, FRFS, and BCBS sources
+- Rationale: CH21 needed workflow and standards evidence strong enough to support a disciplined future-state model, not a loose vendor-market narrative
+
+### Issues & Resolution
+- Issue: BNY's public material is strong on treasury capabilities and AI posture, but does not disclose a full AI-native treasury operating model
+- Resolution: built the chapter as a disciplined synthesis from disclosed platform capabilities, public AI posture, and official workflow and standards sources rather than implying inside knowledge
+- Issue: the draft could easily collapse into a generic faster-payments chapter
+- Resolution: kept the chapter focused on decision quality, investigations, liquidity posture, and explainability under cutoff pressure rather than on payment speed alone
+- Issue: the chapter needed concrete economic and workflow evidence for investigations rather than only conceptual claims
+- Resolution: used Swift's product and April 17, 2025 press-release material on exceptions and investigations, including quantified industry cost and resolution-time claims plus BNY commentary on the value of real-time transparency
+
+### Editorial Comments
+- Direct author instruction: proceed to a deep and thorough research round and write `draft_v1` when ready
+- Response: completed a full CH21 research pass and drafted the chapter in the same work session instead of stopping at setup
+- The draft is strongest when it treats treasury as a decision-and-control system whose burden sits in late reconstruction, not just message movement
+- The chapter should be pressure-tested next on whether the liquidity section needs one more compact operating example before revision
+
+### Lessons Learned
+- Treasury becomes much clearer as an AI-native chapter when the argument starts with repair, prioritization, and investigation burden rather than with faster rails
+- Official standards sources now make the workflow future state more defensible because payment investigations and structured data are increasingly encoded directly into the infrastructure stack
+- The strongest discipline for CH21 is to make bounded autonomy explicit. Without that, the chapter would drift into implausible payment-automation language
+
+### Next Steps
+- [ ] Review CH21 `draft_v1` for pacing and decide whether the liquidity section needs one more late-day operating example
+- [ ] Run the CH21 challenge round before drafting `draft_v2`
+- [ ] Commit and push the CH21 `draft_v1` checkpoint as its own changeset
+
+## [2026-04-19] - CH20 Deep Research Pass And Draft v1
+
+### Summary
+- Files changed: `04_manuscript/chapter_20/chapter_brief.md`, `04_manuscript/chapter_20/research_tracker.md`, `04_manuscript/chapter_20/claim_register.md`, `04_manuscript/chapter_20/source_notes.md`, `04_manuscript/chapter_20/draft_v1.md`, `04_manuscript/glossary.md`, `02_outline/chapter_map.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: full CH20 starter set plus `draft_v1.md`, glossary additions, chapter-map note, and mandatory tracker/log synchronization
+- Chapter(s) affected: CH20 directly, with glossary and planning effects on adjacent post-trade chapters
+
+### Decisions
+- Decision: frame CH20 around `continuous settlement-readiness supervision` rather than around autonomous clearing or generic automation
+- Rationale: the best official evidence supports earlier detection, better trade-state quality, partial automation, stronger netting and liquidity frameworks, and more operational visibility, not the removal of formal post-trade controls
+- Decision: make the chapter's main wedges cleaner trade capture, pre-fail exception intervention, liquidity and collateral visibility, and observability-driven governance
+- Rationale: those are the areas where current BNY and DTCC materials are strongest and where CH06's current-state burden maps most directly into the future-state redesign
+- Decision: anchor the regulatory timing language in current SEC dates
+- Rationale: the Treasury-clearing timeline is time-sensitive; using exact dates keeps the chapter accurate and prevents stale or relative-date drift
+
+### Issues & Resolution
+- Issue: `chapter_20` had a bad prior state in git history and the working tree showed the files as deleted
+- Resolution: inspected the historical files first, confirmed they were an incorrect duplicate of the asset-servicing chapter, then replaced them with a proper CH20 artifact set focused on clearing and settlement
+- Issue: the chapter could easily drift into a shallow "faster settlement" story
+- Resolution: built the draft around readiness quality, fail prevention, netting and liquidity tradeoffs, and bounded autonomy rather than around speed alone
+- Issue: Treasury-clearing references were time-sensitive and easy to misstate
+- Resolution: used current SEC implementation materials and included the exact compliance dates of Dec. 31, 2026 for eligible cash transactions and June 30, 2027 for eligible repo transactions
+
+### Editorial Comments
+- CH20 works best when it sounds like an operator describing how a strong post-trade business becomes more anticipatory, not like a futurist arguing that control frameworks disappear
+- The chapter gains force when it emphasizes queue quality, readiness, and resilience rather than simply compressing cycle times
+- The post-trade observability section is important because it makes CH18 feel operationally useful rather than merely architectural
+
+### Lessons Learned
+- Future-state post-trade chapters need current official dates because market-structure timelines move and shape the business case directly
+- The strongest way to distinguish CH20 from CH06 is to move from fail management after the fact to pre-fail intervention while keeping the clearinghouse, liquidity, and netting constraints visible
+- When a chapter sits near live infrastructure change, current DTCC and SEC sources can sharpen the business logic more effectively than generic AI commentary
+
+### Next Steps
+- [ ] Review CH20 `draft_v1` for pacing and decide whether the Treasury-clearing section needs one more compact operating example
+- [ ] Decide whether CH20 should go through a formal challenge round before `draft_v2`
+- [ ] Commit and push the CH20 `draft_v1` checkpoint with its tracker and log updates
+
 ## [2026-04-14] - CH25 Research Pass 2 And Draft v2 Revision
 
 ### Summary

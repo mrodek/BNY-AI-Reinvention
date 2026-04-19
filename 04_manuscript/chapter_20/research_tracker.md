@@ -3,71 +3,78 @@
 ## Chapter Metadata
 
 - Chapter ID: `CH20`
-- Working title: `AI-Native Asset Servicing`
+- Working title: `AI-Native Clearing and Settlement`
 - Status: `researching`
-- Last updated: `2026-04-13`
+- Last updated: `2026-04-19`
 
 ## Research Questions
 
-- How should CH20 build directly on CH05's current-state servicing diagnosis rather than sounding like a generic AI chapter?
-- Which parts of the servicing stack are most plausibly improved by AI-native design: NAV oversight, reconciliation, investor servicing, corporate actions, reporting, or all of the above?
-- What public BNY evidence supports a future-state argument around AI-powered oversight, anomaly detection, integrated data, and reduced handoffs?
-- Where should the chapter draw the line between bounded autonomy and human-supervised control in books-and-records-sensitive workflows?
-- How should observability and runtime control appear inside a business-line chapter without restating Part IV?
+- How should CH20 build directly on CH06's current-state burden instead of sounding like a generic post-trade AI chapter?
+- Which public sources best support the move from manual, checkpoint-heavy post-trade control toward continuous settlement-readiness supervision?
+- What evidence supports the claim that intelligence can reduce breaks, improve liquidity readiness, and strengthen resilience without weakening formal clearing and settlement controls?
+- How should the chapter handle Treasury-clearing change pressure with current, dated SEC references?
+- Where should the chapter place the autonomy boundary in a business governed by netting, margin, infrastructure rules, and final records?
 
 ## Source Log
 
 | Source ID | Status | Source | Link | Why it matters | Notes |
 | --- | --- | --- | --- | --- | --- |
-| SRC-001 | reviewed | BNY Annual Report 2025 | https://www.bny.com/corporate/global/en/investor-relations/annual-report-2025.html | Strongest BNY-wide source for workflow embedding, digital employees, more automated NAV strikes, fewer handoffs, and improved quality | Key bridge from Part IV architecture into asset-servicing operations |
-| SRC-002 | reviewed | BNY Fund Administration | https://www.bny.com/corporate/global/en/solutions/platforms/fund-investor-solutions/fund-administration.html | Explicit BNY language on next-generation technology, AI tools, automated workflows, controls, stakeholder transparency, and scalable reporting | Strong source for the future-state administration and compliance angle |
-| SRC-003 | reviewed | BNY Fund Accounting | https://www.bny.com/corporate/global/en/solutions/securities-services/fund-services.html | Strongest BNY source for AI-powered NAV oversight, anomaly detection, dashboards, valuation transparency, and automated accounting workflows | Core source for AI-native NAV and oversight redesign |
-| SRC-004 | reviewed | BNY Integrated Fund and Investor Solutions | https://www.bny.com/corporate/global/en/solutions/platforms/fund-investor-solutions.html | Integrated-platform language on AI-driven automation, real-time insights, automated NAV oversight, and reduced manual effort | Best source for end-to-end servicing redesign rather than one workflow slice |
-| SRC-005 | reviewed | BNY Investor Solutions | https://www.bny.com/corporate/global/en/solutions/platforms/fund-investor-solutions/investor-solutions-transfer-agency-platform.html | Current BNY language on intelligent transfer-agency tools, real-time communications, account administration, and digital subaccounting | Supports the investor-servicing and transfer-agency future-state sections |
-| SRC-006 | reviewed | BNY Artificial Intelligence | https://www.bny.com/corporate/global/en/about-us/technology-innovation/artificial-intelligence.html | BNY-wide AI posture, production solution count, and link between AI integration and core operations | Useful for disciplined BNY-wide interpretation |
-| SRC-007 | carried_forward | CH05 current-state research base | `04_manuscript/chapter_05/research_tracker.md` and `source_notes.md` | Direct baseline for the "before" state: custody, accounting, reconciliations, transfer activity, corporate actions, and reporting burden | Use for continuity, not to repeat the whole chapter |
-| SRC-008 | reviewed | BNY Investment Lifecycle Management / Securities Services | https://www.bny.com/corporate/global/en/solutions/securities-services.html | Useful source on integrated data, single source of truth, pattern detection, and turning insights into action across the lifecycle | Good bridge from servicing data fabric to AI-native actionability |
+| SRC-001 | reviewed | BNY Annual Report 2025 | https://www.bny.com/corporate/global/en/investor-relations/annual-report-2025.html | Strongest BNY-wide source for platform integration, embedded controls, embedded intelligence, cycle-time compression, and BNY's role in settlement and market infrastructure | Also confirms BNY is the primary settlement agent for U.S. government securities |
+| SRC-002 | reviewed | BNY Artificial Intelligence | https://www.bny.com/corporate/global/en/about-us/technology-innovation/artificial-intelligence.html | Supports BNY's enterprise AI posture, production use cases, anomaly detection, and integration into core operations | Useful for disciplined interpretation of AI-native operating direction |
+| SRC-003 | reviewed | BNY Global Clearing Solutions | https://www.bny.com/corporate/global/en/solutions/platforms/global-clearing-solutions.html | Best BNY business-line source for integrated post-trade lifecycle support across settlement, custody, financing, liquidity, and Treasury central clearing | Strong for workflow and business-value language |
+| SRC-004 | reviewed | BNY Outsourced Clearing | https://www.bny.com/corporate/global/en/solutions/platforms/global-clearing-solutions/outsourced-clearing.html | Reinforces the unified post-trade platform view and the operating pressure created by technology and regulation | Good support for integrated workflow argument |
+| SRC-005 | reviewed | DTCC, Focused on Strengthening the Financial System | https://www.dtcc.com/dtcc-connection/articles/2026/march/09/focused-on-strengthening-the-financial-system | Strongest current DTCC source for near-continuous trading, expanded clearing windows, partial settlement automation, enhanced netting, and resilience framing | Important current signal as of March 9, 2026 |
+| SRC-006 | reviewed | DTCC Launches Next-Generation Equities Data Portals | https://www.dtcc.com/news/2026/march/02/dtcc-launches-next-generation-equities-data-portals-advanced-analytics-and-operational-insights | Supports the observability layer through official language on settlement metrics, outstanding exceptions, benchmarks, and trade-level drilldowns | Useful for the post-trade governance and telemetry argument |
+| SRC-007 | reviewed | DTCC Re-Imagining Post-Trade | https://www.dtcc.com/institutional-trade-processing/itp/hub/re-imagining-post-trade | Strong source for no-touch processing, centralized reference data, just-in-time enrichment, and authoritative trade records | Best source for the cleaner-trade-state and self-healing-routing argument |
+| SRC-008 | reviewed | DTCC Trade Settlement: Know Your T+1 Blind Spots | https://www.dtcc.com/dtcc-connection/articles/2024/april/29/trade-settlement-know-your-t1-blind-spots | Makes affirmation quality, fail risk, and technology-assisted readiness concrete | Good support for pre-fail intervention logic |
+| SRC-009 | reviewed | DTCC How Same-Day Settlement Works at DTCC | https://www.dtcc.com/dtcc-connection/articles/2021/april/19/ask-the-expert-same-day-every-day-how-same-day-settlement-works-at-dtcc | Supports the netting-versus-real-time tradeoff, financing pressure, and same-day/near-real-time settlement mechanics | Good source for the "faster but still governed" theme |
+| SRC-010 | reviewed | SEC Treasury Clearing Implementation | https://www.sec.gov/securities-topics/treasury-clearing-implementation | Best current SEC landing page for Treasury-clearing rollout and the latest compliance dates | Current as of April 16, 2026 on the SEC site |
+| SRC-011 | reviewed | SEC Extends Compliance Dates for Treasury Clearing Rule | https://www.sec.gov/newsroom/press-releases/2025-43-sec-extends-compliance-dates-provides-temporary-exemption-rule-related-clearing-us-treasury | Official dated source for the Dec. 31, 2026 and June 30, 2027 compliance dates | Important to anchor time-sensitive rule references |
+| SRC-012 | reviewed | SEC Approves Customer Cross-Margining in the U.S. Treasury Market | https://www.sec.gov/newsroom/press-releases/2026-36-sec-approves-exemptive-order-proposed-rule-change-permit-customer-cross-margining-us-treasury-market | Useful evidence that market structure is still evolving around clearing, funding, and margin efficiency | Current as of April 15, 2026 |
+| SRC-013 | carried_forward | CH06 current-state research base | `04_manuscript/chapter_06/research_tracker.md` and `source_notes.md` | Direct baseline for the "before" state: affirmation pressure, netting dependence, liquidity stress, fail management, and post-settlement control burden | Use for continuity, not repetition |
 
 ## Working Hypotheses
 
-- AI-native asset servicing should be framed as continuous, context-rich supervision rather than as fully autonomous administration.
-- The strongest transformation wedges are AI-powered NAV oversight, anomaly detection, reconciliation triage, transfer-agency routing, and more explainable reporting and client transparency.
-- Bounded autonomy belongs in retrieval, anomaly surfacing, prioritization, and recommendation, while consequential adjustments and official signoffs still require stronger human control.
-- CH20 should prove that Part IV architecture decisions matter by showing how canonical products, runtimes, and observability improve a real servicing workflow.
-- The future-state argument should emphasize reduced hidden labor, earlier detection, clearer explanations, and more transparent control evidence, not just lower headcount.
+- AI-native clearing and settlement should be framed as continuous settlement-readiness supervision rather than as autonomous post-trade completion.
+- The strongest early gains are better trade-state quality, earlier exception detection, tighter liquidity and collateral preparation, and pre-fail intervention.
+- Clearing and settlement become more strategic when intelligence improves capital and liquidity efficiency under shorter timelines and more continuous markets.
+- The right autonomy boundary is below final obligation change and above evidence assembly, prioritization, routing, and recommendation.
+- Observability matters here because post-trade trust depends on knowing which exception classes, counterparties, asset types, and cutoffs are degrading before they convert into fails.
 
 ## Source Selection Notes
 
-- BNY sources were prioritized first so the chapter remains grounded in BNY's publicly stated fund-servicing and AI capabilities rather than in speculative operating-model claims.
-- CH05's research base is being reused as the current-state baseline so CH20 can show a disciplined before/after rather than rebuilding servicing context from scratch.
-- Official BNY platform pages were favored over secondary commentary because they provide direct language on AI-powered NAV oversight, integrated data, intelligent transfer-agency tools, and workflow automation.
-- Intentionally excluded for now: generic asset-management AI articles, consulting hype pieces, and vendor platform comparisons that are not specific to asset-servicing workflows.
-- Evidence gap: public BNY material supports the direction of travel and the workflow components, but not a full production operating diagram. The chapter should present the AI-native model as a disciplined synthesis from disclosed capabilities and the Part IV architecture, not as an internal reveal.
+- Chosen sources were all primary or official sources from BNY, DTCC, and the SEC because the chapter depends on current market-structure facts and public evidence of direction.
+- BNY sources were selected to ground the chapter in BNY's disclosed platform strategy and clearing posture rather than in generic vendor narratives.
+- DTCC sources were selected to make the future-state workflow concrete: no-touch processing, trade-level analytics, partial settlement automation, enhanced netting, and 24x5 readiness all show what "AI-native" must mean operationally.
+- SEC sources were selected because the Treasury-clearing timeline is time-sensitive and can change; the chapter should use current dates, not stale recollection.
+- Intentionally excluded: consultant futurism, secondary AI-in-capital-markets articles, and vendor marketing not tied to regulated post-trade workflows.
 
 ## Themes Emerging
 
-- The best future-state frame is not "automation" but "continuous supervised servicing."
-- NAV oversight and reconciliation are the clearest places where AI-native servicing becomes tangible.
-- Integrated data and real-time visibility are prerequisites for useful AI in servicing, not optional enhancements.
-- AI-native asset servicing should increase transparency and explainability at the same time it reduces queue-heavy manual work.
-- Human supervision remains central where official records, client impact, or regulatory outputs are at stake.
+- The best future-state frame is not "real-time everything." It is cleaner state, fewer preventable breaks, and smarter supervision under hard control constraints.
+- The value of intelligence is visible earliest in affirmation, exception routing, liquidity readiness, and fail prevention.
+- Trade-level observability and benchmarked exception analytics are becoming part of the operating model, not a side dashboard.
+- Faster settlement increases the value of better prediction and preemption because timing slack is shrinking.
+- The business remains human-supervised and infrastructure-governed even as more of the preparation and explanation work becomes machine-assisted.
 
 ## Gaps Resolved
 
-- Confirmed that BNY publicly describes more automated NAV strikes, fewer handoffs, and improved quality as platform-model outcomes in 2025.
-- Confirmed that BNY publicly uses language such as AI-powered reporting, AI-powered NAV oversight, anomaly detection, and intelligent transfer-agency tools across fund-servicing pages.
-- Confirmed that the chapter can be built directly from CH05's current-state burden map without needing a separate generic AI source layer.
+- Confirmed from official SEC sources that the Treasury-clearing compliance dates are Dec. 31, 2026 for eligible cash market transactions and June 30, 2027 for eligible repo market transactions.
+- Confirmed from current DTCC sources dated March 2026 that the organization is explicitly positioning settlement transformation around partial settlement automation, enhanced netting, liquidity frameworks, expanded clearing windows, and stronger operational insights.
+- Confirmed from current BNY sources that the firm is framing clearing and settlement as an integrated lifecycle spanning settlement, custody, financing, liquidity, and Treasury central clearing rather than as a narrow transaction utility.
 
 ## Remaining Gaps
 
-- A stronger public source on corporate-actions automation inside fund servicing would strengthen a later draft.
-- The chapter may benefit from one additional official source on what still requires formal signoff in regulated fund workflows, if later drafts need sharper control-boundary language.
+- A later draft may benefit from one more official source on fixed-income operational matching or sponsored Treasury clearing if the Treasury section needs deeper specificity.
+- If CH20 moves to `draft_v2`, it may need one sharper public source on post-trade exception taxonomy or settlement-fail root causes by asset class.
 
 ## Research Pass 1 Findings
 
-- BNY's 2025 annual report provides the clearest business-line bridge into CH20: it says platform maturity is already showing up in more automated NAV strikes, fewer handoffs, and improved quality, while AI is being embedded into workflows and digital employees are expanding.^[SRC-001]
-- BNY's fund-accounting page is the strongest future-state workflow source because it explicitly names AI-powered NAV oversight, transaction anomaly detection, yield anomaly detection, dashboards, and transparent daily NAV views.^[SRC-003]
-- BNY's fund-administration page adds the broader operating-model implication: automated workflows, reliable controls, AI-powered reporting, stakeholder transparency, and scalable compliance outputs.^[SRC-002]
-- BNY's integrated Fund and Investor Solutions page is especially useful because it links AI-driven automation, real-time insights, and automated NAV oversight to reduced manual effort and a more optimized operating model.^[SRC-004]
-- BNY's investor-solutions page shows that the future-state chapter can extend beyond NAV and reconciliation into transfer agency, real-time investor communications, account administration, dealer servicing, cash control, and digital subaccounting.^[SRC-005]
-- CH05 remains the correct current-state baseline. Its servicing stack already showed where the burden lives: books and records, pricing, reconciliations, transfer activity, corporate actions, and exception management. CH20 should redesign those specific pressure points rather than introducing a new abstract taxonomy.^[SRC-007]
+- BNY's 2025 annual report ties the chapter to the larger firm strategy: the company is trying to accelerate cycle times across onboarding and operations, digitize end-to-end workflows with embedded controls, and embed AI throughout products and processes.^[SRC-001]
+- BNY's AI page is useful because it states that the firm has more than 125 AI-enabled solutions in production, including predictive analytics, automation, and anomaly detection, and says AI is being integrated into core operations.^[SRC-002]
+- BNY's global-clearing pages support the integrated-workflow argument. The business is framed around settlement, custody, financing, liquidity, and Treasury central clearing, not only around trade completion in isolation.^[SRC-003]^[SRC-004]
+- DTCC's March 9, 2026 article is the strongest current infrastructure signal for this chapter. It explicitly connects near-continuous trading to expanded clearing windows and says settlement transformation includes partial settlement automation, enhanced netting, and liquidity frameworks designed to make settlement faster, more predictable, and more resilient.^[SRC-005]
+- DTCC's March 2, 2026 data-portals announcement matters because it makes the observability layer concrete: settlement rates, outstanding exceptions, benchmarks, and drilldowns to trade-level detail are becoming part of the official operating environment.^[SRC-006]
+- DTCC's no-touch-processing material supports the idea that AI-native clearing starts with cleaner state: centralized reference data, just-in-time enrichment, and an authoritative trade record reduce the amount of downstream ambiguity the system has to absorb.^[SRC-007]
+- DTCC's T+1 and same-day-settlement materials remain important because they explain why timing pressure, affirmation quality, financing readiness, and netting tradeoffs create the business case for better prediction and smarter routing rather than for uncontrolled autonomy.^[SRC-008]^[SRC-009]
+- The SEC materials matter because the future-state chapter is not happening in a vacuum. The Treasury-clearing timeline and the April 15, 2026 cross-margining approval show that post-trade design is being reshaped by live market-structure change, not only by internal technology ambition.^[SRC-010]^[SRC-011]^[SRC-012]

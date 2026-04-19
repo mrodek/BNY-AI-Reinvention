@@ -40,6 +40,12 @@ Why it matters in this book: BIAN matters because it complements ontology-heavy 
 
 ## C
 
+### CCP
+
+What it means: Central counterparty, the clearinghouse structure that steps between counterparties to a trade and helps manage completion, netting, and risk under formal market rules.
+
+Why it matters in this book: CCPs are one of the clearest examples of why financial infrastructure cannot be treated like generic software. They show where AI-native improvement must work with market structure and control obligations rather than bypass them.
+
 ### Canonical Data Product
 
 What it means: A governed, reusable data asset that packages shared business meaning with clear ownership, interfaces, quality rules, lineage, and access controls so many workflows can rely on it consistently.
@@ -341,6 +347,12 @@ Why it matters in this book: Semantic interoperability is what turns integration
 What it means: The completion of a trade through the actual delivery of securities to the buyer and cash to the seller under the relevant market rules and infrastructure.
 
 Why it matters in this book: Settlement is one of the clearest dividing lines between visible market activity and durable completion. The book repeatedly uses it to show where infrastructure becomes more important than the trade itself.
+
+### Straight-Through Processing (STP)
+
+What it means: A workflow design in which trade or servicing activity moves from initiation through completion with minimal manual rekeying, repair, or intervention because the required data and controls are already in place.
+
+Why it matters in this book: STP is one of the clearest measures of whether AI-native redesign is actually improving a workflow. The point is not just automation. The point is reducing avoidable breaks, handoffs, and reconstruction work while keeping control intact.
 
 ### Sub-Custodian
 

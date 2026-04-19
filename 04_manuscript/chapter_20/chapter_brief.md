@@ -3,79 +3,77 @@
 ## Chapter Metadata
 
 - Chapter ID: `CH20`
-- Working title: `AI-Native Asset Servicing`
+- Working title: `AI-Native Clearing and Settlement`
 - Book section: `Part V - Rebuilding Each Business With AI`
-- Status: `researching`
-- Last updated: `2026-04-13`
-- Structural note: CH20 is the first proving ground after the Part IV architecture sequence. It should show what changes in a real business once canonical data products, control-plane governance, runtime discipline, and observability are available.
+- Status: `drafting`
+- Last updated: `2026-04-19`
+- Structural note: CH20 should build directly on CH06. It needs to show how an already-strong post-trade business changes when intelligence is embedded into trade capture, exception handling, liquidity coordination, fail prevention, and post-trade control rather than added as a thin assistant layer.
 
 ## Chapter Purpose
 
-CH05 argued that asset servicing is a durable but burdened operating business: strong economics, heavy control demands, and large amounts of exception handling hidden beneath a calm client-facing surface. CH20 now needs to show how that business changes when AI is embedded into the workflow itself rather than attached as a thin productivity layer.
+CH06 argued that clearing and settlement are durable because they sit inside mandatory market pathways. The business is strong precisely because it converts market agreements into completed obligations, completed delivery, and trusted records under hard timing and risk constraints. It also carries hidden burden in affirmation quality, netting dependence, liquidity coordination, settlement readiness, fail management, and deadline-sensitive cross-team exception handling.
 
-The chapter should not read like "AI will automate fund accounting." It should show how specific pressure points change: NAV oversight becomes continuous and anomaly-aware, reconciliation triage becomes more targeted and explainable, transfer-agency and corporate-action processes gain better context and routing, and fund transparency improves because the servicing stack can expose why it knows what it knows. The point is not labor elimination alone. The point is a more transparent, continuously improving operating model with clearer human-supervised boundaries.
+CH20 now needs to show what changes when those workflows become AI-native. The chapter should not imply that the market abandons central counterparties, risk frameworks, or human control. It should show a more intelligent operating shape around them: trade data gets cleaner earlier, exceptions are classified before they become fails, liquidity and collateral pressure become more visible sooner, and post-trade supervision becomes more continuous, explainable, and adaptive.
 
 ## Key Reader Questions
 
-- What would an AI-native asset-servicing operating model actually look like in practice?
-- Which parts of the current servicing stack should remain supervised and which can become more autonomous?
-- How do canonical data products, runtime controls, and observability concretely improve NAV oversight, exception handling, transfer-agency workflows, and corporate-actions processing?
-- What becomes faster, more transparent, or more reliable for the operator and for the client?
-- What controls still need to remain explicit because books and records, investor communications, and regulatory outputs are consequential?
-- Why is asset servicing the right first business-line proving ground for the broader BNY AI thesis?
+- What would an AI-native clearing and settlement operating model actually look like in practice?
+- Which parts of the post-trade stack are best improved by intelligence first: affirmation, exception triage, funding readiness, fail prevention, or all of them?
+- How do canonical data products, control-plane governance, runtime discipline, and observability concretely improve clearing and settlement workflows?
+- Where should autonomy stop in a business that is deeply tied to market infrastructure, margin, legal obligations, and final records?
+- Why does this business become more strategically valuable, not less, when intelligence reduces breaks and compresses latency?
 
 ## Scope
 
 ### In scope
 
-- AI-native redesign of NAV oversight, reconciliation triage, corporate-actions handling, investor servicing, and reporting transparency
-- bounded autonomy and human-supervised operation in servicing workflows
-- use of canonical products, runtime controls, and observability inside a real business-line context
-- how AI changes workflow quality, exception burden, speed, and transparency rather than only cost
-- BNY public evidence on AI-powered NAV oversight, anomaly detection, integrated fund-servicing data, and AI-enabled operating improvements
+- AI-native redesign of trade capture, affirmation, exception routing, fail prevention, liquidity and collateral coordination, and post-settlement control
+- how intelligent supervision changes speed, resilience, predictability, and queue quality in post-trade workflows
+- the relationship between BNY's platform direction, DTCC modernization, and the SEC's Treasury-clearing implementation path
+- bounded autonomy in pre-fail detection, case assembly, break classification, and recommendation
+- the business value of earlier visibility into operational readiness, not just faster transaction handling
 
 ### Out of scope
 
-- re-explaining the current-state asset-servicing stack from CH05
-- generic AI governance architecture already handled in CH17-CH19
-- broad claims about fully autonomous fund administration without clear control boundaries
-- speculative claims about undisclosed BNY internal servicing implementations
+- re-explaining CH06's current-state workflow in full
+- generic Part IV architecture restatement without workflow application
+- claims that public infrastructure or BNY already operate the full future-state model described here
+- speculative claims about removing formal market controls, clearing-agency rules, or human decision rights
 
 ## Desired Reader Outcome
 
-The reader should finish CH20 with a concrete sense that AI-native asset servicing is not a marketing veneer on top of the old process stack. It is a different operating model in which exceptions are triaged earlier, context is assembled faster, explanations are more available, and human review is reserved for the places where consequence still demands it.
+The reader should finish CH20 believing that AI-native clearing and settlement does not mean bypassing the control stack. It means supervising the control stack differently: cleaner trade state earlier, fewer preventable breaks, better liquidity readiness, stronger fail prevention, faster evidence assembly, and more operational resilience under shorter deadlines and more continuous markets.
 
-The chapter should also prove that the Part IV architecture was not abstract. Asset servicing should feel like the first business where those architecture decisions become visibly useful.
+The chapter should also make the business feel newly strategic. Once intelligence improves settlement readiness, exception predictability, and capital-and-liquidity efficiency, clearing and settlement stop looking like a mature utility and start looking like a competitive operating advantage again.
 
 ## Structural Guidance
 
 Suggested sequence:
 
-1. Open from CH05's burden: the current stack is strong but held together by reconciliation, control work, and hidden exception labor.
-2. State the AI-native shift: from periodic review and queue-heavy servicing to continuous, context-rich supervision.
-3. Walk through the main layers that change: NAV oversight, reconciliation triage, books-and-records quality checks, investor servicing, corporate actions, and reporting transparency.
-4. Distinguish what can become more autonomous from what still needs human approval or signoff.
-5. Show why observability matters in this business by connecting workflow telemetry to exception classes, aging, overrides, and client outcomes.
-6. Close on why asset servicing is the first compelling proof of BNY's AI-native operating advantage.
+1. Open from CH06's burden: a strong business still absorbs high coordination cost under deadline.
+2. State the AI-native shift: from checkpoint-heavy post-trade control to continuous settlement-readiness supervision.
+3. Walk through the layers that change: trade capture and affirmation, exception triage, liquidity and collateral coordination, fail prevention, and post-settlement records.
+4. Include at least one compact end-to-end example before abstracting upward.
+5. Distinguish bounded autonomy from actions that must remain under strong human and infrastructure control.
+6. Close by showing why the business becomes more resilient and more strategically valuable as markets move toward tighter timelines and near-continuous trading.
 
 ## Evidence Priorities
 
-- BNY current fund-accounting, fund-administration, investor-solutions, and integrated fund-platform pages with AI and automation details
-- BNY annual-report evidence on more automated NAV strikes, workflow embedding, fewer handoffs, and quality improvements
-- CH05 current-state servicing sources for direct before/after continuity
-- primary regulatory or infrastructure sources only where they help define what still must remain controlled or supervised
+- BNY annual-report and global-clearing sources that show platform integration, AI depth, and the business importance of clearing, settlement, financing, and liquidity coordination
+- DTCC official sources on no-touch processing, operational insights, clearing-window expansion, settlement transformation, and fail reduction
+- SEC official materials on Treasury-clearing implementation and current compliance dates
+- CH06 current-state source base for before/after continuity
 
 ## Tone Notes
 
-- operator-first and workflow-specific
-- practical about human supervision and control boundaries
-- avoid generic "transforming operations" language
-- make transparency, explainability, and reduced hidden labor as important as speed
-- include at least one compact end-to-end example before stacking abstractions
+- operator-first and post-trade specific
+- practical about risk, funding, and market-infrastructure constraints
+- avoid generic speed rhetoric without a control or resilience consequence
+- make exception quality, readiness, and predictability as important as automation
+- keep the chapter grounded in real workflow consequences before introducing abstraction
 
-## Open Questions To Resolve In Research
+## Open Questions To Resolve In Later Drafts
 
-- Which BNY public sources best support AI-powered NAV oversight and anomaly detection without overstating production autonomy?
-- What is the cleanest way to distinguish continuous oversight from autonomous approval in servicing workflows?
-- Which current-state pain points from CH05 should be mapped most directly into the future-state redesign?
-- What is the best concrete example to carry the chapter: NAV review, reconciliation triage, corporate actions, or transfer-agency exceptions?
+- Does the chapter need one sharper Treasury-clearing example to make the Dec. 31, 2026 and June 30, 2027 transition windows feel more concrete?
+- Should a later draft separate equities and fixed income more explicitly, or is the current cross-product treatment sufficient?
+- Does CH20 need a short reader-facing reference-links section for DTCC and SEC materials in `draft_v2`?
