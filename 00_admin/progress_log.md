@@ -45,6 +45,39 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-19] - CH21 Challenge Round And Draft v2
+
+### Summary
+- Files changed: `04_manuscript/chapter_21/challenge_round.md`, `04_manuscript/chapter_21/draft_v2.md`, `02_outline/chapter_map.md`, `00_admin/progress_tracker.md`, and `00_admin/progress_log.md`.
+- Ran the CH21 challenge round and revised the chapter immediately into `draft_v2.md` in the same work pass.
+- Kept the existing source base and chapter spine, but sharpened the operating argument so treasury reads more distinctly as a same-day decision-and-control business.
+
+### Decisions
+- Kept the chapter centered on continuous treasury supervision rather than autonomous payments.
+- Added a sharper late-day liquidity scenario so the chapter shows how incoming funds, cutoff timing, client priority, and release decisions interact under real pressure.
+- Separated routine instruction repair from higher-consequence anomaly and policy-control decisions so the workflow feels more operationally credible.
+- Tightened the autonomy boundary in treasury terms: validation, context assembly, and recommendation can scale, while sensitive release, block, reroute, funding, and ambiguous client-impacting actions remain explicitly supervised.
+
+### Issues & Resolution
+- The largest weakness in `draft_v1` was that the liquidity section was directionally right but still too abstract; resolved by adding a more concrete same-day cutoff scenario with competing liquidity demands.
+- The draft also risked blending ordinary repair work with anomaly and fraud-control logic; resolved by separating those workflows more clearly in the validation section.
+- Some passages were close to CH20's queue-and-readiness language; resolved by tightening CH21 around payment quality, case orchestration, liquidity posture, and client-safe explanation.
+
+### Editorial Comments
+- The revised draft is stronger where client visibility is treated as part of control quality rather than as a separate user-experience layer.
+- The chapter now makes the cost of bad recommendations more explicit by stating that false positives consume the exact scarce time treasury teams need near cutoff.
+- The strongest improvement is that the chapter now feels more like same-day treasury supervision and less like generic AI workflow modernization.
+
+### Lessons Learned
+- Treasury future-state chapters land best when one concrete cutoff-window scenario carries the liquidity argument.
+- It matters to distinguish routine payment-quality repair from higher-consequence anomaly or policy-control decisions even when both use similar intelligence tooling.
+- Immediate revision after a challenge round works well when the chapter's source base is already strong and the main gap is operational specificity.
+
+### Next Steps
+- [ ] Review CH21 `draft_v2` for pacing and decide whether it needs only light polish.
+- [ ] Decide whether CH21 needs a second pressure test before it is held.
+- [ ] Commit and push the CH21 `draft_v2` checkpoint.
+
 ## [2026-04-19] - CH22 Research Pass 1 And Draft v1
 
 ### Summary

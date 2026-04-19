@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: CH22 `draft_v1` complete after a deep first research pass that reframes Pershing as a context-rich wealth operating system and grounds the chapter in current official Pershing and Wove workflow surfaces
-- Next milestone: review CH22 `draft_v1` and decide whether the next pass should be a challenge round or a direct `draft_v2` revision
+- Current focus: CH21 challenge round complete and `draft_v2` finished, with a sharper same-day liquidity scenario, clearer separation between anomaly controls and ordinary repair work, and a tighter treasury autonomy boundary
+- Next milestone: review CH21 `draft_v2` and decide whether it needs only light polish or one more pressure test before returning to CH22
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -33,7 +33,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH18 | Observability as Governance | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 now states that observability complements prior governance layers, makes monitoring risk-proportionate, and sharpens the intervention bridge into CH19 |
 | CH19 | AI-Native Asset Servicing | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 now makes the opening control-loop argument more actionable with explicit weak-signal examples, clearer operational benefits, and cleaner non-negating valuation-governance language in the NAV example |
 | CH20 | AI-Native Clearing and Settlement | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 sharpens the pre-fail example, makes Treasury-clearing readiness more operational, states queue-quality risk more directly, and tightens the post-trade autonomy boundary |
-| CH21 | AI-Native Treasury Services | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 positions treasury as an AI-native decision-and-control business, with the strongest near-term gains in validation, investigations, liquidity prioritization, and client transparency |
+| CH21 | AI-Native Treasury Services | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round complete; draft v2 adds a sharper late-day liquidity scenario, separates anomaly controls from ordinary repair and investigations, and tightens the treasury autonomy boundary |
 | CH22 | AI-Native Pershing Platform | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 positions Pershing as a visible AI-native proving ground across advisor workflow coherence, operations orchestration, investor experience, and multi-custodial intelligence |
 | CH23 | AI-Native Investment Management | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH24 | AI-Native Collateral and Financing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
@@ -61,6 +61,12 @@ This file is the high-level dashboard for the project. It should stay concise an
 - `Graph Extract`: chapter has been converted into structured concepts, claims, and relationships
 
 ## Session Log
+
+### 2026-04-19
+
+- Ran the CH21 challenge round against `draft_v1`; outcome was `revise before proceeding`.
+- Created `04_manuscript/chapter_21/draft_v2.md` in the same pass to sharpen the same-day liquidity example, separate anomaly controls from routine repair and investigations, and make client transparency read more explicitly as part of control quality.
+- Kept CH21 centered on continuous treasury supervision, payment-quality improvement, case orchestration, liquidity posture, and client-safe explanation rather than generic workflow automation.
 
 ### 2026-04-19
 
@@ -376,10 +382,10 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Review CH22 `draft_v1` for whether it needs one sharper advisor-client journey example before `draft_v2`.
-2. Decide whether CH22 should go through a formal challenge round before `draft_v2`.
-3. Review CH21 `draft_v1` for pacing, concrete scenario quality, and whether it should now go through a formal challenge round.
-4. Revise CH20 into `draft_v2` using the challenge-round findings.
+1. Review CH21 `draft_v2` for pacing and decide whether it now needs only light polish or one more pressure test.
+2. Review CH22 `draft_v1` for whether it needs one sharper advisor-client journey example before `draft_v2`.
+3. Decide whether CH22 should go through a formal challenge round before `draft_v2`.
+4. Review CH20 `draft_v2` for whether it now only needs minor polish before holding.
 5. Review CH25 `draft_v2` for sequencing, pacing, and whether proxy voting should now open the chapter.
 
 ## Update Rules
