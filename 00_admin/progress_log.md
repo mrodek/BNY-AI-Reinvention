@@ -45,6 +45,79 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-19] - CH20 Draft v2 Revision
+
+### Summary
+- Files changed: `04_manuscript/chapter_20/draft_v2.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: `draft_v2.md` for CH20 plus synchronized tracker and log updates
+- Chapter(s) affected: CH20 directly, with sequencing implications for CH21 and the rest of Part V
+
+### Decisions
+- Decision: revise CH20 immediately after the challenge round rather than letting the findings sit
+- Rationale: the challenge-round issues were specific and editorially actionable, so the fastest path was a focused `draft_v2` pass
+- Decision: keep the chapter centered on continuous settlement-readiness supervision
+- Rationale: the chapter already had the right control thesis; the problem was not framing drift but insufficient operating specificity
+- Decision: sharpen the draft around one clearer pre-fail example, a more operational Treasury-clearing section, and a plainer autonomy boundary
+- Rationale: those were the highest-value changes for making the chapter feel like post-trade operations rather than a generic AI workflow chapter
+
+### Issues & Resolution
+- Issue: `draft_v1` described earlier detection well, but it still needed one sharper example of what gets caught early enough to preserve netting, funding readiness, or completion quality
+- Resolution: added a more explicit pre-fail case around affirmation and instruction-quality problems that threaten the next deadline and degrade queue quality if discovered too late
+- Issue: the Treasury-clearing section was accurate on dates but still too regulatory in feel
+- Resolution: rewrote it around the practical consequence of late discovery as Treasury-clearing readiness, margin, and financing discipline tighten under the Dec. 31, 2026 and June 30, 2027 implementation path
+- Issue: parts of the chapter were drifting toward CH21-style queue and transparency language
+- Resolution: tightened the draft so it stays anchored in trade-state coherence, settlement readiness, netting, liquidity, and fail prevention
+
+### Editorial Comments
+- The revised draft is stronger where it treats bad recommendations as a post-trade failure mode rather than as an acceptable cost of intelligence
+- The new Treasury-clearing section now reads more like an operating consequence than a policy aside
+- The chapter now separates more clearly from CH21 by keeping the center of gravity on post-trade readiness and formal settlement control
+
+### Lessons Learned
+- Challenge-round findings are most valuable when they are carried into draft revision immediately, before the chapter drifts back into generalities
+- Post-trade chapters need one tangible case where lateness directly harms netting, funding, or fail-prevention outcomes; otherwise "readiness" remains too abstract
+- Distinct business-line future-state chapters stay stronger when each one protects its own native burden map instead of borrowing the language of the next chapter
+
+### Next Steps
+- [ ] Review CH20 `draft_v2` for pacing and decide whether the chapter now only needs light polish
+- [ ] Decide whether CH20 needs a second pressure test before it is held
+- [ ] Commit and push the CH20 `draft_v2` revision as its own checkpoint
+## [2026-04-19] - CH20 Challenge Round
+
+### Summary
+- Files changed: `04_manuscript/chapter_20/challenge_round.md`, `00_admin/progress_tracker.md`, `00_admin/progress_log.md`
+- Artifacts created or updated: CH20 challenge-round file plus tracker and log updates reflecting the outcome
+- Chapter(s) affected: CH20 directly, with adjacent-sequence checks against CH19 and CH21
+
+### Decisions
+- Decision: run the CH20 challenge round before revising `draft_v1`
+- Rationale: the chapter spine is sound, but the main issues are now editorial and sequencing-specific rather than source gaps, so pressure-testing is the fastest way to define a focused `draft_v2`
+- Decision: treat CH20's main revision needs as specificity and differentiation problems rather than as structural rewrite problems
+- Rationale: the draft already has the right control stance and post-trade thesis, but it needs one sharper pre-fail example, a more operational Treasury-clearing section, and cleaner distinction from CH21's workflow language
+
+### Issues & Resolution
+- Issue: CH20's "continuous settlement-readiness supervision" framing is directionally strong but still slightly abstract
+- Resolution: the challenge round identified the need for one more concrete example showing how earlier classification preserves netting, funding readiness, or completion quality before a fail hardens
+- Issue: the Treasury-clearing section was accurate on dates and regulation but less vivid on day-to-day operating consequences
+- Resolution: the challenge round logged a revision priority to connect the SEC implementation path more explicitly to readiness, margin, financing, or queue-discipline consequences
+- Issue: parts of CH20 were drifting toward CH21-style generic queue and transparency language
+- Resolution: the challenge round flagged the need to keep CH20 anchored in trade-state coherence, settlement readiness, netting, liquidity, and fail prevention so Part V chapters remain distinct
+
+### Editorial Comments
+- The draft is strongest where it describes post-trade intelligence as earlier intervention, not where it sounds like generic workflow modernization
+- Insider and practitioner pressure is likely to focus on queue quality and false-positive burden, so `draft_v2` should say more explicitly that bad recommendations are themselves a post-trade failure mode
+- The post-trade observability section should read less like "better dashboards" and more like a governance system for break classes, overrides, and readiness deterioration
+
+### Lessons Learned
+- Post-trade future-state chapters need one more operating example than they initially seem to because readiness and fail prevention are otherwise easy to state but hard to feel
+- Adjacent Part V chapters stay cleaner when each one protects its own native burden map: CH20 should sound like post-trade readiness and fail prevention, not like generic enterprise workflow orchestration
+- A challenge round is especially useful once the source base is strong and the remaining risk is imprecision rather than evidence weakness
+
+### Next Steps
+- [ ] Revise CH20 into `draft_v2` with one sharper pre-fail operating example
+- [ ] Tighten the Treasury-clearing section around one concrete readiness or funding consequence
+- [ ] Make queue-quality risk and the post-trade autonomy stop line more explicit in the next draft
+
 ## [2026-04-19] - CH21 Research Pass 1 And Draft v1
 
 ### Summary
@@ -587,7 +660,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Rationale: the challenge round correctly identified that Eliza's public description is primarily as a workplace AI tool; the chapter needed to use it as evidence of governance intent while acknowledging the production layer is a distinct architecture problem
 - Decision: reordered the chapter so the guardrails/policies vocabulary section comes before the functions breakdown
 - Rationale: readers need the conceptual vocabulary before the function list makes sense; the prior ordering put the list before the framework
-- Decision: tightened the auditability section and added an explicit CH18 boundary — the control plane produces the transaction record; observability interprets it at system level over time
+- Decision: tightened the auditability section and added an explicit CH18 boundary ? the control plane produces the transaction record; observability interprets it at system level over time
 - Rationale: challenge round flagged that the original auditability section was doing CH18's work; the chapter now draws the boundary clearly
 - Decision: added SR 21-8 and 2023 interagency TPRM guidance as evidence that SR 11-7 principles extend to AI contexts, replacing the vague "regulators are extending the spirit" hedge
 - Rationale: specific regulatory artifacts are more credible than assertion; SR 21-8 and the 2023 TPRM guidance show the actual extension pattern
@@ -597,12 +670,12 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - The $4.7M trading agent failure scenario appears in practitioner sources; its exact provenance should be verified before final manuscript
 
 ### Editorial Comments
-- The positive capability argument — governance enables ambition rather than restraining it — now has a dedicated paragraph and should resonate better with executive readers who might otherwise read the chapter as a compliance argument
+- The positive capability argument ? governance enables ambition rather than restraining it ? now has a dedicated paragraph and should resonate better with executive readers who might otherwise read the chapter as a compliance argument
 - The CH18 boundary section is now clean; the chapter closes the transaction-level audit argument and explicitly hands the system-level monitoring argument to the next chapter
 
 ### Lessons Learned
 - Concrete failure scenarios make governance arguments land harder than statistics; worth building one into every architecture chapter that makes a risk case
-- The employee AI vs. production AI distinction is worth making explicitly in any chapter that uses enterprise AI platform evidence — they are different architecture layers
+- The employee AI vs. production AI distinction is worth making explicitly in any chapter that uses enterprise AI platform evidence ? they are different architecture layers
 
 ### Next Steps
 - [ ] Author review of CH16 draft_v2
@@ -617,7 +690,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Chapter(s) affected: CH16
 
 ### Decisions
-- Decision: anchored the chapter on BNY's Eliza platform as the primary concrete evidence — it is the closest public evidence of BNY's control-plane answer, with standardized permissions, security, and oversight across all models and tools
+- Decision: anchored the chapter on BNY's Eliza platform as the primary concrete evidence ? it is the closest public evidence of BNY's control-plane answer, with standardized permissions, security, and oversight across all models and tools
 - Rationale: the chapter needed a BNY-specific anchor that is more than a governance commitment statement; Eliza provides an operating example of the principle
 - Decision: used SR 11-7 and NIST AI RMF as the two regulatory anchors, with FSB 2025 for systemic-risk framing; did not include EU AI Act to avoid making the chapter a compliance survey
 - Rationale: SR 11-7 is the US banking standard; NIST AI RMF is explicitly cited by BNY; FSB 2025 establishes that systemic regulators are watching; adding EU AI Act would shift the chapter's center of gravity from architecture to compliance
@@ -633,7 +706,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - None yet; first draft, no editorial review
 
 ### Lessons Learned
-- Shadow AI data is more concrete and striking than expected — empirical numbers (80%+ unapproved tool use, 97% of breached orgs lacking AI access controls) are more effective than abstract risk descriptions
+- Shadow AI data is more concrete and striking than expected ? empirical numbers (80%+ unapproved tool use, 97% of breached orgs lacking AI access controls) are more effective than abstract risk descriptions
 - The guardrails vs. policies distinction deserves its own section because it resolves a conceptual ambiguity that governance-focused readers will otherwise carry through the rest of Part IV
 
 ### Next Steps
@@ -676,7 +749,7 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - Chapter(s) affected: CH15
 
 ### Decisions
-- Decision: converted two mechanical "First/Second/Third..." paragraph sequences into bulleted lists with bolded lead terms — the canonical-product definition (five criteria) and the AI-layer benefits (four items)
+- Decision: converted two mechanical "First/Second/Third..." paragraph sequences into bulleted lists with bolded lead terms ? the canonical-product definition (five criteria) and the AI-layer benefits (four items)
 - Rationale: the ordinal paragraph structure read as formulaic; bulleted format makes the criteria scannable without changing the substance
 - Decision: removed all CH## cross-references (CH14, CH15) and replaced with relative prose references ("the previous chapter", "this chapter")
 - Rationale: hard-coded chapter numbers break when the manuscript is edited for sequence and read as internal scaffolding rather than finished prose
@@ -4395,4 +4468,5 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 - [ ] Draft the Chapter 1 brief and initial research tracker
 - [ ] Validate whether the 39-chapter structure should be consolidated before broader artifact creation
 - [ ] Decide the preferred early sequence after CH01-CH04: CH11 first or CH12 first
+
 
