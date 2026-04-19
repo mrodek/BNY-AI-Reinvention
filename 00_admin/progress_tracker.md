@@ -72,6 +72,14 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-19
 
+- Started CH21 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
+- Completed CH21 research pass 1 using official BNY treasury and AI materials plus Swift, FRFS, and BCBS sources on payment pre-validation, anomaly controls, case management, intraday liquidity, and ISO 20022 investigation handling.
+- Created `04_manuscript/chapter_21/source_notes.md` and `draft_v1.md`, moving CH21 from `not_started` to `drafting`.
+- Positioned CH21 around continuous treasury supervision rather than autonomous payments, with payment-quality improvement, case orchestration, intraday decision support, and client transparency as the main future-state wedges.
+- Updated the chapter map and project tracker in the same pass so CH21's lifecycle state, draft status, and milestone language match disk reality.
+
+### 2026-04-19
+
 - Replaced the incorrect prior CH20 placeholder state by creating a proper `chapter_brief.md`, `research_tracker.md`, `claim_register.md`, `source_notes.md`, and `draft_v1.md` for `CH20 | AI-Native Clearing and Settlement`.
 - Completed a deep CH20 research pass using current official BNY, DTCC, and SEC sources, including March and April 2026 DTCC and SEC materials where dates matter for Treasury-clearing implementation and post-trade modernization.
 - Positioned CH20 around continuous settlement-readiness supervision rather than autonomous post-trade completion, with the strongest wedges in cleaner trade state, pre-fail exception intervention, liquidity and collateral visibility, and post-trade observability.
@@ -385,3 +393,4 @@ Research standard reminder:
 - research trackers should include direct links for each source
 - material source-set changes should include source-selection notes in the relevant chapter tracker
 - source-backed chapter drafts should use `source_notes.md` for citation mapping and keep full citation detail out of the main prose draft
+

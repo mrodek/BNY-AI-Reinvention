@@ -57,3 +57,4 @@ Use this file to translate the raw outline into a working manuscript architectur
 - First milestone: complete CH01 artifact set and Chapter 1 brief.
 - Second milestone: complete CH02-CH04 artifacts so the opening argument can be written as a coherent sequence.
 - Third milestone: decide whether CH11 or CH12 is the next major thesis chapter after the opening set.
+
