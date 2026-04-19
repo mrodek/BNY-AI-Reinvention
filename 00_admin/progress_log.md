@@ -45,6 +45,44 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-19] - CH22 Challenge Round And Draft v2 Revision
+
+### Summary
+- Files changed: `04_manuscript/chapter_22/challenge_round.md`, `04_manuscript/chapter_22/draft_v2.md`, `02_outline/chapter_map.md`, `00_admin/progress_tracker.md`, and `00_admin/progress_log.md`.
+- Artifacts created or updated: CH22 challenge round, `draft_v2.md`, chapter-map note, and synchronized tracker/log state.
+- Chapter(s) affected: CH22 directly, with Part V sequencing implications for CH21 and CH25.
+
+### Decisions
+- Decision: run the CH22 challenge round and revise the chapter in one continuous pass.
+- Rationale: the chapter already had a strong source base and spine, so the fastest route to a better draft was to convert the challenge-round objections directly into `draft_v2`.
+- Decision: keep CH22 centered on visible workflow intelligence rather than widen it into a generic wealth-tech future chapter.
+- Rationale: the strongest version of the chapter is the one that stays anchored in advisor preparation, service operations, investor clarity, and multi-custodial context.
+- Decision: make the Pershing-core versus Wove-layer distinction explicit in the revision.
+- Rationale: that boundary is necessary to keep the chapter BNY-specific and to avoid blurring the operating substrate with the broader intelligence layer.
+
+### Issues & Resolution
+- Issue: `draft_v1` described a context-rich wealth operating system well, but still needed one sharper advisor-client sequence to make the value legible before a meeting or service interaction fails.
+- Resolution: rewrote the advisor-workbench section around a fuller household transfer, account-opening, and proposal-adjustment sequence that shows how the platform changes the quality of the conversation.
+- Issue: the draft moved too quickly across Pershing workflow surfaces and the broader Wove layer.
+- Resolution: added a dedicated section clarifying that Pershing remains the custody-and-carrying substrate while Wove extends workflow, data, and multi-custodial intelligence above and across that base.
+- Issue: the chapter still risked sounding like better screens rather than a better operating model.
+- Resolution: made queue-quality risk, recommendation precision, manager visibility, and client-state interpretation more explicit so the operating payoff reads as reduced friction and stronger trust rather than just improved UI.
+
+### Editorial Comments
+- The chapter is strongest when the intelligence shift is visible in one advisor-client journey rather than only in abstract platform language.
+- A wealth-platform chapter needs to say more plainly that bad classifications and noisy guidance are themselves service failures.
+- The close now works better because it states the commercial payoff in advisor capacity, trust, and stickiness rather than relying on generic platform rhetoric.
+
+### Lessons Learned
+- Pershing future-state writing gets stronger when the substrate-versus-intelligence-layer distinction is explicit rather than implied.
+- Multi-custodial context matters most when it is tied to interpretation and next-step guidance, not merely to data aggregation.
+- Challenge rounds are particularly useful for visible-surface chapters because the main weakness is often legibility, not evidence.
+
+### Next Steps
+- [ ] Review CH22 `draft_v2` for pacing and overlap with CH08.
+- [ ] Decide whether CH22 is now ready for light polish only or needs one more editorial pressure test.
+- [ ] Commit and push the CH22 `draft_v2` checkpoint as its own changeset.
+
 ## [2026-04-19] - CH21 Challenge Round And Draft v2
 
 ### Summary

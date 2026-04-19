@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: CH21 challenge round complete and `draft_v2` finished, with a sharper same-day liquidity scenario, clearer separation between anomaly controls and ordinary repair work, and a tighter treasury autonomy boundary
-- Next milestone: review CH21 `draft_v2` and decide whether it needs only light polish or one more pressure test before returning to CH22
+- Current focus: CH22 challenge round completed and `draft_v2` created, sharpening the advisor-client journey, clarifying the Pershing-versus-Wove layer model, and making queue-quality and strategic payoff more operational
+- Next milestone: review CH22 `draft_v2` for pacing and decide whether it only needs light editorial polish before the next Part V chapter
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -34,7 +34,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH19 | AI-Native Asset Servicing | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 now makes the opening control-loop argument more actionable with explicit weak-signal examples, clearer operational benefits, and cleaner non-negating valuation-governance language in the NAV example |
 | CH20 | AI-Native Clearing and Settlement | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 sharpens the pre-fail example, makes Treasury-clearing readiness more operational, states queue-quality risk more directly, and tightens the post-trade autonomy boundary |
 | CH21 | AI-Native Treasury Services | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round complete; draft v2 adds a sharper late-day liquidity scenario, separates anomaly controls from ordinary repair and investigations, and tightens the treasury autonomy boundary |
-| CH22 | AI-Native Pershing Platform | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 positions Pershing as a visible AI-native proving ground across advisor workflow coherence, operations orchestration, investor experience, and multi-custodial intelligence |
+| CH22 | AI-Native Pershing Platform | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 now sharpens the advisor-client journey, separates Pershing's operating substrate from Wove's intelligence layer, and makes queue-quality risk and strategic payoff more explicit |
 | CH23 | AI-Native Investment Management | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH24 | AI-Native Collateral and Financing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
 | CH25 | AI-Native Enterprise Workflows | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now defines proxy voting as a real business workflow, expands post-KYC onboarding economics, removes weak chapter-self-reference, and sharpens both use cases as enterprise value cases |
@@ -61,6 +61,12 @@ This file is the high-level dashboard for the project. It should stay concise an
 - `Graph Extract`: chapter has been converted into structured concepts, claims, and relationships
 
 ## Session Log
+
+### 2026-04-19
+
+- Ran the CH22 challenge round against `draft_v1`; outcome was `revise before proceeding`.
+- Revised CH22 into `draft_v2.md` by adding a sharper advisor-client sequence, clarifying the Pershing-core versus Wove intelligence-layer distinction, making queue-quality risk more explicit, and tightening the commercial payoff.
+- Kept CH22 anchored in advisor preparation, onboarding and service repair, investor clarity, and multi-custodial context so it reads distinctly from both CH08's platform setup and CH25's generic workflow language.
 
 ### 2026-04-19
 
@@ -382,11 +388,11 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Review CH21 `draft_v2` for pacing and decide whether it now needs only light polish or one more pressure test.
-2. Review CH22 `draft_v1` for whether it needs one sharper advisor-client journey example before `draft_v2`.
-3. Decide whether CH22 should go through a formal challenge round before `draft_v2`.
-4. Review CH20 `draft_v2` for whether it now only needs minor polish before holding.
-5. Review CH25 `draft_v2` for sequencing, pacing, and whether proxy voting should now open the chapter.
+1. Review CH22 `draft_v2` for pacing, overlap with CH08, and whether it now only needs light editorial polish.
+2. Review CH21 `draft_v2` for pacing and decide whether it now needs only light polish or one more pressure test.
+3. Review CH20 `draft_v2` for whether it now only needs minor polish before holding.
+4. Review CH25 `draft_v2` for sequencing, pacing, and whether proxy voting should now open the chapter.
+5. Select the next Part V chapter to advance after the CH22 readback.
 
 ## Update Rules
 
