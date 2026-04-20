@@ -1,121 +1,85 @@
-# Chapter 16: Canonical Data Products as the Foundation
+# Chapter 16: The AI Gateway (Control Plane)
 
-CH15 made the semantic argument. An intelligent platform cannot reason reliably across records, events, workflows, and controls if the enterprise cannot represent what those things mean consistently. But that chapter also left an obvious implementation question behind. Shared meaning is necessary. What carries it into the real platform?
+The previous chapter ended with a question the architecture cannot defer. Once canonical data products exist, once the enterprise has built reusable, governed representations of its most important entities, events, and states, a new problem comes into view. Which intelligence service is allowed to consume which product? Under what authorization? With what constraints on what it can do with the result? And when something goes wrong, or when an auditor asks what the system decided and why, where does the answer live?
 
-The answer is canonical data products.
+Those are not questions that individual application teams can answer independently. At any given scale, that approach produces a different answer for every team, and a different answer for every team means no answer that an enterprise can stand behind.
 
-Not just better datasets. Not a nicer reporting layer. Not another integration effort that moves information between systems while leaving every consuming team to reinterpret it locally. Canonical data products are the operating assets that package shared meaning into reusable form. They give the platform dependable representations of important entities, events, states, and relationships that many workflows can use without rebuilding context from scratch.
+The AI gateway is the architectural layer that holds that accountability. Also called the control plane, it sits between intelligence services and the trusted products, workflows, and data assets they consume. It governs routing, enforces policy, applies guardrails, and maintains the audit record that makes AI behavior explainable after the fact. Without it, enterprise AI is not a platform. It is a collection of experiments, each with its own implicit governance assumptions, none of which were designed to be audited.
 
-That is why they are the foundation.
+## The Problem A Control Plane Solves
 
-## Ontology Is Not Enough By Itself
+The most immediate risk is not a dramatic failure. It is proliferation.
 
-An ontology can define what a client is, what a position is, what a settlement event is, and how those concepts relate. That matters. But ontology alone is still too abstract to run an operating platform.
+In any large organization with capable engineers, AI capability spreads faster than governance does. Teams discover a model that solves their immediate problem. They build an integration. They start using sensitive data. They apply their own judgment about what constraints are appropriate. The model improves their workflow, so they add another use case, and then another. None of this is malicious. Most of it reflects genuine initiative. But the aggregate result is dozens or eventually hundreds of AI integrations, each built to different standards, each with its own access patterns, none connected to a shared policy framework, and none producing an audit trail that the enterprise can actually use.
 
-Teams do not consume ontology diagrams. They consume services, datasets, APIs, queries, dashboards, controls, and workflow context. They need something they can call, inspect, trust, and reuse. They need to know who owns it, what it means, how current it is, what quality rules apply, what lineage supports it, and what interfaces are stable enough to build on.
+This is what is commonly called shadow AI, and the scale of the problem in financial services is already material. Research published in 2025 found that more than 80 percent of enterprise workers use unapproved AI tools, and that 63 percent of financial institutions lack any formal AI governance framework.^[SRC-009] The same research found that 97 percent of organizations that experienced AI-related breaches lacked proper AI access controls, and that shadow AI adds an estimated 670,000 dollars to average breach costs.^[SRC-009] These are not edge-case risks. They are the predictable consequence of capability outrunning governance.
 
-That is the role of the canonical data product. It is the point where shared meaning stops being a conceptual requirement and becomes an operational asset.
+The financial services context raises the stakes further. Banks and custodians operate under model risk management requirements that predate generative AI but establish the governance standard that applies to it. The Federal Reserve's SR 11-7 guidance requires banking organizations to maintain a comprehensive model inventory, conduct independent validation, document model purpose and assumptions, and ensure board-level accountability for model risk across the institution.^[SRC-004] These requirements were written for statistical models, but regulators have been extending their spirit to AI systems throughout the AI lifecycle. A firm that cannot demonstrate model inventory, policy lineage, or access control for its AI systems is carrying governance exposure that a control plane is specifically designed to close.
 
-## What Makes A Data Product Canonical
+## What A Control Plane Actually Does
 
-The phrase should be used carefully. A data product is not canonical just because it is widely copied or centrally published. It becomes canonical when it provides a trusted, reusable representation of an important business object or event family and carries the obligations that let many consumers rely on it.
+An AI gateway is architecturally a policy-enforced reverse proxy. It sits between applications and model providers and exposes a single, consistent interface while centralizing routing, governance, and observability functions.^[SRC-006] That is a technical description of a governance mechanism.
 
-That means at least five things.
+The core functions break into four categories.
 
-First, the semantics are explicit. The product represents a defined thing in the business: a client identity, an account structure, a security master, a cash position, a payment event, a collateral exposure, a lifecycle status, a control state. The meaning is documented well enough that consuming systems do not have to guess what the fields and states represent.
+**Routing and reliability.** The control plane decides which model handles a given request, based on cost, latency, capability, or policy. It manages failover when a primary provider is unavailable, balances load across multiple model endpoints, and enforces rate limits to control both cost and exposure. These are operational necessities for any organization running AI at scale, but they are also governance mechanisms: routing decisions determine which model sees which data, and those decisions should be auditable.
 
-Second, ownership is explicit. A product without a clear steward is just a shared dependency waiting to decay. Someone must be accountable for the representation, its quality standards, its change process, and its consumer obligations.
+**Policy enforcement.** The control plane applies the enterprise's access and authorization rules at the point of consumption. It determines which teams or services can call which models using which data products, under what conditions, and with what constraints on output usage. Policy enforcement at the gateway means the enterprise does not have to trust every downstream application team to apply the same rules correctly. The rules are applied once, architecturally, before the request reaches the model.^[SRC-007]
 
-Third, interfaces are explicit. Consumers need stable ways to use the product, whether through APIs, governed queries, event streams, or embedded services. A canonical product cannot require every consumer to negotiate a bespoke extract.
+**Guardrails.** Where policy governs access and authorization, guardrails govern model behavior at runtime. They inspect prompts and responses, filter content that falls outside defined boundaries, enforce output format expectations, and block requests that would expose data the model is not authorized to process. The distinction matters because guardrails are applied dynamically to the content of each interaction, not just to the metadata of who is calling what.^[SRC-006]
 
-Fourth, quality and controls are explicit. Consumers need to know what validation rules, permissions, freshness expectations, and policy constraints apply. In regulated finance, that is part of whether the product is usable at all.
+**Auditability.** The control plane maintains a comprehensive log of every model interaction: what was requested, by whom, against which data products, under which authorization, with what output, at what time. In regulated finance, this is not a logging convenience. It is the evidentiary record that supports model governance, regulatory examination, and incident reconstruction.^[SRC-004] A meaningful audit trail is not just a record that something happened. It is a governed record from which the enterprise can reconstruct what ran, on what data, under what authorization, with what outcome, and whether the applicable policies were followed.
 
-Fifth, lineage is explicit. The consumer should be able to tell where the product came from, how it was transformed, what upstream sources it depends on, and what changed. A product that cannot explain its own provenance may be useful for exploration. It is not strong enough to support intelligence at scale.
+## Why Governance Must Be Architectural
 
-That is the difference between a convenient data asset and a canonical data product.
+The temptation in most enterprises is to treat AI governance as a process. Get approval before you build. Follow the guidelines. Complete the risk assessment form. These processes have value, especially in early stages when the organization is still developing its governance intuitions. But process-based governance does not scale to a platform with dozens of teams, hundreds of models, and thousands of concurrent AI workflows.
 
-## Why Product Thinking Matters
+Process governance assumes that each actor, each time, will correctly understand and apply the relevant rules. At scale, that assumption is wrong. Teams work under different interpretations of the same policy. Guidelines are read once and then applied from memory. Approval processes are completed once and then treated as indefinite clearance. The more capable and autonomous AI systems become, the more dangerous it is to rely on human-applied judgment at every point where a rule should be enforced.
 
-This is where architecture and operating model meet. The strongest primary articulation of the point comes from the data-as-a-product argument: analytical data should be treated as a product, and its consumers should be treated as customers.^[SRC-005] That sounds simple, but it changes the standard completely.
+Architectural governance works differently. The rules are encoded once, in the infrastructure through which all AI requests must pass. They are applied consistently, regardless of which team built the application, which engineer deployed the workflow, or which model is handling the request. The enterprise does not have to trust that every actor will do the right thing. It has built a system that enforces the right thing.^[SRC-006] This is the same principle that makes network security effective: you do not rely on every application to implement its own authentication correctly. You enforce authentication at the infrastructure layer where every request must pass through it.
 
-If consumers are customers, then the product has to be discoverable, understandable, trustworthy, secure, and pleasant enough to use that people do not immediately build side routes around it.^[SRC-005] In other words, the product is defined not only by technical correctness but by the quality of the consumption experience.
+## What Regulated Finance Requires
 
-That matters in a firm like BNY because every cross-workflow capability competes against the local shortcut. If canonical products are hard to find, thinly documented, slow to access, semantically unstable, or politically ambiguous in ownership, teams will keep building local copies and one-off mappings. The enterprise then pays again for translation, reconciliation, and duplicated controls.
+For a firm like BNY, the governance obligations are layered and non-negotiable.
 
-Canonical products are supposed to break that cycle.
+SR 11-7 establishes the baseline. It requires conceptual soundness in model design, independent validation of model logic and assumptions, ongoing monitoring of model performance, a comprehensive and current model inventory, board-level oversight ensuring model risk stays within institutional tolerance, and documentation detailed enough that a reviewer unfamiliar with the model can understand it.^[SRC-004] These requirements apply to the models the firm relies on for risk calculations, reporting, and decisions. As AI systems take on more of these functions, the requirements follow.
 
-## Why BNY Already Points In This Direction
+The NIST AI Risk Management Framework extends that baseline into a lifecycle discipline. Its four functions — Govern, Map, Measure, and Manage — organize AI risk management across the full lifecycle from design through deployment and continuous monitoring.^[SRC-005] BNY explicitly cites alignment with the NIST AI RMF as part of its responsible AI commitment, which establishes a public connection between the firm's governance intent and this standard.^[SRC-001] The framework's GOVERN function applies across all stages and focuses on establishing organizational policies, accountability structures, and risk tolerance standards that shape how the other functions operate.
 
-BNY's public materials already make much of the required foundation visible. Its data-management platform is described in terms of ingesting, cleaning, governing, mastering, and distributing financial data.^[SRC-001] That list matters because it already combines the core ingredients of a productized foundation: acquisition, quality, control, identity, and reuse.
+The Financial Stability Board has been monitoring AI adoption and its systemic implications since 2023, with its October 2025 report finding that financial authorities' monitoring of AI governance remains at an early stage and that third-party concentration risk — the dependence of AI systems on a small number of hardware, cloud, and model providers — represents an emerging vulnerability for systemic institutions.^[SRC-008] That last point has direct implications for how a control plane should be designed. An AI gateway that routes all enterprise intelligence through a single model provider is itself a concentration risk. Provider-agnostic routing, which allows the enterprise to shift workloads across providers based on performance, cost, or availability, is a governance and resilience requirement, not only a cost optimization.
 
-The same page goes further. BNY emphasizes tagging, search, classification, access controls, flexible APIs, automated governance tools, and full audit trails.^[SRC-001] Those are not just data-platform features. They are part of what makes a reusable product dependable across many consumers.
+## BNY's Own Evidence
 
-Its broader Data & Analytics platform makes a similar point from the operating side. BNY frames the platform as bringing together data management, accounting, performance, analytics, and investment operations in one connected foundation for actionable insight.^[SRC-002] The useful implication is that intelligence is more likely to scale when the underlying data is already organized as reusable platform assets rather than as isolated local extracts.
+BNY's public posture on AI governance is more developed than a typical corporate commitment. Its published framework commits the firm to five principles: accountability and responsibility across the AI lifecycle, transparency and explainability of AI-driven decisions, privacy and security by design, fairness and accuracy in model outcomes, and lawful and ethical conduct in all data and AI use.^[SRC-001] The governance structure supporting these principles spans Legal, Privacy, Responsible AI, Data Governance, Information Security, Resiliency, Risk, and Compliance functions operating across the full AI lifecycle.^[SRC-002]
 
-The strongest concrete sequence appears in BNY's Victorian Funds Management Corporation client story. The story emphasizes a unified data model, standardized risk metrics, and a total portfolio view before broader self-service analytics and later AI-adjacent use cases become practical.^[SRC-003] That sequencing is exactly the chapter's point. You do not get durable intelligence by starting with the model. You get there by first building products that make the platform legible and reusable.
+The most concrete evidence of how BNY operationalizes this is its enterprise AI platform, Eliza. Eliza is described as a proprietary, purpose-built platform built in line with BNY's data, risk, legal, and compliance standards.^[SRC-003] All prompting, agent development, model selection, and sharing happens inside a governed environment that standardizes permissions, security, and oversight across all models and tools.^[SRC-003] With 20,000 employees actively building agents and more than 125 AI-enabled solutions already in production, Eliza is the closest public evidence of BNY's answer to the control-plane problem: a single governed environment through which AI capability is accessed, rather than a proliferation of independent integrations.^[SRC-002]
 
-## Why Regulated Finance Raises The Bar
+That architecture is the principle this chapter is arguing for. A control plane should not feel like a bureaucratic bottleneck. Done well, it is the enabling infrastructure that makes safe AI access fast and easy, while keeping the enterprise's governance and audit obligations intact. BNY's framing of Eliza as a platform for "AI for everyone, everywhere and in everything" is only sustainable if the everywhere comes with governance embedded in the platform itself, rather than added on top by individual teams after the fact.
 
-In many industries, a data product can be useful even if it is loosely governed. In regulated finance, that standard is too low.
+## Guardrails and Policies Are Not the Same Thing
 
-BCBS 239 exists because banks must aggregate risk exposures and produce reliable reporting quickly enough to support decisions under pressure.^[SRC-006] That requirement is not satisfied by collecting data somewhere central and hoping interpretation sorts itself out downstream. It requires dependable, governable, explainable representations that can survive scrutiny.
+One of the most important conceptual distinctions in AI gateway design is the difference between guardrails and policies, because they operate at different levels and must be designed accordingly.
 
-This is why lineage belongs in the product definition rather than in a separate metadata conversation. OpenLineage is helpful here because it makes the requirement concrete. Its model treats datasets, jobs, and runs as explicit objects and supports both runtime and design-time lineage, including schema, ownership, and documentation metadata.^[SRC-008] That matters because a trusted product is not just a set of current values. It is a governed history of how those values came to be.
+Policies govern access and authorization. They determine which services can call which models, which data products are accessible under which conditions, what usage purposes are permitted, and what downstream actions a model's outputs may trigger. Policies are relatively stable. They change when the enterprise's authorization framework changes, when a new data product is classified, or when a regulatory requirement shifts. They are enforced at the gateway before the model ever sees a request.
 
-Legend shows the same idea from the service layer. It combines a common data vocabulary with APIs, productized data services, automated lineage, and quality-by-design controls.^[SRC-007] That is closer to the real architecture target for this book. Canonical products should not sit passively in storage. They should be executable enough to power real workflows and controlled enough to support audit and governance.
+Guardrails govern runtime behavior. They inspect the content of individual prompts and responses, enforce output constraints, prevent data exposure that policy may not have anticipated, and ensure that model outputs conform to expected formats, tone, and scope. Guardrails are dynamic. They evaluate each interaction on its own terms and can be updated more rapidly than underlying access policies as the enterprise learns how models behave in production.^[SRC-006] Both are necessary. Policies without guardrails leave runtime behavior ungoverned. Guardrails without policies leave access ungoverned. A mature control plane needs both layers operating simultaneously.
 
-## The Product Pattern That Matters
+## The Audit Record As Governance Infrastructure
 
-The useful architecture pattern is not "centralize everything." It is "stabilize what must be reused."
+The final point is not the least important. An audit record that satisfies a regulator or an executive is not the same as a system log.
 
-Some products should be canonical because too many workflows depend on them for the enterprise to tolerate semantic drift. Client identity is one. Account structures are another. Security master and instrument classification products are obvious examples. So are cash positions, payment events, settlement states, collateral eligibility views, pricing states, control exceptions, and key lifecycle events.
+A system log records that something happened. A governed audit record records what ran, under what authorization, against what data, with what output, at what time, and whether the applicable policies were followed at each step. In regulated finance, the difference between those two things is the difference between a record that supports accountability and a record that creates the appearance of accountability while providing none of its substance.
 
-The common feature is not subject matter. It is reuse pressure. If many workflows, controls, analytics surfaces, and intelligence services need the same concept, then the enterprise should not ask each of them to reconstruct it independently.
+SR 11-7 requires organizations to demonstrate that models are being used as intended, that validation findings are being addressed, and that model governance is an ongoing process rather than a one-time approval event.^[SRC-004] The NIST AI RMF's MEASURE function calls for quantitative and qualitative analysis of AI risk throughout the system lifecycle, which requires capturing what the system is actually doing across its full range of deployment contexts, not only in pre-deployment testing.^[SRC-005] Neither obligation can be met from a system log. Both require a governed audit infrastructure that the control plane is designed to maintain.
 
-That is why non-overlapping ownership matters so much. A canonical product has to have a clear home, not a vague committee. The platform can provide standards, tooling, access patterns, and governance support. But the product still needs an accountable owner who knows the domain and is responsible for keeping the representation useful.
+This is also what makes the audit record a strategic asset rather than only a compliance burden. The enterprise that can reconstruct any AI decision — which model ran, on which canonical data product, under which policy, with which output, reviewed by which human if applicable — is the enterprise that can investigate anomalies, demonstrate compliance, improve model performance over time, and extend AI capability into higher-stakes functions with confidence. The enterprise that cannot reconstruct this information is eventually limited to low-stakes use cases where the cost of unexplainability is acceptable.
 
-This is also why contracts matter. Consumers need to know not only what the product means, but what they can depend on: schema expectations, update behavior, state definitions, deprecation process, quality thresholds, and policy boundaries. A canonical product is not just shared. It is dependable.
+## From Governance To Runtime
 
-## Why This Is The Foundation For AI
+Once a control plane is in place, the next problem changes character. The question is no longer only whether access and behavior can be governed. The question becomes what kinds of intelligent systems can operate safely inside that governance infrastructure.
 
-The AI argument becomes much more practical once canonical products are in view.
+Simple AI services that call a model with a prompt and return a response are relatively easy to govern. The control plane intercepts the call, applies policy and guardrails, logs the interaction, and passes the result to the consuming application. The governance surface is bounded and predictable.
 
-An intelligence layer should not consume raw, semantically unstable data exhaust whenever it can avoid it. It should consume trusted products. That does not mean every AI system reads only one perfect interface. It means the platform should increasingly expose stable, governed representations of the concepts and events that matter most.
+Agents are more complex. An agent does not make a single call. It makes a sequence of calls, takes actions in external systems, invokes tools, and accumulates context across an extended interaction. It may call the same model multiple times with different prompts, each of which passes through the control plane, but the cumulative behavior of the agent across those interactions may not be visible from any single gateway log entry. Orchestrated workflows that chain multiple agents together compound this further.
 
-That changes several things at once.
-
-It improves reuse because multiple capabilities can rely on the same product instead of rebuilding extraction and mapping logic. It improves explanation because the system can point to stable product definitions and lineage rather than to improvised joins. It improves governance because permissions, quality checks, and controls can attach to durable products. And it improves speed because later capabilities can compose products instead of beginning every project by rediscovering what the underlying records mean.
-
-Without canonical products, AI initiatives keep drifting back toward handcrafted context assembly. With canonical products, the platform starts to accumulate reusable intelligence infrastructure.
-
-## What This Looks Like In Practice
-
-A useful mental model is to think in layers.
-
-The ontology defines what the enterprise believes key concepts and relationships mean. The canonical data product carries one of those concepts into reusable operating form. Later architecture layers decide how intelligence services, models, policies, and workflows consume that product.
-
-Take client identity as an example. CH15 argues that the enterprise needs stable meaning around legal entities, client hierarchies, and relationships. CH16 says that this meaning should not remain trapped in a conceptual model or scattered across onboarding, servicing, compliance, and reporting systems. It should appear as a canonical product with explicit identifiers, relationship semantics, quality checks, lineage, permissions, and interfaces that many workflows can trust.
-
-The same logic applies to a payment event product, a settlement-state product, a collateral-eligibility product, or an exception-state product. Once the enterprise has stable products for those concepts, later AI systems can do higher-value work: assemble context, recognize related events, recommend action, or route decisions with more confidence and better explanation.
-
-That is a much more credible path to agentic finance than starting from prompts and hoping the data layer catches up.
-
-## What This Chapter Is Really Arguing
-
-CH16 is not a plea for prettier data architecture. It is an argument about leverage.
-
-Every time the enterprise lacks a canonical product for a concept that many workflows share, it pays again. It pays in mapping work, duplicate controls, inconsistent reporting, brittle AI behavior, slower delivery, and more reconciliation between local interpretations of the same underlying reality.
-
-Every time it does have one, later capabilities get cheaper and more reliable. That is the economics of the foundation.
-
-The deeper point is that canonical products convert semantic discipline into reusable platform capital. They are how the operating system starts to become programmable in a trustworthy way.
-
-## Why CH17 Follows
-
-Once canonical data products exist, the next problem changes. The question is no longer only whether the enterprise can represent meaning in reusable form. The next question is how intelligence should be routed and governed across those products.
-
-Which model should be allowed to use which product? Which policies should be enforced before a recommendation is made? Which workflows can call which services? How should decisions be audited, constrained, and escalated?
-
-That is the control-plane problem.
-
-CH17 takes the next step. If CH16 builds the trusted products, CH17 explains how an AI-native platform governs access to them, routes intelligence through them, and keeps the whole system inside policy.
+That is the problem the next chapter must address. The control plane establishes the governance layer through which intelligent systems must operate. The runtime determines what those systems can do, how they are composed, and how their behavior stays coherent and controllable as complexity increases. Governance without a well-designed runtime is policy applied to a system that can outmaneuver it. A well-designed runtime without governance is capability deployed without accountability. Both are required, and they must be designed together.

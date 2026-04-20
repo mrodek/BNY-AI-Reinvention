@@ -34,7 +34,7 @@ Pressure-test CH11 `draft_v2` as the concise Part II capstone. Focus on whether 
 - Why an executive might say this: The cost paragraph names delay, context switching, supervision burden, and confidence loss, but it could be sharpened later if the Part III platform thesis needs a stronger commercial setup.
 - Severity: low
 
-- Challenge: "The bridge into Part III is strong, but the phrase 'better platform and intelligence layer' may need to become more concrete once CH12 through CH15 are drafted."
+- Challenge: "The bridge into Part III is strong, but the phrase 'better platform and intelligence layer' may need to become more concrete once CH12 through CH14 are drafted."
 - Why an executive might say this: CH11's job is to hand off, not solve the future-state architecture. Still, once Part III exists, the closing may need a small alignment pass.
 - Severity: low
 

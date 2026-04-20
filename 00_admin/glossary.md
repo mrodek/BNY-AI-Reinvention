@@ -1,15 +1,7 @@
-# Glossary
+# Glossary Pointer
 
-Use this file to define recurring terms so the manuscript stays consistent.
+The canonical glossary is now part of the manuscript at `04_manuscript/glossary.md`.
 
-## Seed Terms
+Use that file for all glossary maintenance and keep it in strict alphabetical order.
 
-- Platform
-- Enablement
-- Engagement
-- Governance
-- Paved Road
-- Capability
-- Operating Model
-- Knowledge Graph
-- Lesson Learned
+This admin file should remain only as a pointer so the repository does not develop two competing glossary sources.

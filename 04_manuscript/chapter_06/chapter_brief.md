@@ -35,7 +35,7 @@ The chapter should make the reader see clearing and settlement as both systemica
 ### Out of scope
 
 - full cross-business synthesis, which belongs more in CH11
-- future-state AI redesign, which belongs in CH21
+- future-state AI redesign, which belongs in CH20
 - detailed asset-servicing administration reserved for CH05
 - broad platform-thesis language reserved for Part III
 

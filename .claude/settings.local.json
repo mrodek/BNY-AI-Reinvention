@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.bny.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:www.federalreserve.gov)",
+      "WebFetch(domain:www.fsb.org)",
+      "WebFetch(domain:airc.nist.gov)",
+      "WebFetch(domain:bpi.com)",
+      "WebFetch(domain:home.treasury.gov)",
+      "WebFetch(domain:www.ainvest.com)",
+      "WebFetch(domain:www.modelop.com)",
+      "WebFetch(domain:www.americanbanker.com)"
+    ]
+  }
+}

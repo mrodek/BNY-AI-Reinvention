@@ -23,7 +23,7 @@ This chapter should also absorb the useful CH13 material. Platform economics mat
 - What does it mean to call BNY a financial operating system without turning the metaphor into a gimmick?
 - How do BNY's businesses map into operating-system-like layers?
 - Why do financial infrastructure platforms have stronger strategic advantages than isolated products?
-- What does the current platform still lack, and why does that lead naturally into CH14's intelligence layer?
+- What does the current platform still lack, and why does that lead naturally into CH13's intelligence layer?
 
 ## Scope
 
@@ -37,7 +37,7 @@ This chapter should also absorb the useful CH13 material. Platform economics mat
 
 ### Out of scope
 
-- full AI-native architecture, which begins in CH14 and deepens through CH15 to CH19
+- full AI-native architecture, which begins in CH13 and deepens through CH14 to CH18
 - software-platform theory for its own sake
 - generic network-effect explanation detached from BNY's actual operating businesses
 - a recap of every current-state business-line chapter
@@ -57,7 +57,7 @@ Suggested sequence:
 3. Map BNY's businesses into infrastructure layers: state, movement, settlement, liquidity, collateral, workflow, reporting, and control.
 4. Explain why platforms win in financial infrastructure: trust, scale, embedded workflows, switching costs, data gravity, and operational dependency.
 5. Name the current limit: the platform exists, but intelligence is still fragmented.
-6. Bridge directly into CH14.
+6. Bridge directly into CH13.
 
 ## Evidence Priorities
 

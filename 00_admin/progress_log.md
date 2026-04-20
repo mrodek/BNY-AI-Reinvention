@@ -45,6 +45,80 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-19] - CH23 Kickoff Artifacts
+
+### Summary
+- Files changed: `04_manuscript/chapter_23/chapter_brief.md`, `04_manuscript/chapter_23/research_tracker.md`, `04_manuscript/chapter_23/claim_register.md`, `02_outline/chapter_map.md`, `00_admin/progress_tracker.md`, and `00_admin/progress_log.md`.
+- Artifacts created or updated: the initial CH23 brief, research tracker, and claim register, plus synchronized chapter-map and project-tracking updates.
+- Chapter(s) affected: CH23 directly, with continuity from CH09 and sequencing implications for the remaining Part V business-line chapters.
+
+### Decisions
+- Decision: start CH23 as a research-first chapter kickoff rather than rushing into prose.
+- Rationale: the chapter's core challenge is conceptual precision, especially avoiding a shallow "AI picks stocks" frame, so the strongest start is to define the argument and evidence base before drafting.
+- Decision: frame CH23 around AI-native investment management as a continuously assisted, governed investment process.
+- Rationale: that framing keeps the chapter disciplined about fiduciary accountability, mandate context, and the continuing role of human judgment.
+- Decision: define the chapter's main strategic tension as the move from scarce analytical throughput to abundant analytical support.
+- Rationale: this creates a cleaner bridge from CH09 and makes the durable-edge question more concrete.
+
+### Issues & Resolution
+- Issue: CH23 could easily collapse into generic commentary about AI stock picking or autonomous portfolio management.
+- Resolution: the brief and claim register explicitly reject that framing and instead center the chapter on research synthesis, portfolio diagnostics, implementation support, governance, and client explanation.
+- Issue: BNY public evidence is stronger on specialist-manager positioning and the surrounding investment-data stack than on explicit front-office AI deployment.
+- Resolution: the research tracker treats BNY's likely advantage as the combination of direct investment-management capability and platform-heavy supporting infrastructure, while marking front-office specificity as an evidence gap.
+- Issue: the chapter risks repeating CH09 if it does not change the question.
+- Resolution: the kickoff artifacts make the future-state question explicit: what still counts as durable edge once analytical abundance becomes more common.
+
+### Editorial Comments
+- The chapter should feel like a sober answer to the question of what remains differentiated in investing once AI becomes widely available.
+- Governance, committee logic, and client explanation should read as part of the investment operating model, not as after-the-fact compliance overlays.
+- The eventual draft will likely need one anchor operating example strong enough to carry the whole chapter.
+
+### Lessons Learned
+- Investment-management future-state chapters need tighter framing than most other Part V chapters because the market is saturated with simplistic AI rhetoric.
+- CH09 provides a strong inheritance path when the future-state chapter starts from the judgment-versus-machine distinction rather than from product hype.
+- A small curated source set is enough to start the chapter well as long as the evidentiary limits are made explicit.
+
+### Next Steps
+- [ ] Complete CH23 research pass 1 and choose the chapter's anchor operating example.
+- [ ] Decide whether CH23 needs one more targeted source pass on economics or governance before `draft_v1`.
+- [ ] Create `source_notes.md` and `draft_v1.md` once the research frame is tight enough.
+
+## [2026-04-19] - Started CH24 Artifact Set
+
+### Summary
+- Files changed: `04_manuscript/chapter_24/chapter_brief.md`, `04_manuscript/chapter_24/research_tracker.md`, `04_manuscript/chapter_24/claim_register.md`, `02_outline/chapter_map.md`, `00_admin/progress_tracker.md`, and `00_admin/progress_log.md`.
+- Artifacts created or updated: CH24 starter set plus synchronized tracker and chapter-map state.
+- Chapter(s) affected: CH24 directly, with continuity back to CH10's current-state chapter.
+
+### Decisions
+- Decision: start CH24 from CH10's burden map rather than from a fresh generic AI-collateral frame.
+- Rationale: the future-state chapter needs to inherit the existing current-state diagnosis around inventory visibility, eligibility, substitutions, recall pressure, and funding coordination.
+- Decision: frame CH24 around continuously supervised inventory intelligence rather than autonomous optimization.
+- Rationale: that framing keeps the chapter operationally credible and preserves a clear human-control boundary around consequential financing and inventory-consumption decisions.
+- Decision: seed the initial source queue from CH10's official BNY and neutral workflow sources.
+- Rationale: CH10 already assembled the strongest current-state evidence base, so reuse is the fastest and most disciplined way to open CH24 research.
+
+### Issues & Resolution
+- Issue: CH24 had no existing chapter folder or starter artifacts.
+- Resolution: created the chapter brief, research tracker, and claim register in one pass so the chapter can now move directly into research without structural drift.
+- Issue: the biggest framing risk was turning CH24 into a generic optimization story.
+- Resolution: the new brief and claims explicitly center the chapter on timing-sensitive coordination, recommendation quality, movement feasibility, and bounded autonomy.
+
+### Editorial Comments
+- CH24 should read like a coordination-heavy operating chapter, not like a math-and-models chapter.
+- The future-state value should show up in earlier inventory truth, cleaner substitutions, and fewer same-day scrambles rather than in abstract optimization claims.
+- The eventual draft will likely need at least one concrete substitution or scarcity scenario before it abstracts upward.
+
+### Lessons Learned
+- Starting a Part V chapter is faster and cleaner when it inherits the exact burden map from its paired current-state chapter.
+- The anti-hype frame matters early in markets chapters because autonomy language can outrun what the workflow can safely delegate.
+- Reusing a validated source queue is often better than widening research too early.
+
+### Next Steps
+- [ ] Complete CH24 research pass 1 from the seeded source queue.
+- [ ] Decide whether one additional primary source is needed on recall or substitution timing.
+- [ ] Draft CH24 `source_notes.md` and `draft_v1.md` once the first research pass is complete.
+
 ## [2026-04-19] - CH22 Challenge Round And Draft v2 Revision
 
 ### Summary

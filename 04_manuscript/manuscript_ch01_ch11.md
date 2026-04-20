@@ -488,7 +488,7 @@ These frictions are the operating signature of a business clients depend on ever
 
 #### Why This Matters For The Rest Of The Book
 
-CH07 sets up CH22 in the same way CH05 and CH06 set up their future-state chapters. The current model already delivers essential outcomes. Payments complete. Liquidity is managed. Controls exist. Investigations are handled. The opportunity is not to replace a broken system with a smart system. It is to improve a system that already works but still depends on heavy coordination and exception discipline.
+CH07 sets up CH21 in the same way CH05 and CH06 set up their future-state chapters. The current model already delivers essential outcomes. Payments complete. Liquidity is managed. Controls exist. Investigations are handled. The opportunity is not to replace a broken system with a smart system. It is to improve a system that already works but still depends on heavy coordination and exception discipline.
 
 That is the right handoff. Treasury services are already an infrastructure-and-control business. Their next advantage comes from reducing context assembly, improving exception orchestration, and raising the quality of intraday decisions without weakening trust, auditability, or completion certainty.
 
@@ -502,7 +502,7 @@ Pershing is easy to misread if you approach it as just another custody business.
 
 That distinction matters because wealth management is not held together by portfolio advice alone. It is held together by account structures, books and records, cash and asset movement, service requests, approvals, reports, onboarding, transfers, compliance steps, and the software surfaces through which advisors and operations teams supervise all of that activity. Someone has to carry the accounts, maintain the records, move the assets, produce the statements, expose the workflows, and keep the operating picture coherent enough that the advisor can still look competent to the client. Pershing sits under that work and increasingly around that work as well.^[SRC-002]^[SRC-006]^[SRC-009]^[SRC-010]
 
-That is why this chapter should not be read as a narrow excursion into custody mechanics. It is a chapter about a business that already has platform characteristics in the present tense. The later opportunity in CH23 will be to ask what happens when that platform becomes far more intelligent. The current chapter has a different job. It has to explain how the platform works now, why it is commercially and strategically strong now, and where the current model still shows the limits of connected tools without genuinely connected intelligence.
+That is why this chapter should not be read as a narrow excursion into custody mechanics. It is a chapter about a business that already has platform characteristics in the present tense. The later opportunity in CH22 will be to ask what happens when that platform becomes far more intelligent. The current chapter has a different job. It has to explain how the platform works now, why it is commercially and strategically strong now, and where the current model still shows the limits of connected tools without genuinely connected intelligence.
 
 The best way to see that is to break the business into layers.
 
@@ -570,7 +570,7 @@ That is what makes Pershing strategically important inside BNY. It is one of the
 
 The right conclusion is not that Pershing needs to become a platform. It is that Pershing is already a platform whose current limits are now visible enough to matter. The system is commercially strong because it handles regulated infrastructure, service continuity, and workflow dependency well enough that other firms are willing to run on top of it. But the system is also bounded by incomplete integration, too much user-side context assembly, and too much coordination work left to advisors and operators.^[SRC-012]^[SRC-013]^[SRC-014]^[SRC-015]
 
-That is the precise setup CH23 will need. The future-state opportunity is not to invent a platform where none exists. It is to take a platform that already sits at the intersection of records, workflows, users, and data and reduce how much interpretation, follow-up, and status reconstruction the human user still has to do. In Pershing, that next step would become visible in the advisor desktop, the operations queue, the service workflow, and the client interaction itself.
+That is the precise setup CH22 will need. The future-state opportunity is not to invent a platform where none exists. It is to take a platform that already sits at the intersection of records, workflows, users, and data and reduce how much interpretation, follow-up, and status reconstruction the human user still has to do. In Pershing, that next step would become visible in the advisor desktop, the operations queue, the service workflow, and the client interaction itself.
 
 That is what makes this chapter more than a business-line description. Pershing is one of the clearest places where BNY's present strength and its future platform thesis meet in one operating system.
 
@@ -652,7 +652,7 @@ But the business matters for another reason in this book. It is one of the clear
 
 #### Why This Matters For The Rest Of The Book
 
-CH09 sets up CH24 by making the current-state tension explicit. Investment management is not about to become a pure machine business, but neither can it rely on the old assumption that more research labor automatically means more durable edge. The surrounding operating stack is becoming more data-driven, more scalable, and more exposed to AI-enabled compression. The core judgment layer may remain valuable, but it will sit inside a much more contested and much more automated system.
+CH09 sets up CH23 by making the current-state tension explicit. Investment management is not about to become a pure machine business, but neither can it rely on the old assumption that more research labor automatically means more durable edge. The surrounding operating stack is becoming more data-driven, more scalable, and more exposed to AI-enabled compression. The core judgment layer may remain valuable, but it will sit inside a much more contested and much more automated system.
 
 That is the right handoff. The later AI-native chapter should not ask only whether AI can help managers work faster. It should ask what kind of investment organization still deserves to win once more of the surrounding machine is widely available, and once clients can compare not just returns, but process quality, transparency, governance, and operating credibility.
 
@@ -726,11 +726,11 @@ Collateral and financing matter because they sit underneath many other things th
 
 That is one reason BNY's role in this chapter is strategically important. The firm sits in a durable part of market structure because clients do not only need financing counterparties. They need infrastructure that helps them see inventory, administer collateral, complete triparty and securities-finance workflows, and keep obligations moving through daily operating pressure.^[SRC-001]^[SRC-002]^[SRC-003]^[SRC-004] The strategic position comes from being embedded in recurring control and coordination work, not from making a one-time product sale.
 
-#### Why This Matters For CH25
+#### Why This Matters For CH24
 
 This domain is already rich with data, rules, schedules, constraints, and recurring exceptions. That makes it a strong candidate for later intelligence and orchestration improvements.^[SRC-007]^[SRC-008] The current model still depends on people and systems constantly translating fragmented information into time-sensitive decisions about eligibility, valuation, optimization, substitution, mobility, and funding.
 
-CH25 can build from that current-state burden. The useful future-state question is whether more of the work around asset selection, cutoff management, substitution timing, and exception routing can become visible, adaptive, and better orchestrated before the next margin call, substitution request, recall, or financing deadline forces another manual scramble.
+CH24 can build from that current-state burden. The useful future-state question is whether more of the work around asset selection, cutoff management, substitution timing, and exception routing can become visible, adaptive, and better orchestrated before the next margin call, substitution request, recall, or financing deadline forces another manual scramble.
 
 ---
 

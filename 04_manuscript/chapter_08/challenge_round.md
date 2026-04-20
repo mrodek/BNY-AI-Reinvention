@@ -15,8 +15,8 @@ Pressure-test `draft_v1` of CH08 before moving to a more polished revision. Focu
 - Assumption: The chapter has enough operating specificity to feel like a real wealth-infrastructure chapter rather than a strategic platform essay.
 - Why it may be vulnerable: The carrying layer and workflow table are strong, but some sections still describe workflow burden at a market level rather than showing one compact end-to-end operating example inside Pershing-like workflows.
 
-- Assumption: The chapter cleanly separates current-state platform explanation from future-state CH23 logic.
-- Why it may be vulnerable: The intelligence bridge is directionally right, but several later paragraphs are close to sounding like an early CH23 argument rather than the close of a current-state chapter.
+- Assumption: The chapter cleanly separates current-state platform explanation from future-state CH22 logic.
+- Why it may be vulnerable: The intelligence bridge is directionally right, but several later paragraphs are close to sounding like an early CH22 argument rather than the close of a current-state chapter.
 
 ## Likely Insider Challenges
 
@@ -56,7 +56,7 @@ Pressure-test `draft_v1` of CH08 before moving to a more polished revision. Focu
 - Concern: The business-model section is directionally right but still slightly repetitive with the broader platform thesis that will appear later in the book.
 - Why it matters: CH08 should stand as a current-state business-line chapter, not as an early substitute for CH13.
 
-- Concern: The close sets up CH23 well, but one or two sentences verge on future-state promise rather than current-state diagnosis.
+- Concern: The close sets up CH22 well, but one or two sentences verge on future-state promise rather than current-state diagnosis.
 - Why it matters: The chapter will feel more disciplined if it ends by naming the visible limits of the current platform rather than leaning too hard into transformation language.
 
 ## What We Will Address
@@ -71,7 +71,7 @@ Pressure-test `draft_v1` of CH08 before moving to a more polished revision. Focu
 - Planned response: Reframe that section more specifically around wealth-firm stack choices such as CRM, planning, portfolio tools, and the cost of making them feel coherent in the advisor day.
 
 - Challenge or concern: Future-state bridge runs slightly hot.
-- Planned response: Rewrite the close so it lands first on the current platform's visible limitations, then uses that as the narrow bridge into CH23.
+- Planned response: Rewrite the close so it lands first on the current platform's visible limitations, then uses that as the narrow bridge into CH22.
 
 ## What We Will Not Address
 
@@ -84,4 +84,4 @@ Pressure-test `draft_v1` of CH08 before moving to a more polished revision. Focu
 ## Outcome
 
 - Recommendation: `revise before proceeding`
-- Notes: `draft_v1` is strong and correctly frames Pershing as a platform business, but one focused revision pass should make the operating burden more concrete, keep the platform language more wealth-specific, and tighten the handoff into CH23.
+- Notes: `draft_v1` is strong and correctly frames Pershing as a platform business, but one focused revision pass should make the operating burden more concrete, keep the platform language more wealth-specific, and tighten the handoff into CH22.

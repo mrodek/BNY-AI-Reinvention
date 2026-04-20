@@ -3,84 +3,79 @@
 ## Chapter Metadata
 
 - Chapter ID: `CH19`
-- Working title: `Observability as Governance`
-- Book section: `Part IV - The AI-Native Foundation`
-- Status: `drafting`
-- Last updated: `2026-04-11`
-- Structural note: CH19 closes Part IV. CH17 defined the control plane, CH18 defined the runtime, and CH19 explains how the institution interprets the behavior of governed AI systems over time. It should bridge directly into CH20 by making the architecture feel ready to touch real operating workflows.
+- Working title: `AI-Native Asset Servicing`
+- Book section: `Part V - Rebuilding Each Business With AI`
+- Status: `researching`
+- Last updated: `2026-04-13`
+- Structural note: CH19 is the first proving ground after the Part IV architecture sequence. It should show what changes in a real business once canonical data products, control-plane governance, runtime discipline, and observability are available.
 
 ## Chapter Purpose
 
-CH17 established the transaction-level audit record and CH18 established the runtime that carries governed work across time. CH19 explains why those layers are still insufficient on their own. A regulated institution does not gain confidence in AI systems only by approving them before deployment or by logging each step after the fact. It gains confidence by observing how those systems actually behave in production, detecting drift and anomalies early, and intervening before small defects become control failures.
+CH05 argued that asset servicing is a durable but burdened operating business: strong economics, heavy control demands, and large amounts of exception handling hidden beneath a calm client-facing surface. CH19 now needs to show how that business changes when AI is embedded into the workflow itself rather than attached as a thin productivity layer.
 
-The chapter's core move is to reframe observability as a governance capability rather than a narrow engineering discipline. In AI-native systems, observability means connecting traces, metrics, logs, tool calls, policy decisions, approval events, and business outcomes into one interpretable operating picture. Without that picture, a firm may possess extensive telemetry and still lack usable control.
+The chapter should not read like "AI will automate fund accounting." It should show how specific pressure points change: NAV oversight becomes continuous and anomaly-aware, reconciliation triage becomes more targeted and explainable, transfer-agency and corporate-action processes gain better context and routing, and fund transparency improves because the servicing stack can expose why it knows what it knows. The point is not labor elimination alone. The point is a more transparent, continuously improving operating model with clearer human-supervised boundaries.
 
 ## Key Reader Questions
 
-- Why are approval and transaction-level audit records not sufficient governance for AI systems in production?
-- What makes observability different from ordinary logging?
-- Which signals matter most in AI-native workflows: traces, metrics, logs, context propagation, policy decisions, human approvals, or business outcomes?
-- Why does distributed trace context matter once AI workflows span models, tools, services, and humans?
-- What would a regulated financial institution need to observe continuously to trust agentic systems at scale?
-- How does observability connect engineering reliability to model risk management and enterprise governance?
-- How does this chapter complete Part IV and set up the AI-native business-line chapters?
+- What would an AI-native asset-servicing operating model actually look like in practice?
+- Which parts of the current servicing stack should remain supervised and which can become more autonomous?
+- How do canonical data products, runtime controls, and observability concretely improve NAV oversight, exception handling, transfer-agency workflows, and corporate-actions processing?
+- What becomes faster, more transparent, or more reliable for the operator and for the client?
+- What controls still need to remain explicit because books and records, investor communications, and regulatory outputs are consequential?
+- Why is asset servicing the right first business-line proving ground for the broader BNY AI thesis?
 
 ## Scope
 
 ### In scope
 
-- observability as the interpretation layer above control-plane audit records and runtime events
-- the distinction between logs, telemetry, traces, and governance insight
-- context propagation and end-to-end traceability across services, tools, and workflow steps
-- monitoring for anomalies, drift, repeated overrides, retry loops, policy breaches, and degraded outcomes
-- the connection between observability and SR 11-7 / NIST lifecycle monitoring obligations
-- BNY public evidence around continuous monitoring, continuous oversight, workflow embedding, and governance at scale
-- the operational requirement to connect technical telemetry to workflow and business outcomes
+- AI-native redesign of NAV oversight, reconciliation triage, corporate-actions handling, investor servicing, and reporting transparency
+- bounded autonomy and human-supervised operation in servicing workflows
+- use of canonical products, runtime controls, and observability inside a real business-line context
+- how AI changes workflow quality, exception burden, speed, and transparency rather than only cost
+- BNY public evidence on AI-powered NAV oversight, anomaly detection, integrated fund-servicing data, and AI-enabled operating improvements
 
 ### Out of scope
 
-- re-explaining control-plane policy enforcement, which belongs to CH17
-- re-explaining runtime orchestration patterns, which belong to CH18
-- deep MLOps tooling surveys or vendor-platform comparisons
-- speculative claims about BNY's undisclosed internal observability implementation
+- re-explaining the current-state asset-servicing stack from CH05
+- generic AI governance architecture already handled in CH16-CH18
+- broad claims about fully autonomous fund administration without clear control boundaries
+- speculative claims about undisclosed BNY internal servicing implementations
 
 ## Desired Reader Outcome
 
-The reader should finish CH19 with a practical definition of observability: not a dashboard category, but the capability to see, interpret, and govern AI behavior across a live operating system. They should understand that observability becomes governance only when telemetry is tied to context, thresholds, accountability, and intervention.
+The reader should finish CH19 with a concrete sense that AI-native asset servicing is not a marketing veneer on top of the old process stack. It is a different operating model in which exceptions are triaged earlier, context is assembled faster, explanations are more available, and human review is reserved for the places where consequence still demands it.
 
-The chapter should also leave the reader feeling that the architecture stack is now complete enough to revisit real businesses. Once meaning, control, runtime discipline, and observability are in place, the manuscript can return to asset servicing, clearing, treasury, and the other operating domains and ask how they change under AI-native conditions.
+The chapter should also prove that the Part IV architecture was not abstract. Asset servicing should feel like the first business where those architecture decisions become visibly useful.
 
 ## Structural Guidance
 
 Suggested sequence:
 
-1. Open from CH18's boundary: a bounded runtime still does not tell the institution whether the system is healthy over time.
-2. Define observability as interpretation of system behavior, not mere event storage.
-3. Distinguish logs from traces, metrics, and correlated context.
-4. Explain why distributed trace context matters once AI workflows cross services, tools, and human approvals.
-5. Show why regulated finance needs observability for drift, anomalies, override patterns, and outcome degradation.
-6. Ground the chapter in SR 11-7, NIST AI RMF, and BNY's public language on continuous monitoring and oversight.
-7. Use one concrete operating example, ideally a reconciliation or asset-servicing exception workflow.
-8. Close Part IV by arguing that observability turns governed AI from approved infrastructure into trusted operating capability, then bridge to CH20.
+1. Open from CH05's burden: the current stack is strong but held together by reconciliation, control work, and hidden exception labor.
+2. State the AI-native shift: from periodic review and queue-heavy servicing to continuous, context-rich supervision.
+3. Walk through the main layers that change: NAV oversight, reconciliation triage, books-and-records quality checks, investor servicing, corporate actions, and reporting transparency.
+4. Distinguish what can become more autonomous from what still needs human approval or signoff.
+5. Show why observability matters in this business by connecting workflow telemetry to exception classes, aging, overrides, and client outcomes.
+6. Close on why asset servicing is the first compelling proof of BNY's AI-native operating advantage.
 
 ## Evidence Priorities
 
-- BNY public materials on AI governance, continuous oversight, workflow embedding, and production AI scale
-- primary regulatory and standards sources on ongoing monitoring and lifecycle governance
-- primary technical standards for correlated telemetry and trace context across distributed systems
-- official agent-platform language that treats tracing and observability as core to production agent systems
+- BNY current fund-accounting, fund-administration, investor-solutions, and integrated fund-platform pages with AI and automation details
+- BNY annual-report evidence on more automated NAV strikes, workflow embedding, fewer handoffs, and quality improvements
+- CH05 current-state servicing sources for direct before/after continuity
+- primary regulatory or infrastructure sources only where they help define what still must remain controlled or supervised
 
 ## Tone Notes
 
-- practical and governance-forward rather than tool-centric
-- architecture-literate but readable for risk, operations, and engineering leaders
-- clear that observability is not just about debugging latency or failures
-- include at least one concrete workflow consequence before abstraction stacks too high
-- avoid turning the chapter into an instrumentation catalogue
+- operator-first and workflow-specific
+- practical about human supervision and control boundaries
+- avoid generic "transforming operations" language
+- make transparency, explainability, and reduced hidden labor as important as speed
+- include at least one compact end-to-end example before stacking abstractions
 
 ## Open Questions To Resolve In Research
 
-- Which monitoring obligations are most useful to name explicitly from SR 11-7 and NIST AI RMF?
-- How much technical detail on traces and context propagation is enough before the chapter feels too engineering-heavy?
-- Which BNY source best supports the idea that governance at scale requires continuous oversight rather than static approval?
-- What is the cleanest bridge from observability into CH20's business-line redesign?
+- Which BNY public sources best support AI-powered NAV oversight and anomaly detection without overstating production autonomy?
+- What is the cleanest way to distinguish continuous oversight from autonomous approval in servicing workflows?
+- Which current-state pain points from CH05 should be mapped most directly into the future-state redesign?
+- What is the best concrete example to carry the chapter: NAV review, reconciliation triage, corporate actions, or transfer-agency exceptions?

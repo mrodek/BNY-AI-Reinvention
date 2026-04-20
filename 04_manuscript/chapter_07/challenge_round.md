@@ -44,7 +44,7 @@ Pressure-test `draft_v1` of CH07 before moving to a more polished revision. Focu
 - Why an executive might say this: Leaders want one concise paragraph explaining why control quality matters commercially, not only operationally.
 - Severity: medium
 
-- Challenge: "The ending sets up CH22 well, but it edges close to future-state language before the current-state operating burden is fully dramatized."
+- Challenge: "The ending sets up CH21 well, but it edges close to future-state language before the current-state operating burden is fully dramatized."
 - Why an executive might say this: The best bridge to the later AI-native chapter is a sharper statement of today's operating constraints, with the redesign implication left slightly more implicit.
 - Severity: medium
 

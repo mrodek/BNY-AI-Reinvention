@@ -108,7 +108,7 @@
   - inference only: exact BNY internal fragmentation or labor intensity
 
 - Avoid turning the chapter into a product inventory.
-- Avoid previewing CH20 too heavily; the close should only establish transformation potential.
+- Avoid previewing CH19 too heavily; the close should only establish transformation potential.
 - For the deeper draft, make each layer explicit:
   1. custody and settlement support
   2. books and records / investment accounting

@@ -63,7 +63,7 @@
   3. explain the advisor and operations workbench layer
   4. show why this combination behaves like a platform business
   5. surface where workflow fragmentation still limits the current model
-  6. close by showing why Pershing is a strong bridge into CH23
+  6. close by showing why Pershing is a strong bridge into CH22
 
 - Keep the workflow-friction language disciplined:
   - supported: market-wide integration gaps, fragmented advisor workflows, data-visibility problems, productivity constraints
@@ -74,4 +74,4 @@
   - avoid unsupported claims about switching costs, margins, or segment economics
 
 - Avoid turning the chapter into a product inventory.
-- Avoid writing CH23 early. The close should establish visible intelligence upside, not propose the solution in detail.
+- Avoid writing CH22 early. The close should establish visible intelligence upside, not propose the solution in detail.

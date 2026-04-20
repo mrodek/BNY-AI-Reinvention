@@ -48,6 +48,6 @@ The layer map is a synthesis from official product and platform pages:
 
 The platform-economics argument is treated as strategic interpretation grounded in observable dependency. BNY's public materials repeatedly emphasize integration, open architecture, scale, data, workflows, networks, and operating leverage. The chapter should avoid claiming that these forces guarantee future advantage. They create a strategic base that becomes more valuable if BNY can add a unified intelligence layer.
 
-### Bridge To CH14
+### Bridge To CH13
 
-`SRC-003` and `SRC-007` already use intelligence-adjacent language around data, analytics, actionable insights, and total portfolio view. `SRC-008` shows why that is not enough by itself: the existing system still requires reconciliation and exception handling across fragmented records and statuses. CH14 should therefore define the missing intelligence layer as an orchestration and meaning layer above the existing operating platform.
+`SRC-003` and `SRC-007` already use intelligence-adjacent language around data, analytics, actionable insights, and total portfolio view. `SRC-008` shows why that is not enough by itself: the existing system still requires reconciliation and exception handling across fragmented records and statuses. CH13 should therefore define the missing intelligence layer as an orchestration and meaning layer above the existing operating platform.

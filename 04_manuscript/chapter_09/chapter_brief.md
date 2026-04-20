@@ -36,7 +36,7 @@ The chapter should also position investment management as a useful test case for
 
 ### Out of scope
 
-- full future-state redesign, which belongs in CH24
+- full future-state redesign, which belongs in CH23
 - a detailed survey of every BNY investment product or strategy
 - a generalized history of active versus passive investing beyond what the chapter needs
 - highly technical portfolio-theory exposition that would distract from the operating and strategic argument
@@ -58,7 +58,7 @@ Suggested sequence:
 2. Separate the business into layers: research, portfolio construction, trading and implementation, risk, accounting, performance, and reporting.
 3. Explain where human judgment still matters and where operating leverage matters more.
 4. Surface the current strains: fee pressure, data sprawl, workflow complexity, and the risk of analytical commoditization.
-5. Close by setting up CH24 without turning this chapter into an early future-state manifesto.
+5. Close by setting up CH23 without turning this chapter into an early future-state manifesto.
 
 ## Evidence Priorities
 

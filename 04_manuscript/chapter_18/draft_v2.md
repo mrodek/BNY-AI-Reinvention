@@ -1,118 +1,123 @@
-# Chapter 18: The Runtime: Agents and Orchestration
+# Chapter 18: Observability as Governance
 
-The previous chapter made the governance point clearly. A control plane can decide which model may be called, which data products may be consumed, which policy applies, and what transaction-level record must be kept. But that still leaves the execution problem unresolved.
+The previous chapter ended at the right boundary. A good runtime can keep an AI workflow bounded, stateful, and recoverable while it runs. But that still does not tell the institution whether the system is behaving well over time.
 
-A governed request is not the same thing as a governed sequence.
+A governed execution is not yet a trusted operating surface.
 
-Once AI systems begin doing real work inside the enterprise, they rarely stop at one call. They retrieve context, invoke tools, decide what to do next, hand tasks to a specialist, request approval, retry after failure, and return later to finish what they started. In other words, they operate across time. The runtime is the layer that makes that behavior bounded, legible, and recoverable.
+That is the observability problem. Once AI systems begin operating across real workflows, trust can no longer depend only on design-time approval, policy configuration, or transaction-level logs. The institution needs a way to see behavior accumulate, detect drift, identify weak patterns, and intervene before localized defects become governance failures.
 
-That is why the runtime matters. If the control plane is the policy membrane around intelligent systems, the runtime is the execution environment in which those systems actually act.
+In that sense, observability is not merely an engineering concern. In AI-native operations, it is a governance capability. It does not replace the control plane or the runtime. It extends them into live production behavior.
 
-## Why The Single-Call Mental Model Breaks
+## Why Approval And Audit Records Are Not Enough
 
-The easiest way to misunderstand enterprise AI is to imagine it as a sequence of isolated prompts and responses. That mental model is good enough for a chatbot. It is not good enough for a bank.
+The control plane and the runtime already do important work. The control plane decides whether a request is authorized, which model may be used, and what transaction-level record must be captured. The runtime governs state, tools, approvals, retries, and completion across a bounded workflow. Those two layers make production AI much more governable than a scattered set of ad hoc integrations.
 
-Consider a settlement exception. The useful system does not merely answer a question about the break. It gathers the failed instruction, retrieves the client standing settlement instruction, checks account restrictions, inspects available cash or inventory, reviews the latest counterparty status, proposes a resolution path, and routes the case to a human if the action would alter exposure or breach a threshold. Each of those steps may be individually governed by the control plane. But the real operational risk sits in the sequence. If the system loses state, invokes the wrong tool, applies the wrong restriction set, or retries a stale plan after conditions change, the problem is not one bad answer. It is a bounded workflow becoming an unbounded operational hazard.
+But they still leave an institutional blind spot. They can tell you what happened in a specific interaction. They do not, by themselves, tell you what is happening across hundreds of workflows, thousands of runs, or weeks of changing conditions.
 
-That is the runtime problem. It is the layer that keeps multi-step behavior from turning into hidden behavior.
+That distinction matters in a bank. A reconciliation agent that remains technically available but begins retrying the same class of case twice as often is not healthy. A settlement-assistance workflow whose approval gates are increasingly overridden is not healthy. A cash-exception system that still follows policy but starts pulling stale context more often after a product change is not healthy. None of those problems is visible from pre-approval alone. None is captured adequately by reading one record at a time.
 
-## Workflow, Agent, And Multi-Agent Are Not The Same Thing
+SR 11-7 makes the point in supervisory language rather than engineering language. Model governance does not stop at approval. It requires ongoing monitoring, outcomes analysis, and enough documentation and review discipline to identify deterioration, changing limitations, or misuse after deployment.^[SRC-004] NIST's AI RMF makes the same point more broadly: deployed systems must be measured in context to validate whether they are performing consistently as intended, and measurable improvements or declines should be identified and documented across the lifecycle.^[SRC-005]
 
-The current market often uses "agent" as a flattering label for any AI-enabled process. That blurs an important design distinction.
+Observability is how that governance obligation becomes operational.
 
-A workflow is the right pattern when the steps are mostly known in advance. The system may still use a model inside the flow, but the path itself is largely defined: collect these inputs, perform this check, classify this item, produce this output, escalate if confidence is low. Anthropic's guidance is useful here because it argues for using workflows when the path is predictable and introducing true agent behavior only when the system needs to decide dynamically how to proceed.^[SRC-003]
+## Observability Is Not The Same Thing As Logging
 
-An agent is justified when the path cannot be fully specified ahead of time. The system must choose among tools, adapt its plan based on intermediate results, or decide which subtask to attempt next. That flexibility can be powerful, but it also creates a different control problem. The enterprise is no longer governing only what the model may say. It is governing what the system may decide to do next.
+Many firms believe they have observability because they have logs. Usually they have event storage.
 
-A multi-agent system adds another layer. Instead of one adaptive actor, the runtime coordinates multiple specialized actors: a coordinator, a retrieval agent, a quality reviewer, a case assembler, a planner, an approval agent, or some comparable structure.^[SRC-004] This can improve specialization and parallelism, but it also multiplies handoffs, tool permissions, and failure surfaces. In regulated finance, that tradeoff should be made carefully rather than assumed to be progress.
+Observability begins with telemetry, but it is not reducible to telemetry. OpenTelemetry's vocabulary is useful because it separates the basic signals clearly: traces show the path of a request, metrics are runtime measurements, logs are records of events, and baggage carries contextual information across signals.^[SRC-007] Those are components, not yet understanding.
 
-The practical selection rule should be simple. Use a workflow when the path is predictable. Use one agent when the task is bounded but the system must choose among tools or adapt based on intermediate results. Use multiple specialized agents only when the work genuinely benefits from distinct roles that reduce complexity more than they add it. If the architecture needs many handoffs just to complete a routine task, it is usually a sign that the design is becoming cleverer than the workflow requires.
+Governance begins when those signals are correlated well enough to answer the questions that matter.
 
-## What The Runtime Actually Does
+What happened? In what sequence? Under which policy? Using which tool? Against which data product? With which model version or prompt path? How many retries occurred? Was a human approval requested? Was it granted, denied, or overridden? Did the workflow complete with the expected business outcome, or did it merely terminate?
 
-The runtime is best understood as the operating layer for agentic work. It is responsible for five practical things.
+Telemetry becomes governance only when it is correlated, interpreted, thresholded, and tied to intervention.
 
-- **State and context management.** The runtime preserves what the system has learned so far, what step it is on, what evidence it has gathered, what constraints apply, and what still needs to happen. Without managed state, every step becomes a partial amnesia problem.
-- **Tool mediation.** The runtime determines which tools are available at which point in the task, with what parameters and permissions. In production systems, tools matter more than prose because tools are how the system touches records, APIs, files, case queues, pricing services, and action surfaces.
-- **Orchestration.** The runtime decides how work is decomposed and coordinated: sequentially, in parallel, through evaluation loops, or through specialist handoffs.^[SRC-003] This is where simple flows should remain simple and complex flows should remain inspectably complex.
-- **Approvals and checkpoints.** The runtime decides when a human must review, approve, override, or terminate a path. In a regulated workflow, this is not an optional user-experience flourish. It is part of the control design.
-- **Recovery and completion.** The runtime handles retries, timeouts, interruptions, and resumability so the system can fail in bounded ways and continue from an intelligible state rather than from scratch.
+That is why observability should be described as interpretation rather than accumulation. A regulated institution does not need a bigger pile of events. It needs a way to reconstruct causality, measure behavior against expected thresholds, and decide when intervention is required.
 
-This is why the runtime should be treated as architecture, not middleware trivia. It is the part of the system that turns model capability into operating behavior.
+## Why Context Matters More As Systems Become More Agentic
 
-## Why Orchestration Should Be Deliberate
+This chapter is arriving exactly where it should in the architecture sequence. The observability problem becomes acute only after AI systems stop looking like isolated prompts and start looking like distributed workflows.
 
-Once teams discover that agents can call tools and hand work to each other, there is a strong temptation to create elaborate webs of specialized agents. That can look sophisticated long before it becomes reliable.
+An agentic system can cross many boundaries in one piece of work. It may move from an application into a control plane, into a model, into a retrieval step, into a pricing or position service, into a case-management tool, into a human approval queue, and then back into another model-assisted step before the task finishes. If each component emits data in isolation, the institution can easily end up with many local records and no reliable account of one end-to-end action.
 
-The better principle is simpler: use the least orchestration that can complete the work credibly. Anthropic makes this point directly, recommending the simplest pattern that works rather than reaching for agentic complexity by default.^[SRC-003] OpenAI's agent tooling points in the same direction. Handoffs, guardrails, and tracing exist because the runtime needs explicit structure, not because unbounded autonomy is desirable.^[SRC-004]
+That is why trace context matters. The W3C Trace Context standard exists to propagate unique context information across distributed services so a request remains identifiable end to end.^[SRC-006] OpenTelemetry's context-propagation guidance makes the practical consequence explicit: trace IDs and span IDs allow signals generated in different places to be correlated so the full flow can be tracked across service boundaries.^[SRC-008]
 
-In practice, most enterprise tasks fall into a small set of patterns.
+This sounds technical because it is technical. But the governance consequence is more important than the implementation detail. If a bank cannot preserve causal context across model calls, tool invocations, service hops, and human checkpoints, it cannot explain confidently why a given outcome occurred, identify where a defect entered the workflow, or intervene precisely enough to narrow the problem without freezing the whole system. The result is a firm with many dashboards and limited accountability.
 
-- A **sequential workflow** works when one step predictably feeds the next.
-- A **parallel pattern** works when several bounded checks can run independently and then be reconciled.
-- An **evaluator loop** works when one component generates an output and another tests whether it is good enough before the process continues.
-- A **handoff pattern** works when a task must move from one specialist to another with a preserved state and a clear boundary of responsibility.
+## The Signals That Matter In A Regulated Workflow
 
-Google's multi-agent reference architecture makes these patterns concrete through a coordinator agent and specialist subagents, including sequential and iterative refinement flows.^[SRC-005] The important point is not the diagram. It is the discipline. Each added pattern should solve a real execution problem, not satisfy a taste for architectural cleverness.
+In a conventional software system, observability often centers on latency, errors, throughput, and infrastructure health. Those still matter here. But AI-native workflows require a wider field of view.
 
-Too much orchestration has a recognizable operating signature. The workflow starts duplicating retrieval, generating conflicting recommendations, creating unclear ownership between specialists, and introducing more approval surfaces than the task actually needs. At that point the runtime is no longer absorbing complexity. It is manufacturing it.
+The institution needs to observe at least five layers at once.
 
-## Tool Use Is Where Runtime Risk Becomes Real
+- **Technical execution.** Was the workflow available, timely, and free of hard failures? Which steps retried? Which tools timed out? Which services degraded?
+- **Behavioral path.** Which route did the workflow actually take? Which tools did it invoke? Which handoffs occurred? How often did it loop, escalate, or terminate early?
+- **Control performance.** Which policies fired? Which guardrails blocked or modified outputs? Which approvals were requested, granted, denied, or overridden?
+- **Data and context quality.** Which canonical products were accessed? Was the context fresh enough, complete enough, and aligned enough for the task?
+- **Business outcome.** Did the workflow improve the case, resolve the exception, reduce aging, shorten the client-impact window, or simply produce a plausible output without operational value?
 
-A model that only returns text can still mislead. A model that can invoke tools can change the world around it.
+This is the point at which observability becomes governance rather than debugging. The question is no longer only whether the system ran. It is whether it ran in a way the institution would want to defend.
 
-That is why runtime design has to focus so heavily on tool use. In an enterprise setting, tools are how the system reaches a payment queue, opens a case, reads a restricted record, submits a reconciliation adjustment, triggers a report, or asks another service to act. The power of the runtime comes from these connections. So does most of the danger.
+Not every workflow needs the same observability depth. Monitoring should be proportionate to consequence. A low-risk drafting or retrieval helper can tolerate a lighter control picture than a workflow that affects books and records, client reporting, cash movement, exposure, or regulatory posture.
 
-The Model Context Protocol is helpful because it states the issue plainly. Tools are model-controlled interfaces to external systems, and the specification recommends that users be able to see which tools are exposed and deny tool invocations when appropriate.^[SRC-006] That is not just a product-design suggestion. It is a runtime principle. Visibility and interruptibility belong at the point of action.
+## A Concrete Example: Reconciliation Exception Triage
 
-In a bank, this means tool access must be bounded by least privilege, scoped to the task, and paired with meaningful approval gates for consequential actions. A retrieval or classification step may run automatically. A cash movement, account change, or exception release should not.
+Consider a reconciliation workflow in asset servicing. A position break appears between the fund accountant's internal record and an external source. An AI-assisted workflow gathers the relevant records, classifies the likely source of the break, checks recent corporate actions and cash movements, proposes a resolution path, and routes the case to an operations analyst when the issue affects books and records or exceeds a threshold.
 
-## What Regulated Finance Requires From The Runtime
+At first glance, the governance problem seems solved by earlier architecture layers. The control plane authorized the models and data access. The runtime bounded the workflow, controlled the tools, and required approval before a consequential adjustment. The transaction log records each step.
 
-The runtime requirements in regulated finance are stricter not because banks are culturally cautious, but because the workflows are consequential and the records are scrutinized.
+But the institution still needs to see the pattern over time.
 
-NIST's generative AI profile is useful here because the risks it names become sharper in multi-step systems. Confabulation is more dangerous when a false intermediate output shapes later actions. Over-reliance is more dangerous when staff assume the system's internal reasoning is coherent because the final answer sounds plausible. Human-AI configuration failures are more dangerous when poorly designed task boundaries allow a system to act past the point where human review should have resumed.^[SRC-007]
+Is one specific fund family now generating far more low-confidence classifications than before? Is one retrieval step frequently pulling incomplete corporate-action context? Are analysts overriding the workflow's recommendation in the same category of breaks, suggesting the classifier's framing is drifting away from operating reality? Is the workflow technically completing while actual break aging is worsening? Are the same cases bouncing through repeated retries before finally being escalated to a human?
 
-This leads to a stricter runtime standard.
+Those are observability questions. They are also governance questions, because they determine whether the institution should tighten thresholds, retrain a component, narrow a permission, add a checkpoint, or suspend the workflow from certain case types altogether.
 
-- **Least privilege by agent or workflow role.** Each agent should have only the permissions needed for its bounded task.^[SRC-005]
-- **Explicit tool boundaries.** The system should know which tools are available, what each tool is allowed to do, and under what policy envelope it can be called.^[SRC-006]
-- **Human checkpoints for consequential actions.** Approval gates should appear where the workflow could alter money movement, books and records, client exposure, or regulatory posture.
-- **Resumability and recoverable state.** Long-running work should survive interruptions without losing the chain of reasoning, evidence, or pending approvals.
-- **Clear role separation.** Planning, retrieval, evaluation, and action should be distinguishable enough that the enterprise can test and govern them separately when needed.
+A log file can tell you that events occurred. Observability can tell you that the workflow is silently becoming less trustworthy in a specific slice of production.
 
-The point is not to force a human into every step. It is to let low-consequence retrieval, assembly, and classification work run automatically while preserving stronger checkpoints where the workflow could change financial state, create client impact, or alter regulatory posture.
+## Observability As Continuous Governance
 
-The runtime is where these controls become operational rather than aspirational. The control plane can say that a service is authorized to participate in a workflow. The runtime determines how that workflow actually behaves once it starts.
+BNY's own public language already points in this direction. Its responsible-AI commitment states that the firm's governance approach extends across the AI lifecycle through deployment, continuous monitoring, and change management.^[SRC-002] Its October 2025 Eliza article says that scalable AI governance depends on frameworks around data usage, transparency, fairness, compliance, training, and technical guardrails, paired with continuous oversight.^[SRC-003]
 
-## Why BNY's Public Direction Already Points Here
+That framing matters because it rejects a static model of governance. Good governance is not a committee that approves a use case and then steps aside. It is a capability that continues operating after deployment.
 
-BNY's public AI language now makes this chapter feel less hypothetical than it might have a year ago.
+The annual report points to the same conclusion from the operating side. BNY says it is embedding AI into workflows, introducing digital employees, and improving processes with fewer handoffs and more automation.^[SRC-001] Once AI is doing that kind of work, the control question changes. The institution no longer needs only confidence that the design was sensible. It needs continuous evidence that the live system remains within acceptable behavior.
 
-In its 2025 annual report, BNY says the platform it has been building is model agnostic, supports multi-agentic functionality, and serves as a foundation for future digital employees. The same report says the firm is embedding AI into workflows and using it to reimagine processes, not simply giving employees a general-purpose tool.^[SRC-001] That is the language of runtime execution, even if the internal technical design is not publicly described.
+This is where observability becomes the practical form of trust.
 
-Eliza adds a second piece of evidence. Public BNY material describes it as a governed enterprise AI platform with standardized permissions, security, and oversight, while also allowing employees to build and share agents.^[SRC-002] That is a strong sign that BNY already understands the difference between model access and execution structure. Once agents exist inside a governed environment, the next architectural question is how their behavior is coordinated, bounded, and recovered across real workflows.
+## What A Governance-Grade Observability Layer Must Do
 
-The practical implication is straightforward. A firm of BNY's scale will not get lasting value from agentic systems by treating them as smart prompts attached to legacy processes. The value comes when execution itself becomes more structured: fewer hidden handoffs, clearer checkpoints, more recoverable work, and less labor spent reconstructing what a partially automated workflow was trying to do.
+For this book's architecture, the observability layer has four jobs.
 
-## The Runtime Boundary Before Observability
+**First, preserve causality.** The institution must be able to connect one workflow run across models, tools, services, and human approvals without losing the thread. That is why trace context and propagation are foundational rather than optional.^[SRC-006]^[SRC-008]
 
-The runtime does not complete the governance story. It completes the execution story.
+**Second, surface interpretable patterns.** It is not enough to retain raw traces, metrics, and logs. The institution needs to see repeated retries, stalled checkpoints, rising override rates, degraded output quality, unusual tool-call frequency, growing latency in one workflow branch, and similar signals that indicate emerging control stress.^[SRC-007]^[SRC-009]
 
-Its job is to make a particular workflow controllable while it runs: what state it holds, what tools it invoked, what approvals it requested, what specialist it handed work to, how it recovered from interruption, and whether it reached a valid stopping point. That is already a major advance over opaque agent sprawl.
+**Third, connect technical behavior to business consequence.** If a workflow remains fast but case aging worsens, something is wrong. If agent activity rises but exception-resolution quality declines, something is wrong. If a model remains available but analysts no longer trust its outputs enough to act without manual rework, something is wrong. Governance fails when the institution watches infrastructure but not outcomes.
 
-But the enterprise still needs to understand patterns across many runs. Which workflows are repeatedly stalling at the same checkpoint? Which agent role is invoking an expensive tool too often? Which approval gates are constantly overridden? Which class of case produces the highest retry rate or the weakest outcome quality? Those are not runtime questions alone. They are observability questions.
+**Fourth, support intervention.** Observability becomes governance only when it can trigger response: alerting, threshold changes, tighter permissions, added human review, rollback, workflow suspension, or a redesign of the operating path. Without intervention, even excellent visibility is only diagnosis.
 
-The progression should be explicit. The control plane governs each request. The runtime governs each execution sequence. Observability will govern confidence in the system over time.
+This is also an ownership problem. Observability matters only when accountable teams in risk, operations, platform, and product can act on what it reveals.
 
-## From Execution To Governance Over Time
+This is why pre-approval alone is too weak a model for AI-native operations. Approval determines whether a system may start. Observability determines whether it should keep running in the same way.
 
-The progression across these architecture chapters should now be visible.
+## Why Agent Systems Raise The Stakes
 
-Shared meaning had to become reusable products. Those products then had to be placed behind a control plane that governed access, policy, and per-request auditability. Once that governance envelope existed, the next requirement was a runtime that could carry useful work across time without losing control of state, tools, approvals, or recovery.
+OpenAI's own agent-platform language captures the production issue directly. It notes that turning capable models into production-ready agents is difficult when orchestration lacks sufficient visibility and built-in support, and it describes observability tools as a way to trace and inspect agent workflow execution.^[SRC-009] That is not a narrow developer convenience. It is an admission that multi-step AI behavior becomes difficult to govern when the execution path cannot be inspected.
 
-That is the minimum architecture for agentic work that belongs inside a regulated financial institution.
+That problem intensifies in regulated finance because the risk surface is larger than model quality alone.
 
-The remaining question is how the enterprise sees the full system well enough to trust it over time. Not one request. Not one workflow. The whole operating surface as it behaves in production.
+The institution has to care about override behavior, approval bottlenecks, policy-trigger frequency, stale context, unusual tool combinations, hidden escalation loops, and the possibility that a workflow remains formally compliant while drifting away from useful operating performance. Those are exactly the kinds of problems that emerge only in live production behavior.
 
-That is the observability problem.
+This is why observability should be thought of as the interpretation layer above the control plane and the runtime. The control plane governs access. The runtime governs execution. Observability governs confidence over time.
+
+## Completing The Foundation
+
+Part IV should now feel complete.
+
+Shared meaning had to become canonical products. Those products had to sit behind a control plane that governed access, policy, and transaction-level audit. Governed requests then had to run inside a runtime that made multi-step work bounded, stateful, and recoverable. And once that runtime existed, the institution still needed an observability layer that could interpret traces, metrics, logs, approvals, and outcomes well enough to maintain trust in production.
+
+That is the minimum stack for AI-native operations in a regulated financial institution.
+
+The architecture question is no longer abstract. With these layers in place, the manuscript can return to the businesses themselves and ask what changes once asset servicing, clearing, treasury, and financing are rebuilt on top of governed intelligence rather than manual exception choreography.
+
+Asset servicing is the right place to start, because it is where recurring exception classes, records pressure, workflow aging, and override patterns make operating trust depend on seeing patterns across many cases rather than handling one case well.

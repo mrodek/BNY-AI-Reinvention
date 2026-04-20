@@ -35,7 +35,7 @@ The chapter should make the reader see treasury services as both durable and int
 ### Out of scope
 
 - full cross-business synthesis, which belongs more in CH11
-- future-state AI redesign, which belongs in CH22
+- future-state AI redesign, which belongs in CH21
 - detailed clearing-and-settlement mechanics reserved for CH06
 - broad platform-thesis language reserved for Part III
 

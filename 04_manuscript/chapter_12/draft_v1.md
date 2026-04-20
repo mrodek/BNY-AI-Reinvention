@@ -88,6 +88,6 @@ First, BNY's strategic position is stronger than a product-by-product reading su
 
 Second, the current platform is incomplete. The system still depends heavily on reconciliation and human context assembly because records, workflows, and decisions remain fragmented. BNY's opportunity is not simply to sell more products through the same channels. It is to make the operating platform more intelligent across the layers where clients already depend on it.
 
-That is the bridge into CH14. If CH12 reframes BNY as the financial operating system, CH14 asks what this operating system is missing. The answer is not another product. It is an intelligence layer that can understand financial context across records, events, obligations, workflows, and controls.
+That is the bridge into CH13. If CH12 reframes BNY as the financial operating system, CH13 asks what this operating system is missing. The answer is not another product. It is an intelligence layer that can understand financial context across records, events, obligations, workflows, and controls.
 
 The future argument starts there.

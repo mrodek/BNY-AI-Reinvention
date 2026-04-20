@@ -137,21 +137,12 @@ Much of financial infrastructure is automated on the surface and manually coordi
 - Reframe the firm from a set of products into a platform model.
 - Map custody to storage, clearing to compute, treasury to network, and Pershing to developer platform.
 - Give the reader a new organizing metaphor for the rest of the book.
-- Absorb the strategic logic previously assigned to Chapter 13: why platforms win in financial infrastructure through trust, embedded workflows, scale, switching costs, data gravity, and client operating dependency.
+- Absorb the strategic logic previously assigned to the former standalone platform-economics chapter: why platforms win in financial infrastructure through trust, embedded workflows, scale, switching costs, data gravity, and client operating dependency.
 
 Executive takeaway:
 BNY already looks like an operating system once its businesses are viewed as one interdependent infrastructure stack.
 
-### Chapter 13: Absorbed Into Chapter 12
-
-- Prior working title: `Why Platforms Win in Financial Infrastructure`.
-- Status: merged into Chapter 12 to avoid a repetitive strategy chapter for the executive audience.
-- Retained logic: platform economics, trust, embedded workflows, scale, switching costs, data gravity, and client operating dependency now belong inside Chapter 12.
-
-Editorial note:
-Do not draft this as a standalone chapter unless a later manuscript review finds that the platform-economics material needs more space than Chapter 12 can carry.
-
-### Chapter 14: The Missing Layer: Intelligence
+### Chapter 13: The Missing Layer: Intelligence
 
 - Show that BNY already has data, workflows, and clients.
 - Argue that what it lacks is a unified intelligence layer across them.
@@ -160,7 +151,7 @@ Do not draft this as a standalone chapter unless a later manuscript review finds
 Core idea:
 The transformation opportunity is not more automation alone, but an intelligence layer that can operate across the existing platform.
 
-### Chapter 15: The Ontology Problem
+### Chapter 14: The Ontology Problem
 
 - Explain why financial data lacks stable, reusable meaning across systems.
 - Show why AI fails when the enterprise lacks canonical definitions and shared semantics.
@@ -171,7 +162,7 @@ Without stable meaning, even strong AI capabilities remain shallow and unreliabl
 
 ## Part IV: The AI-Native Foundation
 
-### Chapter 16: Canonical Data Products as the Foundation
+### Chapter 15: Canonical Data Products as the Foundation
 
 - Introduce non-overlapping ownership, contracts, and ontology-backed data products.
 - Explain why canonical data products are prerequisites for AI reliability and reuse.
@@ -180,7 +171,7 @@ Without stable meaning, even strong AI capabilities remain shallow and unreliabl
 Executive takeaway:
 AI-native transformation starts with canonical data ownership, not with model selection.
 
-### Chapter 17: The AI Gateway (Control Plane)
+### Chapter 16: The AI Gateway (Control Plane)
 
 - Define the control plane for routing, guardrails, auditability, and policy enforcement.
 - Explain how a gateway prevents shadow AI proliferation.
@@ -189,7 +180,7 @@ AI-native transformation starts with canonical data ownership, not with model se
 Signal:
 The gateway is the mechanism that turns scattered AI activity into governed enterprise capability.
 
-### Chapter 18: The Runtime: Agents and Orchestration
+### Chapter 17: The Runtime: Agents and Orchestration
 
 - Explain the shift from static workflows to adaptive systems.
 - Introduce a graduated orchestration maturity model.
@@ -198,7 +189,7 @@ The gateway is the mechanism that turns scattered AI activity into governed ente
 Core idea:
 The runtime determines whether AI remains a collection of demos or becomes an operating system for work.
 
-### Chapter 19: Observability as Governance
+### Chapter 18: Observability as Governance
 
 - Reframe governance around system exhaust, transparency, and auditable behavior.
 - Argue for trust through observability rather than pre-approval alone.
@@ -217,7 +208,7 @@ Each chapter in this part should cover:
 - AI insertion points
 - end-state vision
 
-### Chapter 20: AI-Native Asset Servicing
+### Chapter 19: AI-Native Asset Servicing
 
 - Show how NAV calculation, exception resolution, and fund transparency can change in an AI-native model.
 - Explain where autonomous and human-supervised operations can coexist.
@@ -226,7 +217,7 @@ Each chapter in this part should cover:
 Executive outcome:
 Asset servicing can move from labor-intensive exception handling to transparent, continuously improving operations.
 
-### Chapter 21: AI-Native Clearing and Settlement
+### Chapter 20: AI-Native Clearing and Settlement
 
 - Explore trade-failure prediction, self-healing reconciliation, and continuous settlement.
 - Show how intelligence changes both speed and resilience.
@@ -235,7 +226,7 @@ Asset servicing can move from labor-intensive exception handling to transparent,
 Signal:
 Clearing and settlement become strategic again when intelligence reduces breaks and compresses operational latency.
 
-### Chapter 22: AI-Native Treasury Services
+### Chapter 21: AI-Native Treasury Services
 
 - Introduce autonomous liquidity optimization, cash forecasting agents, and intelligent payment routing.
 - Explain where AI can improve timing, allocation, and client responsiveness.
@@ -244,7 +235,7 @@ Clearing and settlement become strategic again when intelligence reduces breaks 
 Core idea:
 Treasury becomes an always-on optimization system when intelligence is embedded into routing and liquidity decisions.
 
-### Chapter 23: AI-Native Pershing Platform
+### Chapter 22: AI-Native Pershing Platform
 
 - Show how advisor copilots, portfolio automation, and client intelligence layers extend the platform model.
 - Explain why this chapter matters for wealth-infrastructure defensibility.
@@ -253,7 +244,7 @@ Treasury becomes an always-on optimization system when intelligence is embedded 
 Positioning:
 Pershing is where BNY can make platform intelligence visible to end operators and clients.
 
-### Chapter 24: AI-Native Investment Management
+### Chapter 23: AI-Native Investment Management
 
 - Examine AI's role in allocation, signal generation, and operating leverage.
 - Distinguish true differentiation from areas likely to commoditize.
@@ -262,7 +253,7 @@ Pershing is where BNY can make platform intelligence visible to end operators an
 Truth:
 In investment management, AI changes the shape of advantage, not just the cost base.
 
-### Chapter 25: AI-Native Collateral and Financing
+### Chapter 24: AI-Native Collateral and Financing
 
 - Show how real-time collateral optimization and cross-market intelligence could work in practice.
 - Connect fragmented market signals to more autonomous decisioning.
@@ -270,6 +261,15 @@ In investment management, AI changes the shape of advantage, not just the cost b
 
 Executive outcome:
 This business becomes more valuable as intelligence improves coordination across markets, exposures, and timing windows.
+
+### Chapter 25: AI-Native Enterprise Workflows
+
+- Show how cross-domain workflows such as proxy voting, post-KYC client onboarding, and document-heavy servicing can be redesigned on top of shared client context, enterprise controls, and orchestration.
+- Explain why these lighthouse use cases do not belong neatly to one product silo even though they depend on many existing business-line capabilities.
+- Demonstrate the value of the Part IV foundation in workflows that span operations, servicing, approvals, outreach, and evidence.
+
+Executive outcome:
+Some of the highest-value early use cases are not business-line specific. They prove the enterprise can coordinate shared context, controls, and execution across domains.
 
 ## Part VI: Cross-Product Intelligence (The Breakthrough)
 

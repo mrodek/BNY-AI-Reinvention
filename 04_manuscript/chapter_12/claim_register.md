@@ -9,7 +9,7 @@
 | CLM-003 | Financial infrastructure platforms win because clients build recurring workflows, records, controls, and dependencies on top of them. | strategic interpretation | supported | SRC-001, SRC-003, SRC-004, SRC-006, SRC-007 | Absorbed CH13 logic; supported through BNY dependency and integration evidence rather than generic theory |
 | CLM-004 | BNY's platform advantage is grounded in trust, scale, embedded workflows, switching costs, data gravity, and operating dependency rather than in generic software network effects alone. | strategic synthesis | supported | SRC-001, SRC-003, SRC-004, SRC-005, SRC-006, SRC-007 | Keep language specific to regulated financial infrastructure |
 | CLM-005 | CH11's reconciliation diagnosis points to the need for a shared platform layer because too much current-state effort is spent aligning fragmented records and statuses. | structural synthesis | supported | SRC-008, SRC-003, SRC-007 | Bridge claim from Part II to Part III |
-| CLM-006 | The current platform still lacks a sufficiently unified intelligence layer, which is why CH14 follows naturally from CH12. | strategic synthesis | supported | SRC-003, SRC-007, SRC-008 | Supported as a manuscript synthesis and forward bridge, not as a sourced claim about internal BNY gaps |
+| CLM-006 | The current platform still lacks a sufficiently unified intelligence layer, which is why CH13 follows naturally from CH12. | strategic synthesis | supported | SRC-003, SRC-007, SRC-008 | Supported as a manuscript synthesis and forward bridge, not as a sourced claim about internal BNY gaps |
 
 ## Claims To Avoid Or Qualify
 

@@ -66,8 +66,8 @@ Collateral and financing matter because they sit underneath many other things th
 
 That is one reason BNY's role in this chapter is strategically important. The firm sits in a durable part of market structure because clients do not only need financing counterparties. They need infrastructure that helps them see inventory, administer collateral, complete triparty and securities-finance workflows, and keep obligations moving through daily operating pressure.^[SRC-001]^[SRC-002]^[SRC-003]^[SRC-004] The strategic position comes from being embedded in recurring control and coordination work, not from making a one-time product sale.
 
-## Why This Matters For CH25
+## Why This Matters For CH24
 
 This domain is already rich with data, rules, schedules, constraints, and recurring exceptions. That makes it a strong candidate for later intelligence and orchestration improvements.^[SRC-007]^[SRC-008] The current model still depends on people and systems constantly translating fragmented information into time-sensitive decisions about eligibility, valuation, optimization, substitution, mobility, and funding.
 
-CH25 can build from that current-state burden. The useful future-state question is whether more of the work around asset selection, cutoff management, substitution timing, and exception routing can become visible, adaptive, and better orchestrated before the next margin call, substitution request, recall, or financing deadline forces another manual scramble.
+CH24 can build from that current-state burden. The useful future-state question is whether more of the work around asset selection, cutoff management, substitution timing, and exception routing can become visible, adaptive, and better orchestrated before the next margin call, substitution request, recall, or financing deadline forces another manual scramble.

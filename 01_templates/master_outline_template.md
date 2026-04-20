@@ -123,6 +123,12 @@ Positioning:
 
 ## Part VI: <Part Name>
 
+### Chapter 13: <Chapter Title>
+
+- <key point>
+- <key point>
+- <key point>
+
 ### Chapter 14: <Chapter Title>
 
 - <key point>
@@ -130,12 +136,6 @@ Positioning:
 - <key point>
 
 ### Chapter 15: <Chapter Title>
-
-- <key point>
-- <key point>
-- <key point>
-
-### Chapter 16: <Chapter Title>
 
 - <key point>
 - <key point>

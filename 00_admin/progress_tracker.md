@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: CH22 challenge round completed and `draft_v2` created, sharpening the advisor-client journey, clarifying the Pershing-versus-Wove layer model, and making queue-quality and strategic payoff more operational
-- Next milestone: review CH22 `draft_v2` for pacing and decide whether it only needs light editorial polish before the next Part V chapter
+- Current focus: CH23 and CH24 are now both in kickoff research, with CH23 framed around analytical abundance and durable edge in investment management and CH24 framed around continuously supervised inventory intelligence across financing workflows
+- Next milestone: complete research pass 1 for CH23 and CH24, then decide which chapter should move to `draft_v1` first
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -35,8 +35,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH20 | AI-Native Clearing and Settlement | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 sharpens the pre-fail example, makes Treasury-clearing readiness more operational, states queue-quality risk more directly, and tightens the post-trade autonomy boundary |
 | CH21 | AI-Native Treasury Services | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round complete; draft v2 adds a sharper late-day liquidity scenario, separates anomaly controls from ordinary repair and investigations, and tightens the treasury autonomy boundary |
 | CH22 | AI-Native Pershing Platform | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 now sharpens the advisor-client journey, separates Pershing's operating substrate from Wove's intelligence layer, and makes queue-quality risk and strategic payoff more explicit |
-| CH23 | AI-Native Investment Management | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
-| CH24 | AI-Native Collateral and Financing | not_started | not_started | not_started | not_started | not_started | Future-state business-line chapter |
+| CH23 | AI-Native Investment Management | researching | in_progress | not_started | not_started | not_started | Kickoff artifacts frame the chapter around AI-native investment management as governed analytical leverage rather than autonomous stock picking, with durable edge shifting toward mandate interpretation, governance, and trusted explanation |
+| CH24 | AI-Native Collateral and Financing | researching | in_progress | not_started | not_started | not_started | Started from CH10's burden map; brief, research tracker, and claim register now frame the chapter around inventory truth, substitutions, recall pressure, and bounded autonomy |
 | CH25 | AI-Native Enterprise Workflows | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now defines proxy voting as a real business workflow, expands post-KYC onboarding economics, removes weak chapter-self-reference, and sharpens both use cases as enterprise value cases |
 | CH26 | From Products to Intelligence Graphs | not_started | not_started | not_started | not_started | not_started | Cross-product breakthrough chapter |
 | CH27 | The Client Graph | not_started | not_started | not_started | not_started | not_started | Cross-product intelligence chapter |
@@ -61,6 +61,19 @@ This file is the high-level dashboard for the project. It should stay concise an
 - `Graph Extract`: chapter has been converted into structured concepts, claims, and relationships
 
 ## Session Log
+
+### 2026-04-19
+
+- Started CH23 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
+- Grounded the kickoff research frame in current BNY Investments, data-and-analytics, investment-accounting, annual-report, CFA Institute, and McKinsey sources.
+- Positioned CH23 around AI-native investment management as a continuously assisted, governed investment process rather than a fully autonomous investing story.
+- Defined the chapter's main strategic tension as the shift from scarce analytical throughput to abundant analytical support, with durable edge moving toward mandate interpretation, governance quality, institutional memory, and trusted client explanation.
+
+### 2026-04-19
+
+- Started CH24 by creating `chapter_brief.md`, `research_tracker.md`, and `claim_register.md`.
+- Framed CH24 as a future-state collateral and financing chapter about continuously supervised inventory intelligence rather than autonomous optimization.
+- Seeded the first CH24 source queue from CH10's current-state base so the next research pass can stay grounded in collateral mobility, triparty, securities finance, substitutions, and funding coordination.
 
 ### 2026-04-19
 
@@ -388,11 +401,12 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Review CH22 `draft_v2` for pacing, overlap with CH08, and whether it now only needs light editorial polish.
-2. Review CH21 `draft_v2` for pacing and decide whether it now needs only light polish or one more pressure test.
-3. Review CH20 `draft_v2` for whether it now only needs minor polish before holding.
-4. Review CH25 `draft_v2` for sequencing, pacing, and whether proxy voting should now open the chapter.
-5. Select the next Part V chapter to advance after the CH22 readback.
+1. Complete CH23 research pass 1 and choose its anchor operating example.
+2. Complete CH24 research pass 1 using CH10's source base plus any missing primary sources needed for future-state workflow specificity.
+3. Decide which chapter should move to `draft_v1` first: CH23 or CH24.
+4. Review CH22 `draft_v2` for pacing, overlap with CH08, and whether it now only needs light editorial polish.
+5. Review CH21 `draft_v2` for pacing and decide whether it now needs only light polish or one more pressure test.
+6. Review CH25 `draft_v2` for sequencing, pacing, and whether proxy voting should now open the chapter.
 
 ## Update Rules
 

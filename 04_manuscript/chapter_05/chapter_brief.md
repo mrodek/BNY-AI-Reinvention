@@ -35,7 +35,7 @@ The chapter should make the reader see asset servicing as both a highly valuable
 ### Out of scope
 
 - full cross-business synthesis, which belongs more in CH11
-- future-state AI redesign, which belongs in CH20
+- future-state AI redesign, which belongs in CH19
 - detailed clearing and settlement mechanics reserved for CH06
 - broad platform thesis language reserved for Part III
 

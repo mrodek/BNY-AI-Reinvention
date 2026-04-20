@@ -14,7 +14,7 @@ This chapter should explain why collateral, securities lending, and financing ma
 
 The chapter should show that this business is less about a single trade than about continuous resource allocation under constraint. Firms need the right securities, in the right place, under the right legal terms, at the right time. That is true for repo, securities lending, derivatives margin, and collateralized financing more broadly. BNY's role is valuable because it sits in the coordination layer: triparty infrastructure, collateral mobility, lending programs, financing support, and the workflows that keep counterparties funded and exposures secured.
 
-The chapter should also prepare the ground for CH25 without drifting into future-state design too early. It should end by making clear that this domain is rich with intelligence potential precisely because the current model is dense with rules, exceptions, timing pressure, and fragmented information.
+The chapter should also prepare the ground for CH24 without drifting into future-state design too early. It should end by making clear that this domain is rich with intelligence potential precisely because the current model is dense with rules, exceptions, timing pressure, and fragmented information.
 
 ## Key Reader Questions
 
@@ -36,7 +36,7 @@ The chapter should also prepare the ground for CH25 without drifting into future
 
 ### Out of scope
 
-- detailed future-state redesign, which belongs in CH25
+- detailed future-state redesign, which belongs in CH24
 - exhaustive legal or accounting treatment of repo, securities lending, or derivatives documentation
 - a comprehensive market-history chapter on the global repo market
 - product-by-product commercial coverage beyond what the chapter needs to explain the operating model
@@ -58,7 +58,7 @@ Suggested sequence:
 2. Show what the operating problem actually is: getting the right assets to the right obligations under time, legal, and eligibility constraints.
 3. Explain BNY's role through triparty, collateral management, securities finance, and financing support.
 4. Walk through the recurring coordination burdens: margin calls, substitutions, recalls, asset mobility, and inventory visibility.
-5. Close by framing the domain as a strong example of why intelligence and orchestration matter, without turning the chapter into CH25 early.
+5. Close by framing the domain as a strong example of why intelligence and orchestration matter, without turning the chapter into CH24 early.
 
 ## Evidence Priorities
 

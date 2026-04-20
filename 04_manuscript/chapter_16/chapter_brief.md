@@ -3,80 +3,87 @@
 ## Chapter Metadata
 
 - Chapter ID: `CH16`
-- Working title: `Canonical Data Products as the Foundation`
+- Working title: `The AI Gateway (Control Plane)`
 - Book section: `Part IV - The AI-Native Foundation`
-- Status: `drafting`
+- Status: `brief_ready`
 - Last updated: `2026-04-11`
-- Structural note: CH16 follows CH15 by turning ontology into executable, governed operating assets rather than leaving shared meaning as a conceptual layer.
+- Structural note: CH16 picks up directly from the bridge at the end of CH15. Once canonical data products exist, the next architecture question is how intelligence is routed across them, governed under policy, and kept inside auditability requirements. The control plane is the answer.
 
 ## Chapter Purpose
 
-CH15 argued that enterprise intelligence fails when the organization cannot represent entities, events, states, relationships, and constraints with stable shared meaning. CH16's job is to show how that meaning becomes usable in practice. The answer is not one giant data lake and not another loose integration program. It is canonical data products: governed, ontology-backed, reusable data assets with clear ownership, interfaces, quality controls, lineage, and access patterns.
+CH15 established that shared meaning must be packaged into reusable, governed data products before intelligence can operate reliably at scale. CH16's job is to answer what comes next: who decides which model consumes which product, under what policy, with what constraints, and with what audit record?
 
-This chapter should make a disciplined architecture argument. If CH14 defined the intelligence layer and CH15 explained why it needs shared meaning, CH16 should explain how the platform carries that meaning into real operating use. Canonical data products should be presented as the packaging layer that turns semantic discipline into trustworthy, composable building blocks for workflows, analytics, controls, and later agentic systems.
+The answer is the AI gateway, also called the control plane. It is the architectural layer that sits between intelligence services and the trusted products and workflows they consume. It handles routing, policy enforcement, guardrail application, authentication, rate management, and auditability. Without it, AI capability inside an enterprise degrades into a collection of disconnected experiments, each with its own access patterns, its own implicit policies, and no shared record of what ran, on what data, under what authorization.
 
-The chapter should also correct a common mistake. Data products are not just curated tables with nicer names. In this book, a canonical data product is a productized operating asset: a shared representation of an important domain object or event family with defined semantics, quality rules, lineage, interfaces, permissions, and stewardship. It should feel durable enough that many workflows can rely on it without bespoke remapping each time.
+The chapter must make a governance argument through architecture rather than through compliance rhetoric. The control plane is not a box on a diagram. It is the mechanism that turns scattered AI activity into a governed enterprise capability. It also creates the operational foundation for trust: if a regulator, an auditor, or an executive asks what the AI system decided and why, the control plane is where that answer lives.
 
 ## Key Reader Questions
 
-- Why is ontology alone not enough?
-- What makes a data product canonical rather than merely convenient?
-- Why do ownership, contracts, lineage, and quality controls matter as much as schema design?
-- Why are canonical data products prerequisites for AI reliability, reuse, and governance?
-- How do canonical data products set up CH17's control plane and the later runtime chapters?
+- What is an AI gateway and why is it necessary once intelligent services begin operating at scale?
+- How does a control plane prevent shadow AI proliferation inside a large institution?
+- What is the difference between a guardrail and a policy, and why do both need to be enforced architecturally rather than by convention?
+- What does auditability actually require in a regulated financial institution running AI at scale?
+- How does the control plane consume canonical data products while enforcing governance over AI access?
+- How does CH16 set up CH17's runtime and orchestration argument?
 
 ## Scope
 
 ### In scope
 
-- canonical data products as the practical implementation layer for shared meaning
-- ownership, interfaces, contracts, lineage, quality rules, discoverability, and governed reuse
-- official BNY evidence on data management, unified models, APIs, governance, and auditability
-- standards and primary architecture sources on data-as-a-product, productized services, and lineage metadata
-- the connection from canonical data products to later control-plane and agent-runtime architecture
+- the AI gateway as an architectural capability: routing, policy enforcement, guardrails, authentication, auditability
+- why governance must be embedded in architecture rather than applied as process overhead
+- shadow AI proliferation as a specific organizational risk
+- the relationship between the control plane and canonical data products from CH15
+- BNY's public posture on responsible AI, governance, and AI risk management
+- primary sources on AI gateway patterns, LLM routing, and model governance in enterprise contexts
+- regulated-finance requirements that make auditability and explainability non-negotiable
+- the bridge from governed foundation into CH17's runtime and orchestration layer
 
 ### Out of scope
 
-- the full AI gateway / control-plane design, which belongs in CH17
-- runtime orchestration and agents, which belong in CH18
-- observability as a dedicated governance chapter, which belongs in CH19
-- broad data-lake versus warehouse history lessons unless they directly support the canonical-product argument
+- runtime orchestration and multi-agent coordination, which belong in CH17
+- observability as a dedicated governance mechanism, which belongs in CH18
+- model training, fine-tuning, or ML engineering concerns unless they surface governance implications
+- tool-specific implementations or vendor comparisons unless they illuminate an architecture principle
 
 ## Desired Reader Outcome
 
-The reader should finish CH16 understanding that shared meaning becomes operational only when it is packaged into reusable, governed data products with clear ownership and dependable interfaces. The chapter should make it clear that canonical data products are not optional data-management polish. They are the foundation that makes later intelligence, automation, and agentic systems trustworthy and scalable.
+The reader should finish CH16 understanding that a control plane is not optional overhead in a regulated enterprise. It is the layer that makes every AI capability accountable, reusable, and auditable. The chapter should make governance feel like a design goal rather than a constraint imposed after the fact.
 
-The reader should also see that the core architecture move is organizational as much as technical. Canonical products require non-overlapping ownership, product thinking, and platform support. Without that, every new use case rebuilds context, mappings, and controls from scratch.
+The reader should also see clearly why a control plane is the necessary bridge between trusted data products and trustworthy AI behavior. Canonical products make the data safe to consume. The control plane makes the act of consuming and acting on that data governable.
 
 ## Structural Guidance
 
 Suggested sequence:
 
-1. Start from CH15: ontology must become usable operating assets.
-2. Define a canonical data product in practical terms.
-3. Explain why canonical products need ownership, contracts, lineage, quality rules, and interfaces.
-4. Show why this matters for AI reliability, reuse, and cross-workflow intelligence.
-5. Contrast canonical products with looser data-platform patterns that still leave semantics and trust unstable.
-6. Bridge into CH17 by showing that once canonical products exist, the next architecture question is how intelligence is routed and governed at runtime.
+1. Open from CH15's bridge: canonical products exist, now what governs how intelligence uses them?
+2. Define the control plane and its core functions: routing, policy enforcement, guardrails, auditability.
+3. Explain the shadow AI risk: what happens without a control plane in a large institution.
+4. Show why governance must be architectural, not procedural.
+5. Connect to regulated-finance requirements: auditability, explainability, and access control are compliance obligations, not nice-to-haves.
+6. Ground in BNY's evidence: responsible AI posture, risk management, and institutional governance requirements.
+7. Bridge into CH17: once the control plane governs access and policy, the next question is what runs inside it — agents, orchestrators, and adaptive workflows.
 
 ## Evidence Priorities
 
-- official BNY sources on data management, unified data models, APIs, governance, mastering, tagging, and auditability
-- primary sources on data-as-a-product and domain ownership
-- primary sources on lineage and productized data services
-- supervisory or standards-based evidence that control, lineage, and accurate aggregation matter in regulated finance
+- BNY public materials on responsible AI, AI risk management, and governance frameworks
+- Primary architecture sources on AI gateways and LLM routing patterns in enterprise contexts
+- Regulatory and supervisory guidance on model risk management and AI accountability in regulated finance
+- Standards-based sources on AI governance frameworks (NIST AI RMF or equivalent)
+- Practitioner sources on policy enforcement, guardrails, and auditability as architectural patterns
 
 ## Tone Notes
 
-- practical, architecture-literate, and disciplined
-- no generic platform rhetoric
-- emphasize repeatability, trust, and reusable operating assets
-- keep the argument implementation-minded rather than abstractly data-strategic
-- avoid making canonical data products sound like a one-time enterprise modeling exercise
+- governance as a design principle, not compliance theater
+- architecture-literate but accessible to risk and governance leaders who are not engineers
+- make the control plane feel like a strategic asset, not a bureaucratic chokepoint
+- concrete about what breaks without it, not just abstract about what it enables
+- avoid making this chapter feel like a vendor pitch for any specific AI gateway product
 
 ## Open Questions To Resolve In Research
 
-- Which sources best support the distinction between a canonical data product and a generic data asset?
-- How should the chapter talk about data contracts without overcommitting to one tool or vendor pattern?
-- Which examples make the value of lineage and productized interfaces concrete without becoming too technical?
-- How explicitly should CH16 set up CH17's control-plane argument?
+- What BNY-specific evidence best supports the need for governed AI routing in a regulated custodian and platform context?
+- How should the chapter frame guardrails versus policies without becoming too technical?
+- Which existing frameworks (NIST AI RMF, SR 11-7, equivalent) should the chapter reference to give regulated-finance readers the right anchors?
+- What is the right level of implementation detail for the routing and enforcement sections?
+- How explicitly should CH16 set up the runtime model in CH17?

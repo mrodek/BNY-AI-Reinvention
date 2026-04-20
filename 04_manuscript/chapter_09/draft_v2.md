@@ -74,6 +74,6 @@ But the business matters for another reason in this book. It is one of the clear
 
 ## Why This Matters For The Rest Of The Book
 
-CH09 sets up CH24 by making the current-state tension explicit. Investment management is not about to become a pure machine business, but neither can it rely on the old assumption that more research labor automatically means more durable edge. The surrounding operating stack is becoming more data-driven, more scalable, and more exposed to AI-enabled compression. The core judgment layer may remain valuable, but it will sit inside a much more contested and much more automated system.
+CH09 sets up CH23 by making the current-state tension explicit. Investment management is not about to become a pure machine business, but neither can it rely on the old assumption that more research labor automatically means more durable edge. The surrounding operating stack is becoming more data-driven, more scalable, and more exposed to AI-enabled compression. The core judgment layer may remain valuable, but it will sit inside a much more contested and much more automated system.
 
 That is the right handoff. The later AI-native chapter should not ask only whether AI can help managers work faster. It should ask what kind of investment organization still deserves to win once more of the surrounding machine is widely available, and once clients can compare not just returns, but process quality, transparency, governance, and operating credibility.

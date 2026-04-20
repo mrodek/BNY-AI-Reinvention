@@ -93,7 +93,7 @@ These frictions are the operating signature of a business clients depend on ever
 
 ## Why This Matters For The Rest Of The Book
 
-CH07 sets up CH22 in the same way CH05 and CH06 set up their future-state chapters. The current model already delivers essential outcomes. Payments complete. Liquidity is managed. Controls exist. Investigations are handled. The opportunity is not to replace a broken system with a smart system. It is to improve a system that already works but still depends on heavy coordination and exception discipline.
+CH07 sets up CH21 in the same way CH05 and CH06 set up their future-state chapters. The current model already delivers essential outcomes. Payments complete. Liquidity is managed. Controls exist. Investigations are handled. The opportunity is not to replace a broken system with a smart system. It is to improve a system that already works but still depends on heavy coordination and exception discipline.
 
 That is the right handoff. Treasury services are already an infrastructure-and-control business. Their next advantage comes from reducing context assembly, improving exception orchestration, and raising the quality of intraday decisions without weakening trust, auditability, or completion certainty.
 

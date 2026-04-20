@@ -48,7 +48,7 @@ Pressure-test `draft_v1` of CH10 from a practitioner perspective before moving t
 - Why an executive might say this: A senior reader wants one clearer statement of why being in the coordination layer matters strategically beyond generic market complexity.
 - Severity: medium
 
-- Challenge: "The CH25 bridge is directionally right, but it still leans abstract in its final sentence."
+- Challenge: "The CH24 bridge is directionally right, but it still leans abstract in its final sentence."
 - Why an executive might say this: The close is disciplined, but one more concrete statement about what intelligence would actually have to improve could make the handoff stronger.
 - Severity: medium
 
@@ -74,7 +74,7 @@ Pressure-test `draft_v1` of CH10 from a practitioner perspective before moving t
 - Challenge or concern: Need clearer distinction among valuation, haircut application, optimization, and movement.
 - Planned response: Tighten the collateral-management section so those steps read as related but distinct operational tasks.
 
-- Challenge or concern: CH25 bridge can be more concrete.
+- Challenge or concern: CH24 bridge can be more concrete.
 - Planned response: End with a more explicit statement of the current decisions that future-state intelligence would need to improve, such as asset selection, cutoff management, substitution timing, and exception routing.
 
 ## What We Will Not Address
@@ -88,4 +88,4 @@ Pressure-test `draft_v1` of CH10 from a practitioner perspective before moving t
 ## Outcome
 
 - Recommendation: `revise before proceeding`
-- Notes: `draft_v1` has the right operating spine and source discipline, but a practitioner-focused revision should sharpen actor boundaries, distinguish the sub-workflows more explicitly, add one exception sequence, and make the CH25 handoff more concrete.
+- Notes: `draft_v1` has the right operating spine and source discipline, but a practitioner-focused revision should sharpen actor boundaries, distinguish the sub-workflows more explicitly, add one exception sequence, and make the CH24 handoff more concrete.

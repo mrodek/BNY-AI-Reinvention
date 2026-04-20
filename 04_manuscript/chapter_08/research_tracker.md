@@ -74,11 +74,11 @@
 ## Gaps
 
 - Need one or two sources that describe Pershing-specific advisor or operations pain from a client or practitioner perspective rather than market-wide evidence alone.
-- Need care around Wove and Pershing X so the chapter does not drift too early into CH23 territory.
+- Need care around Wove and Pershing X so the chapter does not drift too early into CH22 territory.
 - Need to decide whether the current evidence base is sufficient for `draft_v1` or whether one more narrow source pass on advisor transitions and custodian switching would sharpen the commercial stakes.
 
 ## Follow-Up Research
 
-- Review `SRC-005` only after the current-state framing is stable, and use it mainly to sharpen the chapter bridge into CH23.
+- Review `SRC-005` only after the current-state framing is stable, and use it mainly to sharpen the chapter bridge into CH22.
 - Decide whether one more narrow source pass on advisor transitions, custodian choice, or integration councils is worth the time before drafting.
 - If the evidence base now feels sufficient, create `source_notes.md` and begin `draft_v1`.

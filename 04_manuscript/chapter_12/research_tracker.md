@@ -13,7 +13,7 @@
 - What evidence best supports BNY as shared operating infrastructure rather than a collection of isolated products?
 - How should the operating-system metaphor be defined so it clarifies rather than distracts?
 - Which platform-economics concepts are necessary for the executive reader, and which are too obvious or generic?
-- What is the cleanest bridge from CH11's reconciliation diagnosis to CH14's missing intelligence layer?
+- What is the cleanest bridge from CH11's reconciliation diagnosis to CH13's missing intelligence layer?
 
 ## Source Log
 
@@ -46,7 +46,7 @@
 
 - The strongest CH12 argument is not "BNY could become a platform." It is "BNY already behaves like one in several core businesses."
 - Platform economics are more persuasive when described through operating dependency than through generic network-effect terminology.
-- The clean bridge to CH14 is that platform breadth alone does not create intelligence. It creates the surface area on which intelligence could operate.
+- The clean bridge to CH13 is that platform breadth alone does not create intelligence. It creates the surface area on which intelligence could operate.
 - BNY's own public language supports a disciplined layer map: investment lifecycle, data and analytics, global payments and trade, collateral, Pershing wealth workflows, and integrated open architecture.
 - The chapter should use "financial operating system" as a reader-facing organizing model, not as a literal software claim.
 
@@ -67,7 +67,7 @@
 - The best evidence is not any single claim that BNY is an "operating system." The evidence is the pattern across sources: clients depend on BNY for records, workflows, movement of money, mobility of assets, data, risk controls, and operating leverage.
 - The operating-system metaphor should be written as a disciplined map of layers: state, movement, resource allocation, workflow, data, control, and intelligence-adjacent surfaces.
 - The CH13 material should be fully absorbed into one compact section on platform economics. The chapter should explain trust, embedded workflows, switching cost, data gravity, and operating leverage through financial-infrastructure dependency rather than through software-company analogies.
-- The bridge to CH14 should be sober: BNY has many platform ingredients, but breadth does not automatically create a unified intelligence layer. The next chapter should define that missing layer.
+- The bridge to CH13 should be sober: BNY has many platform ingredients, but breadth does not automatically create a unified intelligence layer. The next chapter should define that missing layer.
 
 ## Source Selection Rationale
 

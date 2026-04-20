@@ -3,87 +3,87 @@
 ## Chapter Metadata
 
 - Chapter ID: `CH17`
-- Working title: `The AI Gateway (Control Plane)`
+- Working title: `The Runtime: Agents and Orchestration`
 - Book section: `Part IV - The AI-Native Foundation`
-- Status: `brief_ready`
+- Status: `drafting`
 - Last updated: `2026-04-11`
-- Structural note: CH17 picks up directly from the bridge at the end of CH16. Once canonical data products exist, the next architecture question is how intelligence is routed across them, governed under policy, and kept inside auditability requirements. The control plane is the answer.
+- Structural note: CH17 follows directly from CH16. The control plane governs access, policy, and per-request auditability. CH17 explains the execution layer that sits inside that governance envelope and makes multi-step AI work legible, bounded, and useful in production workflows.
 
 ## Chapter Purpose
 
-CH16 established that shared meaning must be packaged into reusable, governed data products before intelligence can operate reliably at scale. CH17's job is to answer what comes next: who decides which model consumes which product, under what policy, with what constraints, and with what audit record?
+CH16 argued that a regulated enterprise needs a control plane to govern which models and data products may be used, under what policy, with what guardrails, and with what transaction-level audit record. That is necessary, but it does not yet explain how useful work actually gets done.
 
-The answer is the AI gateway, also called the control plane. It is the architectural layer that sits between intelligence services and the trusted products and workflows they consume. It handles routing, policy enforcement, guardrail application, authentication, rate management, and auditability. Without it, AI capability inside an enterprise degrades into a collection of disconnected experiments, each with its own access patterns, its own implicit policies, and no shared record of what ran, on what data, under what authorization.
+CH17 answers that next question. The runtime is the execution layer in which agents hold state, call tools, hand work across steps, request approvals, recover from failure, and complete bounded tasks. Orchestration is the logic that decides how that work is decomposed and coordinated. Without a well-designed runtime, a control plane governs individual model calls while the cumulative behavior across those calls remains hard to reason about. In a bank, that gap is unacceptable.
 
-The chapter must make a governance argument through architecture rather than through compliance rhetoric. The control plane is not a box on a diagram. It is the mechanism that turns scattered AI activity into a governed enterprise capability. It also creates the operational foundation for trust: if a regulator, an auditor, or an executive asks what the AI system decided and why, the control plane is where that answer lives.
+The chapter must keep the distinction between simple workflows and true agents clear. Not every AI-enabled process should become an agentic system, and not every coordination problem needs many specialized agents. The point is not maximal autonomy. The point is controlled execution that can absorb complexity without hiding it.
 
 ## Key Reader Questions
 
-- What is an AI gateway and why is it necessary once intelligent services begin operating at scale?
-- How does a control plane prevent shadow AI proliferation inside a large institution?
-- What is the difference between a guardrail and a policy, and why do both need to be enforced architecturally rather than by convention?
-- What does auditability actually require in a regulated financial institution running AI at scale?
-- How does the control plane consume canonical data products while enforcing governance over AI access?
-- How does CH17 set up CH18's runtime and orchestration argument?
+- What is the runtime in an AI-native architecture, and why is it distinct from the control plane?
+- What is the practical difference between a workflow, an agent, and a multi-agent system?
+- What does orchestration actually coordinate in production: tools, state, approvals, retries, handoffs, or all of the above?
+- Why does cumulative multi-step behavior create a new governance problem even when each individual call is policy-compliant?
+- How should a regulated financial institution decide when to use a simple workflow, a single agent, or multiple specialized agents?
+- What controls must the runtime enforce so agents can act usefully without becoming opaque or unsafe?
+- How does this chapter set up CH18's observability argument?
 
 ## Scope
 
 ### In scope
 
-- the AI gateway as an architectural capability: routing, policy enforcement, guardrails, authentication, auditability
-- why governance must be embedded in architecture rather than applied as process overhead
-- shadow AI proliferation as a specific organizational risk
-- the relationship between the control plane and canonical data products from CH16
-- BNY's public posture on responsible AI, governance, and AI risk management
-- primary sources on AI gateway patterns, LLM routing, and model governance in enterprise contexts
-- regulated-finance requirements that make auditability and explainability non-negotiable
-- the bridge from governed foundation into CH18's runtime and orchestration layer
+- the runtime as the execution environment for agentic systems
+- the distinction between workflows, agents, and multi-agent systems
+- orchestration patterns such as sequential, parallel, evaluator, and handoff flows
+- state, memory, tool use, permissions, approvals, retries, and resumability
+- why regulated-finance runtimes need bounded autonomy, least privilege, and human checkpoints
+- BNY's public evidence that its AI platform is becoming model-agnostic, multi-agentic, and workflow-embedded
+- the bridge from transaction-level governance to execution-level control and then to CH18's observability layer
 
 ### Out of scope
 
-- runtime orchestration and multi-agent coordination, which belong in CH18
-- observability as a dedicated governance mechanism, which belongs in CH19
-- model training, fine-tuning, or ML engineering concerns unless they surface governance implications
-- tool-specific implementations or vendor comparisons unless they illuminate an architecture principle
+- control-plane policy vocabulary, which belongs primarily to CH16
+- system-wide observability and drift monitoring, which belong to CH18
+- model training, fine-tuning, benchmark evaluation, or broad MLOps topics unless directly relevant to runtime behavior
+- speculative claims about BNY's undisclosed internal runtime implementation
 
 ## Desired Reader Outcome
 
-The reader should finish CH17 understanding that a control plane is not optional overhead in a regulated enterprise. It is the layer that makes every AI capability accountable, reusable, and auditable. The chapter should make governance feel like a design goal rather than a constraint imposed after the fact.
+The reader should finish CH17 understanding that the runtime is where governed AI becomes operational. It is the layer that coordinates state, tools, approvals, and recovery across time. It is also where the difference between a clever demo and a production financial workflow becomes visible.
 
-The reader should also see clearly why a control plane is the necessary bridge between trusted data products and trustworthy AI behavior. Canonical products make the data safe to consume. The control plane makes the act of consuming and acting on that data governable.
+The reader should also come away with a disciplined intuition about orchestration: the enterprise should use the simplest execution pattern that can complete the job reliably. More agents are not inherently more advanced. In regulated finance, unnecessary orchestration is unnecessary control surface.
 
 ## Structural Guidance
 
 Suggested sequence:
 
-1. Open from CH16's bridge: canonical products exist, now what governs how intelligence uses them?
-2. Define the control plane and its core functions: routing, policy enforcement, guardrails, auditability.
-3. Explain the shadow AI risk: what happens without a control plane in a large institution.
-4. Show why governance must be architectural, not procedural.
-5. Connect to regulated-finance requirements: auditability, explainability, and access control are compliance obligations, not nice-to-haves.
-6. Ground in BNY's evidence: responsible AI posture, risk management, and institutional governance requirements.
-7. Bridge into CH18: once the control plane governs access and policy, the next question is what runs inside it — agents, orchestrators, and adaptive workflows.
+1. Open from CH16's boundary: a governed request is not yet a governed execution sequence.
+2. Define the runtime as the layer that manages state, tools, approvals, retries, and completion across multiple steps.
+3. Distinguish workflows from agents and explain when each is appropriate.
+4. Explain orchestration patterns and argue for deliberate minimalism rather than agent sprawl.
+5. Show why regulated finance raises the bar: least privilege, bounded tools, human checkpoints, resumability, and recovery.
+6. Ground the chapter in BNY's public AI trajectory: model agnosticism, multi-agentic functionality, digital employees, workflow embedding.
+7. Bridge into CH18: the runtime generates behavior over time; observability is how the enterprise interprets that behavior at system scale.
 
 ## Evidence Priorities
 
-- BNY public materials on responsible AI, AI risk management, and governance frameworks
-- Primary architecture sources on AI gateways and LLM routing patterns in enterprise contexts
-- Regulatory and supervisory guidance on model risk management and AI accountability in regulated finance
-- Standards-based sources on AI governance frameworks (NIST AI RMF or equivalent)
-- Practitioner sources on policy enforcement, guardrails, and auditability as architectural patterns
+- BNY public materials on Eliza, the AI Hub, digital employees, and workflow integration
+- primary official sources on agent/workflow design and orchestration patterns
+- standards or protocol sources on tool access, human oversight, and least-privilege execution
+- architecture references showing how enterprises decompose multi-agent systems into coordinator, specialist, and approval patterns
+- risk-management sources that frame why adaptive multi-step systems need runtime controls in addition to per-call governance
 
 ## Tone Notes
 
-- governance as a design principle, not compliance theater
-- architecture-literate but accessible to risk and governance leaders who are not engineers
-- make the control plane feel like a strategic asset, not a bureaucratic chokepoint
-- concrete about what breaks without it, not just abstract about what it enables
-- avoid making this chapter feel like a vendor pitch for any specific AI gateway product
+- execution discipline over hype
+- architecture-literate but readable for operating and risk leaders
+- pragmatic about where agentic systems help and where they add avoidable complexity
+- include at least one concrete workflow example before abstraction stacks too high
+- avoid turning the chapter into a catalogue of orchestration patterns
 
 ## Open Questions To Resolve In Research
 
-- What BNY-specific evidence best supports the need for governed AI routing in a regulated custodian and platform context?
-- How should the chapter frame guardrails versus policies without becoming too technical?
-- Which existing frameworks (NIST AI RMF, SR 11-7, equivalent) should the chapter reference to give regulated-finance readers the right anchors?
-- What is the right level of implementation detail for the routing and enforcement sections?
-- How explicitly should CH17 set up the runtime model in CH18?
+- Which official sources best support the workflow-versus-agent distinction without leaning on vendor hype?
+- What public BNY evidence most credibly indicates movement toward multi-agentic workflow execution?
+- Which runtime controls are most important to name explicitly for a regulated custodian and platform firm?
+- How strongly should the chapter argue for human approval gates versus bounded autonomous action?
+- What is the cleanest handoff from runtime control into CH18's observability argument?

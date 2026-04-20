@@ -34,7 +34,7 @@ The chapter should make the reader see why Pershing is strategically important i
 
 ### Out of scope
 
-- full future-state AI redesign, which belongs in CH23
+- full future-state AI redesign, which belongs in CH22
 - broad enterprise platform-thesis language reserved for Part III
 - deep custody or settlement mechanics already covered in CH05 and CH06
 - generalized wealth-management industry strategy beyond what is needed to explain Pershing's operating role
@@ -56,7 +56,7 @@ Suggested sequence:
 2. Explain the workflow stack: account infrastructure, trade support, custody, reporting, service, and advisor technology.
 3. Show why this is platform economics, not just outsourced operations.
 4. Surface where the current model still strains: integrations, fragmented workflows, manual follow-up, and limited intelligence in the advisor workbench.
-5. Close by setting up CH23 without turning this chapter into premature future-state product design.
+5. Close by setting up CH22 without turning this chapter into premature future-state product design.
 
 ## Evidence Priorities
 

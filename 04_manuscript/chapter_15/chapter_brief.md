@@ -3,81 +3,80 @@
 ## Chapter Metadata
 
 - Chapter ID: `CH15`
-- Working title: `The Ontology Problem`
-- Book section: `Part III - Reframing BNY as a Platform`
+- Working title: `Canonical Data Products as the Foundation`
+- Book section: `Part IV - The AI-Native Foundation`
 - Status: `drafting`
 - Last updated: `2026-04-11`
-- Structural note: CH15 follows CH14 directly and establishes the semantic foundation that CH16 will convert into canonical data-product architecture.
+- Structural note: CH15 follows CH14 by turning ontology into executable, governed operating assets rather than leaving shared meaning as a conceptual layer.
 
 ## Chapter Purpose
 
-CH14 argued that BNY's missing layer is intelligence: the ability to assemble context, interpret relevance, route work, explain recommendations, and support governed decisions across the platform. CH15's job is to show why that intelligence layer cannot scale on top of fragmented meaning. The core issue is not only that data lives in many systems. It is that the same enterprise facts are often represented with different names, different structures, different lifecycle assumptions, and different local meanings.
+CH14 argued that enterprise intelligence fails when the organization cannot represent entities, events, states, relationships, and constraints with stable shared meaning. CH15's job is to show how that meaning becomes usable in practice. The answer is not one giant data lake and not another loose integration program. It is canonical data products: governed, ontology-backed, reusable data assets with clear ownership, interfaces, quality controls, lineage, and access patterns.
 
-This chapter should make ontology practical for an executive and architecture reader. The reader does not need a philosophy lecture on knowledge representation. The reader needs to understand that enterprise AI breaks when the organization cannot answer simple cross-system questions consistently: what exactly is a client, account, position, event, exposure, settlement status, break, obligation, or control state, and how do those concepts relate over time.
+This chapter should make a disciplined architecture argument. If CH13 defined the intelligence layer and CH14 explained why it needs shared meaning, CH15 should explain how the platform carries that meaning into real operating use. Canonical data products should be presented as the packaging layer that turns semantic discipline into trustworthy, composable building blocks for workflows, analytics, controls, and later agentic systems.
 
-The chapter should argue that ontology is the discipline of making those meanings explicit, reusable, and machine-usable. It should also show that finance has already been trying to solve pieces of this through standards, common vocabularies, lifecycle models, and regulatory data-governance work. The real challenge for BNY is not inventing the idea from scratch. It is operationalizing shared meaning across a very broad platform.
+The chapter should also correct a common mistake. Data products are not just curated tables with nicer names. In this book, a canonical data product is a productized operating asset: a shared representation of an important domain object or event family with defined semantics, quality rules, lineage, interfaces, permissions, and stewardship. It should feel durable enough that many workflows can rely on it without bespoke remapping each time.
 
 ## Key Reader Questions
 
-- What is the ontology problem in plain business terms?
-- Why is this more serious than a generic data-quality problem?
-- Why do AI systems fail or stay shallow when enterprise concepts are unstable across systems?
-- What do financial-industry standards reveal about the need for shared meaning?
-- Why does CH16 need to start from canonical data products rather than from models or agents alone?
+- Why is ontology alone not enough?
+- What makes a data product canonical rather than merely convenient?
+- Why do ownership, contracts, lineage, and quality controls matter as much as schema design?
+- Why are canonical data products prerequisites for AI reliability, reuse, and governance?
+- How do canonical data products set up CH16's control plane and the later runtime chapters?
 
 ## Scope
 
 ### In scope
 
-- ontology as explicit shared meaning across entities, events, states, relationships, and constraints
-- the difference between raw data integration and semantic interoperability
-- why fragmented meaning makes AI, automation, and cross-workflow reasoning brittle
-- official and standards-based examples from banking data governance, financial ontologies, and common lifecycle models
-- the bridge from semantic foundation to canonical data products in CH16
+- canonical data products as the practical implementation layer for shared meaning
+- ownership, interfaces, contracts, lineage, quality rules, discoverability, and governed reuse
+- official BNY evidence on data management, unified models, APIs, governance, and auditability
+- standards and primary architecture sources on data-as-a-product, productized services, and lineage metadata
+- the connection from canonical data products to later control-plane and agent-runtime architecture
 
 ### Out of scope
 
-- deep implementation detail for data-product ownership and platform controls, which belong in CH16
-- full technical treatment of graph databases, RDF, or ontology languages
-- speculative claims that one enterprise ontology can perfectly unify every workflow without tradeoffs
-- detailed agent-runtime design, which belongs later in Part IV
+- the full AI gateway / control-plane design, which belongs in CH16
+- runtime orchestration and agents, which belong in CH17
+- observability as a dedicated governance chapter, which belongs in CH18
+- broad data-lake versus warehouse history lessons unless they directly support the canonical-product argument
 
 ## Desired Reader Outcome
 
-The reader should finish CH15 understanding that ontology is not an academic extra. It is the operating discipline that makes enterprise intelligence reliable. If the firm cannot represent core business concepts consistently across workflows and systems, then even strong AI tooling will stay local, brittle, and hard to govern.
+The reader should finish CH15 understanding that shared meaning becomes operational only when it is packaged into reusable, governed data products with clear ownership and dependable interfaces. The chapter should make it clear that canonical data products are not optional data-management polish. They are the foundation that makes later intelligence, automation, and agentic systems trustworthy and scalable.
 
-The reader should also see that ontology is not a call for one giant abstract model disconnected from operations. The point is to create stable enterprise meaning where it matters most so data products, workflow intelligence, and AI controls can compose safely. That sets up CH16's argument that canonical data products are the practical carrier of shared meaning.
+The reader should also see that the core architecture move is organizational as much as technical. Canonical products require non-overlapping ownership, product thinking, and platform support. Without that, every new use case rebuilds context, mappings, and controls from scratch.
 
 ## Structural Guidance
 
 Suggested sequence:
 
-1. Start from CH14's conclusion: intelligence needs stable meaning.
-2. Define the ontology problem in plain business language.
-3. Explain how finance produces semantic fragmentation across systems, teams, and lifecycle stages.
-4. Show why AI and automation remain shallow when meaning is unstable.
-5. Use industry standards and supervisory evidence to show this is a recognized infrastructure problem, not a theoretical one.
-6. Clarify what a useful enterprise ontology must cover without overpromising total unification.
-7. End by showing why canonical data products are the next practical step in CH16.
+1. Start from CH14: ontology must become usable operating assets.
+2. Define a canonical data product in practical terms.
+3. Explain why canonical products need ownership, contracts, lineage, quality rules, and interfaces.
+4. Show why this matters for AI reliability, reuse, and cross-workflow intelligence.
+5. Contrast canonical products with looser data-platform patterns that still leave semantics and trust unstable.
+6. Bridge into CH16 by showing that once canonical products exist, the next architecture question is how intelligence is routed and governed at runtime.
 
 ## Evidence Priorities
 
-- official BNY sources on governed data management, mastering, tagging, and unified data foundations
-- supervisory or standards sources showing that cross-enterprise data aggregation and lineage remain difficult in large banks
-- finance-specific ontology or domain-model sources that make shared meaning concrete
-- practical modeling/tooling sources that connect common vocabulary to governed data products and interoperability
+- official BNY sources on data management, unified data models, APIs, governance, mastering, tagging, and auditability
+- primary sources on data-as-a-product and domain ownership
+- primary sources on lineage and productized data services
+- supervisory or standards-based evidence that control, lineage, and accurate aggregation matter in regulated finance
 
 ## Tone Notes
 
-- practical, architecture-aware, and anti-theoretical in tone
-- define ontology plainly, then keep the chapter anchored in workflow consequences
-- avoid making this sound like a silver-bullet master-data sermon
-- emphasize that semantic discipline enables judgment, automation, and governance rather than replacing them
-- keep the bridge to CH16 explicit but disciplined
+- practical, architecture-literate, and disciplined
+- no generic platform rhetoric
+- emphasize repeatability, trust, and reusable operating assets
+- keep the argument implementation-minded rather than abstractly data-strategic
+- avoid making canonical data products sound like a one-time enterprise modeling exercise
 
 ## Open Questions To Resolve In Research
 
-- Which sources best show that the hard problem is shared meaning, not only data movement?
-- Which finance-specific standards make ontology concrete without overcomplicating the chapter?
-- How directly should the chapter distinguish ontology from taxonomy, dictionary, and data model?
-- Which operational examples best show how semantic mismatch becomes AI brittleness, reconciliation burden, or control risk?
+- Which sources best support the distinction between a canonical data product and a generic data asset?
+- How should the chapter talk about data contracts without overcommitting to one tool or vendor pattern?
+- Which examples make the value of lineage and productized interfaces concrete without becoming too technical?
+- How explicitly should CH15 set up CH16's control-plane argument?

@@ -44,7 +44,7 @@ Pressure-test `draft_v1` of CH09 before moving to a more polished revision. Focu
 - Why an executive might say this: Leaders want to know what this means for margins, scale, staffing models, and what kinds of investment organizations are likely to win.
 - Severity: medium
 
-- Challenge: "The close is good, but it could state more crisply what CH24 must answer."
+- Challenge: "The close is good, but it could state more crisply what CH23 must answer."
 - Why an executive might say this: The next chapter setup is working, but a stronger question at the end would make the handoff even cleaner.
 - Severity: medium
 
@@ -67,7 +67,7 @@ Pressure-test `draft_v1` of CH09 before moving to a more polished revision. Focu
 - Challenge or concern: Scenario underplays what remains hard to commoditize.
 - Planned response: Add 2 to 3 sentences to the scenario or its follow-on paragraph explaining that AI can accelerate analysis without resolving mandate tradeoffs, accountability, or client trust.
 
-- Challenge or concern: CH24 handoff can be crisper.
+- Challenge or concern: CH23 handoff can be crisper.
 - Planned response: Tighten the close so it leaves the reader with one more explicit question about what kind of investment organization deserves to win once more of the surrounding machine is widely available.
 
 ## What We Will Not Address
@@ -81,4 +81,4 @@ Pressure-test `draft_v1` of CH09 before moving to a more polished revision. Focu
 ## Outcome
 
 - Recommendation: `revise before proceeding`
-- Notes: `draft_v1` already has a strong conceptual spine and credible current-state framing, but one focused revision pass would make the chapter more defensible by sharpening what remains differentiated, strengthening the economics bridge, and making the CH24 handoff more explicit.
+- Notes: `draft_v1` already has a strong conceptual spine and credible current-state framing, but one focused revision pass would make the chapter more defensible by sharpening what remains differentiated, strengthening the economics bridge, and making the CH23 handoff more explicit.

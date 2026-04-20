@@ -1,132 +1,120 @@
-# Chapter 15: The Ontology Problem
+# Chapter 15: Canonical Data Products as the Foundation
 
-CH14 ended at the real bottleneck. If BNY wants an intelligence layer that can assemble context across records, events, workflows, obligations, and controls, the platform has to know what those things mean consistently.
+The previous chapter made the semantic argument. An intelligent platform cannot reason reliably across records, events, workflows, and controls if the enterprise cannot represent what those things mean consistently. But that chapter also left an obvious implementation question behind. Shared meaning is necessary. What carries it into the real platform?
 
-That is the ontology problem.
+The answer is canonical data products.
 
-Most firms describe this as a data problem. The facts are scattered across platforms, businesses, vendors, and reporting stacks. That is true, but it is not the deepest issue. The harder problem is that even when data can be moved, copied, or searched, the enterprise still may not share stable meaning. One system's client is another system's legal entity. One workflow's break is another workflow's exception. One platform's settlement status is another platform's downstream trigger. The data may be available while the meaning remains local.
+Not just better datasets. Not a nicer reporting layer. Not another integration effort that moves information between systems while leaving every consuming team to reinterpret it locally. Canonical data products are the operating assets that package shared meaning into reusable form. They give the platform dependable representations of important entities, events, states, and relationships that many workflows can use without rebuilding context from scratch.
 
-For an intelligence layer, that is decisive. AI can summarize a record, classify a ticket, draft a note, or answer a local question without solving enterprise meaning. But it cannot reason reliably across the platform if it cannot tell when two records describe the same thing, when two status values represent the same state transition, or when several events belong to the same operational situation. Intelligence fails when semantics stay fragmented.
+That is why they are the foundation.
 
-## What Ontology Means Here
+## Ontology Is Not Enough By Itself
 
-Ontology can sound more academic than it needs to. In this book, it means something practical: the explicit definition of the important things in the business, the relationships among them, and the ways they change over time.
+An ontology can define what a client is, what a position is, what a settlement event is, and how those concepts relate. That matters. But ontology alone is still too abstract to run an operating platform.
 
-That includes entities such as clients, accounts, funds, securities, counterparties, positions, cash balances, and legal entities. It also includes events and states: trade capture, affirmation, margin call, payment release, settlement fail, pricing exception, client instruction, account restriction, and escalation status. Most importantly, it includes the relationships and constraints that turn isolated fields into usable context. Which account belongs to which client? Which position is linked to which obligation? Which event changed which state? Which workflow owns the next action? Which control or policy now applies?
+Teams do not consume ontology diagrams. They consume services, datasets, APIs, queries, dashboards, controls, and workflow context. They need something they can call, inspect, trust, and reuse. They need to know who owns it, what it means, how current it is, what quality rules apply, what lineage supports it, and what interfaces are stable enough to build on.
 
-An ontology is therefore not just a glossary. A glossary defines terms. An ontology makes those terms operationally usable by clarifying identity, relationships, distinctions, and valid transitions. In finance, that matters because economic reality is distributed. The same position can appear in accounting, custody, collateral, treasury, reporting, and client-service contexts, each with a different local representation. Without some shared semantic spine, the firm keeps paying to rediscover what its own records mean.
+That is the role of the canonical data product. It is the point where shared meaning stops being a conceptual requirement and becomes an operational asset.
 
-## Why This Is Bigger Than Data Quality Alone
+## What Makes A Data Product Canonical
 
-Data quality matters, but ontology answers a different question. Quality asks whether a field is missing, wrong, stale, duplicated, or out of tolerance. Ontology asks whether the enterprise agrees on what the field refers to, what kind of thing it is, what relationships it has, and how its state should be interpreted.
+The phrase should be used carefully. A data product is not canonical just because it is widely copied or centrally published. It becomes canonical when it provides a trusted, reusable representation of an important business object or event family and carries the obligations that let many consumers rely on it without bespoke remapping each time.
 
-That is why the problem shows up even inside serious data programs. BNY's own data-management materials emphasize that usable financial data must be ingested, cleaned, governed, mastered, tagged, and distributed with audit trails rather than merely collected in bulk.^[SRC-001] That list is revealing. Mastering, tagging, search, classification, and auditability are not just storage features. They are attempts to make meaning stable enough that many users and workflows can rely on the same information.
+That means at least five things.
 
-The same logic appears in BNY's broader AI posture. Its published approach to responsible data and AI emphasizes governance, explainability, privacy, accountability, and human oversight.^[SRC-002] Those requirements become difficult to satisfy when the underlying concepts are unstable. A recommendation cannot be explained clearly if the system itself has a fuzzy grasp of what the relevant entities, events, and states are.
+- **Semantics are explicit.** The product represents a defined thing in the business: a client identity, an account structure, a security master, a cash position, a payment event, a collateral exposure, a lifecycle status, a control state. The meaning is documented well enough that consuming systems do not have to guess what the fields and states represent.
+- **Ownership is explicit.** A product without a clear steward is just a shared dependency waiting to decay. Someone must be accountable for the representation, its quality standards, its change process, and its consumer obligations.
+- **Interfaces are explicit.** Consumers need stable ways to use the product, whether through APIs, governed queries, event streams, or embedded services. A canonical product cannot require every consumer to negotiate a bespoke extract.
+- **Quality and controls are explicit.** Consumers need to know what validation rules, permissions, freshness expectations, and policy constraints apply. In regulated finance, that is part of whether the product is usable at all.
+- **Lineage is explicit.** The consumer should be able to tell where the product came from, how it was transformed, what upstream sources it depends on, and what changed. A product that cannot explain its own provenance may be useful for exploration. It is not strong enough to support intelligence at scale.
 
-This is why ontology belongs inside the intelligence argument rather than off to the side as a data-management detail.
+That is the difference between a convenient data asset and a canonical data product.
 
-## Banks Have Been Living This Problem For Years
+## Why Product Thinking Matters
 
-The ontology problem may sound newly urgent because the current AI wave has raised the price of getting it wrong. The underlying issue is not new at all. Banking supervisors have been warning about it for more than a decade.
+This is where architecture and operating model meet. The strongest primary articulation of the point comes from the data-as-a-product argument: analytical data should be treated as a product, and its consumers should be treated as customers.^[SRC-005] That sounds simple, but it changes the standard completely.
 
-BCBS 239 was published because the financial crisis exposed a basic weakness: many large banks could not aggregate risk exposures fully, quickly, and accurately enough to support timely decisions.^[SRC-004] That sounds at first like a reporting and infrastructure issue, but it is also a meaning issue. Aggregation becomes hard when definitions, identifiers, lineage, and reporting logic differ across legal entities, products, systems, and geographies.
+If consumers are customers, then the product has to be discoverable, understandable, trustworthy, secure, and pleasant enough to use that people do not immediately build side routes around it.^[SRC-005] In other words, the product is defined not only by technical correctness but by the quality of the consumption experience.
 
-The striking point is that the problem has not disappeared. A 2026 Basel Committee newsletter still highlights governance of aggregation activities, data lineage, cross-border issues, and the implications of emerging technology as active challenges.^[SRC-005] It also notes that some banks have extended BCBS 239 thinking into broader enterprise data-governance frameworks because data now supports not only regulatory reporting but finance, analytics, and business activity more broadly.^[SRC-005]
+That matters in a firm like BNY because every cross-workflow capability competes against the local shortcut. If canonical products are hard to find, thinly documented, slow to access, semantically unstable, or politically ambiguous in ownership, teams will keep building local copies and one-off mappings. The enterprise then pays again for translation, reconciliation, and duplicated controls.
 
-That should matter to the reader of this book. If globally significant banks are still struggling to aggregate and interpret their own risk-relevant data consistently after years of supervisory pressure, then the obstacle to enterprise AI is obviously not just whether a model can write fluent text. The obstacle is whether the institution can present stable meaning to the model and to the workflows around it.
+Canonical products are supposed to break that cycle.
 
-## Where Shared Meaning Already Shows Up
+## Why BNY Already Points In This Direction
 
-Finance has not ignored this issue. It has been solving pieces of it for years in different places.
+BNY's public materials already make much of the required foundation visible. Its data-management platform is described in terms of ingesting, cleaning, governing, mastering, and distributing financial data.^[SRC-001] That list matters because it already combines the core ingredients of a productized foundation: acquisition, quality, control, identity, and reuse.
 
-FIBO addresses the concept layer. It defines the things that matter in financial business applications and the ways those things can relate to one another so data can carry unambiguous meaning.^[SRC-006] That is the clearest expression of ontology in the narrow sense: shared domain concepts and relationships.
+The same page goes further. BNY emphasizes tagging, search, classification, access controls, flexible APIs, automated governance tools, and full audit trails.^[SRC-001] Those are not just data-platform features. They are part of what makes a reusable product dependable across many consumers.
 
-The FINOS Common Domain Model addresses the lifecycle layer. Its overview describes the CDM as a standardized, machine-readable and machine-executable blueprint for how financial products are traded and managed across the transaction lifecycle.^[SRC-009] Its purpose is to improve interoperability and straight-through processing by reducing the reconciliation caused by differences in how firms record lifecycle events.^[SRC-009] Its product model shows how precise that becomes: assets, identifiers, taxonomy, payouts, and economic terms are represented in ways machines can act on consistently.^[SRC-010]
+Its broader Data & Analytics platform makes a similar point from the operating side. BNY frames the platform as bringing together data management, accounting, performance, analytics, and investment operations in one connected foundation for actionable insight.^[SRC-002] The useful implication is that intelligence is more likely to scale when the underlying data is already organized as reusable platform assets rather than as isolated local extracts.
 
-BIAN addresses the banking service layer. Its current service landscape and practitioner materials define service domains, business-object structures, and semantic APIs so banks can decompose capabilities into more interoperable functional components.^[SRC-012]^[SRC-014] That is not a substitute for ontology, but it is strong evidence that banking has already been formalizing shared meaning at the service boundary because interoperability depends on it.
+The strongest concrete sequence appears in BNY's Victorian Funds Management Corporation client story. The story emphasizes a unified data model, standardized risk metrics, and a total portfolio view before broader self-service analytics and later AI-adjacent use cases become practical.^[SRC-003] That sequencing is exactly the chapter's point. You do not get durable intelligence by starting with the model. You get there by first building products that make the platform legible and reusable.
 
-ISO 20022 addresses the business-message layer. It is not only a message format. It uses a business model and a central dictionary so message definitions are derived from shared business concepts rather than from ad hoc field lists.^[SRC-017]^[SRC-018] In other words, message interoperability depends on semantic interoperability.
+## Why Regulated Finance Raises The Bar
 
-GLEIF and the LEI address the identity layer. The LEI exists because cross-firm identity has to be globally unique, verifiable, and interoperable, and the Global LEI Index exists because that identity has to be anchored in open, standardized, high-quality reference data.^[SRC-019]^[SRC-020] This is ontology in one of its most practical forms: the system needs to know who is who before it can reason safely about anything else.
+In many industries, a data product can be useful even if it is loosely governed. In regulated finance, that standard is too low.
 
-Taken together, these examples make the same point. Shared meaning in finance is not one abstract layer. It appears across concept models, product and event lifecycles, service boundaries, business messages, and identity reference data.
+BCBS 239 exists because banks must aggregate risk exposures and produce reliable reporting quickly enough to support decisions under pressure.^[SRC-006] That requirement is not satisfied by collecting data somewhere central and hoping interpretation sorts itself out downstream. It requires dependable, governable, explainable representations that can survive scrutiny.
 
-## What AI Gets Wrong Without It
+This is why lineage belongs in the product definition rather than in a separate metadata conversation. OpenLineage is helpful here because it makes the requirement concrete. Its model treats datasets, jobs, and runs as explicit objects and supports both runtime and design-time lineage, including schema, ownership, and documentation metadata.^[SRC-008] That matters because a trusted product is not just a set of current values. It is a governed history of how those values came to be.
 
-Without ontology, enterprise AI tends to be articulate but shallow.
+Legend shows the same idea from the service layer. It combines a common data vocabulary with APIs, productized data services, automated lineage, and quality-by-design controls.^[SRC-007] That is closer to the real architecture target for this book. Canonical products should not sit passively in storage. They should be executable enough to power real workflows and controlled enough to support audit and governance.
 
-It can often work within one local system because the context is narrow and the meanings are implicit in the workflow. But the moment the task crosses boundaries, the system starts guessing. It guesses whether two identifiers refer to the same client or related entities. It guesses whether a status label means a final state, an intermediate checkpoint, or a local exception code. It guesses whether two events are duplicates, causal neighbors, or unrelated noise. It guesses which workflow owns the next action.
+## The Product Pattern That Matters
 
-That is where the real risk begins. The output may sound coherent while the underlying joins are wrong.
+The useful architecture pattern is not "centralize everything." It is "stabilize what must be reused."
 
-Consider two concrete examples. If legal-entity identity is inconsistent across systems, the platform may fail to recognize that two records refer to the same counterparty family or control-relevant relationship even when the names look similar. That is exactly why globally unique identifiers such as the LEI matter.^[SRC-019]^[SRC-020] And if business messages are treated only as syntax rather than as expressions of shared business concepts, then downstream workflows can parse the message while still misunderstanding the business event it is meant to represent. That is why ISO 20022 depends on a business model rather than only on a schema.^[SRC-017]^[SRC-018]
+Some products should be canonical because too many workflows depend on them for the enterprise to tolerate semantic drift. Client identity is one. Account structures are another. Security master and instrument classification products are obvious examples. So are cash positions, payment events, settlement states, collateral eligibility views, pricing states, control exceptions, and key lifecycle events.
 
-A payment investigation, for example, is rarely just a payment investigation. It may involve client identity, account entitlements, cut-off rules, sanctions or control checks, cash position, collateral availability, downstream settlement timing, and service-level obligations. If those concepts are represented differently across treasury, servicing, compliance, and client-service systems, then an AI layer can summarize fragments without truly understanding the situation. The same applies to collateral shortfalls, pricing exceptions, account restrictions, and settlement fails. Cross-workflow intelligence requires more than access. It requires semantic alignment.
+The common feature is not subject matter. It is reuse pressure. If many workflows, controls, analytics surfaces, and intelligence services need the same concept, then the enterprise should not ask each of them to reconstruct it independently.
 
-This is why CH14 defined intelligence as context assembly, prioritization, routing, explanation, and decision support. Those jobs are semantic before they are generative. The system has to know what is related, what has changed, what state now exists, and what obligations follow from that state. If the enterprise cannot make those meanings explicit, then AI remains trapped in local optimization.
+That is why non-overlapping ownership matters so much. A canonical product has to have a clear home, not a vague committee. The platform can provide standards, tooling, access patterns, and governance support. But the product still needs an accountable owner who knows the domain and is responsible for keeping the representation useful.
 
-## What A Useful Enterprise Ontology Must Cover
+This is also why contracts matter. Consumers need to know not only what the product means, but what they can depend on: schema expectations, update behavior, state definitions, deprecation process, quality thresholds, and policy boundaries. A canonical product is not just shared. It is dependable.
 
-The answer is not to design one perfect universal model before any practical work can begin. That would turn ontology into a delaying tactic. The useful move is narrower and harder: define shared enterprise meaning where cross-workflow reasoning, governance, and reuse matter most.
+## Why This Is The Foundation For AI
 
-At minimum, that means stabilizing a few categories of meaning.
+The AI argument becomes much more practical once canonical products are in view.
 
-First, entities and identifiers. The firm needs reliable ways to represent clients, legal entities, accounts, books, funds, instruments, positions, and counterparties, including how those objects relate and how identity changes across contexts.
+An intelligence layer should not consume raw, semantically unstable data exhaust whenever it can avoid it. It should consume trusted products. That does not mean every AI system reads only one perfect interface. It means the platform should increasingly expose stable, governed representations of the concepts and events that matter most.
 
-Second, lifecycle events and states. It is not enough to know that something happened. The enterprise needs to know whether a record represents a creation event, an update, a break, a reversal, a release, an exception, or a completion state, and what transitions are valid.
+That changes several things at once.
 
-Third, relationships and ownership. Which workflow owns this case? Which team is accountable? Which downstream records or obligations depend on this state? Which control domains apply?
+- **Reuse improves** because multiple capabilities can rely on the same product instead of rebuilding extraction and mapping logic.
+- **Explanation improves** because the system can point to stable product definitions and lineage rather than to improvised joins.
+- **Governance improves** because permissions, quality checks, and controls can attach to durable products.
+- **Speed improves** because later capabilities can compose products instead of beginning every project by rediscovering what the underlying records mean.
 
-Fourth, constraints and policy semantics. A workflow is not just a path. It is a governed path. Eligibility rules, cutoffs, approval thresholds, client instructions, jurisdictional restrictions, and evidence requirements all shape what actions are valid.
+Without canonical products, AI initiatives keep drifting back toward handcrafted context assembly. With canonical products, the platform starts to accumulate reusable intelligence infrastructure. That lowers the marginal cost of each additional intelligence capability because more of the groundwork is already trustworthy, governed, and reusable.
 
-Fifth, service and message semantics. Shared meaning has to travel through service boundaries and message contracts as well as through internal models. Otherwise the platform stays semantically coherent on paper but breaks at the interfaces where work is actually exchanged.
+## What This Looks Like In Practice
 
-This is where practical semantic tooling becomes important. FINOS Legend describes a common data vocabulary and a graph of information that users can navigate with agreed terms, while also carrying lineage, governance, and productized data services.^[SRC-007] Its feature set is even more revealing: classes, associations, constraints, and model-to-model mappings are treated as first-class elements.^[SRC-008] In other words, the semantics are not static documentation. They are tied to validation, transformation, and delivery.
+A useful mental model is to think in layers.
 
-That is the standard BNY should care about. Shared meaning only matters when it becomes executable enough to shape data products and workflows.
+The ontology defines what the enterprise believes key concepts and relationships mean. The canonical data product carries one of those concepts into reusable operating form. Later architecture layers decide how intelligence services, models, policies, and workflows consume that product.
 
-## Why This Is Also A Platform-Economics Problem
+Take client identity as an example. The previous chapter argues that the enterprise needs stable meaning around legal entities, client hierarchies, and relationships. This chapter argues that this meaning should not remain trapped in a conceptual model or scattered across onboarding, servicing, compliance, and reporting systems. It should appear as a canonical product with explicit identifiers, relationship semantics, quality checks, lineage, permissions, and interfaces that many workflows can trust.
 
-Ontology is sometimes treated as a narrow architecture concern. In a firm like BNY, it is also a platform-economics concern.
+The same logic applies to a payment event product, a settlement-state product, a collateral-eligibility product, or an exception-state product. Once the enterprise has stable products for those concepts, later AI systems can do higher-value work: assemble context, recognize related events, recommend action, or route decisions with more confidence and better explanation.
 
-If each business line maintains its own local meanings, then every cross-product intelligence use case starts from scratch. Every client view requires bespoke mapping. Every workflow copilot needs custom context assembly. Every control dashboard needs another reconciliation layer. Every agent needs hand-built rules to compensate for semantic mismatch. The result is not only technical fragility. It is rising marginal cost for every new intelligence capability.
+That is a much more credible path to agentic finance than starting from prompts and hoping the data layer catches up.
 
-The opposite is also true. When the firm has stable enterprise meaning for core concepts, each new capability can reuse more of the same foundation. Data products become more composable. Workflow logic becomes more portable. Explanations become more consistent. Governance becomes easier to scale because controls can attach to concepts and states that are recognized across systems rather than being reinvented inside each local implementation.
+## What This Chapter Is Really Arguing
 
-The BNY example with Victorian Funds Management Corporation is useful here. The client story describes a unified data model, standardized risk metrics, and a total portfolio view as the foundation on which broader self-service analytics and emerging AI use cases became practical.^[SRC-003] That sequencing matters. Semantic discipline did not come after intelligence. It made intelligence usable.
+This chapter is not a plea for prettier data architecture. It is an argument about leverage.
 
-This is also why the sequencing into the next chapter matters. If shared meaning is left as a set of standards references or architecture principles, the economics do not change. The value appears only when that meaning is packaged into reusable operating assets that many workflows can consume.
+Every time the enterprise lacks a canonical product for a concept that many workflows share, it pays again. It pays in mapping work, duplicate controls, inconsistent reporting, brittle AI behavior, slower delivery, and more reconciliation between local interpretations of the same underlying reality.
 
-## The Practical Standard For This Book
+Every time it does have one, later capabilities get cheaper and more reliable. That is the economics of the foundation.
 
-This book is not arguing that BNY must stop everything and build a grand metaphysical ontology of finance. It is arguing for something more operational.
+The deeper point is that canonical products convert semantic discipline into reusable platform capital. They are how the operating system starts to become programmable in a trustworthy way.
 
-BNY needs shared meaning at the level where its platform already creates leverage: across client records, account structures, positions, movements, obligations, controls, service events, lifecycle states, and the message and service boundaries where those things are exchanged. It needs enough semantic consistency that intelligence systems can reason across workflows without constant manual reinterpretation. It needs enough formalization that recommendations can be explained, audited, and challenged. And it needs enough modularity that the semantic foundation can evolve with products, jurisdictions, and operating models rather than freezing them.
+## From Trusted Products To Governed Intelligence
 
-That is the ontology problem in practical terms. The challenge is not making data available. The challenge is making enterprise reality legible.
+Once canonical data products exist, the next problem changes. The question is no longer only whether the enterprise can represent meaning in reusable form. The next question is how intelligence should be routed and governed across those products.
 
-## Reference Standards And Regulatory Documents
+Which model should be allowed to use which product? Which policies should be enforced before a recommendation is made? Which workflows can call which services? How should decisions be audited, constrained, and escalated?
 
-Readers who want to explore the standards and supervisory materials directly can use the core references below.
+That is the control-plane problem.
 
-- [BCBS 239: Principles for effective risk data aggregation and risk reporting](https://www.bis.org/publ/bcbs239.htm)
-- [BCBS 239 implementation newsletter (2026)](https://www.bis.org/publ/bcbs_nl36.htm)
-- [Financial Industry Business Ontology (FIBO)](https://spec.edmcouncil.org/fibo/)
-- [FINOS Legend overview](https://legend.finos.org/docs/overview/legend-overview)
-- [FINOS Common Domain Model overview](https://cdm.finos.org/docs/next/cdm-overview/)
-- [FINOS Common Domain Model product model](https://cdm.finos.org/docs/product-model/)
-- [BIAN service landscape](https://bian.org/deliverables/bian-standards/the-bian-service-landscape-timeline/)
-- [BIAN semantic APIs](https://bian.org/semantic-apis/)
-- [ISO 20022 business model](https://www.iso20022.org/iso20022-repository/business-model)
-- [GLEIF and the Legal Entity Identifier](https://www.gleif.org/en/organizational-identity/introducing-the-legal-entity-identifier-lei/iso-17442-the-lei-code-structure)
-
-## From Shared Meaning To Operating Infrastructure
-
-Once the ontology problem is visible, the next question is implementation. Shared meaning cannot remain a slide, a wiki, or a standards reference sitting beside the real systems. It has to be carried into reusable operating artifacts.
-
-That is where canonical data products become important.
-
-They are the practical packaging layer for ontology: curated definitions, lineage, quality controls, access patterns, interfaces, and ownership assembled into reusable assets that other workflows and intelligence services can trust. BNY's own data platform language around governing, mastering, tagging, distributing, and auditing data points in that direction already.^[SRC-001] The point is not to maintain one more reference model. The point is to make shared meaning available in a form that can actually be reused by workflow systems, analytics, controls, and intelligence services.
-
-That is the real handoff. Intelligence needs stable meaning. Stable meaning becomes economically useful only when it is turned into operating infrastructure.
+The next architecture step is to explain how an AI-native platform governs access to trusted products, routes intelligence through them, and keeps the whole system inside policy.
