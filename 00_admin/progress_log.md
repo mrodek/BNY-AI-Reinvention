@@ -45,6 +45,44 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-19] - CH24 Research Pass 1 And Draft v1
+
+### Summary
+- Files changed: `04_manuscript/chapter_24/chapter_brief.md`, `04_manuscript/chapter_24/research_tracker.md`, `04_manuscript/chapter_24/claim_register.md`, `04_manuscript/chapter_24/source_notes.md`, `04_manuscript/chapter_24/draft_v1.md`, `04_manuscript/glossary.md`, `02_outline/chapter_map.md`, `00_admin/progress_tracker.md`, and `00_admin/progress_log.md`.
+- Artifacts created or updated: the full CH24 starter set plus `source_notes.md` and `draft_v1.md`, with tracker and map state synchronized in the same pass.
+- Chapter(s) affected: CH24 directly, with glossary and Part V sequencing implications.
+
+### Decisions
+- Decision: frame CH24 around continuously supervised inventory intelligence rather than autonomous optimization.
+- Rationale: that framing is more operationally credible and keeps the chapter centered on movement feasibility, substitutions, recalls, and funding consequences rather than on generic solver rhetoric.
+- Decision: reuse CH10's current-state source base and extend it with current official BNY collateral, financing, central-clearing, and AI pages.
+- Rationale: the current-state evidence was already strong, and the best next step was to turn it into a disciplined future-state synthesis grounded in updated primary sources.
+- Decision: keep the first draft centered on four wedges: earlier constraint assembly, substitution orchestration, funding-readiness support, and bounded autonomy.
+- Rationale: those are the clearest places where CH10's burden map turns into an AI-native operating model without drifting into abstract optimization language.
+
+### Issues & Resolution
+- Issue: CH24 could easily collapse into a generic "optimization" chapter with weak workflow consequence.
+- Resolution: rewrote the chapter around one substitution scenario, one financing-readiness scenario, and repeated emphasis on timing, movement feasibility, and recommendation quality.
+- Issue: the future-state chapter needed to stay distinct from both CH10 and the other Part V workflow chapters.
+- Resolution: kept the chapter anchored in inventory truth, eligibility schedules, recalls, substitutions, and collateral movement rather than in broader queue-management language.
+- Issue: current official evidence needed to be strong enough to support the draft without implying that BNY has already publicly disclosed the full target model.
+- Resolution: used updated BNY platform pages, the 2025 annual report, and the current BNY AI page alongside Federal Reserve, SEC, and ISDA materials, and wrote the chapter as a disciplined synthesis rather than a claim of full deployment.
+
+### Editorial Comments
+- The chapter is strongest when it treats bad recommendations as a financing and inventory-control failure, not just as a weak optimization outcome.
+- The same-day examples make the chapter feel like a live coordination business rather than a mathematical allocation problem.
+- The strongest closing move is to describe BNY as supervised decision infrastructure for collateralized finance rather than as a generic optimization vendor.
+
+### Lessons Learned
+- Markets chapters benefit from translating "optimization" into concrete workflow consequences as early as possible.
+- Reusing a validated current-state burden map makes the future-state chapter cleaner and faster to write.
+- Central-clearing readiness is a useful forcing function because it makes movement timing and collateral-allocation quality feel operational rather than theoretical.
+
+### Next Steps
+- [ ] Review CH24 `draft_v1` for whether one sharper same-day scarcity sequence is needed before `draft_v2`.
+- [ ] Decide whether CH24 should go through a formal challenge round before `draft_v2`.
+- [ ] Commit and push the CH24 `draft_v1` checkpoint.
+
 ## [2026-04-19] - CH23 Kickoff Artifacts
 
 ### Summary

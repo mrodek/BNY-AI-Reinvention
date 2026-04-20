@@ -164,6 +164,12 @@ Why it matters in this book: Governance is a design requirement, not just a comp
 
 ## H
 
+### Haircut
+
+What it means: The discount applied to the market value of an asset when it is used as collateral, so the secured value recognized is lower than the asset's full price.
+
+Why it matters in this book: Haircuts turn asset quality, liquidity, and risk into concrete financing capacity. They help explain why collateral choices are not just about what is available, but about what is usable on acceptable terms.
+
 ### Human-in-the-Loop
 
 What it means: A control pattern in which a person can review, approve, deny, or override an AI system's proposed action before the action is completed or allowed to continue.
@@ -334,6 +340,12 @@ What it means: The execution environment that manages state, tool use, approvals
 
 Why it matters in this book: Runtime is the layer that makes agentic systems operational rather than merely impressive in demos. It sits between governance policy and system-wide observability.
 
+### Repo
+
+What it means: A repurchase agreement in which one party sells securities and agrees to buy them back later, functioning economically like secured borrowing against collateral.
+
+Why it matters in this book: Repo is one of the system's core funding mechanisms. It links collateral quality, liquidity, and same-day financing pressure directly to market functioning.
+
 ## S
 
 ### Safekeeping
@@ -347,6 +359,12 @@ Why it matters in this book: Safekeeping is one of the quiet but essential promi
 What it means: The ability of different systems, workflows, or teams to exchange data with a shared understanding of what that data means, how it relates to other concepts, and how it should be interpreted in context.
 
 Why it matters in this book: Semantic interoperability is what turns integration into usable intelligence. Without it, BNY can move data across the platform without gaining reliable cross-workflow understanding.
+
+### Securities Lending
+
+What it means: A workflow in which securities are temporarily lent to a borrower, typically against collateral, so the borrower can use the security for purposes such as short activity, market making, or settlement coverage.
+
+Why it matters in this book: Securities lending matters because it introduces recall risk, collateral exchange, and inventory pressure into the same coordination system as repo and margin support.
 
 ### Settlement
 
@@ -367,6 +385,12 @@ What it means: A local or regional custody provider used by a global custodian t
 Why it matters in this book: Sub-custodian networks show why global custody is a coordination business carried across many local operating environments rather than one uniform process.
 
 ## T
+
+### Triparty Repo
+
+What it means: A repo structure in which a clearing bank or similar triparty agent handles settlement support, collateral allocation, valuation, margining, and related custody or administration tasks for the two counterparties.
+
+Why it matters in this book: Triparty repo makes the coordination layer of secured finance visible. It shows why collateralized funding depends on workflow infrastructure, not just bilateral trading intent.
 
 ### Tool
 

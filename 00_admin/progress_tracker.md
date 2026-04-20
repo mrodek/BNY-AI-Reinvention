@@ -5,8 +5,8 @@ This file is the high-level dashboard for the project. It should stay concise an
 ## Project Status
 
 - Current phase: research and drafting
-- Current focus: CH23 and CH24 are now both in kickoff research, with CH23 framed around analytical abundance and durable edge in investment management and CH24 framed around continuously supervised inventory intelligence across financing workflows
-- Next milestone: complete research pass 1 for CH23 and CH24, then decide which chapter should move to `draft_v1` first
+- Current focus: CH24 research pass 1 is complete and `draft_v1` is created, framing the chapter around continuously supervised inventory intelligence, earlier constraint assembly, and bounded autonomy across collateral and financing workflows
+- Next milestone: review CH24 `draft_v1` and decide whether the next pass should be a challenge round or a direct `draft_v2` revision
 - Blockers: none currently; source outline should still be validated for chapter count, pacing, and intended manuscript length before deeper drafting
 
 ## Chapter Tracker
@@ -36,7 +36,7 @@ This file is the high-level dashboard for the project. It should stay concise an
 | CH21 | AI-Native Treasury Services | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round complete; draft v2 adds a sharper late-day liquidity scenario, separates anomaly controls from ordinary repair and investigations, and tightens the treasury autonomy boundary |
 | CH22 | AI-Native Pershing Platform | drafting | in_progress | draft_v2_ready | not_started | not_started | Challenge round completed; draft v2 now sharpens the advisor-client journey, separates Pershing's operating substrate from Wove's intelligence layer, and makes queue-quality risk and strategic payoff more explicit |
 | CH23 | AI-Native Investment Management | researching | in_progress | not_started | not_started | not_started | Kickoff artifacts frame the chapter around AI-native investment management as governed analytical leverage rather than autonomous stock picking, with durable edge shifting toward mandate interpretation, governance, and trusted explanation |
-| CH24 | AI-Native Collateral and Financing | researching | in_progress | not_started | not_started | not_started | Started from CH10's burden map; brief, research tracker, and claim register now frame the chapter around inventory truth, substitutions, recall pressure, and bounded autonomy |
+| CH24 | AI-Native Collateral and Financing | drafting | in_progress | draft_v1_ready | not_started | not_started | Draft v1 frames the chapter around supervised inventory intelligence, substitution timing, recall pressure, movement feasibility, and the human boundary around consequential funding decisions |
 | CH25 | AI-Native Enterprise Workflows | drafting | in_progress | draft_v2_ready | not_started | not_started | Draft v2 now defines proxy voting as a real business workflow, expands post-KYC onboarding economics, removes weak chapter-self-reference, and sharpens both use cases as enterprise value cases |
 | CH26 | From Products to Intelligence Graphs | not_started | not_started | not_started | not_started | not_started | Cross-product breakthrough chapter |
 | CH27 | The Client Graph | not_started | not_started | not_started | not_started | not_started | Cross-product intelligence chapter |
@@ -61,6 +61,13 @@ This file is the high-level dashboard for the project. It should stay concise an
 - `Graph Extract`: chapter has been converted into structured concepts, claims, and relationships
 
 ## Session Log
+
+### 2026-04-19
+
+- Completed CH24 research pass 1 using CH10's source base plus updated official BNY collateral, financing, central-clearing, and AI sources.
+- Created `04_manuscript/chapter_24/source_notes.md` and `draft_v1.md`, moving CH24 from `researching` to `drafting`.
+- Positioned CH24 around continuously supervised inventory intelligence rather than autonomous optimization, with the strongest wedges in earlier constraint assembly, substitution orchestration, funding-readiness support, and bounded autonomy.
+- Added `Haircut`, `Repo`, `Securities Lending`, and `Triparty Repo` to the glossary.
 
 ### 2026-04-19
 
@@ -401,9 +408,9 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ## Next Actions
 
-1. Complete CH23 research pass 1 and choose its anchor operating example.
-2. Complete CH24 research pass 1 using CH10's source base plus any missing primary sources needed for future-state workflow specificity.
-3. Decide which chapter should move to `draft_v1` first: CH23 or CH24.
+1. Review CH24 `draft_v1` for whether one sharper same-day scarcity sequence is needed before `draft_v2`.
+2. Decide whether CH24 should go through a formal challenge round before `draft_v2`.
+3. Complete CH23 research pass 1 and choose its anchor operating example.
 4. Review CH22 `draft_v2` for pacing, overlap with CH08, and whether it now only needs light editorial polish.
 5. Review CH21 `draft_v2` for pacing and decide whether it now needs only light polish or one more pressure test.
 6. Review CH25 `draft_v2` for sequencing, pacing, and whether proxy voting should now open the chapter.

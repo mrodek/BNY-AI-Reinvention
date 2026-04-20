@@ -5,7 +5,7 @@
 - Chapter ID: `CH24`
 - Working title: `AI-Native Collateral and Financing`
 - Book section: `Part V - Rebuilding Each Business With AI`
-- Status: `researching`
+- Status: `drafting`
 - Last updated: `2026-04-19`
 - Structural note: CH24 should build directly on CH10's current-state diagnosis. CH10 established collateral, securities lending, repo, and financing as a continuous coordination domain organized around inventory visibility, eligibility, timing, substitution, and funding pressure. CH24 now needs to show what changes when that domain becomes more continuously supervised and more intelligently orchestrated.
 
