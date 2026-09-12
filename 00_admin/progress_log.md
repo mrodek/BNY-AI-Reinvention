@@ -45,6 +45,38 @@ Do not add an entry for trivial navigation, formatting-only changes, or explorat
 
 ## Entries
 
+## [2026-04-19] - Consolidated Manuscript Through CH25 Plus Appendices
+
+### Summary
+- Files changed: `04_manuscript/manuscript_ch01_ch25_appendices_ab.md`, `00_admin/progress_tracker.md`, and `00_admin/progress_log.md`.
+- Artifacts created or updated: a new consolidated manuscript file spanning Chapters 1-25 plus Appendix A and Appendix B.
+- Chapter(s) affected: the whole manuscript sequence through CH25, with an explicit placeholder retained for CH23.
+
+### Decisions
+- Decision: build the consolidated manuscript from the latest available manuscript file in each chapter folder rather than trying to normalize every chapter to one draft number.
+- Rationale: the project state is uneven across chapters, so the most truthful consolidated artifact is the one that reflects the latest on-disk manuscript for each chapter.
+- Decision: insert an editorial placeholder for CH23 rather than invent prose from non-manuscript artifacts.
+- Rationale: CH23 does not yet have a `draft_v1.md`, so a visible placeholder is more honest and more restartable than silently promoting brief material into manuscript text.
+
+### Issues & Resolution
+- Issue: the request was for a Chapters 1-25 consolidated manuscript, but CH23 has no draft file yet.
+- Resolution: created the consolidated file anyway, clearly labeling CH23 as an editorial placeholder and preserving sequence continuity between CH22 and CH24.
+- Issue: the worktree also contains active CH23 and CH24 development.
+- Resolution: treated the consolidated file as a read-through artifact, not as a signal that all included chapters are at the same maturity level.
+
+### Editorial Comments
+- The consolidated manuscript is now suitable for whole-book readthrough across the drafted material, but CH23 remains a known prose gap in the Part V sequence.
+- The included-version note at the top of the file makes the mixed draft set explicit, which should help future editorial review passes.
+
+### Lessons Learned
+- Consolidated manuscript files are most useful when they are explicit about version unevenness instead of pretending the whole book is on one synchronized draft number.
+- Editorial placeholders are better than accidental pseudo-drafts when a sequence file must include a chapter that is still only in research.
+
+### Next Steps
+- [ ] Complete CH23 research pass 1 and replace the placeholder with real manuscript prose once `draft_v1.md` exists.
+- [ ] Use the consolidated manuscript for continuity and pacing review after the next Part V draft is added.
+- [ ] Refresh the consolidated file once CH23 exists as real chapter prose.
+
 ## [2026-04-19] - CH24 Research Pass 1 And Draft v1
 
 ### Summary

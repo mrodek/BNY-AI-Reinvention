@@ -64,6 +64,12 @@ This file is the high-level dashboard for the project. It should stay concise an
 
 ### 2026-04-19
 
+- Created `04_manuscript/manuscript_ch01_ch25_appendices_ab.md` as a consolidated manuscript artifact covering Chapters 1-25 plus Appendix A and Appendix B.
+- Used the latest available manuscript file for each chapter and inserted an explicit editorial placeholder for CH23 because no chapter draft exists yet.
+- Kept CH23 and CH24 as the active next-step chapters rather than treating the consolidated file as a substitute for missing draft work.
+
+### 2026-04-19
+
 - Completed CH24 research pass 1 using CH10's source base plus updated official BNY collateral, financing, central-clearing, and AI sources.
 - Created `04_manuscript/chapter_24/source_notes.md` and `draft_v1.md`, moving CH24 from `researching` to `drafting`.
 - Positioned CH24 around continuously supervised inventory intelligence rather than autonomous optimization, with the strongest wedges in earlier constraint assembly, substitution orchestration, funding-readiness support, and bounded autonomy.
